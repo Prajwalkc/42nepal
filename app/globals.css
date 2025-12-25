@@ -1,26 +1,193 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Derived from logo: deep mountain blue, misty gray, warm off-white */
+  --background: #f8f6f3;
+  --foreground: #2d3a47;
+  --foreground-soft: #3d4a57;
+  --foreground-muted: #5a6673;
+  --text-body: #4a5560;
+  --text-secondary: #6b7683;
+  --text-tertiary: #8b95a3;
+  
+  /* Primary: deep mountain blue (soft, muted, professional) */
+  --primary-blue: #3d5a7a;
+  --primary-blue-light: #4d6a8a;
+  --primary-blue-dark: #2d4a6a;
+  
+  /* Secondary: misty gray / ridge gray */
+  --misty-gray: #9ca5b3;
+  --ridge-gray: #7a8493;
+  
+  /* Accent: very subtle sunrise tint */
+  --sunrise-tint: #e8d4c4;
+  
+  /* Borders and dividers - soft */
+  --border-light: #e8e6e3;
+  --border-medium: #d8d6d3;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "kern" 1;
+  text-rendering: optimizeLegibility;
+}
+
+/* Typography Scale */
+h1, .h1 {
+  font-family: var(--font-playfair), serif;
+  font-size: clamp(2.5rem, 5.5vw, 5rem);
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--foreground);
+}
+
+h2, .h2 {
+  font-family: var(--font-playfair), serif;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--foreground);
+}
+
+h3, .h3 {
+  font-family: var(--font-playfair), serif;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--foreground-soft);
+}
+
+h4, .h4 {
+  font-family: var(--font-inter), sans-serif;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: var(--foreground);
+}
+
+p {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--text-body);
+  font-weight: 400;
+}
+
+.text-large {
+  font-family: var(--font-inter), sans-serif;
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  line-height: 1.75;
+  color: var(--text-body);
+  font-weight: 400;
+}
+
+.text-body {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--text-body);
+  font-weight: 400;
+}
+
+.text-medium {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--text-body);
+  font-weight: 400;
+}
+
+.text-small {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-muted {
+  color: var(--text-tertiary);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Line clamp utility */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Hero Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-delay {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out;
+}
+
+.animate-fade-in-delay {
+  animation: fade-in-delay 1s ease-out 0.3s both;
+}
+
+.animate-fade-in-delay-2 {
+  animation: fade-in-delay 1s ease-out 0.6s both;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) translateX(0px);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateY(-20px) translateX(10px);
+    opacity: 0.4;
+  }
+}
+
+.animate-float {
+  animation: float 8s ease-in-out infinite;
 }
