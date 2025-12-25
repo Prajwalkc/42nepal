@@ -314,6 +314,98 @@ export const journeys: Journey[] = [
     metaDescription: "A journey for solo travelers seeking meaning, insight, and emotional reset through Himalayan solitude and reflection."
   },
   {
+    slug: "shared-stillness",
+    title: "Shared Stillness",
+    subtitle: "For couples seeking presence and reconnection",
+    outcome: "Presence, reconnection, shared clarity",
+    description: "A journey designed for couples to step away together, reconnect, and find presence with each other. In the stillness of the mountains, create space for what truly matters in your relationship.",
+    shortDescription: "For couples seeking presence and reconnection",
+    duration: "7 days",
+    location: "Himalayan Foothills",
+    focusTags: ["Couples", "Reconnection", "Presence"],
+    workFriendly: false,
+    featured: true,
+    suitableFor: ["Couples", "Partners"],
+    audience: "Couples seeking presence and reconnection",
+    forWho: [
+      "Couples wanting to reconnect and slow down together",
+      "Partners seeking presence and deeper connection",
+      "Those looking to create shared stillness and clarity"
+    ],
+    experiences: [
+      "Shared walking at a gentle, mindful pace",
+      "Time for presence and connection",
+      "Quiet moments together in nature",
+      "Shared reflection and conversation",
+      "Evening contemplation in peaceful spaces",
+      "Local guidance with respect for your journey"
+    ],
+    dailyRhythm: {
+      morning: "Wake together. Quiet breakfast. Begin walking side by side at a natural, gentle pace.",
+      midday: "Shared walking with natural pauses. Time to be present with each other and the mountains.",
+      evening: "Quiet dinner together. Reflection time. Early rest for connection and restoration."
+    },
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival and settling",
+        description: "Arrive in Kathmandu. Brief orientation. Time to rest and settle in together."
+      },
+      {
+        day: 2,
+        title: "Journey begins",
+        description: "Travel to starting point. First gentle walk together. Introduction to shared stillness."
+      },
+      {
+        day: 3,
+        title: "Finding presence",
+        description: "Full day of walking together at a mindful pace. Creating space for presence and connection."
+      },
+      {
+        day: 4,
+        title: "Deepening connection",
+        description: "Continue at elevation. More time for shared reflection and quiet moments together."
+      },
+      {
+        day: 5,
+        title: "Integration day",
+        description: "Day of rest and reflection together. Processing insights. Time to simply be present."
+      },
+      {
+        day: 6,
+        title: "Return journey",
+        description: "Begin descent. Integrating shared insights. Preparing to return with renewed connection."
+      },
+      {
+        day: 7,
+        title: "Departure",
+        description: "Final reflection together. Departure with presence and reconnection."
+      }
+    ],
+    included: [
+      "Accommodation guidance and support",
+      "Local guide for safety and support",
+      "Gentle pacing designed for couples",
+      "Shared reflection prompts",
+      "Quiet spaces for connection",
+      "Respect for your shared journey"
+    ],
+    excluded: [
+      "International flights",
+      "Visa arrangements",
+      "Personal travel insurance",
+      "Specific accommodation guarantees"
+    ],
+    practicalNotes: {
+      seasons: "Best in spring and autumn. Winter possible for couples seeking quiet solitude.",
+      altitude: "Moderate elevation (2,000-3,500m). Gentle pacing suitable for couples.",
+      connectivity: "Minimal connectivity. Designed for presence and disconnection together.",
+      suitability: "Perfect for couples seeking reconnection and presence. Not suitable if you need constant communication."
+    },
+    metaTitle: "Shared Stillness | The Mountain Whisper",
+    metaDescription: "A journey for couples seeking presence, reconnection, and shared clarity through Himalayan stillness."
+  },
+  {
     slug: "team-realignment",
     title: "Team Realignment Retreat",
     subtitle: "For small teams (4–12) and leadership groups",

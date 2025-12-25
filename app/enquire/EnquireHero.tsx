@@ -11,7 +11,7 @@ export default function EnquireHero() {
   return (
     <div className="max-w-3xl mx-auto text-center space-y-8">
       <h1 className="h1 mb-6">
-        Begin a conversation
+        Start a conversation
       </h1>
       <p className="text-large max-w-2xl mx-auto">
         Tell us what you're seeking. There's no commitment — just a thoughtful exchange.

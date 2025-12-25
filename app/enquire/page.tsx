@@ -8,16 +8,18 @@ import EnquireForm from "./EnquireForm";
 import EnquireHero from "./EnquireHero";
 
 export default function EnquirePage() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth relative">
       <MistBackground opacity={0.01} animated={false} />
       <Navigation />
       
       {/* Intro Section */}
-      <section className="relative py-32 px-6 sm:px-12 lg:px-24 pt-32">
+      <section className="relative pt-32 pb-20 px-6 sm:px-12 lg:px-24">
         <Suspense fallback={
           <div className="max-w-3xl mx-auto text-center space-y-8">
-            <h1 className="h1 mb-6">Begin a conversation</h1>
+            <h1 className="h1 mb-6">Start a conversation</h1>
             <p className="text-large max-w-2xl mx-auto">
               Tell us what you're seeking. There's no commitment — just a thoughtful exchange.
             </p>
@@ -31,7 +33,7 @@ export default function EnquirePage() {
       <section className="relative py-20 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
         <Suspense fallback={
           <div className="max-w-2xl mx-auto">
-            <div className="bg-white p-12 border border-[#e8e6e3]">
+            <div className="bg-white p-12 border border-[#e8e6e3] rounded-2xl">
               <p className="text-body text-center">Loading...</p>
             </div>
           </div>
@@ -50,7 +52,7 @@ export default function EnquirePage() {
             Step away from noise. Return with clarity.
           </p>
           <p className="text-small text-muted">
-            © 2024 The Mountain Whisper. All rights reserved.
+            © {currentYear} The Mountain Whisper. All rights reserved.
           </p>
         </div>
       </footer>

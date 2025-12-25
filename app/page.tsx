@@ -22,29 +22,29 @@ export default function Home() {
           <div className="space-y-8 md:space-y-10 animate-fade-in">
             {/* Main Title */}
             <h1 className="text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-medium leading-tight">
-              The Mountain Whisper
-            </h1>
+    The Mountain Whisper
+  </h1>
 
             {/* Divider */}
             <div className="flex items-center justify-center gap-4 py-2">
               <div className="w-16 md:w-24 h-px bg-white/60" />
               <div className="w-1.5 h-1.5 bg-white/70 rounded-full" />
               <div className="w-16 md:w-24 h-px bg-white/60" />
-            </div>
+  </div>
 
             {/* Tagline */}
-            <p
+  <p
               className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light text-white/95 leading-relaxed"
-              style={{
+    style={{
                 letterSpacing: "0.02em",
-              }}
-            >
-              Where silence speaks.
-            </p>
+    }}
+  >
+    Where silence speaks.
+  </p>
           </div>
 
           {/* Subtitle - separated with more space */}
-          <p
+  <p
             className="text-lg sm:text-xl md:text-2xl font-light text-white/90 max-w-3xl mx-auto mt-12 md:mt-16 leading-relaxed px-4"
             style={{
               letterSpacing: "0.01em",
@@ -52,11 +52,11 @@ export default function Home() {
               fontWeight: "400",  
               fontFamily: "var(--font-inter)",
             }}
-          >
-            Thoughtfully curated experiences in the Himalayas — designed for clarity,
-            rest, and meaningful work.
-          </p>
-        </div>
+  >
+    Thoughtfully curated experiences in the Himalayas — designed for clarity,
+    rest, and meaningful work.
+  </p>
+</div>
 
 
       </section>
