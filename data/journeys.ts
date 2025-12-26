@@ -131,11 +131,11 @@ export const journeys: Journey[] = [
   },
   {
     slug: "leadership-in-stillness",
-    title: "Leadership in Stillness",
-    subtitle: "For founders, executives, managers",
+    title: "Between Decisions",
+    subtitle: "For founders, executives, and senior leaders",
     outcome: "Perspective, clear decisions, renewed focus",
-    description: "Find the perspective that transforms how you lead and make decisions. Designed for leaders who understand that the best decisions come from stillness, not speed.",
-    shortDescription: "Find the perspective that transforms how you lead and make decisions.",
+    description: "A journey designed for leaders standing between choices. Step away from urgency, noise, and constant responsibility to regain perspective. This experience offers space — not coaching, not frameworks — but the clarity that emerges when decisions are no longer rushed.",
+    shortDescription: "A journey designed for leaders standing between choices. Step away from urgency, noise, and constant responsibility to regain perspective.",
     duration: "7 days",
     location: "Himalayan Foothills",
     focusTags: ["Reflection", "Work-friendly", "Small groups"],
@@ -218,8 +218,8 @@ export const journeys: Journey[] = [
       connectivity: "Reliable internet available at base locations. Limited connectivity during trekking days.",
       suitability: "Ideal for founders and small teams seeking clarity. Work-friendly with dedicated spaces."
     },
-    metaTitle: "Leadership in Stillness | The Mountain Whisper",
-    metaDescription: "A journey for founders, executives, and managers seeking perspective, clear decisions, and renewed focus through Himalayan stillness."
+    metaTitle: "Between Decisions | The Mountain Whisper",
+    metaDescription: "A journey designed for leaders standing between choices. Step away from urgency, noise, and constant responsibility to regain perspective."
   },
   {
     slug: "solo-reflection",
@@ -407,11 +407,11 @@ export const journeys: Journey[] = [
   },
   {
     slug: "team-realignment",
-    title: "Team Realignment Retreat",
+    title: "Collective Ascent",
     subtitle: "For small teams (4–12) and leadership groups",
     outcome: "Trust, alignment, shared clarity",
-    description: "Shared elevation creates shared understanding. Return as a stronger unit. Designed for teams who need to realign, deepen trust, and find shared clarity.",
-    shortDescription: "Shared elevation creates shared understanding. Return as a stronger unit.",
+    description: "Shared elevation creates shared understanding. This journey brings teams into a quiet, neutral environment where alignment, trust, and perspective can naturally return. Designed for teams who value depth over activities and clarity over speed.",
+    shortDescription: "Shared elevation creates shared understanding. This journey brings teams into a quiet, neutral environment where alignment, trust, and perspective can naturally return.",
     duration: "7 days",
     location: "Annapurna Region",
     focusTags: ["Small groups", "Work-friendly", "Reflection"],
@@ -494,8 +494,8 @@ export const journeys: Journey[] = [
       connectivity: "Reliable internet at base locations. Limited during trekking days for focused team time.",
       suitability: "Ideal for small teams (4-12 people) seeking alignment. Work-friendly with shared spaces."
     },
-    metaTitle: "Team Realignment Retreat | The Mountain Whisper",
-    metaDescription: "A retreat for small teams seeking trust, alignment, and shared clarity through shared elevation in the Himalayas."
+    metaTitle: "Collective Ascent | The Mountain Whisper",
+    metaDescription: "Shared elevation creates shared understanding. This journey brings teams into a quiet, neutral environment where alignment, trust, and perspective can naturally return."
   }
 ];
 

@@ -26,14 +26,14 @@ export default function WorkHeroVideo() {
         className="absolute inset-0 w-full h-full object-cover"
         poster="/background.png"
         style={{
-          filter: 'brightness(0.7) contrast(1.05)',
+          filter: 'brightness(0.95) contrast(1.05)',
         }}
       >
         <source src="/work.mp4" type="video/mp4" />
       </video>
       
       {/* Subtle overlay for text contrast */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#2d3a47]/20 via-transparent to-[#2d3a47]/25" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#2d3a47]/10 via-transparent to-[#2d3a47]/15" />
     </div>
   );
 }

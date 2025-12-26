@@ -1,12 +1,12 @@
 import Navigation from "../../components/Navigation";
 import MountainDivider from "../../components/MountainDivider";
-import ScenicMountains from "../../components/ScenicMountains";
+import Footer from "../../components/Footer";
 import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Leadership in Stillness | The Mountain Whisper",
-  description: "A journey for founders, executives, and managers seeking perspective, clear decisions, and renewed focus through Himalayan stillness.",
+  title: "Between Decisions | The Mountain Whisper",
+  description: "A journey designed for leaders standing between choices. Step away from urgency, noise, and constant responsibility to regain perspective.",
 };
 
 export default function LeadershipInStillnessPage() {
@@ -20,18 +20,14 @@ export default function LeadershipInStillnessPage() {
         <div className="absolute inset-0" style={{
           backgroundImage: `radial-gradient(circle at 50% 0%, rgba(61, 90, 122, 0.03) 0%, transparent 50%)`
         }} />
-        <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8">
+        <div className="relative z-10 max-w-4xl mx-auto text-center space-y-6">
           <h1 className="h1 mb-4">
-            Leadership in Stillness
+            Between Decisions
           </h1>
-          <p className="text-2xl sm:text-3xl mb-6 text-[#3d5a7a] font-light">
-            For founders, executives, managers
+          <p className="text-xl sm:text-2xl text-[#3d5a7a] font-light">
+            Clarity without urgency
           </p>
-          <p className="text-large max-w-2xl mx-auto leading-relaxed text-[#4a5560]">
-            Find the perspective that transforms how you lead and make decisions. 
-            Designed for leaders who understand that the best decisions come from stillness, not speed.
-          </p>
-          <div className="flex items-center justify-center gap-4 pt-4">
+          <div className="flex items-center justify-center gap-4 pt-2">
             <span className="text-small text-[#6b7786]">7 days</span>
             <span className="text-small text-[#9ca5b3]">•</span>
             <span className="text-small text-[#6b7786]">Himalayan Foothills</span>
@@ -226,7 +222,7 @@ export default function LeadershipInStillnessPage() {
           <div>
             <h2 className="h2 mb-8">Start a Conversation</h2>
             <p className="text-large text-[#4a5560]">
-              Let's discuss how Leadership in Stillness can serve your need for perspective and clarity. 
+              Let's discuss how Between Decisions can serve your need for perspective and clarity. 
               No pressure, just thoughtful dialogue.
             </p>
           </div>
@@ -239,20 +235,7 @@ export default function LeadershipInStillnessPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="relative border-t border-[#e8e6e3] bg-[#f8f6f3]">
-        <div className="relative h-32 overflow-hidden text-[#9ca5b3] opacity-15">
-          <ScenicMountains />
-        </div>
-        <div className="relative z-10 px-6 sm:px-12 lg:px-24 py-16 text-center space-y-6">
-          <p className="text-large font-light text-secondary">
-            Step away from noise. Return with clarity.
-          </p>
-          <p className="text-small text-muted">
-            © {new Date().getFullYear()} The Mountain Whisper. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -32,10 +32,7 @@ export default function JourneyCard({ journey, className = "" }: JourneyCardProp
       </div>
       <div className="p-6 md:p-8 space-y-4 flex-1 flex flex-col">
         <div className="space-y-2 flex-1">
-          <div className="flex items-start justify-between gap-3">
-            <h3 className="h3 text-[#2d3a47] group-hover:text-[#3d5a7a] transition-colors duration-300 flex-1">{journey.title}</h3>
-            <span className="text-small text-[#6b7786] font-medium whitespace-nowrap">{journey.duration}</span>
-          </div>
+          <h3 className="h3 text-[#2d3a47] group-hover:text-[#3d5a7a] transition-colors duration-300">{journey.title}</h3>
           <p className="text-body text-[#4a5560] leading-relaxed">
             {journey.subtitle}
           </p>

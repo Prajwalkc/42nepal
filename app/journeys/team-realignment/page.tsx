@@ -1,12 +1,12 @@
 import Navigation from "../../components/Navigation";
 import MountainDivider from "../../components/MountainDivider";
-import ScenicMountains from "../../components/ScenicMountains";
+import Footer from "../../components/Footer";
 import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Team Realignment Retreat | The Mountain Whisper",
-  description: "A retreat for small teams seeking trust, alignment, and shared clarity through shared elevation in the Himalayas.",
+  title: "Collective Ascent | The Mountain Whisper",
+  description: "Shared elevation creates shared understanding. This journey brings teams into a quiet, neutral environment where alignment, trust, and perspective can naturally return.",
 };
 
 export default function TeamRealignmentPage() {
@@ -20,18 +20,14 @@ export default function TeamRealignmentPage() {
         <div className="absolute inset-0" style={{
           backgroundImage: `radial-gradient(circle at 50% 0%, rgba(61, 90, 122, 0.03) 0%, transparent 50%)`
         }} />
-        <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8">
+        <div className="relative z-10 max-w-4xl mx-auto text-center space-y-6">
           <h1 className="h1 mb-4">
-            Team Realignment Retreat
+            Collective Ascent
           </h1>
-          <p className="text-2xl sm:text-3xl mb-6 text-[#3d5a7a] font-light">
-            For small teams (4–12) and leadership groups
+          <p className="text-xl sm:text-2xl text-[#3d5a7a] font-light">
+            Shared perspective for teams
           </p>
-          <p className="text-large max-w-2xl mx-auto leading-relaxed text-[#4a5560]">
-            Shared elevation creates shared understanding. Return as a stronger unit. 
-            Designed for teams who need to realign, deepen trust, and find shared clarity.
-          </p>
-          <div className="flex items-center justify-center gap-4 pt-4">
+          <div className="flex items-center justify-center gap-4 pt-2">
             <span className="text-small text-[#6b7786]">7 days</span>
             <span className="text-small text-[#9ca5b3]">•</span>
             <span className="text-small text-[#6b7786]">Annapurna Region</span>
@@ -101,7 +97,7 @@ export default function TeamRealignmentPage() {
           <div className="space-y-8 text-body leading-relaxed text-[#4a5560]">
             <p>
               Team alignment isn't achieved through workshops or exercises. It's built through shared 
-              experience. The Team Realignment Retreat exists because we believe that the most meaningful 
+              experience. Collective Ascent exists because we believe that the most meaningful 
               team connections happen away from the office, in spaces that allow for genuine conversation 
               and authentic interaction.
             </p>
@@ -224,7 +220,7 @@ export default function TeamRealignmentPage() {
           <div>
             <h2 className="h2 mb-8">Start a Conversation</h2>
             <p className="text-large text-[#4a5560]">
-              Let's discuss how the Team Realignment Retreat can serve your team's need for alignment 
+              Let's discuss how Collective Ascent can serve your team's need for alignment 
               and trust. No pressure, just thoughtful dialogue.
             </p>
           </div>
@@ -237,20 +233,7 @@ export default function TeamRealignmentPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="relative border-t border-[#e8e6e3] bg-[#f8f6f3]">
-        <div className="relative h-32 overflow-hidden text-[#9ca5b3] opacity-15">
-          <ScenicMountains />
-        </div>
-        <div className="relative z-10 px-6 sm:px-12 lg:px-24 py-16 text-center space-y-6">
-          <p className="text-large font-light text-secondary">
-            Step away from noise. Return with clarity.
-          </p>
-          <p className="text-small text-muted">
-            © {new Date().getFullYear()} The Mountain Whisper. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

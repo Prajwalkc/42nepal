@@ -4,6 +4,7 @@ import HeroVideo from "./components/HeroVideo";
 import HeroAnimations from "./components/HeroAnimations";
 import Navigation from "./components/Navigation";
 import MistBackground from "./components/MistBackground";
+import Footer from "./components/Footer";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -328,16 +329,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="relative border-t border-[#e8e6e3] bg-white">
-        <div className="px-6 sm:px-12 lg:px-24 py-16 text-center space-y-6">
-          <p className="text-large font-light text-secondary">
-            Step away from noise. Return with clarity.
-          </p>
-          <p className="text-small text-muted">
-            © 2024 The Mountain Whisper. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      <Footer />
 
 
     </div>
