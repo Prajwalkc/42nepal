@@ -84,6 +84,31 @@ pnpm dev
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+### Environment Variables
+
+For the enquiry form email functionality, create a `.env.local` file in the root directory with the following variables:
+
+```env
+# Resend API Key (get from https://resend.com)
+RESEND_API_KEY=re_xxxxxxxxxxxxx
+
+# Email address to receive enquiries
+OWNER_EMAIL=hello@themountainwhisper.com
+
+# Email address to send from (must be verified in Resend)
+# Format: "Display Name <email@domain.com>"
+FROM_EMAIL="The Mountain Whisper <no-reply@themountainwhisper.com>"
+
+# Optional: Site URL for email context
+NEXT_PUBLIC_SITE_URL=https://themountainwhisper.com
+```
+
+**Note**: Before deploying to production:
+1. Sign up for a Resend account at https://resend.com
+2. Verify your sending domain in Resend
+3. Add these environment variables to your Vercel project settings (or your deployment platform)
+4. The `FROM_EMAIL` domain must be verified in Resend before emails will send
+
 ## Development
 
 ### Available Scripts
@@ -195,6 +220,11 @@ npm run start
 - Dynamic form that pre-fills based on journey selection
 - URL parameters for journey-specific enquiries
 - Form validation and user feedback
+- Email integration via Resend:
+  - Sends enquiry to owner email
+  - Sends confirmation email to user
+  - Includes honeypot spam protection
+  - Rate limiting (3 requests per minute per IP)
 
 ## Browser Support
 
