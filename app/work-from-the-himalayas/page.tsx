@@ -8,13 +8,13 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "From the Himalayas",
+  title: "Work From the Himalayas",
   description: "A calm space for individuals, artists, founders, and small teams. Deep work and stillness in the mountains without the noise. Focused productivity.",
   alternates: {
     canonical: "/work-from-the-himalayas",
   },
   openGraph: {
-    title: "From the Himalayas | The Mountain Whisper",
+    title: "Work From the Himalayas | The Mountain Whisper",
     description: "A calm space for individuals, artists, founders, and small teams. Deep work and stillness in the mountains without the noise. Focused productivity.",
     images: [
       {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "From the Himalayas | The Mountain Whisper",
+    title: "Work From the Himalayas | The Mountain Whisper",
     description: "A calm space for individuals, artists, founders, and small teams. Deep work and stillness in the mountains without the noise. Focused productivity.",
   },
 };
@@ -43,7 +43,7 @@ export default function WorkFromTheHimalayasPage() {
         <WorkHeroVideo />
         <div className="relative z-20 max-w-3xl mx-auto text-center space-y-6">
           <h1 className="h1 mb-4 text-white">
-            From the Himalayas
+            Work From the Himalayas
           </h1>
           <p className="text-xl sm:text-2xl text-white/95 font-light max-w-2xl mx-auto">
             Focused work, without the noise
@@ -60,7 +60,7 @@ export default function WorkFromTheHimalayasPage() {
             <h2 className="h2 mb-12">What This Really Is</h2>
           </div>
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div className="max-w-3xl mx-auto">
             <div className="space-y-8">
               <div className="space-y-8">
                 <div className="space-y-2">
@@ -82,16 +82,6 @@ export default function WorkFromTheHimalayasPage() {
                   It's for those who understand that the best work happens when you're not fighting distractions, when you have space to think, and when the environment supports focus rather than urgency.
                 </p>
               </div>
-            </div>
-
-            <div className="relative h-96 lg:h-[500px] rounded-xl overflow-hidden">
-              <Image
-                src="/images/work.png"
-                alt="Creative workspace for artists and writers in the mountains"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
             </div>
           </div>
         </div>
@@ -137,8 +127,6 @@ export default function WorkFromTheHimalayasPage() {
           </div>
         </div>
       </section>
-
-      <MountainDivider />
 
       <MountainDivider />
 
@@ -214,36 +202,6 @@ export default function WorkFromTheHimalayasPage() {
       </section>
 
       <MountainDivider />
-
-      {/* Solo to Small Teams Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
-        <div className="max-w-3xl mx-auto space-y-12">
-          <div className="text-center">
-            <h2 className="h2 mb-8">Solo to Small Teams</h2>
-          </div>
-          
-          <div className="space-y-8">
-            <div className="space-y-4">
-              <p className="text-body">
-                This experience works for individuals, pairs, and small teams (2–10 people). Whether you're working alone or with others, the environment adapts to your needs.
-              </p>
-            </div>
-
-            <div className="space-y-4">
-              <p className="text-body">
-                Privacy is respected. Flexibility is built in. Custom pacing means you work when you need to, rest when you need to, and connect when it makes sense.
-              </p>
-            </div>
-
-            <div className="space-y-4">
-              <p className="text-body">
-                Small teams find that shared elevation creates shared understanding. But there's no forced collaboration, no mandatory team-building. Just space to work well, together or alone.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
 
       {/* Practical Considerations Section */}
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white">
