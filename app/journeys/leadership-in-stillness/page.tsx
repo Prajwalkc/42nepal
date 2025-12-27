@@ -5,8 +5,28 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Between Decisions | The Mountain Whisper",
-  description: "A journey designed for leaders standing between choices. Step away from urgency, noise, and constant responsibility to regain perspective.",
+  title: "Between Decisions",
+  description: "A journey designed for leaders standing between choices. Step away from urgency, noise, and constant responsibility to regain perspective and clarity.",
+  alternates: {
+    canonical: "/journeys/leadership-in-stillness",
+  },
+  openGraph: {
+    title: "Between Decisions | The Mountain Whisper",
+    description: "A journey designed for leaders standing between choices. Step away from urgency, noise, and constant responsibility to regain perspective and clarity.",
+    images: [
+      {
+        url: "/images/journeys/leadership-in-stillness.png",
+        width: 1200,
+        height: 630,
+        alt: "Between Decisions - Leadership journey in the Himalayas",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Between Decisions | The Mountain Whisper",
+    description: "A journey designed for leaders standing between choices. Step away from urgency, noise, and constant responsibility to regain perspective and clarity.",
+  },
 };
 
 export default function LeadershipInStillnessPage() {

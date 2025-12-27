@@ -7,8 +7,28 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Work From the Himalayas | The Mountain Whisper",
-  description: "A calm retreat for founders, remote teams, and independent builders — deep work and stillness in the Himalayas.",
+  title: "Work From the Himalayas",
+  description: "A calm retreat for founders, remote teams, and independent builders. Deep work and stillness in the mountains without the noise. Focused productivity.",
+  alternates: {
+    canonical: "/work-from-the-himalayas",
+  },
+  openGraph: {
+    title: "Work From the Himalayas | The Mountain Whisper",
+    description: "A calm retreat for founders, remote teams, and independent builders. Deep work and stillness in the mountains without the noise. Focused productivity.",
+    images: [
+      {
+        url: "/work.png",
+        width: 1200,
+        height: 630,
+        alt: "Himalayan mountain landscape for remote work and deep focus",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Work From the Himalayas | The Mountain Whisper",
+    description: "A calm retreat for founders, remote teams, and independent builders. Deep work and stillness in the mountains without the noise. Focused productivity.",
+  },
 };
 
 export default function WorkFromTheHimalayasPage() {

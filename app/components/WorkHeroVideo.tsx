@@ -9,7 +9,7 @@ export default function WorkHeroVideo() {
       <div className="absolute inset-0">
         <Image
           src="/background.png"
-          alt="Himalayan mountains"
+          alt="Himalayan mountain landscape for remote work and deep focus"
           fill
           priority
           className="object-cover"

@@ -1,5 +1,31 @@
 import MountainDivider from "../../components/MountainDivider";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Everest Base Camp Itinerary",
+  description: "A journey to the base of the world's highest peak, through Sherpa villages, ancient monasteries, and the breathtaking Khumbu Valley. Fourteen days of elevation.",
+  alternates: {
+    canonical: "/itinerary/everest-base-camp",
+  },
+  openGraph: {
+    title: "Everest Base Camp Itinerary | The Mountain Whisper",
+    description: "A journey to the base of the world's highest peak, through Sherpa villages, ancient monasteries, and the breathtaking Khumbu Valley. Fourteen days of elevation.",
+    images: [
+      {
+        url: "/journey.png",
+        width: 1200,
+        height: 630,
+        alt: "Everest Base Camp journey through the Himalayas",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Everest Base Camp Itinerary | The Mountain Whisper",
+    description: "A journey to the base of the world's highest peak, through Sherpa villages, ancient monasteries, and the breathtaking Khumbu Valley. Fourteen days of elevation.",
+  },
+};
 
 export default function EverestBaseCampItinerary() {
   return (

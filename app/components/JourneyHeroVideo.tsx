@@ -9,7 +9,7 @@ export default function JourneyHeroVideo() {
       <div className="absolute inset-0">
         <Image
           src="/journey.png"
-          alt="Himalayan mountains"
+          alt="Himalayan mountain landscape for curated journey experiences"
           fill
           priority
           className="object-cover"

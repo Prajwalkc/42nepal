@@ -5,8 +5,28 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "The Quiet Reset | The Mountain Whisper",
-  description: "A journey designed to help you step back, breathe, and remember what matters. For those experiencing burnout, constant stress, or the feeling that you're always behind.",
+  title: "The Quiet Reset",
+  description: "A journey designed to help you step back, breathe, and remember what matters. For those experiencing burnout, constant stress, or feeling always behind.",
+  alternates: {
+    canonical: "/journeys/quiet-reset",
+  },
+  openGraph: {
+    title: "The Quiet Reset | The Mountain Whisper",
+    description: "A journey designed to help you step back, breathe, and remember what matters. For those experiencing burnout, constant stress, or feeling always behind.",
+    images: [
+      {
+        url: "/images/journeys/quiet-reset.png",
+        width: 1200,
+        height: 630,
+        alt: "The Quiet Reset - Himalayan retreat for burnout and reflection",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Quiet Reset | The Mountain Whisper",
+    description: "A journey designed to help you step back, breathe, and remember what matters. For those experiencing burnout, constant stress, or feeling always behind.",
+  },
 };
 
 export default function QuietResetPage() {

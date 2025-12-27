@@ -23,7 +23,7 @@ export default function JourneyCard({ journey, className = "" }: JourneyCardProp
       <div className="relative h-28 md:h-40 overflow-hidden">
         <Image
           src={imagePath}
-          alt={journey.title}
+          alt={`${journey.title} - ${journey.subtitle} journey in the Himalayas`}
           fill
           className="object-cover"
           quality={90}

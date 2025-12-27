@@ -3,6 +3,32 @@ import MountainDivider from "../components/MountainDivider";
 import ScenicMountains from "../components/ScenicMountains";
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Corporate Retreats",
+  description: "Leadership retreats designed for companies and teams seeking clarity, alignment, and renewed purpose in the Himalayas. Step away from noise.",
+  alternates: {
+    canonical: "/corporate",
+  },
+  openGraph: {
+    title: "Corporate Retreats | The Mountain Whisper",
+    description: "Leadership retreats designed for companies and teams seeking clarity, alignment, and renewed purpose in the Himalayas. Step away from noise.",
+    images: [
+      {
+        url: "/journey.png",
+        width: 1200,
+        height: 630,
+        alt: "Himalayan mountain landscape for corporate leadership retreats",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Corporate Retreats | The Mountain Whisper",
+    description: "Leadership retreats designed for companies and teams seeking clarity, alignment, and renewed purpose in the Himalayas. Step away from noise.",
+  },
+};
 
 export default function CorporatePage() {
   return (

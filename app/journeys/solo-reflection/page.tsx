@@ -5,8 +5,28 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Solo Reflection Journey | The Mountain Whisper",
-  description: "A journey for solo travelers seeking meaning, insight, and emotional reset through Himalayan solitude and reflection.",
+  title: "Solo Reflection Journey",
+  description: "A journey for solo travelers seeking meaning, insight, and emotional reset through Himalayan solitude and reflection. Walk at your own pace.",
+  alternates: {
+    canonical: "/journeys/solo-reflection",
+  },
+  openGraph: {
+    title: "Solo Reflection Journey | The Mountain Whisper",
+    description: "A journey for solo travelers seeking meaning, insight, and emotional reset through Himalayan solitude and reflection. Walk at your own pace.",
+    images: [
+      {
+        url: "/images/journeys/solo-reflection.png",
+        width: 1200,
+        height: 630,
+        alt: "Solo Reflection Journey - Personal retreat in the Himalayas",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Solo Reflection Journey | The Mountain Whisper",
+    description: "A journey for solo travelers seeking meaning, insight, and emotional reset through Himalayan solitude and reflection. Walk at your own pace.",
+  },
 };
 
 export default function SoloReflectionPage() {

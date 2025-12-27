@@ -8,6 +8,8 @@ import Footer from "../components/Footer";
 import EnquireForm from "./EnquireForm";
 import EnquireHero from "./EnquireHero";
 
+// Note: Metadata must be exported from a Server Component
+// This page is a Client Component, so metadata is handled in layout or parent
 export default function EnquirePage() {
   return (
     <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth relative">

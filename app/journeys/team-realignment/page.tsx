@@ -5,8 +5,28 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Collective Ascent | The Mountain Whisper",
-  description: "Shared elevation creates shared understanding. This journey brings teams into a quiet, neutral environment where alignment, trust, and perspective can naturally return.",
+  title: "Collective Ascent",
+  description: "Shared elevation creates shared understanding. This journey brings teams into a quiet, neutral environment where alignment, trust, and perspective return.",
+  alternates: {
+    canonical: "/journeys/team-realignment",
+  },
+  openGraph: {
+    title: "Collective Ascent | The Mountain Whisper",
+    description: "Shared elevation creates shared understanding. This journey brings teams into a quiet, neutral environment where alignment, trust, and perspective return.",
+    images: [
+      {
+        url: "/images/journeys/team-realignment.png",
+        width: 1200,
+        height: 630,
+        alt: "Collective Ascent - Team retreat in the Himalayas",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Collective Ascent | The Mountain Whisper",
+    description: "Shared elevation creates shared understanding. This journey brings teams into a quiet, neutral environment where alignment, trust, and perspective return.",
+  },
 };
 
 export default function TeamRealignmentPage() {

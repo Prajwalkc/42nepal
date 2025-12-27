@@ -25,9 +25,38 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  // Ensure description is 140-160 characters
+  let description = journey.metaDescription;
+  if (description.length < 140 || description.length > 160) {
+    description = journey.shortDescription || journey.description;
+    if (description.length > 160) {
+      description = description.substring(0, 157) + "...";
+    }
+  }
+
   return {
     title: journey.metaTitle,
-    description: journey.metaDescription,
+    description: description,
+    alternates: {
+      canonical: `/journeys/${slug}`,
+    },
+    openGraph: {
+      title: journey.metaTitle,
+      description: description,
+      images: [
+        {
+          url: `/images/journeys/${slug}.png`,
+          width: 1200,
+          height: 630,
+          alt: `${journey.title} - ${journey.subtitle} journey in the Himalayas`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: journey.metaTitle,
+      description: description,
+    },
   };
 }
 

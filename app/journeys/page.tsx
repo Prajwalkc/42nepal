@@ -9,8 +9,28 @@ import { Metadata } from "next";
 import { getAllJourneys } from "../../data/journeys";
 
 export const metadata: Metadata = {
-  title: "Journeys | The Mountain Whisper",
-  description: "Thoughtfully curated experiences in the Himalayas — designed for clarity, rest, and meaningful work.",
+  title: "Journeys into Stillness",
+  description: "Thoughtfully curated Himalayan experiences designed for clarity, rest, and meaningful work. Different paces, different durations, each with intention.",
+  alternates: {
+    canonical: "/journeys",
+  },
+  openGraph: {
+    title: "Journeys into Stillness | The Mountain Whisper",
+    description: "Thoughtfully curated Himalayan experiences designed for clarity, rest, and meaningful work. Different paces, different durations, each with intention.",
+    images: [
+      {
+        url: "/journey.png",
+        width: 1200,
+        height: 630,
+        alt: "Himalayan mountain landscape for curated journey experiences",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Journeys into Stillness | The Mountain Whisper",
+    description: "Thoughtfully curated Himalayan experiences designed for clarity, rest, and meaningful work. Different paces, different durations, each with intention.",
+  },
 };
 
 export default function JourneysPage() {

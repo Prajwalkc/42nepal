@@ -5,8 +5,28 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shared Stillness | The Mountain Whisper",
-  description: "A journey for couples seeking presence, reconnection, and shared clarity through Himalayan stillness.",
+  title: "Shared Stillness",
+  description: "A journey for couples seeking presence, reconnection, and shared clarity through Himalayan stillness. Step away together to remember what matters.",
+  alternates: {
+    canonical: "/journeys/shared-stillness",
+  },
+  openGraph: {
+    title: "Shared Stillness | The Mountain Whisper",
+    description: "A journey for couples seeking presence, reconnection, and shared clarity through Himalayan stillness. Step away together to remember what matters.",
+    images: [
+      {
+        url: "/images/journeys/shared-stillness.png",
+        width: 1200,
+        height: 630,
+        alt: "Shared Stillness - Couples retreat in the Himalayas",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Shared Stillness | The Mountain Whisper",
+    description: "A journey for couples seeking presence, reconnection, and shared clarity through Himalayan stillness. Step away together to remember what matters.",
+  },
 };
 
 export default function SharedStillnessPage() {

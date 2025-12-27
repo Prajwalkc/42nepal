@@ -7,6 +7,32 @@ import MistBackground from "./components/MistBackground";
 import Footer from "./components/Footer";
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Himalayan Retreats for Clarity and Stillness",
+  description: "Curated Himalayan retreats for corporate teams and individuals. Step away from noise. Return with clarity, perspective, and renewed purpose.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Himalayan Retreats for Clarity and Stillness | The Mountain Whisper",
+    description: "Curated Himalayan retreats for corporate teams and individuals. Step away from noise. Return with clarity, perspective, and renewed purpose.",
+    images: [
+      {
+        url: "/journey.png",
+        width: 1200,
+        height: 630,
+        alt: "Himalayan mountain landscape - The Mountain Whisper retreats",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Himalayan Retreats for Clarity and Stillness | The Mountain Whisper",
+    description: "Curated Himalayan retreats for corporate teams and individuals. Step away from noise. Return with clarity, perspective, and renewed purpose.",
+  },
+};
 
 export default function Home() {
   return (
@@ -60,6 +86,15 @@ export default function Home() {
 </div>
 
 
+      </section>
+
+      {/* Introduction Paragraph */}
+      <section className="relative py-20 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
+        <div className="max-w-3xl mx-auto">
+          <p className="text-body text-[#4a5560] leading-relaxed text-center">
+            The Mountain Whisper offers mindful retreats in the heart of Nepal's Himalayas, where stillness becomes a teacher and elevation brings clarity. Here, in the quiet spaces between peaks and valleys, you'll find the reset you've been seeking—not as escape, but as return. These carefully curated experiences invite you to step away from the noise of daily life and into the profound silence that the mountains have held for millennia. Whether you come seeking perspective, rest, or simply the space to remember what matters, the Himalayas offer something increasingly rare: genuine stillness, where clarity emerges naturally and purpose finds its voice again.
+          </p>
+        </div>
       </section>
 
       {/* Philosophy Section */}
