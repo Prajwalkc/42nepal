@@ -41,14 +41,9 @@ export const metadata: Metadata = {
     description: "Curated Himalayan retreats for corporate teams and individuals. Step away from noise. Return with clarity, perspective, and renewed purpose.",
   },
   icons: {
-    icon: [
-      { url: '/favicon.ico' },
-      { url: '/icon.png', sizes: 'any' },
-      { url: '/icon-16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/icon-32.png', sizes: '32x32', type: 'image/png' },
-    ],
-    shortcut: '/favicon.ico',
-    apple: '/logo.png',
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/icon.png",
   },
   manifest: '/manifest.webmanifest',
 };
