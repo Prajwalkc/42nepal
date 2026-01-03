@@ -1,4 +1,5 @@
 import ScenicMountains from "./ScenicMountains";
+import Link from "next/link";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -14,10 +15,21 @@ export default function Footer() {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-12 lg:px-24 py-12 md:py-16">
-        <div className="text-center space-y-3">
+        <div className="text-center space-y-6">
           <p className="text-base sm:text-lg font-light text-[#4a5560]">
             Step away from noise. Return with clarity.
           </p>
+          
+          {/* Footer Links */}
+          <div className="flex items-center justify-center gap-6 text-sm text-[#6b7786]">
+            <Link 
+              href="/blog"
+              className="hover:text-[#4a5560] transition-colors duration-300"
+            >
+              Insights
+            </Link>
+          </div>
+          
           <p className="text-xs sm:text-sm text-[#6b7786]">
             © {currentYear} The Mountain Whisper · Nepal
           </p>

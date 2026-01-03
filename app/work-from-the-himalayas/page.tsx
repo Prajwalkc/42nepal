@@ -67,19 +67,22 @@ export default function WorkFromTheHimalayasPage() {
                   <p className="text-large text-[#4a5560]">This is not a coworking space.</p>
                 </div>
                 <div className="space-y-2">
-                  <p className="text-large text-[#4a5560]">This is not a retreat.</p>
+                  <p className="text-large text-[#4a5560]">This is not a productivity workshop.</p>
                 </div>
                 <div className="space-y-2">
-                  <p className="text-large text-[#4a5560]">This is not a vacation disguised as work.</p>
+                  <p className="text-large text-[#4a5560]">This is not a workcation.</p>
                 </div>
               </div>
 
               <div className="pt-4 space-y-6">
                 <p className="text-body leading-relaxed text-[#4a5560]">
-                  From the Himalayas is a thoughtfully designed experience for people who want to work or create with clarity, without noise — in one of the quietest landscapes on earth.
+                  Work From the Himalayas is a space for people who want to work or create with clarity, in one of the quietest landscapes on earth.
                 </p>
                 <p className="text-body leading-relaxed text-[#4a5560]">
-                  It's for those who understand that the best work happens when you're not fighting distractions, when you have space to think, and when the environment supports focus rather than urgency.
+                  The best work happens when you have space to think. When the environment supports focus rather than urgency. When stillness becomes a condition for clarity.
+                </p>
+                <p className="text-body leading-relaxed text-[#4a5560]">
+                  You work. The mountains provide the context. The quiet provides the space. Together, they create conditions where deep thinking becomes possible.
                 </p>
               </div>
             </div>
@@ -98,30 +101,23 @@ export default function WorkFromTheHimalayasPage() {
           
           <div className="space-y-12">
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Digital nomads and independent builders</h3>
-              <p className="text-body leading-relaxed text-[#4a5560] pl-8 border-l-2 border-[#e8e6e3]">
-                People who work remotely and want to do it in a place that supports deep focus and clear thinking.
-              </p>
-            </div>
-            
-            <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Founders & co-founders</h3>
+              <h3 className="h4 text-[#3d5a7a]">Founders and co-founders</h3>
               <p className="text-body leading-relaxed text-[#4a5560] pl-8 border-l-2 border-[#e8e6e3]">
                 Builders who need quiet space to think, plan, and create without the constant noise of daily operations.
               </p>
             </div>
             
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Small teams and SMEs</h3>
+              <h3 className="h4 text-[#3d5a7a]">Small teams</h3>
               <p className="text-body leading-relaxed text-[#4a5560] pl-8 border-l-2 border-[#e8e6e3]">
-                Small teams and small businesses seeking a calm environment to work together while experiencing the stillness of the mountains.
+                Teams seeking a calm environment to work together while experiencing the stillness of the mountains.
               </p>
             </div>
             
             <div className="space-y-4">
               <h3 className="h4 text-[#3d5a7a]">Writers, artists, researchers</h3>
               <p className="text-body leading-relaxed text-[#4a5560] pl-8 border-l-2 border-[#e8e6e3]">
-                People whose work requires uninterrupted time, deep thinking, and the kind of clarity that comes from stillness. Writers finishing manuscripts. Musicians composing. Painters beginning series.
+                People whose work requires uninterrupted time and deep thinking. Writers finishing manuscripts. Musicians composing. Painters beginning series.
               </p>
             </div>
           </div>
@@ -146,16 +142,9 @@ export default function WorkFromTheHimalayasPage() {
             </div>
 
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Reliable internet where possible</h3>
-              <p className="text-body leading-relaxed text-[#4a5560]">
-                We're transparent about connectivity. Some locations offer reliable internet. Others offer reliable quiet. We'll help you choose based on what you need to accomplish.
-              </p>
-            </div>
-
-            <div className="space-y-4">
               <h3 className="h4 text-[#3d5a7a]">Flexible daily rhythm</h3>
               <p className="text-body leading-relaxed text-[#4a5560]">
-                No rigid schedules. No mandatory activities. Structure your days around your work, your needs, and the natural rhythm that emerges when you're not fighting noise.
+                No rigid schedules. No mandatory activities. Structure your days around your work and the natural rhythm that emerges in stillness.
               </p>
             </div>
 
@@ -178,6 +167,49 @@ export default function WorkFromTheHimalayasPage() {
 
       <MountainDivider />
 
+      {/* Places Section */}
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white">
+        <div className="max-w-5xl mx-auto space-y-12">
+          <div className="text-center mb-20">
+            <h2 className="h2 mb-4">Places</h2>
+            <p className="text-large text-[#4a5560] max-w-2xl mx-auto">
+              Places chosen for stillness, light, and distance from urgency. 
+              Where work experiences unfold.
+            </p>
+          </div>
+          
+          <div className="space-y-6">
+            <Link
+              href="/places/manang"
+              className="group block"
+            >
+              <div className="bg-[#f8f6f3] border border-[#e8e6e3] rounded-xl p-8 hover:border-[#9ca5b3] hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-6">
+                  <div className="space-y-4 flex-1">
+                    <div className="flex items-start gap-4">
+                      <div className="flex-1">
+                        <h3 className="h3 text-[#3d5a7a] group-hover:text-[#2d4a6a] transition-colors duration-300 mb-2">
+                          Manang
+                        </h3>
+                        <p className="text-body text-[#4a5560] leading-relaxed">
+                          High valleys where silence settles between peaks. A high-altitude Himalayan village defined by stillness and long pauses.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2 text-[#3d5a7a] group-hover:text-[#2d4a6a] transition-colors duration-300 sm:ml-4">
+                    <span className="text-small font-medium">Explore place</span>
+                    <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
+                  </div>
+                </div>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <MountainDivider />
+
       {/* A Different Way of Working Section */}
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white">
         <div className="max-w-4xl mx-auto space-y-16">
@@ -187,15 +219,15 @@ export default function WorkFromTheHimalayasPage() {
           
           <div className="space-y-10">
             <p className="text-body leading-relaxed text-[#4a5560] text-lg">
-              Productivity is measured in clarity, not hours. When you're not fighting distractions, when you have space to think, when the environment supports focus — you accomplish more with less effort.
+              Productivity is measured in clarity, not hours. When you have space to think and the environment supports focus, you accomplish more with less effort.
             </p>
 
             <p className="text-body leading-relaxed text-[#4a5560] text-lg">
-              Fewer distractions mean deeper focus. No constant notifications. No urgent interruptions. Just work, when you need to work. Rest, when you need to rest.
+              No constant notifications. No urgent interruptions. Just work when you need to work. Rest when you need to rest.
             </p>
 
             <p className="text-body leading-relaxed text-[#4a5560] text-lg">
-              The environment supports thinking, not urgency. The mountains teach patience. The quiet teaches presence. You return not just with work done, but with clarity about what matters.
+              The mountains teach patience. The quiet teaches presence. You return not just with work done, but with clarity about what matters.
             </p>
           </div>
         </div>
@@ -226,7 +258,7 @@ export default function WorkFromTheHimalayasPage() {
             </div>
 
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Connectivity expectations</h3>
+              <h3 className="h4 text-[#3d5a7a]">Connectivity</h3>
               <p className="text-body">
                 Some locations offer reliable internet. Others offer reliable quiet. We're transparent about what to expect, so you can choose based on your work requirements.
               </p>
@@ -252,7 +284,7 @@ export default function WorkFromTheHimalayasPage() {
           <div>
             <h2 className="h2 mb-8">Begin a Conversation</h2>
             <p className="text-large">
-              Tell us how you work best — we'll suggest a calm fit.
+              Share what you're working on and what you need. We'll suggest a calm fit that supports your work.
             </p>
           </div>
           <Link

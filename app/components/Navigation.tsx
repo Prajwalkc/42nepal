@@ -28,7 +28,6 @@ export default function Navigation() {
     { href: "#philosophy", label: "Philosophy" },
     { href: "/work-from-the-himalayas", label: "Work From the Himalayas" },
     { href: "/journeys", label: "Journeys" },
-    { href: "/blog", label: "Insights" },
     { href: "/enquire", label: "Enquire" },
   ];
 
