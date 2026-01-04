@@ -1,0 +1,718 @@
+{
+  "common": {
+    "siteName": "The Mountain Whisper",
+    "tagline": "जहाँ मौन बोल्छ।",
+    "explore": "अन्वेषण गर्नुहोस्",
+    "learnMore": "थप जान्नुहोस्",
+    "beginConversation": "कुराकानी सुरु गर्नुहोस्",
+    "enquire": "सोधपुछ गर्नुहोस्",
+    "viewAll": "सबै हेर्नुहोस्",
+    "founder": "Prajwal",
+    "founderTitle": "संस्थापक, The Mountain Whisper"
+  },
+  "nav": {
+    "philosophy": "दर्शन",
+    "workFromHimalayas": "हिमालबाट काम",
+    "journeys": "यात्राहरू",
+    "enquire": "सोधपुछ गर्नुहोस्"
+  },
+  "home": {
+    "title": "स्पष्टता र शान्तिको लागि हिमाली निवास",
+    "subtitle": "हिमालमा सोचिएर तयार पारिएका अनुभवहरू — स्पष्टता, विश्राम, र अर्थपूर्ण कामको लागि डिजाइन गरिएको।",
+    "intro": "The Mountain Whisper ले नेपालको हिमालको मुटुमा सचेत निवासहरू प्रदान गर्छ, जहाँ शान्ति शिक्षक बन्छ र उचाइले स्पष्टता ल्याउँछ। यहाँ, चुचुराहरू र उपत्यकाहरू बीचको शान्त स्थानहरूमा, तपाईंले खोजिरहेको रिसेट फेला पाउनुहुनेछ—भाग्ने होइन, तर फर्कने। यी सावधानीपूर्वक तयार पारिएका अनुभवहरूले तपाईंलाई दैनिक जीवनको शोरबाट टाढा र हजारौं वर्षदेखि हिमालहरूले राखेको गहिरो मौनतिर लाग्न आमन्त्रणा गर्छन्। तपाईं परिप्रेक्ष्य, विश्राम, वा केवल महत्त्वपूर्ण कुरा सम्झने ठाउँ खोज्दै आउनुहुन्छ, हिमालहरूले बढ्दो दुर्लभ कुरा प्रदान गर्छन्: वास्तविक शान्ति, जहाँ स्पष्टता स्वाभाविक रूपमा उत्पन्न हुन्छ र उद्देश्यले फेरि आवाज पाउँछ।",
+    "philosophy": {
+      "title": "दर्शन",
+      "silence": {
+        "title": "मौन",
+        "text": "हिमालमा, मौन खाली होइन—यो भरिएको छ। स्पष्टता, परिप्रेक्ष्य, र त्यस्तो शान्तिले भरिएको जसले तपाईंलाई वास्तवमा महत्त्वपूर्ण कुरा सुन्न अनुमति दिन्छ। आधुनिक जीवनको निरन्तर शोरबाट टाढा, मौन शिक्षक बन्छ।"
+      },
+      "elevation": {
+        "title": "उचाइ",
+        "text": "शारीरिक उचाइले मानसिक उचाइ ल्याउँछ। जब तपाईं चढ्नुहुन्छ, दिनचर्याको शोर फिक्का पर्छ। जुन बाँकी रहन्छ त्यो आवश्यक छ। तपाईं जति माथि जानुहुन्छ, उति स्पष्ट देख्नुहुन्छ—केवल भूपृष्ठ मात्र होइन, तर तपाईंको आफ्नै अगाडिको बाटो।"
+      },
+      "clarity": {
+        "title": "दिनचर्याभन्दा पर स्पष्टता",
+        "text": "हाम्रा यात्राहरू तपाईंलाई अड्काउने ढाँचाहरू तोड्नको लागि डिजाइन गरिएका छन्। प्रकृतिको सबैभन्दा शक्तिशाली स्थानहरूमा जानबुझेरको समय मार्फत, तपाईंले दैनिक दिनचर्यामा तपाईंलाई बचाउने स्पष्टता फेला पाउनुहुनेछ। परिप्रेक्ष्यसँग फर्कनुहोस् जसले तपाईंले कसरी काम गर्नुहुन्छ, नेतृत्व गर्नुहुन्छ, र बाँच्नुहुन्छ त्यसलाई रूपान्तरण गर्छ।"
+      },
+      "intentional": {
+        "title": "जानबुझेरको जीवन",
+        "text": "The Mountain Whisper भनेको चिन्तन, काम, र विश्रामको लागि स्थानहरू सिर्जना गर्ने बारेमा हो। भाग्ने होइन, तर फर्कने। हट्ने होइन, तर स्पष्टता। हामी जानबुझेरको समय टाढाको शक्तिमा विश्वास गर्छौं—त्यस्तो समय जसले तपाईंलाई नवीन उद्देश्य र गहिरो बुझाइसँग फर्कन मद्दत गर्छ।"
+      }
+    },
+    "waysToExperience": {
+      "title": "अनुभव गर्ने तरिकाहरू",
+      "subtitle": "मानिसहरूले The Mountain Whisper लाई फरक तरिकाहरूमा अनुभव गर्छन्। प्रत्येक बाटोले आफ्नै लय, आफ्नै गहिराइ प्रदान गर्छ।",
+      "journeys": {
+        "title": "यात्राहरू",
+        "description": "स्पष्टता, विश्राम, र अर्थपूर्ण कामको लागि डिजाइन गरिएका सोचिएर तयार पारिएका अनुभवहरू। फरक गतिहरू, फरक अवधिहरू, प्रत्येक जानबुझेर।"
+      },
+      "work": {
+        "title": "हिमालबाट काम",
+        "description": "संस्थापकहरू, टाढाका टोलीहरू, र स्वतन्त्र निर्माताहरूको लागि शान्त निवास। हिमालमा गहिरो काम र शान्ति।"
+      },
+      "soloOrShared": {
+        "title": "एक्लो वा साझा",
+        "description": "तपाईं एक्लै वा अरूसँग आउनुहुन्छ, अनुभव अनुकूल हुन्छ। व्यक्तिगत चिन्तन वा साझा उचाइ—दुवै बाटोले स्पष्टतातर्फ लैजान्छ।"
+      },
+      "custom": {
+        "title": "अनुकूल यात्रा",
+        "description": "केही विशिष्ट खोज्नेहरूको लागि। हामीले तपाईं जहाँ छन् त्यहाँ भेट्ने अनुभवहरू डिजाइन गर्छौं, तपाईंलाई चाहिने गति र फोकससँग।"
+      }
+    },
+    "whyHimalayas": {
+      "title": "किन हिमाल",
+      "altitude": {
+        "title": "उचाइ",
+        "text": "शारीरिक उचाइले मानसिक उचाइ सिर्जना गर्छ। जब तपाईं चढ्नुहुन्छ, दिनचर्याको शोर फिक्का पर्छ। जुन बाँकी रहन्छ त्यो आवश्यक छ। उचाइको चुनौतीले स्पष्टताको चुनौतीलाई प्रतिबिम्बित गर्छ—दुवैलाई धैर्य, उपस्थिति, र बिस्तारै जाने इच्छा चाहिन्छ।"
+      },
+      "stillness": {
+        "title": "शान्ति",
+        "text": "हिमालहरूले बढ्दो दुर्लभ कुरा प्रदान गर्छन्: वास्तविक शान्ति। कुनै Wi-Fi क्षेत्रहरू छैनन्। कुनै जरुरी सूचनाहरू छैनन्। केवल हजारौं वर्षदेखि उभिएका हिमालहरू, धैर्य सिकाउँछन्। यो शान्तिमा, स्पष्टता स्वाभाविक रूपमा उत्पन्न हुन्छ।"
+      },
+      "perspective": {
+        "title": "परिप्रेक्ष्य",
+        "text": "उचाइबाट, तपाईंले फरक देख्नुहुन्छ। समुद्र सतहमा भारी लागेका समस्याहरू आफ्नो उचित आकारमा सानो हुन्छन्। जरुरी देखिने प्राथमिकताहरूले आफ्नो वास्तविक महत्त्व प्रकट गर्छन्। तपाईं परिप्रेक्ष्यसँग फर्कनुहुन्छ जसले तपाईंले कसरी काम गर्नुहुन्छ, नेतृत्व गर्नुहुन्छ, र बाँच्नुहुन्छ त्यसलाई रूपान्तरण गर्छ।"
+      }
+    },
+    "whyExists": {
+      "title": "किन यो अस्तित्वमा छ",
+      "text1": "मैले धेरै वर्षहरू छिटो चल्ने वातावरणमा काम गरेको छु जहाँ सबै कुरा जरुरी लाग्छ। म्यादहरू जम्मा हुन्छन्, निर्णयहरू छिटो लिनुपर्छ, र गति कहिल्यै बिस्तारै हुँदैन। समय बित्दै जाँदा, मैले सिकेँ कि स्पष्टता धेरै गरेर आउँदैन — यो ठाउँ सिर्जना गरेर आउँछ। त्यस्तो ठाउँ जसले तपाईंलाई वास्तवमा के महत्त्वपूर्ण छ त्यो देख्न अनुमति दिन्छ।",
+      "text2": "प्रकृतिनजिक काम गर्नु, विशेष गरी हिमालमा, ले मैले काम र जीवनलाई कसरी नजिकबाट हेर्छु त्यसलाई परिवर्तन गर्यो। हिमालहरूले मलाई सिकाए कि बिस्तारै जानु भनेको कम गर्नु होइन — यो जानबुझेर महत्त्वपूर्ण कुरा गर्नु हो। उचाइ, मौन, परिप्रेक्ष्य — यी विलासिता होइनन्। तिनीहरू कसैको लागि आवश्यक छन् जो गहिरो काम गर्न चाहन्छ र पूर्ण रूपमा बाँच्न चाहन्छ।",
+      "text3": "The Mountain Whisper अरूहरूको लागि अस्तित्वमा छ जो आफ्नो कामको बारेमा गहिरो हेरचाह गर्छन् तर जानबुझेर काम गर्न चाहन्छन्। तिनीहरूको लागि जसले बुझ्छन् कि उत्तम सोच शोरबाट टाढा हुन्छ। यदि त्यो तपाईंसँग मेल खान्छ, मलाई आशा छ कि हामी सँगै त्यो ठाउँ सिर्जना गर्न सक्छौं।"
+    },
+    "cta": {
+      "title": "कुराकानी सुरु गर्नुहोस्",
+      "subtitle": "हामीलाई भन्नुहोस् तपाईं के खोजिरहनुभएको छ — हामीले तपाईंलाई सोचेर मार्गदर्शन गर्नेछौं।"
+    }
+  },
+  "workFromHimalayas": {
+    "title": "हिमालबाट काम",
+    "subtitle": "फोकस गरिएको काम, शोर बिना",
+    "whatThisIs": {
+      "title": "यो वास्तवमा के हो",
+      "notCoworking": "यो कुनै coworking space होइन।",
+      "notWorkshop": "यो कुनै उत्पादकता कार्यशाला होइन।",
+      "notWorkcation": "यो कुनै workcation होइन।",
+      "text1": "हिमालबाट काम भनेको ती मानिसहरूको लागि ठाउँ हो जो स्पष्टतासँग काम वा सिर्जना गर्न चाहन्छन्, संसारको सबैभन्दा शान्त भूपृष्ठहरू मध्ये एकमा।",
+      "text2": "उत्तम काम तब हुन्छ जब तपाईंसँग सोच्ने ठाउँ हुन्छ। जब वातावरणले जरुरीको सट्टा फोकसलाई समर्थन गर्छ। जब शान्ति स्पष्टताको लागि अवस्था बन्छ।",
+      "text3": "तपाईं काम गर्नुहुन्छ। हिमालहरूले सन्दर्भ प्रदान गर्छन्। शान्तिले ठाउँ प्रदान गर्छ। सँगै, तिनीहरूले त्यस्ता अवस्थाहरू सिर्जना गर्छन् जहाँ गहिरो सोच सम्भव हुन्छ।"
+    },
+    "whoFor": {
+      "title": "यो कसको लागि हो",
+      "founders": {
+        "title": "संस्थापकहरू र सह-संस्थापकहरू",
+        "text": "निर्माताहरू जसलाई दैनिक कार्यहरूको निरन्तर शोर बिना सोच्न, योजना बनाउन, र सिर्जना गर्न शान्त ठाउँ चाहिन्छ।"
+      },
+      "teams": {
+        "title": "साना टोलीहरू",
+        "text": "टोलीहरू जो हिमालहरूको शान्ति अनुभव गर्दै सँगै काम गर्न शान्त वातावरण खोज्छन्।"
+      },
+      "creators": {
+        "title": "लेखकहरू, कलाकारहरू, अनुसन्धानकर्ताहरू",
+        "text": "मानिसहरू जसको कामलाई निरन्तर समय र गहिरो सोच चाहिन्छ। पाण्डुलिपिहरू पूरा गर्ने लेखकहरू। संगीत रचना गर्ने संगीतकारहरू। शृङ्खला सुरु गर्ने चित्रकारहरू।"
+      }
+    },
+    "howWorkHappens": {
+      "title": "यहाँ काम कसरी हुन्छ",
+      "environments": {
+        "title": "काम-अनुकूल वातावरण",
+        "text": "हामीले फोकसलाई समर्थन गर्ने स्थानहरू तयार गर्छौं। शान्त कोठाहरू, प्राकृतिक प्रकाश, र सोचको लागि डिजाइन गरिएका वातावरणहरू। स्थान-निर्भर, तर सधैं जानबुझेर।"
+      },
+      "rhythm": {
+        "title": "लचिलो दैनिक लय",
+        "text": "कुनै कठोर तालिकाहरू छैनन्। कुनै अनिवार्य गतिविधिहरू छैनन्। तपाईंको काम र शान्तिमा उत्पन्न हुने प्राकृतिक लयको वरिपरि तपाईंको दिनहरू संरचना गर्नुहोस्।"
+      },
+      "space": {
+        "title": "फोकस, विश्राम, र चिन्तनको लागि ठाउँ",
+        "text": "गहिरो काम गर्नुहोस्। चाहिने बेला विश्राम गर्नुहोस्। हिँड्नुहोस्। चिन्तन गर्नुहोस्। वातावरणले यसलाई सबै समर्थन गर्छ — किनभने उत्तम काम तब हुन्छ जब तपाईं थकित हुनुहुन्न।"
+      },
+      "support": {
+        "title": "हस्तक्षेप बिना समर्थन",
+        "text": "स्थानीय समर्थन तपाईंलाई चाहिने बेला उपलब्ध छ। मार्गदर्शन, व्यवस्थापन होइन। मद्दत, निरीक्षण होइन। तपाईं काम गर्नुहुन्छ। हामीले वातावरणले त्यसलाई समर्थन गर्छ भन्ने सुनिश्चित गर्छौं।"
+      }
+    },
+    "differentWay": {
+      "title": "काम गर्ने फरक तरिका",
+      "text1": "उत्पादकतालाई स्पष्टतामा नापिन्छ, घण्टाहरूमा होइन। जब तपाईंसँग सोच्ने ठाउँ हुन्छ र वातावरणले फोकसलाई समर्थन गर्छ, तपाईंले कम प्रयासले धेरै पूरा गर्नुहुन्छ।",
+      "text2": "कुनै निरन्तर सूचनाहरू छैनन्। कुनै जरुरी बाधाहरू छैनन्। केवल जब तपाईंलाई काम गर्न चाहिन्छ काम गर्नुहोस्। जब तपाईंलाई विश्राम चाहिन्छ विश्राम गर्नुहोस्।",
+      "text3": "हिमालहरूले धैर्य सिकाउँछन्। शान्तिले उपस्थिति सिकाउँछ। तपाईं केवल काम पूरा भएर मात्र फर्कनुहुन्न, तर के महत्त्वपूर्ण छ भन्ने बारेमा स्पष्टतासँग फर्कनुहुन्छ।"
+    },
+    "practical": {
+      "title": "Practical Considerations",
+      "seasons": {
+        "title": "Seasons and timing",
+        "text": "Different seasons offer different experiences. We'll guide you on the best times for your stay, considering weather, connectivity, and the kind of stillness you're seeking."
+      },
+      "altitude": {
+        "title": "Altitude and suitability",
+        "text": "We work with locations that are safe and manageable. For higher elevation options, we ensure proper acclimatization and support. Your well-being is our priority."
+      },
+      "connectivity": {
+        "title": "Connectivity",
+        "text": "Some locations offer reliable internet. Others offer reliable quiet. We're transparent about what to expect, so you can choose based on your work requirements."
+      },
+      "notForEveryone": {
+        "title": "Who this may not be ideal for",
+        "text": "If you need constant connectivity, prefer urban environments, or require extensive infrastructure, this may not be the right fit. We're honest about limitations because we want you to make the right choice."
+      }
+    },
+    "places": {
+      "title": "स्थानहरू",
+      "subtitle": "शान्ति, प्रकाश, र जरुरीबाट टाढाको लागि छानिएका स्थानहरू। जहाँ कामका अनुभवहरू खुल्छन्।",
+      "explorePlace": "स्थान अन्वेषण गर्नुहोस्",
+      "manang": {
+        "name": "मनाङ",
+        "description": "उच्च उपत्यकाहरू जहाँ चुचुराहरू बीच मौन बस्छ। शान्ति र लामो विरामले परिभाषित उच्च-उचाइको हिमाली गाउँ।"
+      }
+    },
+    "cta": {
+      "title": "कुराकानी सुरु गर्नुहोस्",
+      "subtitle": "तपाईं के काम गरिरहनुभएको छ र तपाईंलाई के चाहिन्छ भनेर साझेदारी गर्नुहोस्। हामीले तपाईंको कामलाई समर्थन गर्ने शान्त फिट सुझाव दिनेछौं।"
+    }
+  },
+  "journeys": {
+    "title": "शान्तिमा यात्राहरू",
+    "subtitle": "हिमाल, मौन, र समयले आकार दिएको तयार पारिएका अनुभवहरूको सानो संग्रह।",
+    "cta": {
+      "title": "कुराकानी सुरु गर्नुहोस्",
+      "subtitle": "कुन यात्रा फिट हुन्छ थाहा छैन? हामीले तपाईंलाई छान्न मद्दत गर्नेछौं।"
+    },
+    "viewJourney": "यात्रा हेर्नुहोस्",
+    "quietReset": {
+      "title": "शान्त रिसेट",
+      "subtitle": "थकान, बिस्तारै जाने, चिन्तनको लागि",
+      "description": "तपाईंलाई पछाडि हट्न, सास फेर्न, र महत्त्वपूर्ण कुरा सम्झन मद्दत गर्न डिजाइन गरिएको यात्रा। थकान, निरन्तर तनाव, वा तपाईं सधैं पछाडि हुनुहुन्छ भन्ने भावना अनुभव गर्नेहरूको लागि।",
+      "forWho": [
+        "थकान वा दीर्घकालीन तनाव अनुभव गर्नेहरू",
+        "बिस्तारै जान र रिसेट गर्न आवश्यक नेता",
+        "निरन्तर मागहरूले भारी लागेको कसैलाई"
+      ],
+      "dailyRhythm": {
+        "morning": "मौनमा बिहानको सूर्योदय हिँडाइ। हल्का खाजा। दिन सुरु गर्न कोमल चाल।",
+        "midday": "बारम्बार विरामसहित बिस्तारै गतिको ट्रेकिङ। अवलोकन, चिन्तन, र केवल हुनको लागि समय।",
+        "evening": "शान्त खाना। जर्नलिङ प्रोम्प्टहरू। पुनर्स्थापनाको लागि बिहानै विश्राम।"
+      },
+      "itinerary": {
+        "day1": {
+          "title": "आगमन र बसाइ",
+          "description": "काठमाडौंमा आगमन। संक्षिप्त अभिविन्यास। विश्राम र समायोजनको लागि समय।"
+        },
+        "day2": {
+          "title": "यात्रा सुरु हुन्छ",
+          "description": "सुरुवात बिन्दुमा यात्रा। पहिलो कोमल हिँडाइ। यात्राको लयको परिचय।"
+        },
+        "day3": {
+          "title": "आफ्नो गति फेला पार्नु",
+          "description": "बिस्तारै, सचेत गतिमा ट्रेकिङ सुरु गर्नुहोस्। चिन्तन र शान्तिको पहिलो पूर्ण दिन।"
+        },
+        "day4": {
+          "title": "शान्ति गहिराउँदै",
+          "description": "उचाइमा जारी राख्नुहोस्। शान्त चिन्तन र जर्नलिङको लागि थप समय।"
+        },
+        "day5": {
+          "title": "एकीकरण दिन",
+          "description": "विश्राम र चिन्तनको दिन। वैकल्पिक कोमल हिँडाइहरू। अन्तर्दृष्टिहरू प्रक्रिया गर्ने समय।"
+        },
+        "day6": {
+          "title": "फर्कने यात्रा",
+          "description": "अवरोहण सुरु गर्नुहोस्। अन्तर्दृष्टिहरूको एकीकरण। स्पष्टतासँग फर्कने तयारी।"
+        },
+        "day7": {
+          "title": "प्रस्थान",
+          "description": "अन्तिम चिन्तन। नवीन परिप्रेक्ष्यसँग काठमाडौंबाट प्रस्थान।"
+        }
+      },
+      "included": [
+        "आवास मार्गदर्शन र समर्थन",
+        "हिमालको गहिरो ज्ञान भएको स्थानीय गाइड",
+        "चिन्तनको लागि डिजाइन गरिएको बिस्तारै गति",
+        "दैनिक चिन्तन प्रोम्प्टहरू र जर्नलिङ ठाउँ",
+        "सचेत चाल र विश्राम अवधिहरू",
+        "चिन्तनको लागि शान्त स्थानहरू"
+      ],
+      "excluded": [
+        "अन्तर्राष्ट्रिय उडानहरू",
+        "भिसा व्यवस्था",
+        "व्यक्तिगत यात्रा बीमा",
+        "विशिष्ट आवास ग्यारेन्टीहरू"
+      ],
+      "practicalNotes": {
+        "seasons": "आरामदायक मौसम र स्पष्ट दृश्यहरूको लागि वसन्त (मार्च-मे) र शरद (सेप्टेम्बर-नोभेम्बर) मा उत्तम।",
+        "altitude": "मध्यम उचाइ (२,०००-३,५०० मीटर)। उचित एक्लिमाटाइजेसनसँग धेरै यात्रुहरूको लागि उपयुक्त।",
+        "connectivity": "सीमित इन्टरनेट पहुँच। अलगाव र चिन्तनको लागि डिजाइन गरिएको।",
+        "suitability": "विश्राम र पुनर्स्थापना खोज्नेहरूको लागि आदर्श। यदि तपाईंलाई निरन्तर कनेक्टिभिटी चाहिन्छ भने उपयुक्त छैन।"
+      },
+      "whyThisJourneyExists": {
+        "title": "किन यो यात्रा अस्तित्वमा छ",
+        "paragraph1": "थकान व्यक्तिगत असफलता होइन। यो तब हुन्छ जब जीवनको गति तपाईंको पुनर्स्थापनाको क्षमतालाई नाघ्छ। शान्त रिसेट अस्तित्वमा छ किनभने हामी विश्वास गर्छौं कि पुनर्स्थापना विलासिता होइन—यो आवश्यकता हो। र उत्तम पुनर्स्थापना पहिले नै थकान सिर्जना गरेको शोरबाट टाढा हुन्छ।",
+        "paragraph2": "हिमालमा, गति फरक छ। हिमालहरू हतार गर्दैनन्। तिनीहरूले माग गर्दैनन्। तिनीहरू केवल अस्तित्वमा छन्, र तिनीहरूको उपस्थितिमा, तपाईंले सम्झनुहुन्छ कि तपाईं पनि अस्तित्वमा हुन सक्नुहुन्छ—धेरै गर्न, धेरै हुन, धेरै हासिल गर्न निरन्तर दबाब बिना। यो यात्रा केवल हुनु के लाग्छ भन्ने सम्झनुको बारेमा छ।",
+        "paragraph3": "शान्त रिसेट तपाईंलाई ठीक गर्ने बारेमा होइन। यो ठाउँ सिर्जना गर्ने बारेमा छ। सास फेर्ने ठाउँ। विश्राम गर्ने ठाउँ। महत्त्वपूर्ण कुरा सम्झने ठाउँ। हिमालहरूले शान्ति प्रदान गर्छन्। तपाईंले बिस्तारै जाने अनुमति प्रदान गर्नुहुन्छ। सँगै, तिनीहरूले वास्तविक पुनर्स्थापनाको लागि अवस्थाहरू सिर्जना गर्छन्।"
+      },
+      "whatChangesAfter": {
+        "title": "पछि के परिवर्तन हुन्छ",
+        "paragraph1": "तपाईं विश्रामले वास्तवमा के मतलब राख्छ भन्ने नवीन भावनासँग फर्कनुहुन्छ। केवल निद्रा मात्र होइन, तर त्यस्तो पुनर्स्थापना जुन शान्तिबाट, एजेन्डा बिना उपस्थित हुनबाट, तपाईंले उत्पादन गर्नुभएको भन्दा बढी हुनुहुन्छ भन्ने सम्झनाबाट आउँछ।",
+        "paragraph2": "तपाईंले हिमालमा फेला पार्ने स्पष्टता तपाईंसँग रहन्छ। तपाईंले जानु अघि भारी लागेका समस्याहरू अझै अस्तित्वमा रहनेछन्, तर तपाईंले तिनीहरूलाई फरक देख्नुहुनेछ। उचाइबाट, तपाईंले परिप्रेक्ष्य पाउनुहुन्छ। शान्तिबाट, तपाईंले स्पष्टता पाउनुहुन्छ। विश्रामबाट, तपाईंले जीवनसँग फेरि संलग्न हुने क्षमता पाउनुहुन्छ, तर फरक तरिकाले।",
+        "paragraph3": "सबैभन्दा महत्त्वपूर्ण, तपाईंले एक टचस्टोन सिर्जना गर्नुभएको हुनेछ—वास्तवमा विश्रामित, वास्तवमा उपस्थित, वास्तवमा शान्त हुनु के लाग्छ भन्ने स्मृति। त्यो स्मृति त्यस्तो कुरा बन्छ जसमा तपाईं फर्कन सक्नुहुन्छ जब जीवन फेरि बोल्छ। याद दिलाउने कि विश्राम तपाईंले कमाउने कुरा होइन। यो तपाईंले छान्ने कुरा हो।"
+      },
+      "aGentleFlow": {
+        "title": "कोमल प्रवाह",
+        "day1": {
+          "title": "दिन १: आगमन र बसाइ",
+          "description": "काठमाडौंमा आगमन। संक्षिप्त अभिविन्यास। विश्राम र समायोजनको लागि समय। कुनै अपेक्षाहरू छैनन्। कुनै एजेन्डा छैन। केवल बिस्तारै जाने र तपाईंले राखेको गतिलाई छोड्न सुरु गर्ने अनुमति।"
+        },
+        "day2": {
+          "title": "दिन २: रिसेट सुरु गर्दै",
+          "description": "सुरुवात बिन्दुमा यात्रा। पहिलो कोमल हिँडाइ। यात्राको लयको परिचय। आफ्नो गति फेला पार्न सुरु गर्नुहोस्—बिस्तारै, सचेत, जरुरी बिना। हिमालहरूले धैर्य सिकाउँछन्। तपाईंले यसलाई प्राप्त गर्न सिक्नुहुन्छ।"
+        },
+        "day3": {
+          "title": "दिन ३: विश्राम गहिराउँदै",
+          "description": "बारम्बार विरामसहित बिस्तारै गतिको ट्रेकिङको पूर्ण दिन। अवलोकन, चिन्तन, र केवल हुनको लागि समय। चिन्तन र शान्तिको पहिलो पूर्ण दिन। विश्राम के लाग्छ भन्ने सम्झन सुरु गर्नुहोस्। स्पष्टताको सुरुवातसँग फर्कनुहोस्।"
+        }
+      },
+      "importantToKnow": {
+        "title": "जान्नु महत्त्वपूर्ण",
+        "paragraph1": "यो यात्रा उपलब्धिको लागि होइन, पुनर्स्थापनाको लागि डिजाइन गरिएको छ। गति बिस्तारै छ। अपेक्षाहरू न्यूनतम छन्। लक्ष्य विश्राम हो, चुचुरो पुग्नु होइन। यदि तपाईं चुनौती वा शारीरिक उपलब्धि खोजिरहनुभएको छ भने, यो तपाईंको लागि सही यात्रा हुन नसक्छ।",
+        "paragraph2": "कनेक्टिभिटी जानबुझेर न्यूनतम छ। यो डिजाइन अनुसार हो। तपाईंले खोज्नुभएको पुनर्स्थापनाले थकान सिर्जना गरेको शोरबाट अलगाव चाहिन्छ। यदि तपाईंलाई निरन्तर संचार वा नियमित इन्टरनेट पहुँच चाहिन्छ भने, यो यात्रा तपाईंको आवश्यकतासँग मेल खान्छ कि छैन विचार गर्नुहोस्।",
+        "paragraph3": "यात्रालाई शारीरिक फिटनेसको आधारभूत स्तर चाहिन्छ, तर जोड कोमल चाल र विश्राममा छ, कठोर गतिविधिमा होइन। हिमालहरूले उचाइ प्रदान गर्छन्। तपाईंले बिस्तारै चल्ने, अक्सर रोक्ने, र चाहिने बेला विश्राम गर्ने अनुमति प्रदान गर्नुहुन्छ।"
+      },
+      "startConversation": {
+        "title": "कुराकानी सुरु गर्नुहोस्",
+        "subtitle": "शान्त रिसेटले तपाईंको पुनर्स्थापनाको आवश्यकतालाई कसरी सेवा गर्न सक्छ भनेर छलफल गरौं। कुनै दबाब छैन, केवल सोचिएको वार्तालाप।",
+        "button": "कुराकानी सुरु गर्नुहोस्"
+      }
+    },
+    "betweenDecisions": {
+      "title": "निर्णयहरू बीच",
+      "subtitle": "संस्थापकहरू, कार्यकारीहरू, र वरिष्ठ नेताहरूको लागि",
+      "description": "A journey designed for leaders standing between choices. Step away from urgency, noise, and constant responsibility to regain perspective. This experience offers space — not coaching, not frameworks — but the clarity that emerges when decisions are no longer rushed.",
+      "forWho": [
+        "Founders navigating growth and complex decisions",
+        "C-suite executives seeking strategic clarity",
+        "Managers leading teams through change"
+      ],
+      "dailyRhythm": {
+        "morning": "Early quiet time for strategic thinking. Light breakfast. Setting intentions for the day.",
+        "midday": "Trekking with space for reflection. Natural pauses for processing decisions and priorities.",
+        "evening": "Quiet dinner. Leadership reflection prompts. Rest for mental clarity."
+      },
+      "itinerary": {
+        "day1": {
+          "title": "Arrival and orientation",
+          "description": "Arrive in Kathmandu. Brief orientation. Time to disconnect and prepare."
+        },
+        "day2": {
+          "title": "Journey begins",
+          "description": "Travel to starting point. First day of elevation and perspective."
+        },
+        "day3": {
+          "title": "Strategic reflection",
+          "description": "Full day at elevation. Time for deep thinking about leadership challenges."
+        },
+        "day4": {
+          "title": "Clarity and decisions",
+          "description": "Continue ascent. Natural clarity emerges from stillness and elevation."
+        },
+        "day5": {
+          "title": "Integration day",
+          "description": "Day of rest and reflection. Processing insights. Planning for return."
+        },
+        "day6": {
+          "title": "Return with clarity",
+          "description": "Begin descent. Integrating new perspective. Preparing to lead differently."
+        },
+        "day7": {
+          "title": "Departure",
+          "description": "Final reflection. Departure with renewed focus and clear priorities."
+        }
+      },
+      "included": [
+        "Accommodation guidance and support",
+        "Local guide with understanding of leadership needs",
+        "Pacing designed for strategic reflection",
+        "Leadership-focused reflection prompts",
+        "Quiet spaces for deep thinking",
+        "Time away from digital distractions"
+      ],
+      "excluded": [
+        "International flights",
+        "Visa arrangements",
+        "Personal travel insurance",
+        "Specific accommodation guarantees"
+      ],
+      "practicalNotes": {
+        "seasons": "Best in spring and autumn for optimal weather and work conditions.",
+        "altitude": "Moderate elevation (2,000-3,500m). Suitable for strategic thinking and reflection.",
+        "connectivity": "Reliable internet available at base locations. Limited connectivity during trekking days.",
+        "suitability": "Ideal for founders and small teams seeking clarity. Work-friendly with dedicated spaces."
+      }
+    },
+    "soloReflection": {
+      "title": "एक्लो चिन्तन यात्रा",
+      "subtitle": "अर्थ र चिन्तन खोज्ने एक्लो यात्रुहरूको लागि",
+      "description": "Walk at your own pace. Reflect in silence. Return with clarity. Sometimes the most profound insights come from walking alone.",
+      "forWho": [
+        "Individuals seeking personal clarity",
+        "Those processing life transitions",
+        "Anyone needing space for deep reflection"
+      ],
+      "dailyRhythm": {
+        "morning": "Wake naturally. Quiet breakfast. Begin walking when ready, at your own pace.",
+        "midday": "Walk, pause, reflect. No schedule. Simply be present with the mountains and yourself.",
+        "evening": "Quiet dinner. Personal reflection time. Rest when you need it."
+      },
+      "itinerary": {
+        "day1": {
+          "title": "Arrival",
+          "description": "Arrive in Kathmandu. Brief orientation. Time to settle into solitude."
+        },
+        "day2": {
+          "title": "Beginning",
+          "description": "Travel to starting point. First day of solo walking and reflection."
+        },
+        "day3": {
+          "title": "Finding your rhythm",
+          "description": "Full day of walking at your own pace. Time to process and reflect."
+        },
+        "day4": {
+          "title": "Deepening insight",
+          "description": "Continue at elevation. Insights emerge naturally from stillness."
+        },
+        "day5": {
+          "title": "Integration",
+          "description": "Day of rest or gentle walking. Processing what has emerged."
+        },
+        "day6": {
+          "title": "Return journey",
+          "description": "Begin descent. Integrating insights. Preparing to return with clarity."
+        },
+        "day7": {
+          "title": "Departure",
+          "description": "Final reflection. Departure with new perspective and insight."
+        }
+      },
+      "included": [
+        "Accommodation guidance and support",
+        "Local guide for safety (minimal presence)",
+        "Flexible pacing that matches your needs",
+        "Personal reflection prompts",
+        "Quiet spaces for solitude",
+        "Respect for your need for space"
+      ],
+      "excluded": [
+        "International flights",
+        "Visa arrangements",
+        "Personal travel insurance",
+        "Specific accommodation guarantees"
+      ],
+      "practicalNotes": {
+        "seasons": "Best in spring and autumn. Winter possible for experienced travelers seeking solitude.",
+        "altitude": "Moderate to high elevation (2,500-4,000m). Requires good physical condition.",
+        "connectivity": "Minimal connectivity. Designed for complete disconnection and solitude.",
+        "suitability": "Perfect for solo travelers seeking deep reflection. Not suitable if you need constant communication."
+      }
+    },
+    "sharedStillness": {
+      "title": "साझा शान्ति",
+      "subtitle": "उपस्थिति र पुनः जडान खोज्ने जोडीहरूको लागि",
+      "description": "A journey designed for couples to step away together, reconnect, and find presence with each other. In the stillness of the mountains, create space for what truly matters in your relationship.",
+      "forWho": [
+        "Couples wanting to reconnect and slow down together",
+        "Partners seeking presence and deeper connection",
+        "Those looking to create shared stillness and clarity"
+      ],
+      "dailyRhythm": {
+        "morning": "Wake together. Quiet breakfast. Begin walking side by side at a natural, gentle pace.",
+        "midday": "Shared walking with natural pauses. Time to be present with each other and the mountains.",
+        "evening": "Quiet dinner together. Reflection time. Early rest for connection and restoration."
+      },
+      "itinerary": {
+        "day1": {
+          "title": "Arrival and settling",
+          "description": "Arrive in Kathmandu. Brief orientation. Time to rest and settle in together."
+        },
+        "day2": {
+          "title": "Journey begins",
+          "description": "Travel to starting point. First gentle walk together. Introduction to shared stillness."
+        },
+        "day3": {
+          "title": "Finding presence",
+          "description": "Full day of walking together at a mindful pace. Creating space for presence and connection."
+        },
+        "day4": {
+          "title": "Deepening connection",
+          "description": "Continue at elevation. More time for shared reflection and quiet moments together."
+        },
+        "day5": {
+          "title": "Integration day",
+          "description": "Day of rest and reflection together. Processing insights. Time to simply be present."
+        },
+        "day6": {
+          "title": "Return journey",
+          "description": "Begin descent. Integrating shared insights. Preparing to return with renewed connection."
+        },
+        "day7": {
+          "title": "Departure",
+          "description": "Final reflection together. Departure with presence and reconnection."
+        }
+      },
+      "included": [
+        "Accommodation guidance and support",
+        "Local guide for safety and support",
+        "Gentle pacing designed for couples",
+        "Shared reflection prompts",
+        "Quiet spaces for connection",
+        "Respect for your shared journey"
+      ],
+      "excluded": [
+        "International flights",
+        "Visa arrangements",
+        "Personal travel insurance",
+        "Specific accommodation guarantees"
+      ],
+      "practicalNotes": {
+        "seasons": "Best in spring and autumn. Winter possible for couples seeking quiet solitude.",
+        "altitude": "Moderate elevation (2,000-3,500m). Gentle pacing suitable for couples.",
+        "connectivity": "Minimal connectivity. Designed for presence and disconnection together.",
+        "suitability": "Perfect for couples seeking reconnection and presence. Not suitable if you need constant communication."
+      }
+    },
+    "collectiveAscent": {
+      "title": "सामूहिक चढाइ",
+      "subtitle": "साना टोलीहरू (४–१२) र नेतृत्व समूहहरूको लागि",
+      "description": "Shared elevation creates shared understanding. This journey brings teams into a quiet, neutral environment where alignment, trust, and perspective can naturally return. Designed for teams who value depth over activities and clarity over speed.",
+      "forWho": [
+        "Teams navigating conflict or transition",
+        "Leadership groups needing alignment",
+        "Small teams seeking deeper trust and collaboration"
+      ],
+      "dailyRhythm": {
+        "morning": "Shared breakfast. Brief intention setting. Begin walking together at a natural pace.",
+        "midday": "Trekking with natural pauses. Space for conversations and shared reflection.",
+        "evening": "Shared dinner. Facilitated reflection time. Building trust through shared experience."
+      },
+      "itinerary": {
+        "day1": {
+          "title": "Arrival and gathering",
+          "description": "Arrive in Kathmandu. Team gathering. Brief orientation and intention setting."
+        },
+        "day2": {
+          "title": "Journey begins",
+          "description": "Travel to starting point. First day of shared elevation and connection."
+        },
+        "day3": {
+          "title": "Building trust",
+          "description": "Full day of trekking together. Natural dynamics emerge. Trust begins to build."
+        },
+        "day4": {
+          "title": "Deepening alignment",
+          "description": "Continue at elevation. Facilitated reflection. Authentic conversations emerge."
+        },
+        "day5": {
+          "title": "Integration day",
+          "description": "Day of rest and reflection. Processing insights. Planning for return as a team."
+        },
+        "day6": {
+          "title": "Return together",
+          "description": "Begin descent. Integrating shared insights. Preparing to work differently together."
+        },
+        "day7": {
+          "title": "Departure",
+          "description": "Final reflection as a team. Departure with renewed trust and alignment."
+        }
+      },
+      "included": [
+        "Accommodation guidance and support",
+        "Local guide with team experience",
+        "Pacing designed for team connection",
+        "Facilitated reflection sessions",
+        "Shared spaces for authentic conversations",
+        "Support for team dynamics"
+      ],
+      "excluded": [
+        "International flights",
+        "Visa arrangements",
+        "Personal travel insurance",
+        "Specific accommodation guarantees"
+      ],
+      "practicalNotes": {
+        "seasons": "Best in spring and autumn for group travel and optimal conditions.",
+        "altitude": "Moderate elevation (2,000-3,500m). Suitable for most team members with proper pacing.",
+        "connectivity": "Reliable internet at base locations. Limited during trekking days for focused team time.",
+        "suitability": "Ideal for small teams (4-12 people) seeking alignment. Work-friendly with shared spaces."
+      }
+    },
+    "detail": {
+      "enquire": "सोधपुछ गर्नुहोस्",
+      "exploreOtherJourneys": "अन्य यात्राहरू अन्वेषण गर्नुहोस्",
+      "whoThisJourneyIsFor": "यो यात्रा कसको लागि हो",
+      "whatThisJourneyOffers": "यो यात्राले के प्रदान गर्छ",
+      "paceAndRhythm": "गति र लय",
+      "paceAndRhythmDesc": "काम, विश्राम, र चिन्तनको लागि अनुमति दिने कोमल दैनिक लय। कुनै कठोर तालिकाहरू छैनन्। तपाईंले पूरा गर्न आवश्यक कुराको वरिपरि तपाईंको दिनहरू संरचना गर्नुहोस्, प्राकृतिक विरामहरू निर्मित छन्।",
+      "workFriendliness": "काम-अनुकूलता",
+      "workFriendlinessDesc": "यो यात्राले फोकस गरिएको कामलाई समर्थन गर्छ। सम्भव भएसम्म विश्वसनीय कनेक्टिभिटी, सोचको लागि शान्त स्थानहरू, र तपाईंको कामको आवश्यकताहरूको वरिपरि तपाईंको दिनहरू संरचना गर्न लचिलोपन।",
+      "reflectionAndRestFocus": "चिन्तन र विश्राम फोकस",
+      "reflectionAndRestFocusDesc": "चिन्तन, जर्नलिङ, र विश्रामको लागि पर्याप्त समय। गतिले अन्तर्दृष्टिहरू प्रक्रिया गर्न र स्पष्टतासँग फर्कन अनुमति दिन्छ।",
+      "supportAndGuidance": "समर्थन र मार्गदर्शन",
+      "supportAndGuidanceDesc": "स्थानीय समर्थनले तपाईंलाई चाहिने कुरा छ भन्ने सुनिश्चित गर्छ। मार्गदर्शन, व्यवस्थापन होइन। चाहिने बेला मद्दत, नचाहिने बेला ठाउँ।",
+      "aGentleRhythm": "कोमल लय",
+      "morning": "बिहान",
+      "midday": "दिउँसो",
+      "evening": "साँझ",
+      "sampleItinerary": "नमूना यात्रा कार्यक्रम",
+      "day": "दिन",
+      "practicalNotes": "व्यावहारिक नोटहरू",
+      "seasons": "ऋतुहरू",
+      "altitude": "उचाइ",
+      "connectivityExpectations": "कनेक्टिभिटी अपेक्षाहरू",
+      "suitabilityNotes": "उपयुक्तता नोटहरू",
+      "whatsIncluded": "के समावेश छ",
+      "notIncluded": "समावेश छैन",
+      "enquireAboutThisJourney": "यो यात्राको बारेमा सोधपुछ गर्नुहोस्",
+      "enquireAboutThisJourneyDesc": "यो यात्राले तपाईंको आवश्यकतालाई कसरी सेवा गर्न सक्छ भनेर छलफल गरौं। कुनै दबाब छैन, केवल ईमान्दार वार्तालाप।",
+      "beginConversation": "कुराकानी सुरु गर्नुहोस्"
+    }
+  },
+  "enquire": {
+    "title": "कुराकानी सुरु गर्नुहोस्",
+    "subtitle": "हामीलाई भन्नुहोस् तपाईं के खोजिरहनुभएको छ। कुनै प्रतिबद्धता छैन — केवल सोचिएको विनिमय।",
+    "form": {
+      "name": "नाम",
+      "email": "इमेल",
+      "message": "सन्देश",
+      "messageHint": "तपाईंले चाहे जति वा जति कम साझेदारी गर्न सक्नुहुन्छ — विचार, प्रश्न, वा इरादा।",
+      "submit": "सोधपुछ पठाउनुहोस्",
+      "sending": "पठाउँदै...",
+      "sent": "पठाइयो",
+      "success": "तपाईंको सन्देशको लागि धन्यवाद। हामीले तपाईंको सोधपुछ प्राप्त गरेका छौं र छिट्टै सोचेर जवाफ दिनेछौं।",
+      "error": "केही गलत भयो। कृपया फेरि प्रयास गर्नुहोस्।",
+      "responseTime": "हामी सामान्यतया २४–४८ घण्टाभित्र जवाफ दिन्छौं। कुनै दबाब छैन।",
+      "reassurance": "हामीले हरेक सन्देशलाई सावधानीपूर्वक पढ्छौं। कुनै स्वचालित जवाफ छैन, कुनै दबाब छैन, र कुनै अपेक्षा छैन — केवल सोचिएको जवाफ।",
+      "journeyInterest": "मलाई {journey} मा रुचि छ।",
+      "workInterest": "मलाई हिमालबाट काममा रुचि छ।"
+    }
+  },
+  "places": {
+    "manang": {
+      "title": "मनाङ",
+      "description": "मौन र लामो विरामले परिभाषित उच्च-उचाइको हिमाली गाउँ। यहाँको गति बिस्तारै छ। हावा पातलो छ। प्रकाश स्पष्ट छ।",
+      "whyManang": {
+        "title": "किन मनाङ",
+        "stillness": {
+          "title": "शान्ति",
+          "text": "यहाँको शान्ति अनुपस्थिति होइन। यो उपस्थिति हो। त्यस्तो शान्ति जसले तपाईंलाई तपाईंले हराएको कुरा सुन्न अनुमति दिन्छ। दिनहरू बिस्तारै चल्छन्। साँझहरू फैलिन्छन्। समय विशाल बन्छ।"
+        },
+        "light": {
+          "title": "प्रकाश",
+          "text": "उचाइमा प्रकाश फरक छ। स्पष्ट। अधिक प्रत्यक्ष। यसले केवल भूपृष्ठ मात्र होइन, तर तपाईंको सोचलाई पनि प्रकाशित गर्छ। तपाईंले खोज्नुभएको स्पष्टता प्रायः प्रकाशको स्पष्टतासँग आउँछ।"
+        },
+        "altitude": {
+          "title": "उचाइ",
+          "text": "उचाइले धैर्य चाहिन्छ। तपाईंको शरीर समायोजन हुन्छ। तपाईंको मन समायोजन हुन्छ। प्रक्रियाले नै बिस्तारै जाने, सीमाहरूको सम्मान गर्ने, क्रमिक परिवर्तनको मूल्यको बारेमा केही सिकाउँछ।"
+        },
+        "simplicity": {
+          "title": "सरलता",
+          "text": "सरलता कमी होइन। यो फोकस हो। कम विचलनहरू। कम छनोटहरू। जुन बाँकी रहन्छ त्यो महत्त्वपूर्ण छ। यो सरलताले जटिलतामा हराउने त्यस्तो सोचलाई समर्थन गर्छ।"
+        }
+      },
+      "supports": {
+        "title": "यो स्थानले के समर्थन गर्छ",
+        "deepWork": {
+          "title": "गहिरो काम",
+          "text": "शान्ति, उचाइ, सरलता—तिनीहरूले त्यस्ता अवस्थाहरू सिर्जना गर्छन् जहाँ फोकस स्वाभाविक बन्छ। तपाईंले निरन्तर विचलनको तान बिना काम गर्नुहुन्छ।"
+        },
+        "reflection": {
+          "title": "चिन्तन",
+          "text": "गतिविधिहरू बीचको लामो विरामहरू। हिँडाइहरू। शान्ति। यी क्षणहरूले तपाईंलाई प्रक्रिया गर्न र बुझ्न अनुमति दिन्छन्।"
+        },
+        "thinking": {
+          "title": "दीर्घ-रूप सोच",
+          "text": "समय र ठाउँ चाहिने त्यस्तो निरन्तर विचार। असाध्य लागेका समस्याहरू समाधान हुन सुरु गर्छन्।"
+        }
+      },
+      "practical": {
+        "title": "व्यावहारिक जानकारी",
+        "subtitle": "सुविधाहरू, सेवाहरू, र के अपेक्षा गर्ने बारेमा आवश्यक विवरणहरू",
+        "medical": {
+          "title": "चिकित्सा सुविधाहरू",
+          "healthPost": {
+            "name": "मनाङ स्वास्थ्य पोस्ट",
+            "description": "गाउँमा उपलब्ध आधारभूत चिकित्सा सेवाहरू"
+          },
+          "altitude": {
+            "name": "उचाइ रोग समर्थन",
+            "description": "उचाइ-सम्बन्धित समस्याहरू पहिचान र व्यवस्थापन गर्न प्रशिक्षित स्थानीय गाइडहरू"
+          },
+          "evacuation": {
+            "name": "आपतकालीन निकासी",
+            "description": "गम्भीर चिकित्सा आपतकालीन अवस्थाहरूको लागि हेलिकप्टर निकासी उपलब्ध"
+          }
+        },
+        "attractions": {
+          "title": "नजिकैका आकर्षणहरू",
+          "gangapurna": {
+            "name": "गंगापूर्ण ताल",
+            "description": "गाउँबाट छोटो हिँडाइ। चिन्तनको लागि शान्त ठाउँ"
+          },
+          "iceLake": {
+            "name": "बर्फ ताल (किचो ताल)",
+            "description": "दिनको हाइक गन्तव्य। आश्चर्यजनक हिमाल दृश्यहरू भएको उच्च-उचाइको ताल"
+          },
+          "milarepa": {
+            "name": "मिलारेपा गुफा",
+            "description": "ऐतिहासिक ध्यान गुफा। शान्त महत्त्वको ठाउँ"
+          }
+        },
+        "connectivity": {
+          "title": "कनेक्टिभिटी",
+          "internet": {
+            "name": "इन्टरनेट पहुँच",
+            "description": "सीमित र अन्तराल। केवल आवश्यक संचारको लागि उत्तम"
+          },
+          "mobile": {
+            "name": "मोबाइल नेटवर्क",
+            "description": "अनियमित कभरेज। केही क्षेत्रहरूमा अरू भन्दा राम्रो सिग्नल छ"
+          },
+          "power": {
+            "name": "बिजुली आपूर्ति",
+            "description": "बिजुली उपलब्ध छ तर अविश्वसनीय हुन सक्छ। उपकरणहरूको लागि सौर्य शक्ति सिफारिस गरिन्छ"
+          }
+        },
+        "accommodation": {
+          "title": "आवास र सेवाहरू",
+          "lodges": {
+            "name": "लजहरू र गेस्टहाउसहरू",
+            "description": "सरल, आरामदायक आवासहरू। आधारभूत सुविधाहरू उपलब्ध"
+          },
+          "dining": {
+            "name": "खाना",
+            "description": "स्थानीय चिया घरहरूले परम्परागत नेपाली र तिब्बती खाना परोस्छन्"
+          },
+          "supplies": {
+            "name": "सामग्रीहरू",
+            "description": "आधारभूत सामग्रीहरू उपलब्ध। सीमित छनोट। तदनुसार योजना बनाउनुहोस्"
+          }
+        }
+      },
+      "considerations": {
+        "title": "महत्त्वपूर्ण विचारहरू",
+        "altitude": {
+          "title": "उचाइ",
+          "text": "मनाङ लगभग ३,५४० मिटर (११,६१४ फिट) मा अवस्थित छ। यसले उचित एक्लिमाटाइजेसन चाहिन्छ। केही मानिसहरू छिटो समायोजन हुन्छन्। अरूहरूलाई थप समय चाहिन्छ। हामीले उचित समर्थन र गति सुनिश्चित गर्छौं। तपाईंको भलाइ कुनै पनि तालिकाभन्दा महत्त्वपूर्ण छ।"
+        },
+        "connectivity": {
+          "title": "कनेक्टिभिटी सीमाहरू",
+          "text": "इन्टरनेट पहुँच सीमित छ। यो जानबुझेर हो। गहिरो काम सम्भव बनाउने शान्तिले कम कनेक्टिभिटी पनि मतलब राख्छ। यदि तपाईंको कामले निरन्तर अनलाइन उपस्थिति वा वास्तविक-समय सहयोग चाहिन्छ भने, यो सही फिट हुन नसक्छ।"
+        },
+        "notForEveryone": {
+          "title": "सबैको लागि होइन",
+          "text": "यो स्थान सबैको लागि होइन। यदि तपाईंलाई शहरी आराम, विश्वसनीय कनेक्टिभिटी, वा व्यापक पूर्वाधार चाहिन्छ भने, अरू ठाउँ हेर्नुहोस्। हामी सीमाहरूको बारेमा ईमान्दार छौं किनभने हामी चाहन्छौं कि तपाईंले वास्तवमा तपाईंलाई सेवा गर्ने कुरा छान्नुहोस्।"
+        }
+      },
+      "workCta": {
+        "title": "हिमालबाट काम",
+        "text": "मनाङ काम-केन्द्रित बसाइको लागि उपयुक्त छ। सरलता र उचाइसँग आरामदायक मानिसहरूको लागि। यदि तपाईंलाई सोच्न, लेख्न, निर्माण गर्न शान्त ठाउँ चाहिन्छ भने, यो स्थानले त्यो प्रदान गर्छ।"
+      }
+    }
+  }
+}
+

@@ -49,6 +49,7 @@ export default function LanguageSwitcher({ useWhiteText = false }: LanguageSwitc
     ru: 'RU',
     zh: 'ZH',
     de: 'DE',
+    ne: 'NE',
   };
 
   const textColor = useWhiteText ? 'text-white/90' : 'text-[#4a5560]';
