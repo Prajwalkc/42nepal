@@ -344,6 +344,44 @@
         "altitude": "Mäßige Höhe (2.000-3.500 m). Geeignet für strategisches Denken und Reflexion.",
         "connectivity": "Zuverlässiges Internet an Basisstandorten verfügbar. Begrenzte Konnektivität während Trekkingtagen.",
         "suitability": "Ideal für Gründer und kleine Teams, die Klarheit suchen. Arbeitsfreundlich mit dedizierten Räumen."
+      },
+      "whyThisJourneyExists": {
+        "title": "Warum diese Reise existiert",
+        "paragraph1": "Die besten Führungsentscheidungen kommen nicht aus Dringlichkeit. Sie kommen aus Klarheit. Führung in Stille existiert, weil wir glauben, dass die effektivsten Führungskräfte diejenigen sind, die sich vom Lärm entfernen, Perspektive gewinnen und Entscheidungen aus einem Ort ruhigen Vertrauens statt reaktiver Dringlichkeit treffen können.",
+        "paragraph2": "Im Himalaya nimmt die Perspektive eine andere Qualität an. Von der Höhe aus sehen Sie anders. Die Probleme, die auf Meereshöhe überwältigend wirkten, werden von oben klarer. Die Entscheidungen, die dringend schienen, werden weniger drängend. Die Stille ermöglicht die Art des Denkens, die gute Führung erfordert.",
+        "paragraph3": "Diese Reise geht nicht darum, neue Rahmenwerke oder Strategien zu lernen. Es geht darum, Raum zu schaffen. Raum zum klaren Denken. Raum, um das große Ganze zu sehen. Raum, um Entscheidungen aus einem Ort der Klarheit statt der Reaktion zu treffen. Die Berge bieten die Höhe. Sie bieten die Bereitschaft, sich zu entfernen. Zusammen schaffen sie die Bedingungen für echte Perspektive."
+      },
+      "whatChangesAfter": {
+        "title": "Was sich danach ändert",
+        "paragraph1": "Sie kehren mit einem erneuerten Gefühl der Perspektive zurück. Die Klarheit, die Sie in der Höhe finden, bleibt bei Ihnen. Die Entscheidungen, die Sie aus der Stille treffen, werden zu Prüfsteinen dafür, wie Sie führen möchten. Die Perspektive, die Sie gewinnen, wird zu etwas, zu dem Sie zurückkehren können, wenn der Lärm der täglichen Führung wieder laut wird.",
+        "paragraph2": "Die Erfahrung, aus der Stille zu führen, wird zu einem Bezugspunkt. Sie werden sich daran erinnern, wie es sich anfühlt, Entscheidungen aus Klarheit statt Dringlichkeit zu treffen, das große Ganze zu sehen, anstatt sich im Unmittelbaren zu verlieren, aus ruhigem Vertrauen statt reaktivem Druck zu führen.",
+        "paragraph3": "Am wichtigsten ist, dass Sie Raum für die Art des Denkens geschaffen haben, die gute Führung erfordert. Raum, der es Ihnen ermöglicht, klar zu sehen, Entscheidungen durchdacht zu treffen und aus einem Ort der Perspektive statt der Reaktion zu führen. Dieser Raum wird zu etwas, zu dem Sie zurückkehren können, selbst inmitten anspruchsvoller Führungsverantwortlichkeiten."
+      },
+      "aGentleFlow": {
+        "title": "Ein sanfter Fluss",
+        "day1": {
+          "title": "Tag 1: Ankunft und Orientierung",
+          "description": "Ankunft in Kathmandu. Kurze Orientierung. Zeit zum Trennen und Vorbereiten. Entfernen Sie sich von den unmittelbaren Anforderungen der Führung. Beginnen Sie, Raum für die Art des Denkens zu schaffen, die gute Führung erfordert."
+        },
+        "day2": {
+          "title": "Tag 2: Beginn der Reise",
+          "description": "Fahrt zum Ausgangspunkt. Erster Tag der Höhe und Perspektive. Beginnen Sie anders zu sehen. Die Berge bieten die Höhe. Sie bieten die Bereitschaft, sich von der Dringlichkeit zu entfernen und in Klarheit einzutreten."
+        },
+        "day3": {
+          "title": "Tag 3: Strategische Reflexion",
+          "description": "Voller Tag in der Höhe. Zeit für tiefes Nachdenken über Führungsherausforderungen. Raum für strategische Reflexion. Die Stille ermöglicht die Art der Klarheit, die gute Entscheidungen erfordern. Beginnen Sie, das große Ganze zu sehen. Kehren Sie mit dem Beginn der Perspektive zurück."
+        }
+      },
+      "importantToKnow": {
+        "title": "Wichtig zu wissen",
+        "paragraph1": "Diese Reise ist für Führungskräfte konzipiert, die verstehen, dass die besten Entscheidungen aus Stille, nicht aus Geschwindigkeit kommen. Das Tempo ist absichtlich—langsam genug, um tiefes Nachdenken zu ermöglichen, strukturiert genug, um strategische Reflexion zu unterstützen. Wenn Sie eine hochintensive Erfahrung oder strukturiertes Führungstraining suchen, ist dies möglicherweise nicht die richtige Reise für Sie.",
+        "paragraph2": "Die Konnektivität ist an Basisstandorten verfügbar, aber während der Trekkingtage absichtlich begrenzt. Dies ist beabsichtigt. Die Perspektive, die Sie suchen, erfordert Raum von den ständigen Anforderungen der Führung. Wenn Sie ständige Konnektivität oder regelmäßigen Zugang zu Ihrem Team benötigen, überlegen Sie, ob diese Reise Ihren Bedürfnissen entspricht.",
+        "paragraph3": "Die Reise erfordert ein grundlegendes Maß an körperlicher Fitness, aber der Schwerpunkt liegt auf Höhe und Perspektive, nicht auf anstrengender Aktivität. Die Berge bieten die Höhe. Sie bieten die Bereitschaft, sich zu entfernen und klar zu denken. Zusammen schaffen sie die Bedingungen für echte Führungsperspektive."
+      },
+      "startConversation": {
+        "title": "Ein Gespräch beginnen",
+        "subtitle": "Lassen Sie uns besprechen, wie Zwischen Entscheidungen Ihrem Bedürfnis nach Perspektive und Klarheit dienen kann. Kein Druck, nur durchdachter Dialog.",
+        "button": "Ein Gespräch beginnen"
       }
     },
     "soloReflection": {
@@ -409,6 +447,44 @@
         "altitude": "Mäßige bis hohe Höhe (2.500-4.000 m). Erfordert gute körperliche Verfassung.",
         "connectivity": "Minimale Konnektivität. Entwickelt für vollständige Trennung und Einsamkeit.",
         "suitability": "Perfekt für Alleinreisende, die tiefe Reflexion suchen. Nicht geeignet, wenn Sie ständige Kommunikation benötigen."
+      },
+      "whyThisJourneyExists": {
+        "title": "Warum diese Reise existiert",
+        "paragraph1": "Einige Fragen können nur allein beantwortet werden. Einige Einsichten entstehen nur in der Einsamkeit. Die Solo-Reflexionsreise existiert, weil wir glauben, dass es einen tiefen Wert darin gibt, allein zu gehen, tief zu denken, ohne die Anwesenheit anderer, den Raum zu haben, das zu verarbeiten, was verarbeitet werden muss, ohne externe Eingaben.",
+        "paragraph2": "Im Himalaya nimmt die Einsamkeit eine andere Qualität an. Es ist nicht Einsamkeit—es ist Präsenz mit sich selbst. Die Berge verlangen kein Gespräch. Sie existieren einfach, und in ihrer Anwesenheit können Sie vollständig mit sich selbst existieren. Diese Reise geht darum, die Bedingungen für diese Art von Präsenz zu schaffen.",
+        "paragraph3": "Die Solo-Reflexionsreise geht nicht um Isolation. Es geht um absichtliche Einsamkeit. Darum, allein zu gehen, nicht weil Sie müssen, sondern weil Sie erkennen, dass einige Wege dazu bestimmt sind, allein gegangen zu werden. Die Berge bieten den Raum. Sie bieten die Bereitschaft, mit sich selbst präsent zu sein. Zusammen schaffen sie die Bedingungen für echte Einsicht."
+      },
+      "whatChangesAfter": {
+        "title": "Was sich danach ändert",
+        "paragraph1": "Sie kehren mit einem tieferen Verständnis Ihrer selbst zurück. Die Einsichten, die Sie in der Einsamkeit gewinnen, bleiben bei Ihnen. Die Fragen, die Sie allein verarbeiten, werden klarer. Die Klarheit, die Sie beim Alleingehen finden, wird zu etwas, zu dem Sie zurückkehren können, selbst wenn Sie wieder im Lärm des täglichen Lebens sind.",
+        "paragraph2": "Die Erfahrung absichtlicher Einsamkeit wird zu einem Prüfstein. Sie werden sich daran erinnern, wie es sich anfühlt, tief ohne Unterbrechung zu denken, ohne externe Eingaben zu verarbeiten, vollständig mit sich selbst präsent zu sein. Diese Erinnerung wird zu etwas, auf das Sie zugreifen können, wenn Sie Raum zum klaren Denken benötigen.",
+        "paragraph3": "Am wichtigsten ist, dass Sie Raum für Reflexion geschaffen haben, der vorher nicht existierte. Raum, der es Ihnen ermöglicht, sich selbst klarer zu sehen, Ihre eigenen Muster zu verstehen und Entscheidungen aus einem Ort der Klarheit statt der Reaktion zu treffen. Dieser Raum wird zu etwas, zu dem Sie zurückkehren können, selbst inmitten täglicher Anforderungen."
+      },
+      "aGentleFlow": {
+        "title": "Ein sanfter Fluss",
+        "day1": {
+          "title": "Tag 1: Ankunft und Einleben",
+          "description": "Ankunft in Kathmandu. Kurze Orientierung. Zeit, sich in die Einsamkeit einzuleben. Keine Erwartungen. Keine Agenda. Nur die Erlaubnis, vollständig allein mit sich selbst zu sein."
+        },
+        "day2": {
+          "title": "Tag 2: Allein beginnen",
+          "description": "Fahrt zum Ausgangspunkt. Erster Tag des Alleingehens und der Reflexion. Beginnen Sie, Ihren eigenen Rhythmus zu finden—gehen, pausieren, reflektieren. Kein Zeitplan. Seien Sie einfach präsent mit den Bergen und sich selbst."
+        },
+        "day3": {
+          "title": "Tag 3: Vertiefung der Einsicht",
+          "description": "Voller Tag des Gehens in Ihrem eigenen Tempo. Zeit zum Verarbeiten und Reflektieren. Einsichten entstehen natürlich aus der Stille. Beginnen Sie, sich selbst klarer zu sehen. Kehren Sie mit dem Beginn der Klarheit zurück."
+        }
+      },
+      "importantToKnow": {
+        "title": "Wichtig zu wissen",
+        "paragraph1": "Diese Reise ist für absichtliche Einsamkeit konzipiert, nicht für Isolation. Das Tempo ist Ihr eigenes. Der Zeitplan ist minimal. Das Ziel ist Reflexion, nicht Leistung. Wenn Sie strukturierte Aktivitäten oder Gruppenerfahrungen suchen, ist dies möglicherweise nicht die richtige Reise für Sie.",
+        "paragraph2": "Die Konnektivität ist absichtlich minimal. Dies ist beabsichtigt. Die Reflexion, die Sie suchen, erfordert Raum von den ständigen Eingaben anderer. Wenn Sie ständige Kommunikation oder regelmäßige Check-ins benötigen, überlegen Sie, ob diese Reise Ihren Bedürfnissen entspricht.",
+        "paragraph3": "Die Reise erfordert ein gutes Maß an körperlicher Fitness, aber der Schwerpunkt liegt auf dem Gehen in Ihrem eigenen Tempo und der Reflexion, nicht auf anstrengender Aktivität. Die Berge bieten den Raum. Sie bieten die Bereitschaft, mit sich selbst präsent zu sein. Zusammen schaffen sie die Bedingungen für echte Einsicht."
+      },
+      "startConversation": {
+        "title": "Ein Gespräch beginnen",
+        "subtitle": "Lassen Sie uns besprechen, wie die Solo-Reflexionsreise Ihrem Bedürfnis nach Einsamkeit und Reflexion dienen kann. Kein Druck, nur durchdachter Dialog.",
+        "button": "Ein Gespräch beginnen"
       }
     },
     "sharedStillness": {
@@ -474,6 +550,44 @@
         "altitude": "Mäßige Höhe (2.000-3.500 m). Sanftes Tempo, geeignet für Paare.",
         "connectivity": "Minimale Konnektivität. Entwickelt für Präsenz und gemeinsame Trennung.",
         "suitability": "Perfekt für Paare, die Wiederverbindung und Präsenz suchen. Nicht geeignet, wenn Sie ständige Kommunikation benötigen."
+      },
+      "whyThisJourneyExists": {
+        "title": "Warum diese Reise existiert",
+        "paragraph1": "Beziehungen brauchen Raum. Nicht Distanz, sondern Präsenz. Geteilte Stille existiert, weil wir glauben, dass die besten Verbindungen entstehen, wenn Paare zusammen wegtreten können, Raum für das schaffen, was wichtig ist, und sich daran erinnern, was sie ursprünglich zusammengebracht hat.",
+        "paragraph2": "Im Himalaya nimmt die Präsenz eine andere Qualität an. Die Berge verlangen kein Gespräch. Sie existieren einfach, und in ihrer Anwesenheit können Sie vollständig miteinander existieren. Diese Reise geht darum, die Bedingungen für diese Art von Präsenz zu schaffen—zusammen.",
+        "paragraph3": "Geteilte Stille geht nicht darum, Ihre Beziehung zu reparieren. Es geht darum, Raum zu schaffen. Raum, um miteinander präsent zu sein. Raum, um sich an das zu erinnern, was wichtig ist. Raum, um sich ohne den Lärm des täglichen Lebens wieder zu verbinden. Die Berge bieten die Stille. Sie bieten die Bereitschaft, zusammen präsent zu sein. Zusammen schaffen sie die Bedingungen für echte Verbindung."
+      },
+      "whatChangesAfter": {
+        "title": "Was sich danach ändert",
+        "paragraph1": "Sie kehren mit einem erneuerten Gefühl der Verbindung zurück. Die Präsenz, die Sie zusammen in den Bergen finden, bleibt bei Ihnen. Die Momente geteilter Stille werden zu Prüfsteinen dafür, wie Sie zusammen sein möchten. Die Klarheit, die Sie gewinnen, wird zu etwas, zu dem Sie zurückkehren können, wenn das tägliche Leben wieder laut wird.",
+        "paragraph2": "Die Erfahrung, zusammen präsent zu sein, wird zu einem Bezugspunkt. Sie werden sich daran erinnern, wie es sich anfühlt, vollständig miteinander präsent zu sein, Raum für das zu schaffen, was wichtig ist, sich ohne Agenda wieder zu verbinden. Diese Erinnerung wird zu etwas, auf das Sie zugreifen können, wenn Sie sich daran erinnern müssen, was Sie zusammengebracht hat.",
+        "paragraph3": "Am wichtigsten ist, dass Sie Raum für Verbindung geschaffen haben, der vorher nicht existierte. Raum, der es Ihnen ermöglicht, einander klarer zu sehen, Ihre gemeinsamen Muster zu verstehen und aus einem Ort der Präsenz statt der Routine zusammen zu sein. Dieser Raum wird zu etwas, zu dem Sie zurückkehren können, selbst inmitten täglicher Anforderungen."
+      },
+      "aGentleFlow": {
+        "title": "Ein sanfter Fluss",
+        "day1": {
+          "title": "Tag 1: Ankunft und Einleben",
+          "description": "Ankunft in Kathmandu. Kurze Orientierung. Zeit zum Ausruhen und gemeinsamen Einleben. Keine Erwartungen. Keine Agenda. Nur die Erlaubnis, vollständig miteinander präsent zu sein."
+        },
+        "day2": {
+          "title": "Tag 2: Zusammen beginnen",
+          "description": "Fahrt zum Ausgangspunkt. Erster sanfter Spaziergang zusammen. Einführung in die geteilte Stille. Beginnen Sie, Ihren gemeinsamen Rhythmus zu finden—gehen, pausieren, präsent sein. Kein Zeitplan. Seien Sie einfach präsent miteinander und mit den Bergen."
+        },
+        "day3": {
+          "title": "Tag 3: Präsenz finden",
+          "description": "Voller Tag des gemeinsamen Gehens in achtsamem Tempo. Raum für Präsenz und Verbindung schaffen. Die Stille ermöglicht die Art der Klarheit, die gute Beziehungen erfordern. Beginnen Sie, einander klarer zu sehen. Kehren Sie mit dem Beginn der Wiederverbindung zurück."
+        }
+      },
+      "importantToKnow": {
+        "title": "Wichtig zu wissen",
+        "paragraph1": "Diese Reise ist für Paare konzipiert, die sich wieder verbinden und zusammen verlangsamen möchten. Das Tempo ist sanft. Der Zeitplan ist minimal. Das Ziel ist Präsenz, nicht Aktivitäten. Wenn Sie strukturierte Paartherapie oder intensive Beziehungsarbeit suchen, ist dies möglicherweise nicht die richtige Reise für Sie.",
+        "paragraph2": "Die Konnektivität ist absichtlich minimal. Dies ist beabsichtigt. Die Präsenz, die Sie suchen, erfordert Raum von den ständigen Anforderungen des täglichen Lebens. Wenn Sie ständige Kommunikation oder regelmäßige Check-ins mit Arbeit oder Familie benötigen, überlegen Sie, ob diese Reise Ihren Bedürfnissen entspricht.",
+        "paragraph3": "Die Reise erfordert ein grundlegendes Maß an körperlicher Fitness, aber der Schwerpunkt liegt auf sanfter Bewegung und gemeinsamer Präsenz, nicht auf anstrengender Aktivität. Die Berge bieten die Stille. Sie bieten die Bereitschaft, zusammen präsent zu sein. Zusammen schaffen sie die Bedingungen für echte Verbindung."
+      },
+      "startConversation": {
+        "title": "Ein Gespräch beginnen",
+        "subtitle": "Lassen Sie uns besprechen, wie Geteilte Stille Ihrem Bedürfnis nach Wiederverbindung und Präsenz dienen kann. Kein Druck, nur durchdachter Dialog.",
+        "button": "Ein Gespräch beginnen"
       }
     },
     "collectiveAscent": {
@@ -539,6 +653,44 @@
         "altitude": "Mäßige Höhe (2.000-3.500 m). Geeignet für die meisten Teammitglieder mit angemessenem Tempo.",
         "connectivity": "Zuverlässiges Internet an Basisstandorten. Begrenzt während Trekkingtagen für fokussierte Teamzeit.",
         "suitability": "Ideal für kleine Teams (4-12 Personen), die Ausrichtung suchen. Arbeitsfreundlich mit geteilten Räumen."
+      },
+      "whyThisJourneyExists": {
+        "title": "Warum diese Reise existiert",
+        "paragraph1": "Teams brauchen Raum. Nicht Distanz, sondern Perspektive. Kollektiver Aufstieg existiert, weil wir glauben, dass die beste Teamausrichtung entsteht, wenn Teams zusammen wegtreten können, Raum für authentische Gespräche schaffen und sich daran erinnern, was sie ursprünglich zusammengebracht hat.",
+        "paragraph2": "Im Himalaya nimmt die Perspektive eine andere Qualität an. Von der Höhe aus sehen Teams anders. Die Konflikte, die auf Meereshöhe überwältigend wirkten, werden von oben klarer. Die Dynamiken, die festgefahren schienen, werden flüssiger. Die Stille ermöglicht die Art von Gesprächen, die gute Teams erfordern.",
+        "paragraph3": "Kollektiver Aufstieg geht nicht um Teambuilding-Aktivitäten. Es geht darum, Raum zu schaffen. Raum für authentische Gespräche. Raum, um das große Ganze zusammen zu sehen. Raum, um sich aus einem Ort der Klarheit statt der Dringlichkeit auszurichten. Die Berge bieten die Höhe. Sie bieten die Bereitschaft, zusammen wegzutreten. Zusammen schaffen sie die Bedingungen für echte Ausrichtung."
+      },
+      "whatChangesAfter": {
+        "title": "Was sich danach ändert",
+        "paragraph1": "Sie kehren mit einem erneuerten Gefühl der Ausrichtung zurück. Die Perspektive, die Sie zusammen in den Bergen gewinnen, bleibt bei Ihnen. Die Gespräche, die Sie aus der Stille führen, werden zu Prüfsteinen dafür, wie Sie zusammenarbeiten möchten. Die Klarheit, die Sie gewinnen, wird zu etwas, zu dem Sie zurückkehren können, wenn die tägliche Arbeit wieder laut wird.",
+        "paragraph2": "Die Erfahrung, aus der Ausrichtung zu arbeiten, wird zu einem Bezugspunkt. Sie werden sich daran erinnern, wie es sich anfühlt, authentische Gespräche zu führen, das große Ganze zusammen zu sehen, sich aus einem Ort der Klarheit statt des Konflikts auszurichten. Diese Erinnerung wird zu etwas, auf das Sie zugreifen können, wenn Sie sich daran erinnern müssen, was Sie zusammengebracht hat.",
+        "paragraph3": "Am wichtigsten ist, dass Sie Raum für Ausrichtung geschaffen haben, der vorher nicht existierte. Raum, der es Ihnen ermöglicht, einander klarer zu sehen, Ihre gemeinsamen Dynamiken zu verstehen und aus einem Ort des Vertrauens statt der Spannung zusammen zu arbeiten. Dieser Raum wird zu etwas, zu dem Sie zurückkehren können, selbst inmitten anspruchsvoller Arbeit."
+      },
+      "aGentleFlow": {
+        "title": "Ein sanfter Fluss",
+        "day1": {
+          "title": "Tag 1: Ankunft und Versammlung",
+          "description": "Ankunft in Kathmandu. Teamversammlung. Kurze Orientierung und Absichtserklärung. Keine Erwartungen. Keine Agenda. Nur die Erlaubnis, zusammen wegzutreten und Raum für authentische Gespräche zu schaffen."
+        },
+        "day2": {
+          "title": "Tag 2: Zusammen beginnen",
+          "description": "Fahrt zum Ausgangspunkt. Erster Tag der geteilten Höhe und Verbindung. Beginnen Sie zusammen anders zu sehen. Die Berge bieten die Höhe. Sie bieten die Bereitschaft, sich von den täglichen Dynamiken zu entfernen und in Klarheit einzutreten."
+        },
+        "day3": {
+          "title": "Tag 3: Vertrauen aufbauen",
+          "description": "Voller Tag des gemeinsamen Trekkings. Natürliche Dynamiken entstehen. Vertrauen beginnt sich aufzubauen. Die Stille ermöglicht die Art von Gesprächen, die gute Teams erfordern. Beginnen Sie zusammen das große Ganze zu sehen. Kehren Sie mit dem Beginn der Ausrichtung zurück."
+        }
+      },
+      "importantToKnow": {
+        "title": "Wichtig zu wissen",
+        "paragraph1": "Diese Reise ist für Teams konzipiert, die sich ausrichten und wieder verbinden möchten. Das Tempo ist absichtlich—langsam genug, um authentische Gespräche zu ermöglichen, strukturiert genug, um Teamreflexion zu unterstützen. Wenn Sie hochintensives Teambuilding oder strukturiertes Teamtraining suchen, ist dies möglicherweise nicht die richtige Reise für Sie.",
+        "paragraph2": "Die Konnektivität ist an Basisstandorten verfügbar, aber während der Trekkingtage absichtlich begrenzt. Dies ist beabsichtigt. Die Ausrichtung, die Sie suchen, erfordert Raum von den ständigen Anforderungen der täglichen Arbeit. Wenn Sie ständige Konnektivität oder regelmäßigen Zugang zur Arbeit Ihres Teams benötigen, überlegen Sie, ob diese Reise Ihren Bedürfnissen entspricht.",
+        "paragraph3": "Die Reise erfordert ein grundlegendes Maß an körperlicher Fitness, aber der Schwerpunkt liegt auf geteilter Höhe und Perspektive, nicht auf anstrengender Aktivität. Die Berge bieten die Höhe. Sie bieten die Bereitschaft, zusammen wegzutreten und klar zu denken. Zusammen schaffen sie die Bedingungen für echte Teamausrichtung."
+      },
+      "startConversation": {
+        "title": "Ein Gespräch beginnen",
+        "subtitle": "Lassen Sie uns besprechen, wie Kollektiver Aufstieg dem Bedürfnis Ihres Teams nach Ausrichtung und Perspektive dienen kann. Kein Druck, nur durchdachter Dialog.",
+        "button": "Ein Gespräch beginnen"
       }
     },
     "detail": {
@@ -715,4 +867,3 @@
     }
   }
 }
-

@@ -344,6 +344,44 @@
         "altitude": "Élévation modérée (2 000-3 500 m). Adapté à la réflexion stratégique et à la réflexion.",
         "connectivity": "Internet fiable disponible dans les emplacements de base. Connectivité limitée pendant les jours de randonnée.",
         "suitability": "Idéal pour les fondateurs et les petites équipes cherchant la clarté. Aptitude au travail avec des espaces dédiés."
+      },
+      "whyThisJourneyExists": {
+        "title": "Pourquoi ce voyage existe",
+        "paragraph1": "Les meilleures décisions de leadership ne viennent pas de l'urgence. Elles viennent de la clarté. Leadership dans le Silence existe parce que nous croyons que les leaders les plus efficaces sont ceux qui peuvent s'éloigner du bruit, gagner en perspective et prendre des décisions depuis un lieu de confiance calme plutôt que d'urgence réactive.",
+        "paragraph2": "Dans l'Himalaya, la perspective prend une qualité différente. Depuis l'élévation, vous voyez différemment. Les problèmes qui semblaient accablants au niveau de la mer deviennent plus clairs depuis le haut. Les décisions qui semblaient urgentes deviennent moins pressantes. Le calme permet le genre de réflexion que le bon leadership exige.",
+        "paragraph3": "Ce voyage ne consiste pas à apprendre de nouveaux cadres ou stratégies. Il s'agit de créer de l'espace. Espace pour penser clairement. Espace pour voir la vue d'ensemble. Espace pour prendre des décisions depuis un lieu de clarté plutôt que de réaction. Les montagnes fournissent l'élévation. Vous fournissez la volonté de vous éloigner. Ensemble, ils créent les conditions pour une perspective authentique."
+      },
+      "whatChangesAfter": {
+        "title": "Ce qui change après",
+        "paragraph1": "Vous revenez avec un sens renouvelé de la perspective. La clarté que vous trouvez à l'élévation reste avec vous. Les décisions que vous prenez depuis le calme deviennent des pierres de touche pour la façon dont vous voulez diriger. La perspective que vous gagnez devient quelque chose à laquelle vous pouvez revenir lorsque le bruit du leadership quotidien redevient fort.",
+        "paragraph2": "L'expérience de diriger depuis le calme devient un point de référence. Vous vous souviendrez de ce que c'est que de prendre des décisions depuis la clarté plutôt que l'urgence, de voir la vue d'ensemble plutôt que de se perdre dans l'immédiat, de diriger depuis une confiance calme plutôt qu'une pression réactive.",
+        "paragraph3": "Plus important encore, vous aurez créé de l'espace pour le genre de réflexion que le bon leadership exige. Espace qui vous permet de voir clairement, de prendre des décisions avec réflexion et de diriger depuis un lieu de perspective plutôt que de réaction. Cet espace devient quelque chose à laquelle vous pouvez revenir, même au milieu de responsabilités de leadership exigeantes."
+      },
+      "aGentleFlow": {
+        "title": "Un flux doux",
+        "day1": {
+          "title": "Jour 1 : Arrivée et orientation",
+          "description": "Arrivez à Katmandou. Brève orientation. Temps pour se déconnecter et se préparer. Éloignez-vous des demandes immédiates du leadership. Commencez à créer de l'espace pour le genre de réflexion que le bon leadership exige."
+        },
+        "day2": {
+          "title": "Jour 2 : Commencer le voyage",
+          "description": "Voyagez jusqu'au point de départ. Premier jour d'élévation et de perspective. Commencez à voir différemment. Les montagnes fournissent l'élévation. Vous fournissez la volonté de vous éloigner de l'urgence et d'entrer dans la clarté."
+        },
+        "day3": {
+          "title": "Jour 3 : Réflexion stratégique",
+          "description": "Journée complète à l'élévation. Temps pour une réflexion approfondie sur les défis du leadership. Espace pour la réflexion stratégique. Le calme permet le genre de clarté que les bonnes décisions exigent. Commencez à voir la vue d'ensemble. Retournez avec le début de la perspective."
+        }
+      },
+      "importantToKnow": {
+        "title": "Important à savoir",
+        "paragraph1": "Ce voyage est conçu pour les leaders qui comprennent que les meilleures décisions viennent du calme, pas de la vitesse. Le rythme est intentionnel—assez lent pour permettre une réflexion approfondie, assez structuré pour soutenir la réflexion stratégique. Si vous recherchez une expérience à haute intensité ou une formation de leadership structurée, ce n'est peut-être pas le bon voyage pour vous.",
+        "paragraph2": "La connectivité est disponible dans les emplacements de base mais intentionnellement limitée pendant les jours de randonnée. C'est par design. La perspective que vous recherchez nécessite de l'espace par rapport aux demandes constantes du leadership. Si vous avez besoin d'une connectivité constante ou d'un accès régulier à votre équipe, considérez si ce voyage correspond à vos besoins.",
+        "paragraph3": "Le voyage nécessite un niveau de base de condition physique, mais l'accent est mis sur l'élévation et la perspective, pas sur une activité intense. Les montagnes fournissent l'élévation. Vous fournissez la volonté de vous éloigner et de penser clairement. Ensemble, ils créent les conditions pour une perspective de leadership authentique."
+      },
+      "startConversation": {
+        "title": "Commencer une conversation",
+        "subtitle": "Discutons de la façon dont Entre les Décisions peut servir votre besoin de perspective et de clarté. Pas de pression, juste un dialogue réfléchi.",
+        "button": "Commencer une conversation"
       }
     },
     "soloReflection": {
@@ -409,6 +447,44 @@
         "altitude": "Élévation modérée à élevée (2 500-4 000 m). Nécessite une bonne condition physique.",
         "connectivity": "Connectivité minimale. Conçu pour une déconnexion complète et la solitude.",
         "suitability": "Parfait pour les voyageurs solitaires cherchant une réflexion profonde. Pas adapté si vous avez besoin d'une communication constante."
+      },
+      "whyThisJourneyExists": {
+        "title": "Pourquoi ce voyage existe",
+        "paragraph1": "Certaines questions ne peuvent être répondues que seules. Certaines idées n'émergent qu'en solitude. Le Voyage de Réflexion en Solo existe parce que nous croyons qu'il y a une valeur profonde à marcher seul, à penser profondément sans la présence d'autres, à avoir l'espace pour traiter ce qui doit être traité sans apport externe.",
+        "paragraph2": "Dans l'Himalaya, la solitude prend une qualité différente. Ce n'est pas la solitude—c'est la présence avec vous-même. Les montagnes ne demandent pas de conversation. Elles existent simplement, et en leur présence, vous pouvez exister pleinement avec vous-même. Ce voyage consiste à créer les conditions pour ce genre de présence.",
+        "paragraph3": "Le Voyage de Réflexion en Solo ne consiste pas à l'isolement. Il s'agit de solitude intentionnelle. De choisir de marcher seul non pas parce que vous devez, mais parce que vous reconnaissez que certains chemins sont destinés à être parcourus seuls. Les montagnes fournissent l'espace. Vous fournissez la volonté d'être présent avec vous-même. Ensemble, ils créent les conditions pour une idée authentique."
+      },
+      "whatChangesAfter": {
+        "title": "Ce qui change après",
+        "paragraph1": "Vous revenez avec une compréhension plus profonde de vous-même. Les idées que vous gagnez en solitude restent avec vous. Les questions que vous traitez seules deviennent plus claires. La clarté que vous trouvez en marchant seul devient quelque chose à laquelle vous pouvez revenir, même lorsque vous êtes de retour dans le bruit de la vie quotidienne.",
+        "paragraph2": "L'expérience de la solitude intentionnelle devient une pierre de touche. Vous vous souviendrez de ce que c'est que de penser profondément sans interruption, de traiter sans apport externe, d'être pleinement présent avec vous-même. Ce souvenir devient quelque chose que vous pouvez accéder lorsque vous avez besoin d'espace pour penser clairement.",
+        "paragraph3": "Plus important encore, vous aurez créé de l'espace pour la réflexion qui n'existait pas auparavant. Espace qui vous permet de vous voir plus clairement, de comprendre vos propres modèles et de prendre des décisions depuis un lieu de clarté plutôt que de réaction. Cet espace devient quelque chose à laquelle vous pouvez revenir, même au milieu des demandes quotidiennes."
+      },
+      "aGentleFlow": {
+        "title": "Un flux doux",
+        "day1": {
+          "title": "Jour 1 : Arrivée et installation",
+          "description": "Arrivez à Katmandou. Brève orientation. Temps pour s'installer dans la solitude. Aucune attente. Aucun programme. Juste la permission d'être seul avec vous-même, pleinement."
+        },
+        "day2": {
+          "title": "Jour 2 : Commencer seul",
+          "description": "Voyagez jusqu'au point de départ. Premier jour de marche solo et de réflexion. Commencez à trouver votre propre rythme—marchez, faites une pause, réfléchissez. Pas d'horaire. Soyez simplement présent avec les montagnes et vous-même."
+        },
+        "day3": {
+          "title": "Jour 3 : Approfondir l'intuition",
+          "description": "Journée complète de marche à votre propre rythme. Temps pour traiter et réfléchir. Les idées émergent naturellement du calme. Commencez à vous voir plus clairement. Retournez avec le début de la clarté."
+        }
+      },
+      "importantToKnow": {
+        "title": "Important à savoir",
+        "paragraph1": "Ce voyage est conçu pour la solitude intentionnelle, pas l'isolement. Le rythme est le vôtre. Le programme est minimal. L'objectif est la réflexion, pas l'accomplissement. Si vous recherchez des activités structurées ou des expériences de groupe, ce n'est peut-être pas le bon voyage pour vous.",
+        "paragraph2": "La connectivité est intentionnellement minimale. C'est par design. La réflexion que vous recherchez nécessite de l'espace par rapport à l'apport constant des autres. Si vous avez besoin d'une communication constante ou de vérifications régulières, considérez si ce voyage correspond à vos besoins.",
+        "paragraph3": "Le voyage nécessite un bon niveau de condition physique, mais l'accent est mis sur la marche à votre propre rythme et la réflexion, pas sur une activité intense. Les montagnes fournissent l'espace. Vous fournissez la volonté d'être présent avec vous-même. Ensemble, ils créent les conditions pour une idée authentique."
+      },
+      "startConversation": {
+        "title": "Commencer une conversation",
+        "subtitle": "Discutons de la façon dont le Voyage de Réflexion en Solo peut servir votre besoin de solitude et de réflexion. Pas de pression, juste un dialogue réfléchi.",
+        "button": "Commencer une conversation"
       }
     },
     "sharedStillness": {
@@ -474,6 +550,44 @@
         "altitude": "Élévation modérée (2 000-3 500 m). Rythme doux adapté aux couples.",
         "connectivity": "Connectivité minimale. Conçu pour la présence et la déconnexion ensemble.",
         "suitability": "Parfait pour les couples cherchant la reconnexion et la présence. Pas adapté si vous avez besoin d'une communication constante."
+      },
+      "whyThisJourneyExists": {
+        "title": "Pourquoi ce voyage existe",
+        "paragraph1": "Les relations ont besoin d'espace. Pas de distance, mais de présence. Le Calme Partagé existe parce que nous croyons que les meilleures connexions se produisent lorsque les couples peuvent s'éloigner ensemble, créer de l'espace pour ce qui compte et se souvenir de ce qui les a réunis en premier lieu.",
+        "paragraph2": "Dans l'Himalaya, la présence prend une qualité différente. Les montagnes ne demandent pas de conversation. Elles existent simplement, et en leur présence, vous pouvez exister pleinement l'un avec l'autre. Ce voyage consiste à créer les conditions pour ce genre de présence—ensemble.",
+        "paragraph3": "Le Calme Partagé ne consiste pas à réparer votre relation. Il s'agit de créer de l'espace. Espace pour être présent l'un avec l'autre. Espace pour se souvenir de ce qui compte. Espace pour se reconnecter sans le bruit de la vie quotidienne. Les montagnes fournissent le calme. Vous fournissez la volonté d'être présent ensemble. Ensemble, ils créent les conditions pour une connexion authentique."
+      },
+      "whatChangesAfter": {
+        "title": "Ce qui change après",
+        "paragraph1": "Vous revenez avec un sens renouvelé de connexion. La présence que vous trouvez ensemble dans les montagnes reste avec vous. Les moments de calme partagé deviennent des pierres de touche pour la façon dont vous voulez être ensemble. La clarté que vous gagnez devient quelque chose à laquelle vous pouvez revenir lorsque la vie quotidienne redevient forte.",
+        "paragraph2": "L'expérience d'être présent ensemble devient un point de référence. Vous vous souviendrez de ce que c'est que d'être pleinement présent l'un avec l'autre, de créer de l'espace pour ce qui compte, de se reconnecter sans programme. Ce souvenir devient quelque chose que vous pouvez accéder lorsque vous avez besoin de vous souvenir de ce qui vous a réunis.",
+        "paragraph3": "Plus important encore, vous aurez créé de l'espace pour la connexion qui n'existait pas auparavant. Espace qui vous permet de vous voir plus clairement, de comprendre vos modèles partagés et d'être ensemble depuis un lieu de présence plutôt que de routine. Cet espace devient quelque chose à laquelle vous pouvez revenir, même au milieu des demandes quotidiennes."
+      },
+      "aGentleFlow": {
+        "title": "Un flux doux",
+        "day1": {
+          "title": "Jour 1 : Arrivée et installation",
+          "description": "Arrivez à Katmandou. Brève orientation. Temps pour se reposer et s'installer ensemble. Aucune attente. Aucun programme. Juste la permission d'être présent l'un avec l'autre, pleinement."
+        },
+        "day2": {
+          "title": "Jour 2 : Commencer ensemble",
+          "description": "Voyagez jusqu'au point de départ. Première marche douce côte à côte. Introduction au calme partagé. Commencez à créer de l'espace pour la présence l'un avec l'autre."
+        },
+        "day3": {
+          "title": "Jour 3 : Trouver la présence",
+          "description": "Journée complète de marche ensemble à un rythme conscient. Créer de l'espace pour la présence et la connexion. Le calme permet le genre de clarté que les bonnes relations exigent. Commencez à vous voir plus clairement. Retournez avec le début de la reconnexion."
+        }
+      },
+      "importantToKnow": {
+        "title": "Important à savoir",
+        "paragraph1": "Ce voyage est conçu pour les couples qui veulent se reconnecter et ralentir ensemble. Le rythme est doux. Le programme est minimal. L'objectif est la présence, pas les activités. Si vous recherchez une thérapie de couple structurée ou un travail relationnel intensif, ce n'est peut-être pas le bon voyage pour vous.",
+        "paragraph2": "La connectivité est intentionnellement minimale. C'est par design. La présence que vous recherchez nécessite de l'espace par rapport aux demandes constantes de la vie quotidienne. Si vous avez besoin d'une communication constante ou de vérifications régulières avec le travail ou la famille, considérez si ce voyage correspond à vos besoins.",
+        "paragraph3": "Le voyage nécessite un niveau de base de condition physique, mais l'accent est mis sur le mouvement doux et la présence ensemble, pas sur une activité intense. Les montagnes fournissent le calme. Vous fournissez la volonté d'être présent ensemble. Ensemble, ils créent les conditions pour une connexion authentique."
+      },
+      "startConversation": {
+        "title": "Commencer une conversation",
+        "subtitle": "Discutons de la façon dont le Calme Partagé peut servir votre relation. Pas de pression, juste un dialogue réfléchi.",
+        "button": "Commencer une conversation"
       }
     },
     "collectiveAscent": {
@@ -539,6 +653,44 @@
         "altitude": "Élévation modérée (2 000-3 500 m). Adapté à la plupart des membres de l'équipe avec un rythme approprié.",
         "connectivity": "Internet fiable dans les emplacements de base. Limité pendant les jours de randonnée pour un temps d'équipe concentré.",
         "suitability": "Idéal pour les petites équipes (4-12 personnes) cherchant l'alignement. Aptitude au travail avec des espaces partagés."
+      },
+      "whyThisJourneyExists": {
+        "title": "Pourquoi ce voyage existe",
+        "paragraph1": "Les équipes ont besoin d'espace. Pas de distance, mais de perspective. L'Ascension Collective existe parce que nous croyons que le meilleur alignement d'équipe se produit lorsque les équipes peuvent s'éloigner ensemble, créer de l'espace pour des conversations authentiques et se souvenir de ce qui les a réunies en premier lieu.",
+        "paragraph2": "Dans l'Himalaya, la perspective prend une qualité différente. Depuis l'élévation, les équipes voient différemment. Les conflits qui semblaient accablants au niveau de la mer deviennent plus clairs depuis le haut. Les dynamiques qui semblaient bloquées deviennent plus fluides. Le calme permet le genre de conversations que les bonnes équipes exigent.",
+        "paragraph3": "L'Ascension Collective ne consiste pas à des activités de renforcement d'équipe. Il s'agit de créer de l'espace. Espace pour des conversations authentiques. Espace pour voir la vue d'ensemble ensemble. Espace pour s'aligner depuis un lieu de clarté plutôt que d'urgence. Les montagnes fournissent l'élévation. Vous fournissez la volonté de vous éloigner ensemble. Ensemble, ils créent les conditions pour un alignement authentique."
+      },
+      "whatChangesAfter": {
+        "title": "Ce qui change après",
+        "paragraph1": "Vous revenez avec un sens renouvelé d'alignement. La perspective que vous gagnez ensemble dans les montagnes reste avec vous. Les conversations que vous avez depuis le calme deviennent des pierres de touche pour la façon dont vous voulez travailler ensemble. La clarté que vous gagnez devient quelque chose à laquelle vous pouvez revenir lorsque le travail quotidien redevient fort.",
+        "paragraph2": "L'expérience de travailler depuis l'alignement devient un point de référence. Vous vous souviendrez de ce que c'est que d'avoir des conversations authentiques, de voir la vue d'ensemble ensemble, de s'aligner depuis un lieu de clarté plutôt que de conflit. Ce souvenir devient quelque chose que vous pouvez accéder lorsque vous avez besoin de vous souvenir de ce qui vous a réunis.",
+        "paragraph3": "Plus important encore, vous aurez créé de l'espace pour l'alignement qui n'existait pas auparavant. Espace qui vous permet de vous voir plus clairement, de comprendre vos dynamiques partagées et de travailler ensemble depuis un lieu de confiance plutôt que de tension. Cet espace devient quelque chose à laquelle vous pouvez revenir, même au milieu d'un travail exigeant."
+      },
+      "aGentleFlow": {
+        "title": "Un flux doux",
+        "day1": {
+          "title": "Jour 1 : Arrivée et rassemblement",
+          "description": "Arrivez à Katmandou. Rassemblement de l'équipe. Brève orientation et définition des intentions. Aucune attente. Aucun programme. Juste la permission de s'éloigner ensemble et de commencer à créer de l'espace pour des conversations authentiques."
+        },
+        "day2": {
+          "title": "Jour 2 : Commencer ensemble",
+          "description": "Voyagez jusqu'au point de départ. Premier jour d'élévation partagée et de connexion. Commencez à voir différemment ensemble. Les montagnes fournissent l'élévation. Vous fournissez la volonté de vous éloigner des dynamiques quotidiennes et d'entrer dans la clarté."
+        },
+        "day3": {
+          "title": "Jour 3 : Construire la confiance",
+          "description": "Journée complète de randonnée ensemble. Les dynamiques naturelles émergent. La confiance commence à se construire. Le calme permet le genre de conversations que les bonnes équipes exigent. Commencez à voir la vue d'ensemble ensemble. Retournez avec le début de l'alignement."
+        }
+      },
+      "importantToKnow": {
+        "title": "Important à savoir",
+        "paragraph1": "Ce voyage est conçu pour les équipes qui veulent s'aligner et se reconnecter. Le rythme est intentionnel—assez lent pour permettre des conversations authentiques, assez structuré pour soutenir la réflexion d'équipe. Si vous recherchez un renforcement d'équipe à haute intensité ou une formation d'équipe structurée, ce n'est peut-être pas le bon voyage pour vous.",
+        "paragraph2": "La connectivité est disponible dans les emplacements de base mais intentionnellement limitée pendant les jours de randonnée. C'est par design. L'alignement que vous recherchez nécessite de l'espace par rapport aux demandes constantes du travail quotidien. Si vous avez besoin d'une connectivité constante ou d'un accès régulier au travail de votre équipe, considérez si ce voyage correspond à vos besoins.",
+        "paragraph3": "Le voyage nécessite un niveau de base de condition physique, mais l'accent est mis sur l'élévation partagée et la perspective, pas sur une activité intense. Les montagnes fournissent l'élévation. Vous fournissez la volonté de vous éloigner ensemble et de penser clairement. Ensemble, ils créent les conditions pour un alignement d'équipe authentique."
+      },
+      "startConversation": {
+        "title": "Commencer une conversation",
+        "subtitle": "Discutons de la façon dont l'Ascension Collective peut servir le besoin de votre équipe pour l'alignement et la perspective. Pas de pression, juste un dialogue réfléchi.",
+        "button": "Commencer une conversation"
       }
     },
     "detail": {

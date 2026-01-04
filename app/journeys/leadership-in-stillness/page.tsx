@@ -3,33 +3,62 @@ import MountainDivider from "../../components/MountainDivider";
 import Footer from "../../components/Footer";
 import Link from "next/link";
 import { Metadata } from "next";
+import { unstable_noStore as noStore } from "next/cache";
+import { getServerTranslations } from "../../../lib/translations";
+import { getJourneyBySlug } from "../../../data/journeys";
 
-export const metadata: Metadata = {
-  title: "Between Decisions",
-  description: "A journey designed for leaders standing between choices. Step away from urgency, noise, and constant responsibility to regain perspective and clarity.",
-  alternates: {
-    canonical: "/journeys/leadership-in-stillness",
-  },
-  openGraph: {
-    title: "Between Decisions | The Mountain Whisper",
-    description: "A journey designed for leaders standing between choices. Step away from urgency, noise, and constant responsibility to regain perspective and clarity.",
-    images: [
-      {
-        url: "/images/journeys/leadership-in-stillness.png",
-        width: 1200,
-        height: 630,
-        alt: "Between Decisions - Leadership journey in the Himalayas",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Between Decisions | The Mountain Whisper",
-    description: "A journey designed for leaders standing between choices. Step away from urgency, noise, and constant responsibility to regain perspective and clarity.",
-  },
-};
+// Force dynamic rendering to ensure translations update when language changes
+export const dynamic = 'force-dynamic';
 
-export default function LeadershipInStillnessPage() {
+export async function generateMetadata(): Promise<Metadata> {
+  noStore();
+  const { common, getJourneyTranslation } = await getServerTranslations();
+  const translation = getJourneyTranslation('leadership-in-stillness');
+  const title = translation?.title || "Between Decisions";
+  const description = translation?.description || "A journey designed for leaders standing between choices. Step away from urgency, noise, and constant responsibility to regain perspective and clarity.";
+  
+  return {
+    title: `${title} | ${common('siteName')}`,
+    description: description,
+    alternates: {
+      canonical: "/journeys/leadership-in-stillness",
+    },
+    openGraph: {
+      title: `${title} | ${common('siteName')}`,
+      description: description,
+      images: [
+        {
+          url: "/images/journeys/leadership-in-stillness.png",
+          width: 1200,
+          height: 630,
+          alt: `${title} - Leadership journey in the Himalayas`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${title} | ${common('siteName')}`,
+      description: description,
+    },
+  };
+}
+
+export default async function LeadershipInStillnessPage() {
+  noStore();
+  const { common, journeyDetail, getJourneyTranslation } = await getServerTranslations();
+  const journey = getJourneyBySlug('leadership-in-stillness');
+  const translation = getJourneyTranslation('leadership-in-stillness');
+  
+  const title = translation?.title || "Between Decisions";
+  const subtitle = translation?.subtitle || "For founders, executives, and senior leaders";
+  const description = translation?.description || "";
+  const forWho = translation?.forWho || [];
+  const whyExists = translation?.whyThisJourneyExists;
+  const whatChanges = translation?.whatChangesAfter;
+  const gentleFlow = translation?.aGentleFlow;
+  const importantToKnow = translation?.importantToKnow;
+  const startConversation = translation?.startConversation;
+
   return (
     <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth">
       <Navigation />
@@ -42,28 +71,33 @@ export default function LeadershipInStillnessPage() {
         }} />
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-6">
           <h1 className="h1 mb-4">
-            Between Decisions
+            {title}
           </h1>
           <p className="text-xl sm:text-2xl text-[#3d5a7a] font-light">
-            Clarity without urgency
+            {subtitle}
           </p>
+          {description && (
+            <p className="text-large max-w-2xl mx-auto leading-relaxed text-[#4a5560]">
+              {description}
+            </p>
+          )}
           <div className="flex items-center justify-center gap-4 pt-2">
-            <span className="text-small text-[#6b7786]">7 days</span>
+            <span className="text-small text-[#6b7786]">{journey?.duration || "7 days"}</span>
             <span className="text-small text-[#9ca5b3]">•</span>
-            <span className="text-small text-[#6b7786]">Himalayan Foothills</span>
+            <span className="text-small text-[#6b7786]">{journey?.location || "Himalayan Foothills"}</span>
           </div>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8">
             <Link
               href="/enquire?journey=leadership-in-stillness"
               className="px-12 py-5 rounded-lg bg-[#3d5a7a] text-white hover:bg-[#2d4a6a] transition-all duration-300 text-lg font-medium shadow-sm hover:shadow-md active:scale-[0.98]"
             >
-              Enquire
+              {journeyDetail('enquire')}
             </Link>
             <Link
               href="/journeys"
               className="text-body text-[#3d5a7a] hover:opacity-70 transition-opacity"
             >
-              Explore other journeys
+              {journeyDetail('exploreOtherJourneys')}
             </Link>
           </div>
         </div>
@@ -75,33 +109,14 @@ export default function LeadershipInStillnessPage() {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
         <div className="max-w-3xl mx-auto space-y-12">
           <div className="text-center">
-            <h2 className="h2 mb-8">Who This Journey Is For</h2>
+            <h2 className="h2 mb-8">{journeyDetail('whoThisJourneyIsFor')}</h2>
           </div>
           <div className="space-y-6">
-            <div className="space-y-3">
-              <h3 className="h4 text-[#3d5a7a]">Founders navigating growth and complex decisions</h3>
-              <p className="text-body leading-relaxed text-[#4a5560]">
-                For founders who recognize that the most important decisions require perspective, not urgency. 
-                Who understand that clarity comes from elevation—both literal and metaphorical—and who 
-                know that the best leadership happens when you can see clearly.
-              </p>
-            </div>
-            <div className="space-y-3">
-              <h3 className="h4 text-[#3d5a7a]">C-suite executives seeking strategic clarity</h3>
-              <p className="text-body leading-relaxed text-[#4a5560]">
-                For executives who understand that strategic thinking requires space, not more information. 
-                Who recognize that the best decisions emerge from stillness, and who know that leadership 
-                at the highest levels requires the ability to see beyond the immediate.
-              </p>
-            </div>
-            <div className="space-y-3">
-              <h3 className="h4 text-[#3d5a7a]">Managers leading teams through change</h3>
-              <p className="text-body leading-relaxed text-[#4a5560]">
-                For managers who recognize that leading through change requires clarity, not just action. 
-                Who understand that the best leadership comes from a place of calm confidence, and who 
-                know that perspective is essential when navigating complexity.
-              </p>
-            </div>
+            {forWho.map((item: string, index: number) => (
+              <div key={index} className="space-y-3">
+                <h3 className="h4 text-[#3d5a7a]">{item}</h3>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -109,154 +124,119 @@ export default function LeadershipInStillnessPage() {
       <MountainDivider />
 
       {/* Why This Journey Exists Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white">
-        <div className="max-w-3xl mx-auto space-y-12">
-          <div className="text-center">
-            <h2 className="h2 mb-8">Why This Journey Exists</h2>
+      {whyExists && (
+        <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white">
+          <div className="max-w-3xl mx-auto space-y-12">
+            <div className="text-center">
+              <h2 className="h2 mb-8">{whyExists.title}</h2>
+            </div>
+            <div className="space-y-8 text-body leading-relaxed text-[#4a5560]">
+              <p>{whyExists.paragraph1}</p>
+              <p>{whyExists.paragraph2}</p>
+              <p>{whyExists.paragraph3}</p>
+            </div>
           </div>
-          <div className="space-y-8 text-body leading-relaxed text-[#4a5560]">
-            <p>
-              The best leadership decisions don't come from urgency. They come from clarity. Leadership in 
-              Stillness exists because we believe that the most effective leaders are those who can step 
-              away from the noise, gain perspective, and make decisions from a place of calm confidence 
-              rather than reactive urgency.
-            </p>
-            <p>
-              In the Himalayas, perspective takes on a different quality. From elevation, you see differently. 
-              The problems that felt overwhelming at sea level become clearer from above. The decisions that 
-              seemed urgent become less pressing. The stillness allows for the kind of thinking that good 
-              leadership requires.
-            </p>
-            <p>
-              This journey isn't about learning new frameworks or strategies. It's about creating space. 
-              Space to think clearly. Space to see the bigger picture. Space to make decisions from a place 
-              of clarity rather than reaction. The mountains provide the elevation. You provide the willingness 
-              to step away. Together, they create the conditions for genuine perspective.
-            </p>
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       <MountainDivider />
 
       {/* What Changes After Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
-        <div className="max-w-3xl mx-auto space-y-12">
-          <div className="text-center">
-            <h2 className="h2 mb-8">What Changes After</h2>
+      {whatChanges && (
+        <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+          <div className="max-w-3xl mx-auto space-y-12">
+            <div className="text-center">
+              <h2 className="h2 mb-8">{whatChanges.title}</h2>
+            </div>
+            <div className="space-y-8 text-body leading-relaxed text-[#4a5560]">
+              <p>{whatChanges.paragraph1}</p>
+              <p>{whatChanges.paragraph2}</p>
+              <p>{whatChanges.paragraph3}</p>
+            </div>
           </div>
-          <div className="space-y-8 text-body leading-relaxed text-[#4a5560]">
-            <p>
-              You return with a renewed sense of perspective. The clarity you find at elevation stays with you. 
-              The decisions you make from stillness become touchstones for how you want to lead. The perspective 
-              you gain becomes something you can return to when the noise of daily leadership gets loud again.
-            </p>
-            <p>
-              The experience of leading from stillness becomes a reference point. You'll remember what it feels 
-              like to make decisions from clarity rather than urgency, to see the bigger picture rather than 
-              getting lost in the immediate, to lead from calm confidence rather than reactive pressure.
-            </p>
-            <p>
-              Most importantly, you'll have created space for the kind of thinking that good leadership requires. 
-              Space that allows you to see clearly, to make decisions thoughtfully, and to lead from a place of 
-              perspective rather than reaction. That space becomes something you can return to, even in the midst 
-              of demanding leadership responsibilities.
-            </p>
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       <MountainDivider />
 
       {/* A Gentle Flow Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white">
-        <div className="max-w-3xl mx-auto space-y-16">
-          <div className="text-center">
-            <h2 className="h2 mb-8">A Gentle Flow</h2>
+      {gentleFlow && (
+        <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white">
+          <div className="max-w-3xl mx-auto space-y-16">
+            <div className="text-center">
+              <h2 className="h2 mb-8">{gentleFlow.title}</h2>
+            </div>
+            <div className="space-y-12">
+              {gentleFlow.day1 && (
+                <div className="space-y-4">
+                  <h3 className="h4 text-[#3d5a7a]">{gentleFlow.day1.title}</h3>
+                  <p className="text-body leading-relaxed text-[#4a5560]">
+                    {gentleFlow.day1.description}
+                  </p>
+                </div>
+              )}
+              {gentleFlow.day2 && (
+                <div className="space-y-4">
+                  <h3 className="h4 text-[#3d5a7a]">{gentleFlow.day2.title}</h3>
+                  <p className="text-body leading-relaxed text-[#4a5560]">
+                    {gentleFlow.day2.description}
+                  </p>
+                </div>
+              )}
+              {gentleFlow.day3 && (
+                <div className="space-y-4">
+                  <h3 className="h4 text-[#3d5a7a]">{gentleFlow.day3.title}</h3>
+                  <p className="text-body leading-relaxed text-[#4a5560]">
+                    {gentleFlow.day3.description}
+                  </p>
+                </div>
+              )}
+            </div>
           </div>
-          <div className="space-y-12">
-            <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Day 1: Arrival and Orientation</h3>
-              <p className="text-body leading-relaxed text-[#4a5560]">
-                Arrive in Kathmandu. Brief orientation. Time to disconnect and prepare. Step away from 
-                the immediate demands of leadership. Begin to create space for the kind of thinking that 
-                good leadership requires.
-              </p>
-            </div>
-            <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Day 2: Beginning the Journey</h3>
-              <p className="text-body leading-relaxed text-[#4a5560]">
-                Travel to the starting point. First day of elevation and perspective. Begin to see 
-                differently. The mountains provide the elevation. You provide the willingness to step 
-                away from urgency and into clarity.
-              </p>
-            </div>
-            <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Day 3: Strategic Reflection</h3>
-              <p className="text-body leading-relaxed text-[#4a5560]">
-                Full day at elevation. Time for deep thinking about leadership challenges. Space for 
-                strategic reflection. The stillness allows for the kind of clarity that good decisions 
-                require. Begin to see the bigger picture. Return with the beginning of perspective.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       <MountainDivider />
 
       {/* Important to Know Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
-        <div className="max-w-3xl mx-auto space-y-12">
-          <div className="text-center">
-            <h2 className="h2 mb-8">Important to Know</h2>
+      {importantToKnow && (
+        <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+          <div className="max-w-3xl mx-auto space-y-12">
+            <div className="text-center">
+              <h2 className="h2 mb-8">{importantToKnow.title}</h2>
+            </div>
+            <div className="space-y-8 text-body leading-relaxed text-[#4a5560]">
+              <p>{importantToKnow.paragraph1}</p>
+              <p>{importantToKnow.paragraph2}</p>
+              <p>{importantToKnow.paragraph3}</p>
+            </div>
           </div>
-          <div className="space-y-8 text-body leading-relaxed text-[#4a5560]">
-            <p>
-              This journey is designed for leaders who understand that the best decisions come from stillness, 
-              not speed. The pace is intentional—slow enough to allow for deep thinking, structured enough to 
-              support strategic reflection. If you're looking for a high-intensity experience or structured 
-              leadership training, this may not be the right journey for you.
-            </p>
-            <p>
-              Connectivity is available at base locations but intentionally limited during trekking days. This 
-              is by design. The perspective you're seeking requires space from the constant demands of leadership. 
-              If you need constant connectivity or regular access to your team, consider whether this journey 
-              aligns with your needs.
-            </p>
-            <p>
-              The journey requires a basic level of physical fitness, but the emphasis is on elevation and 
-              perspective, not strenuous activity. The mountains provide the elevation. You provide the 
-              willingness to step away and think clearly. Together, they create the conditions for genuine 
-              leadership perspective.
-            </p>
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       <MountainDivider />
 
       {/* Soft CTA Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white">
-        <div className="max-w-2xl mx-auto text-center space-y-12">
-          <div>
-            <h2 className="h2 mb-8">Start a Conversation</h2>
-            <p className="text-large text-[#4a5560]">
-              Let's discuss how Between Decisions can serve your need for perspective and clarity. 
-              No pressure, just thoughtful dialogue.
-            </p>
+      {startConversation && (
+        <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white">
+          <div className="max-w-2xl mx-auto text-center space-y-12">
+            <div>
+              <h2 className="h2 mb-8">{startConversation.title}</h2>
+              <p className="text-large text-[#4a5560]">
+                {startConversation.subtitle}
+              </p>
+            </div>
+            <Link
+              href="/enquire?journey=leadership-in-stillness"
+              className="inline-block px-12 py-5 rounded-lg bg-[#3d5a7a] text-white hover:bg-[#2d4a6a] transition-all duration-300 text-lg font-medium shadow-sm hover:shadow-md active:scale-[0.98]"
+            >
+              {startConversation.button}
+            </Link>
           </div>
-          <Link
-            href="/enquire?journey=leadership-in-stillness"
-            className="inline-block px-12 py-5 rounded-lg bg-[#3d5a7a] text-white hover:bg-[#2d4a6a] transition-all duration-300 text-lg font-medium shadow-sm hover:shadow-md active:scale-[0.98]"
-          >
-            Start a conversation
-          </Link>
-        </div>
-      </section>
+        </section>
+      )}
 
       <Footer />
     </div>
   );
 }
-
