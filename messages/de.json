@@ -86,235 +86,631 @@
     }
   },
   "workFromHimalayas": {
-    "title": "Work From the Himalayas",
-    "subtitle": "Focused work, without the noise",
+    "title": "Arbeiten aus dem Himalaya",
+    "subtitle": "Konzentriertes Arbeiten, ohne Lärm",
     "whatThisIs": {
-      "title": "What This Really Is",
-      "notCoworking": "This is not a coworking space.",
-      "notWorkshop": "This is not a productivity workshop.",
-      "notWorkcation": "This is not a workcation.",
-      "text1": "Work From the Himalayas is a space for people who want to work or create with clarity, in one of the quietest landscapes on earth.",
-      "text2": "The best work happens when you have space to think. When the environment supports focus rather than urgency. When stillness becomes a condition for clarity.",
-      "text3": "You work. The mountains provide the context. The quiet provides the space. Together, they create conditions where deep thinking becomes possible."
+      "title": "Was das wirklich ist",
+      "notCoworking": "Das ist kein Coworking-Space.",
+      "notWorkshop": "Das ist kein Produktivitäts-Workshop.",
+      "notWorkcation": "Das ist kein Workcation.",
+      "text1": "Arbeiten aus dem Himalaya ist ein Raum für Menschen, die mit Klarheit arbeiten oder schaffen möchten, in einer der stillsten Landschaften der Erde.",
+      "text2": "Die beste Arbeit entsteht, wenn Sie Raum zum Nachdenken haben. Wenn die Umgebung Fokus statt Dringlichkeit unterstützt. Wenn Stille zu einer Bedingung für Klarheit wird.",
+      "text3": "Sie arbeiten. Die Berge bieten den Kontext. Die Stille bietet den Raum. Zusammen schaffen sie Bedingungen, unter denen tiefes Denken möglich wird."
     },
     "whoFor": {
-      "title": "Who This Is For",
+      "title": "Für wen das ist",
       "founders": {
-        "title": "Founders and co-founders",
-        "text": "Builders who need quiet space to think, plan, and create without the constant noise of daily operations."
+        "title": "Gründer und Mitgründer",
+        "text": "Bauer, die ruhigen Raum brauchen, um zu denken, zu planen und zu schaffen, ohne den ständigen Lärm des täglichen Betriebs."
       },
       "teams": {
-        "title": "Small teams",
-        "text": "Teams seeking a calm environment to work together while experiencing the stillness of the mountains."
+        "title": "Kleine Teams",
+        "text": "Teams, die eine ruhige Umgebung suchen, um zusammenzuarbeiten und gleichzeitig die Stille der Berge zu erleben."
       },
       "creators": {
-        "title": "Writers, artists, researchers",
-        "text": "People whose work requires uninterrupted time and deep thinking. Writers finishing manuscripts. Musicians composing. Painters beginning series."
+        "title": "Schriftsteller, Künstler, Forscher",
+        "text": "Menschen, deren Arbeit ununterbrochene Zeit und tiefes Denken erfordert. Schriftsteller, die Manuskripte fertigstellen. Musiker, die komponieren. Maler, die Serien beginnen."
       }
     },
     "howWorkHappens": {
-      "title": "How Work Happens Here",
+      "title": "Wie Arbeit hier passiert",
       "environments": {
-        "title": "Work-friendly environments",
-        "text": "We curate spaces that support focus. Quiet rooms, natural light, and environments designed for thinking. Location-dependent, but always intentional."
+        "title": "Arbeitsfreundliche Umgebungen",
+        "text": "Wir kuratieren Räume, die Fokus unterstützen. Ruhige Zimmer, natürliches Licht und Umgebungen, die für das Denken gestaltet sind. Standortabhängig, aber immer absichtlich."
       },
       "rhythm": {
-        "title": "Flexible daily rhythm",
-        "text": "No rigid schedules. No mandatory activities. Structure your days around your work and the natural rhythm that emerges in stillness."
+        "title": "Flexibler Tagesrhythmus",
+        "text": "Keine starren Zeitpläne. Keine obligatorischen Aktivitäten. Strukturieren Sie Ihre Tage um Ihre Arbeit und den natürlichen Rhythmus, der in der Stille entsteht."
       },
       "space": {
-        "title": "Space for focus, rest, and reflection",
-        "text": "Work deeply. Rest when needed. Take walks. Reflect. The environment supports all of it — because the best work happens when you're not exhausted."
+        "title": "Raum für Fokus, Ruhe und Reflexion",
+        "text": "Arbeiten Sie tief. Ruhen Sie sich aus, wenn nötig. Machen Sie Spaziergänge. Reflektieren Sie. Die Umgebung unterstützt all das — weil die beste Arbeit entsteht, wenn Sie nicht erschöpft sind."
       },
       "support": {
-        "title": "Support without intrusion",
-        "text": "Local support is available when you need it. Guidance, not management. Help, not oversight. You work. We ensure the environment supports that."
+        "title": "Unterstützung ohne Einmischung",
+        "text": "Lokale Unterstützung ist verfügbar, wenn Sie sie brauchen. Anleitung, nicht Management. Hilfe, nicht Aufsicht. Sie arbeiten. Wir stellen sicher, dass die Umgebung das unterstützt."
       }
     },
     "differentWay": {
-      "title": "A Different Way of Working",
-      "text1": "Productivity is measured in clarity, not hours. When you have space to think and the environment supports focus, you accomplish more with less effort.",
-      "text2": "No constant notifications. No urgent interruptions. Just work when you need to work. Rest when you need to rest.",
-      "text3": "The mountains teach patience. The quiet teaches presence. You return not just with work done, but with clarity about what matters."
+      "title": "Eine andere Art zu arbeiten",
+      "text1": "Produktivität wird in Klarheit gemessen, nicht in Stunden. Wenn Sie Raum zum Nachdenken haben und die Umgebung Fokus unterstützt, erreichen Sie mehr mit weniger Aufwand.",
+      "text2": "Keine ständigen Benachrichtigungen. Keine dringenden Unterbrechungen. Einfach arbeiten, wenn Sie arbeiten müssen. Ruhen, wenn Sie ruhen müssen.",
+      "text3": "Die Berge lehren Geduld. Die Stille lehrt Präsenz. Sie kehren nicht nur mit erledigter Arbeit zurück, sondern mit Klarheit über das, was wichtig ist."
     },
     "practical": {
-      "title": "Practical Considerations",
+      "title": "Praktische Überlegungen",
       "seasons": {
-        "title": "Seasons and timing",
-        "text": "Different seasons offer different experiences. We'll guide you on the best times for your stay, considering weather, connectivity, and the kind of stillness you're seeking."
+        "title": "Jahreszeiten und Timing",
+        "text": "Verschiedene Jahreszeiten bieten verschiedene Erfahrungen. Wir führen Sie zu den besten Zeiten für Ihren Aufenthalt, unter Berücksichtigung von Wetter, Konnektivität und der Art von Stille, die Sie suchen."
       },
       "altitude": {
-        "title": "Altitude and suitability",
-        "text": "We work with locations that are safe and manageable. For higher elevation options, we ensure proper acclimatization and support. Your well-being is our priority."
+        "title": "Höhe und Eignung",
+        "text": "Wir arbeiten mit sicheren und überschaubaren Standorten. Für höhere Höhenoptionen sorgen wir für ordnungsgemäße Akklimatisation und Unterstützung. Ihr Wohlbefinden hat Priorität."
       },
       "connectivity": {
-        "title": "Connectivity",
-        "text": "Some locations offer reliable internet. Others offer reliable quiet. We're transparent about what to expect, so you can choose based on your work requirements."
+        "title": "Konnektivität",
+        "text": "Einige Standorte bieten zuverlässiges Internet. Andere bieten zuverlässige Stille. Wir sind transparent darüber, was zu erwarten ist, damit Sie basierend auf Ihren Arbeitsanforderungen wählen können."
       },
       "notForEveryone": {
-        "title": "Who this may not be ideal for",
-        "text": "If you need constant connectivity, prefer urban environments, or require extensive infrastructure, this may not be the right fit. We're honest about limitations because we want you to make the right choice."
+        "title": "Für wen das möglicherweise nicht ideal ist",
+        "text": "Wenn Sie ständige Konnektivität benötigen, städtische Umgebungen bevorzugen oder umfangreiche Infrastruktur benötigen, ist dies möglicherweise nicht die richtige Wahl. Wir sind ehrlich über Einschränkungen, weil wir möchten, dass Sie die richtige Wahl treffen."
       }
     },
     "places": {
-      "title": "Places",
-      "subtitle": "Places chosen for stillness, light, and distance from urgency. Where work experiences unfold.",
-      "explorePlace": "Explore place",
+      "title": "Orte",
+      "subtitle": "Orte, die für Stille, Licht und Distanz zur Dringlichkeit gewählt wurden. Wo sich Arbeitserfahrungen entfalten.",
+      "explorePlace": "Ort erkunden",
       "manang": {
         "name": "Manang",
-        "description": "High valleys where silence settles between peaks. A high-altitude Himalayan village defined by stillness and long pauses."
+        "description": "Hohe Täler, in denen sich Stille zwischen den Gipfeln niederlässt. Ein hochgelegenes Himalaya-Dorf, definiert durch Stille und lange Pausen."
       }
     },
     "cta": {
-      "title": "Begin a Conversation",
-      "subtitle": "Share what you're working on and what you need. We'll suggest a calm fit that supports your work."
+      "title": "Ein Gespräch beginnen",
+      "subtitle": "Teilen Sie mit, woran Sie arbeiten und was Sie brauchen. Wir schlagen eine ruhige Lösung vor, die Ihre Arbeit unterstützt."
     }
   },
   "journeys": {
-    "title": "Journeys into Stillness",
-    "subtitle": "A small collection of curated experiences shaped by mountains, silence, and time.",
+    "title": "Reisen in die Stille",
+    "subtitle": "Eine kleine Sammlung kuratierter Erfahrungen, geprägt von Bergen, Stille und Zeit.",
     "cta": {
-      "title": "Begin a Conversation",
-      "subtitle": "Not sure which journey fits? We'll help you choose."
+      "title": "Ein Gespräch beginnen",
+      "subtitle": "Nicht sicher, welche Reise passt? Wir helfen Ihnen bei der Auswahl."
+    },
+    "viewJourney": "Reise ansehen",
+    "quietReset": {
+      "title": "Die Stille Zurücksetzung",
+      "subtitle": "Für Burnout, Verlangsamung, Reflexion",
+      "description": "Eine Reise, die darauf ausgelegt ist, Ihnen zu helfen, einen Schritt zurückzutreten, zu atmen und sich an das zu erinnern, was wichtig ist. Für diejenigen, die Burnout, ständigen Stress oder das Gefühl erleben, immer hinterher zu sein.",
+      "forWho": [
+        "Diejenigen, die Burnout oder chronischen Stress erleben",
+        "Führungskräfte, die sich verlangsamen und zurücksetzen müssen",
+        "Jeder, der sich von ständigen Anforderungen überwältigt fühlt"
+      ],
+      "dailyRhythm": {
+        "morning": "Früher Sonnenaufgangsspaziergang in Stille. Leichtes Frühstück. Sanfte Bewegung, um den Tag zu beginnen.",
+        "midday": "Langsames Trekking mit häufigen Pausen. Zeit zum Beobachten, Reflektieren und einfach Sein.",
+        "evening": "Ruhiges Abendessen. Journaling-Anregungen. Frühe Ruhe zur Wiederherstellung."
+      },
+      "itinerary": {
+        "day1": {
+          "title": "Ankunft und Einleben",
+          "description": "Ankunft in Kathmandu. Kurze Orientierung. Zeit zum Ausruhen und Anpassen."
+        },
+        "day2": {
+          "title": "Reise beginnt",
+          "description": "Fahrt zum Ausgangspunkt. Erster sanfter Spaziergang. Einführung in den Rhythmus der Reise."
+        },
+        "day3": {
+          "title": "Ihren Rhythmus finden",
+          "description": "Beginnen Sie das Trekking in einem langsamen, achtsamen Tempo. Erster voller Tag der Reflexion und Stille."
+        },
+        "day4": {
+          "title": "Stille vertiefen",
+          "description": "Weiter in der Höhe. Mehr Zeit für ruhige Kontemplation und Journaling."
+        },
+        "day5": {
+          "title": "Integrationstag",
+          "description": "Ein Tag der Ruhe und Reflexion. Optionale sanfte Spaziergänge. Zeit, um Erkenntnisse zu verarbeiten."
+        },
+        "day6": {
+          "title": "Rückreise",
+          "description": "Beginnen Sie den Abstieg. Integration der Erkenntnisse. Vorbereitung auf die Rückkehr mit Klarheit."
+        },
+        "day7": {
+          "title": "Abreise",
+          "description": "Finale Reflexion. Abreise aus Kathmandu mit erneuerter Perspektive."
+        }
+      },
+      "included": [
+        "Unterkunftsberatung und Unterstützung",
+        "Lokaler Führer mit tiefem Wissen über die Berge",
+        "Langsames Tempo, das für Reflexion entwickelt wurde",
+        "Tägliche Reflexionsanregungen und Journaling-Raum",
+        "Achtsame Bewegung und Ruhezeiten",
+        "Ruhige Räume für Kontemplation"
+      ],
+      "excluded": [
+        "Internationale Flüge",
+        "Visumarrangements",
+        "Persönliche Reiseversicherung",
+        "Spezifische Unterkunftsgarantien"
+      ],
+      "practicalNotes": {
+        "seasons": "Am besten im Frühling (März-Mai) und Herbst (September-November) für angenehmes Wetter und klare Aussichten.",
+        "altitude": "Mäßige Höhe (2.000-3.500 m). Geeignet für die meisten Reisenden mit ordnungsgemäßer Akklimatisation.",
+        "connectivity": "Begrenzter Internetzugang. Entwickelt für Trennung und Reflexion.",
+        "suitability": "Ideal für diejenigen, die Ruhe und Wiederherstellung suchen. Nicht geeignet, wenn Sie ständige Konnektivität benötigen."
+      },
+      "whyThisJourneyExists": {
+        "title": "Warum diese Reise existiert",
+        "paragraph1": "Burnout ist kein persönliches Versagen. Es ist das, was passiert, wenn das Lebenstempo Ihre Fähigkeit zur Wiederherstellung übersteigt. Die Stille Zurücksetzung existiert, weil wir glauben, dass Wiederherstellung kein Luxus ist—es ist eine Notwendigkeit. Und dass die beste Wiederherstellung fern vom Lärm geschieht, der die Erschöpfung überhaupt erst verursacht hat.",
+        "paragraph2": "Im Himalaya ist das Tempo anders. Die Berge eilen nicht. Sie fordern nicht. Sie existieren einfach, und in ihrer Gegenwart erinnern Sie sich, dass auch Sie existieren können—ohne den ständigen Druck, mehr zu tun, mehr zu sein, mehr zu erreichen. Diese Reise geht darum, sich daran zu erinnern, wie es sich anfühlt, einfach zu sein.",
+        "paragraph3": "Die Stille Zurücksetzung geht nicht darum, Sie zu reparieren. Es geht darum, Raum zu schaffen. Raum zum Atmen. Raum zum Ausruhen. Raum, um sich an das zu erinnern, was wichtig ist. Die Berge bieten die Stille. Sie geben die Erlaubnis, langsamer zu werden. Zusammen schaffen sie die Bedingungen für echte Wiederherstellung."
+      },
+      "whatChangesAfter": {
+        "title": "Was sich danach ändert",
+        "paragraph1": "Sie kehren mit einem erneuerten Gefühl dafür zurück, was Ruhe tatsächlich bedeutet. Nicht nur Schlaf, sondern die Art von Wiederherstellung, die aus Stille kommt, aus Gegenwart ohne Agenda, aus der Erinnerung, dass Sie mehr sind als das, was Sie produzieren.",
+        "paragraph2": "Die Klarheit, die Sie in den Bergen finden, bleibt bei Ihnen. Die Probleme, die vor Ihrer Abreise überwältigend schienen, werden weiterhin existieren, aber Sie werden sie anders sehen. Von der Höhe gewinnen Sie Perspektive. Von der Stille gewinnen Sie Klarheit. Von der Ruhe gewinnen Sie die Fähigkeit, sich wieder mit dem Leben zu beschäftigen, aber anders.",
+        "paragraph3": "Am wichtigsten ist, dass Sie einen Prüfstein geschaffen haben—eine Erinnerung daran, wie es sich anfühlt, wirklich ausgeruht, wirklich präsent, wirklich still zu sein. Diese Erinnerung wird zu etwas, zu dem Sie zurückkehren können, wenn das Leben wieder laut wird. Eine Erinnerung daran, dass Ruhe nicht etwas ist, das Sie verdienen. Es ist etwas, das Sie wählen."
+      },
+      "aGentleFlow": {
+        "title": "Ein Sanfter Fluss",
+        "day1": {
+          "title": "Tag 1: Ankunft und Einleben",
+          "description": "Ankunft in Kathmandu. Kurze Orientierung. Zeit zum Ausruhen und Anpassen. Keine Erwartungen. Keine Agenda. Nur die Erlaubnis, langsamer zu werden und das Tempo loszulassen, das Sie beibehalten haben."
+        },
+        "day2": {
+          "title": "Tag 2: Beginn der Zurücksetzung",
+          "description": "Fahrt zum Ausgangspunkt. Erster sanfter Spaziergang. Einführung in den Rhythmus der Reise. Beginnen Sie, Ihr eigenes Tempo zu finden—langsam, achtsam, ohne Dringlichkeit. Die Berge lehren Geduld. Sie lernen, sie zu empfangen."
+        },
+        "day3": {
+          "title": "Tag 3: Ruhe vertiefen",
+          "description": "Voller Tag des langsamen Trekking mit häufigen Pausen. Zeit zum Beobachten, Reflektieren und einfach Sein. Der erste volle Tag der Reflexion und Stille. Beginnen Sie sich zu erinnern, wie sich Ruhe anfühlt. Kehren Sie mit dem Beginn der Klarheit zurück."
+        }
+      },
+      "importantToKnow": {
+        "title": "Wichtig zu wissen",
+        "paragraph1": "Diese Reise ist für Wiederherstellung konzipiert, nicht für Leistung. Das Tempo ist langsam. Die Erwartungen sind minimal. Das Ziel ist Ruhe, nicht das Erreichen eines Gipfels. Wenn Sie eine Herausforderung oder eine körperliche Leistung suchen, ist dies möglicherweise nicht die richtige Reise für Sie.",
+        "paragraph2": "Die Konnektivität ist absichtlich minimal. Das ist beabsichtigt. Die Wiederherstellung, die Sie suchen, erfordert Trennung vom Lärm, der die Erschöpfung verursacht hat. Wenn Sie ständige Kommunikation oder regelmäßigen Internetzugang benötigen, überlegen Sie, ob diese Reise Ihren Bedürfnissen entspricht.",
+        "paragraph3": "Die Reise erfordert ein grundlegendes Maß an körperlicher Fitness, aber der Schwerpunkt liegt auf sanfter Bewegung und Ruhe, nicht auf anstrengender Aktivität. Die Berge bieten die Höhe. Sie geben die Erlaubnis, sich langsam zu bewegen, oft zu pausieren und sich auszuruhen, wenn Sie es brauchen."
+      },
+      "startConversation": {
+        "title": "Ein Gespräch beginnen",
+        "subtitle": "Lassen Sie uns besprechen, wie Die Stille Zurücksetzung Ihrem Bedarf an Wiederherstellung dienen kann. Kein Druck, nur durchdachter Dialog.",
+        "button": "Ein Gespräch beginnen"
+      }
+    },
+    "betweenDecisions": {
+      "title": "Zwischen Entscheidungen",
+      "subtitle": "Für Gründer, Führungskräfte und leitende Angestellte",
+      "description": "Eine Reise für Führungskräfte, die zwischen Entscheidungen stehen. Treten Sie weg von Dringlichkeit, Lärm und ständiger Verantwortung, um die Perspektive wiederzugewinnen. Diese Erfahrung bietet Raum — kein Coaching, keine Rahmen — sondern die Klarheit, die entsteht, wenn Entscheidungen nicht mehr übereilt werden.",
+      "forWho": [
+        "Gründer, die durch Wachstum und komplexe Entscheidungen navigieren",
+        "C-Level-Führungskräfte, die strategische Klarheit suchen",
+        "Manager, die Teams durch Veränderungen führen"
+      ],
+      "dailyRhythm": {
+        "morning": "Frühe ruhige Zeit für strategisches Denken. Leichtes Frühstück. Absichten für den Tag setzen.",
+        "midday": "Trekking mit Raum für Reflexion. Natürliche Pausen zum Verarbeiten von Entscheidungen und Prioritäten.",
+        "evening": "Ruhiges Abendessen. Führungsreflexionsanregungen. Ruhe für mentale Klarheit."
+      },
+      "itinerary": {
+        "day1": {
+          "title": "Ankunft und Orientierung",
+          "description": "Ankunft in Kathmandu. Kurze Orientierung. Zeit zum Trennen und Vorbereiten."
+        },
+        "day2": {
+          "title": "Reise beginnt",
+          "description": "Fahrt zum Ausgangspunkt. Erster Tag der Höhe und Perspektive."
+        },
+        "day3": {
+          "title": "Strategische Reflexion",
+          "description": "Voller Tag in der Höhe. Zeit für tiefes Nachdenken über Führungsherausforderungen."
+        },
+        "day4": {
+          "title": "Klarheit und Entscheidungen",
+          "description": "Weiterer Aufstieg. Natürliche Klarheit entsteht aus Stille und Höhe."
+        },
+        "day5": {
+          "title": "Integrationstag",
+          "description": "Tag der Ruhe und Reflexion. Erkenntnisse verarbeiten. Planung für die Rückkehr."
+        },
+        "day6": {
+          "title": "Rückkehr mit Klarheit",
+          "description": "Beginnen Sie den Abstieg. Neue Perspektive integrieren. Vorbereitung auf anderes Führen."
+        },
+        "day7": {
+          "title": "Abreise",
+          "description": "Finale Reflexion. Abreise mit erneuertem Fokus und klaren Prioritäten."
+        }
+      },
+      "included": [
+        "Unterkunftsberatung und Unterstützung",
+        "Lokaler Führer mit Verständnis für Führungsbedürfnisse",
+        "Tempo, das für strategische Reflexion entwickelt wurde",
+        "Führungsorientierte Reflexionsanregungen",
+        "Ruhige Räume für tiefes Denken",
+        "Zeit weg von digitalen Ablenkungen"
+      ],
+      "excluded": [
+        "Internationale Flüge",
+        "Visumarrangements",
+        "Persönliche Reiseversicherung",
+        "Spezifische Unterkunftsgarantien"
+      ],
+      "practicalNotes": {
+        "seasons": "Am besten im Frühling und Herbst für optimales Wetter und Arbeitsbedingungen.",
+        "altitude": "Mäßige Höhe (2.000-3.500 m). Geeignet für strategisches Denken und Reflexion.",
+        "connectivity": "Zuverlässiges Internet an Basisstandorten verfügbar. Begrenzte Konnektivität während Trekkingtagen.",
+        "suitability": "Ideal für Gründer und kleine Teams, die Klarheit suchen. Arbeitsfreundlich mit dedizierten Räumen."
+      }
+    },
+    "soloReflection": {
+      "title": "Solo-Reflexionsreise",
+      "subtitle": "Für Alleinreisende, die Sinn und Reflexion suchen",
+      "description": "Gehen Sie in Ihrem eigenen Tempo. Reflektieren Sie in Stille. Kehren Sie mit Klarheit zurück. Manchmal kommen die tiefsten Erkenntnisse vom Alleingehen.",
+      "forWho": [
+        "Einzelpersonen, die persönliche Klarheit suchen",
+        "Diejenigen, die Lebensübergänge verarbeiten",
+        "Jeder, der Raum für tiefe Reflexion braucht"
+      ],
+      "dailyRhythm": {
+        "morning": "Natürlich aufwachen. Ruhiges Frühstück. Beginnen Sie zu gehen, wenn Sie bereit sind, in Ihrem eigenen Tempo.",
+        "midday": "Gehen, pausieren, reflektieren. Kein Zeitplan. Seien Sie einfach präsent mit den Bergen und sich selbst.",
+        "evening": "Ruhiges Abendessen. Persönliche Reflexionszeit. Ruhen Sie sich aus, wenn Sie es brauchen."
+      },
+      "itinerary": {
+        "day1": {
+          "title": "Ankunft",
+          "description": "Ankunft in Kathmandu. Kurze Orientierung. Zeit, sich in Einsamkeit einzuleben."
+        },
+        "day2": {
+          "title": "Beginn",
+          "description": "Fahrt zum Ausgangspunkt. Erster Tag des Alleingehens und der Reflexion."
+        },
+        "day3": {
+          "title": "Ihren Rhythmus finden",
+          "description": "Voller Tag des Gehens in Ihrem eigenen Tempo. Zeit zum Verarbeiten und Reflektieren."
+        },
+        "day4": {
+          "title": "Erkenntnis vertiefen",
+          "description": "Weiter in der Höhe. Erkenntnisse entstehen natürlich aus Stille."
+        },
+        "day5": {
+          "title": "Integration",
+          "description": "Tag der Ruhe oder sanften Wanderung. Verarbeiten, was entstanden ist."
+        },
+        "day6": {
+          "title": "Rückreise",
+          "description": "Beginnen Sie den Abstieg. Erkenntnisse integrieren. Vorbereitung auf die Rückkehr mit Klarheit."
+        },
+        "day7": {
+          "title": "Abreise",
+          "description": "Finale Reflexion. Abreise mit neuer Perspektive und Erkenntnis."
+        }
+      },
+      "included": [
+        "Unterkunftsberatung und Unterstützung",
+        "Lokaler Führer für Sicherheit (minimale Präsenz)",
+        "Flexibles Tempo, das Ihren Bedürfnissen entspricht",
+        "Persönliche Reflexionsanregungen",
+        "Ruhige Räume für Einsamkeit",
+        "Respekt für Ihren Bedarf an Raum"
+      ],
+      "excluded": [
+        "Internationale Flüge",
+        "Visumarrangements",
+        "Persönliche Reiseversicherung",
+        "Spezifische Unterkunftsgarantien"
+      ],
+      "practicalNotes": {
+        "seasons": "Am besten im Frühling und Herbst. Winter möglich für erfahrene Reisende, die Einsamkeit suchen.",
+        "altitude": "Mäßige bis hohe Höhe (2.500-4.000 m). Erfordert gute körperliche Verfassung.",
+        "connectivity": "Minimale Konnektivität. Entwickelt für vollständige Trennung und Einsamkeit.",
+        "suitability": "Perfekt für Alleinreisende, die tiefe Reflexion suchen. Nicht geeignet, wenn Sie ständige Kommunikation benötigen."
+      }
+    },
+    "sharedStillness": {
+      "title": "Geteilte Stille",
+      "subtitle": "Für Paare, die Präsenz und Wiederverbindung suchen",
+      "description": "Eine Reise für Paare, um zusammen wegzutreten, sich wiederzuverbinden und Präsenz miteinander zu finden. In der Stille der Berge schaffen Sie Raum für das, was in Ihrer Beziehung wirklich wichtig ist.",
+      "forWho": [
+        "Paare, die sich wieder verbinden und zusammen verlangsamen wollen",
+        "Partner, die Präsenz und tiefere Verbindung suchen",
+        "Diejenigen, die geteilte Stille und Klarheit schaffen möchten"
+      ],
+      "dailyRhythm": {
+        "morning": "Gemeinsam aufwachen. Ruhiges Frühstück. Beginnen Sie nebeneinander in einem natürlichen, sanften Tempo zu gehen.",
+        "midday": "Geteiltes Gehen mit natürlichen Pausen. Zeit, präsent miteinander und mit den Bergen zu sein.",
+        "evening": "Ruhiges Abendessen zusammen. Reflexionszeit. Frühe Ruhe für Verbindung und Wiederherstellung."
+      },
+      "itinerary": {
+        "day1": {
+          "title": "Ankunft und Einleben",
+          "description": "Ankunft in Kathmandu. Kurze Orientierung. Zeit zum Ausruhen und gemeinsamen Einleben."
+        },
+        "day2": {
+          "title": "Reise beginnt",
+          "description": "Fahrt zum Ausgangspunkt. Erster sanfter Spaziergang zusammen. Einführung in geteilte Stille."
+        },
+        "day3": {
+          "title": "Präsenz finden",
+          "description": "Voller Tag des gemeinsamen Gehens in einem achtsamen Tempo. Raum für Präsenz und Verbindung schaffen."
+        },
+        "day4": {
+          "title": "Verbindung vertiefen",
+          "description": "Weiter in der Höhe. Mehr Zeit für geteilte Reflexion und ruhige Momente zusammen."
+        },
+        "day5": {
+          "title": "Integrationstag",
+          "description": "Tag der gemeinsamen Ruhe und Reflexion. Erkenntnisse verarbeiten. Zeit, einfach präsent zu sein."
+        },
+        "day6": {
+          "title": "Rückreise",
+          "description": "Beginnen Sie den Abstieg. Geteilte Erkenntnisse integrieren. Vorbereitung auf die Rückkehr mit erneuerter Verbindung."
+        },
+        "day7": {
+          "title": "Abreise",
+          "description": "Finale Reflexion zusammen. Abreise mit Präsenz und Wiederverbindung."
+        }
+      },
+      "included": [
+        "Unterkunftsberatung und Unterstützung",
+        "Lokaler Führer für Sicherheit und Unterstützung",
+        "Sanftes Tempo, das für Paare entwickelt wurde",
+        "Geteilte Reflexionsanregungen",
+        "Ruhige Räume für Verbindung",
+        "Respekt für Ihre gemeinsame Reise"
+      ],
+      "excluded": [
+        "Internationale Flüge",
+        "Visumarrangements",
+        "Persönliche Reiseversicherung",
+        "Spezifische Unterkunftsgarantien"
+      ],
+      "practicalNotes": {
+        "seasons": "Am besten im Frühling und Herbst. Winter möglich für Paare, die ruhige Einsamkeit suchen.",
+        "altitude": "Mäßige Höhe (2.000-3.500 m). Sanftes Tempo, geeignet für Paare.",
+        "connectivity": "Minimale Konnektivität. Entwickelt für Präsenz und gemeinsame Trennung.",
+        "suitability": "Perfekt für Paare, die Wiederverbindung und Präsenz suchen. Nicht geeignet, wenn Sie ständige Kommunikation benötigen."
+      }
+    },
+    "collectiveAscent": {
+      "title": "Kollektiver Aufstieg",
+      "subtitle": "Für kleine Teams (4–12) und Führungsgruppen",
+      "description": "Geteilte Höhe schafft geteiltes Verständnis. Diese Reise bringt Teams in eine ruhige, neutrale Umgebung, in der Ausrichtung, Vertrauen und Perspektive natürlich zurückkehren können. Entwickelt für Teams, die Tiefe über Aktivitäten und Klarheit über Geschwindigkeit schätzen.",
+      "forWho": [
+        "Teams, die durch Konflikte oder Übergänge navigieren",
+        "Führungsgruppen, die Ausrichtung benötigen",
+        "Kleine Teams, die tieferes Vertrauen und Zusammenarbeit suchen"
+      ],
+      "dailyRhythm": {
+        "morning": "Gemeinsames Frühstück. Kurze Absichtssetzung. Beginnen Sie zusammen in einem natürlichen Tempo zu gehen.",
+        "midday": "Trekking mit natürlichen Pausen. Raum für Gespräche und geteilte Reflexion.",
+        "evening": "Gemeinsames Abendessen. Erleichterte Reflexionszeit. Vertrauen durch geteilte Erfahrung aufbauen."
+      },
+      "itinerary": {
+        "day1": {
+          "title": "Ankunft und Versammlung",
+          "description": "Ankunft in Kathmandu. Teamversammlung. Kurze Orientierung und Absichtssetzung."
+        },
+        "day2": {
+          "title": "Reise beginnt",
+          "description": "Fahrt zum Ausgangspunkt. Erster Tag der geteilten Höhe und Verbindung."
+        },
+        "day3": {
+          "title": "Vertrauen aufbauen",
+          "description": "Voller Tag des gemeinsamen Trekking. Natürliche Dynamiken entstehen. Vertrauen beginnt sich aufzubauen."
+        },
+        "day4": {
+          "title": "Ausrichtung vertiefen",
+          "description": "Weiter in der Höhe. Erleichterte Reflexion. Authentische Gespräche entstehen."
+        },
+        "day5": {
+          "title": "Integrationstag",
+          "description": "Tag der Ruhe und Reflexion. Erkenntnisse verarbeiten. Planung für die Rückkehr als Team."
+        },
+        "day6": {
+          "title": "Gemeinsame Rückkehr",
+          "description": "Beginnen Sie den Abstieg. Geteilte Erkenntnisse integrieren. Vorbereitung auf anderes gemeinsames Arbeiten."
+        },
+        "day7": {
+          "title": "Abreise",
+          "description": "Finale Reflexion als Team. Abreise mit erneuertem Vertrauen und Ausrichtung."
+        }
+      },
+      "included": [
+        "Unterkunftsberatung und Unterstützung",
+        "Lokaler Führer mit Teamerfahrung",
+        "Tempo, das für Teamverbindung entwickelt wurde",
+        "Erleichterte Reflexionssitzungen",
+        "Geteilte Räume für authentische Gespräche",
+        "Unterstützung für Teamdynamiken"
+      ],
+      "excluded": [
+        "Internationale Flüge",
+        "Visumarrangements",
+        "Persönliche Reiseversicherung",
+        "Spezifische Unterkunftsgarantien"
+      ],
+      "practicalNotes": {
+        "seasons": "Am besten im Frühling und Herbst für Gruppentravel und optimale Bedingungen.",
+        "altitude": "Mäßige Höhe (2.000-3.500 m). Geeignet für die meisten Teammitglieder mit angemessenem Tempo.",
+        "connectivity": "Zuverlässiges Internet an Basisstandorten. Begrenzt während Trekkingtagen für fokussierte Teamzeit.",
+        "suitability": "Ideal für kleine Teams (4-12 Personen), die Ausrichtung suchen. Arbeitsfreundlich mit geteilten Räumen."
+      }
+    },
+    "detail": {
+      "enquire": "Anfragen",
+      "exploreOtherJourneys": "Andere Reisen erkunden",
+      "whoThisJourneyIsFor": "Für wen diese Reise ist",
+      "whatThisJourneyOffers": "Was diese Reise bietet",
+      "paceAndRhythm": "Tempo und Rhythmus",
+      "paceAndRhythmDesc": "Ein sanfter Tagesrhythmus, der Arbeit, Ruhe und Reflexion ermöglicht. Keine starren Zeitpläne. Strukturieren Sie Ihre Tage um das, was Sie erreichen müssen, mit natürlichen Pausen.",
+      "workFriendliness": "Arbeitsfreundlichkeit",
+      "workFriendlinessDesc": "Diese Reise unterstützt konzentrierte Arbeit. Zuverlässige Konnektivität wo möglich, ruhige Räume zum Nachdenken und Flexibilität, um Ihre Tage um Ihre Arbeitsbedürfnisse zu strukturieren.",
+      "reflectionAndRestFocus": "Fokus auf Reflexion und Ruhe",
+      "reflectionAndRestFocusDesc": "Ausreichend Zeit für Reflexion, Journaling und Ruhe. Das Tempo ermöglicht es, Erkenntnisse zu verarbeiten und mit Klarheit zurückzukehren.",
+      "supportAndGuidance": "Unterstützung und Anleitung",
+      "supportAndGuidanceDesc": "Lokale Unterstützung stellt sicher, dass Sie haben, was Sie brauchen. Anleitung, nicht Management. Hilfe, wenn Sie sie brauchen, Raum, wenn Sie sie nicht brauchen.",
+      "aGentleRhythm": "Ein Sanfter Rhythmus",
+      "morning": "Morgen",
+      "midday": "Mittag",
+      "evening": "Abend",
+      "sampleItinerary": "Beispiel-Itinerar",
+      "day": "Tag",
+      "practicalNotes": "Praktische Hinweise",
+      "seasons": "Jahreszeiten",
+      "altitude": "Höhe",
+      "connectivityExpectations": "Konnektivitätserwartungen",
+      "suitabilityNotes": "Eignungshinweise",
+      "whatsIncluded": "Was enthalten ist",
+      "notIncluded": "Nicht enthalten",
+      "enquireAboutThisJourney": "Über diese Reise anfragen",
+      "enquireAboutThisJourneyDesc": "Lassen Sie uns besprechen, wie diese Reise Ihren Bedürfnissen dienen kann. Kein Druck, nur ehrlicher Dialog.",
+      "beginConversation": "Ein Gespräch beginnen"
     }
   },
   "enquire": {
-    "title": "Start a conversation",
-    "subtitle": "Tell us what you're seeking. There's no commitment — just a thoughtful exchange.",
+    "title": "Ein Gespräch beginnen",
+    "subtitle": "Teilen Sie uns mit, wonach Sie suchen. Keine Verpflichtung — nur ein durchdachter Austausch.",
     "form": {
       "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "messageHint": "You can share as much or as little as you like — an idea, a question, or an intention.",
-      "submit": "Send enquiry",
-      "sending": "Sending...",
-      "sent": "Sent",
-      "success": "Thank you for your message. We've received your enquiry and will respond thoughtfully soon.",
-      "error": "Something went wrong. Please try again.",
-      "responseTime": "We usually reply within 24–48 hours. No pressure.",
-      "reassurance": "We read every message carefully. There's no automated reply, no pressure, and no expectation — just a thoughtful response."
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "messageHint": "Sie können so viel oder so wenig teilen, wie Sie möchten — eine Idee, eine Frage oder eine Absicht.",
+      "submit": "Anfrage senden",
+      "sending": "Wird gesendet...",
+      "sent": "Gesendet",
+      "success": "Vielen Dank für Ihre Nachricht. Wir haben Ihre Anfrage erhalten und werden bald durchdacht antworten.",
+      "error": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut.",
+      "responseTime": "Wir antworten normalerweise innerhalb von 24–48 Stunden. Kein Druck.",
+      "reassurance": "Wir lesen jede Nachricht sorgfältig. Es gibt keine automatisierte Antwort, keinen Druck und keine Erwartung — nur eine durchdachte Antwort.",
+      "journeyInterest": "Ich interessiere mich für {journey}.",
+      "workInterest": "Ich interessiere mich für Arbeiten aus dem Himalaya."
     }
   },
   "places": {
     "manang": {
       "title": "Manang",
-      "description": "A high-altitude Himalayan village defined by silence and long pauses. The pace here is slow. The air is thin. The light is clear.",
+      "description": "Ein hochgelegenes Himalaya-Dorf, definiert durch Stille und lange Pausen. Das Tempo hier ist langsam. Die Luft ist dünn. Das Licht ist klar.",
       "whyManang": {
-        "title": "Why Manang",
+        "title": "Warum Manang",
         "stillness": {
-          "title": "Stillness",
-          "text": "Stillness here is not absence. It's presence. The kind of quiet that allows you to hear what you've been missing. Days move slowly. Evenings stretch. Time becomes spacious."
+          "title": "Stille",
+          "text": "Stille hier ist nicht Abwesenheit. Es ist Präsenz. Die Art von Ruhe, die es Ihnen ermöglicht zu hören, was Ihnen gefehlt hat. Tage bewegen sich langsam. Abende dehnen sich. Zeit wird geräumig."
         },
         "light": {
-          "title": "Light",
-          "text": "Light at altitude is different. Clearer. More direct. It illuminates not just the landscape but your thinking. The clarity you seek often comes with the clarity of light."
+          "title": "Licht",
+          "text": "Licht in der Höhe ist anders. Klarer. Direkter. Es beleuchtet nicht nur die Landschaft, sondern auch Ihr Denken. Die Klarheit, die Sie suchen, kommt oft mit der Klarheit des Lichts."
         },
         "altitude": {
-          "title": "Altitude",
-          "text": "Altitude requires patience. Your body adjusts. Your mind adjusts. The process itself teaches something about slowing down, about respecting limits, about the value of gradual change."
+          "title": "Höhe",
+          "text": "Höhe erfordert Geduld. Ihr Körper passt sich an. Ihr Geist passt sich an. Der Prozess selbst lehrt etwas über Verlangsamung, über Respekt vor Grenzen, über den Wert allmählicher Veränderung."
         },
         "simplicity": {
-          "title": "Simplicity",
-          "text": "Simplicity is not deprivation. It's focus. Fewer distractions. Fewer choices. What remains is what matters. This simplicity supports the kind of thinking that gets lost in complexity."
+          "title": "Einfachheit",
+          "text": "Einfachheit ist nicht Entbehrung. Es ist Fokus. Weniger Ablenkungen. Weniger Wahlmöglichkeiten. Was bleibt, ist wichtig. Diese Einfachheit unterstützt die Art von Denken, die in der Komplexität verloren geht."
         }
       },
       "supports": {
-        "title": "What this place supports",
+        "title": "Was dieser Ort unterstützt",
         "deepWork": {
-          "title": "Deep work",
-          "text": "The quiet, the altitude, the simplicity—they create conditions where focus becomes natural. You work without the constant pull of distraction."
+          "title": "Tiefe Arbeit",
+          "text": "Die Ruhe, die Höhe, die Einfachheit—sie schaffen Bedingungen, unter denen Fokus natürlich wird. Sie arbeiten ohne den ständigen Zug der Ablenkung."
         },
         "reflection": {
-          "title": "Reflection",
-          "text": "The long pauses between activities. The walks. The stillness. These moments allow you to process and understand."
+          "title": "Reflexion",
+          "text": "Die langen Pausen zwischen Aktivitäten. Die Spaziergänge. Die Stille. Diese Momente ermöglichen es Ihnen zu verarbeiten und zu verstehen."
         },
         "thinking": {
-          "title": "Long-form thinking",
-          "text": "The kind of sustained thought that requires time and space. Problems that felt intractable begin to resolve."
+          "title": "Langfristiges Denken",
+          "text": "Die Art von anhaltendem Gedanken, der Zeit und Raum erfordert. Probleme, die unlösbar schienen, beginnen sich zu lösen."
         }
       },
       "practical": {
-        "title": "Practical Information",
-        "subtitle": "Essential details about facilities, services, and what to expect",
+        "title": "Praktische Informationen",
+        "subtitle": "Wesentliche Details über Einrichtungen, Dienstleistungen und was zu erwarten ist",
         "medical": {
-          "title": "Medical Facilities",
+          "title": "Medizinische Einrichtungen",
           "healthPost": {
-            "name": "Manang Health Post",
-            "description": "Basic medical services available in the village"
+            "name": "Manang Gesundheitsposten",
+            "description": "Grundlegende medizinische Dienstleistungen im Dorf verfügbar"
           },
           "altitude": {
-            "name": "Altitude Sickness Support",
-            "description": "Local guides trained in recognizing and managing altitude-related issues"
+            "name": "Höhenkrankheits-Unterstützung",
+            "description": "Lokale Führer, geschult im Erkennen und Umgang mit höhenbedingten Problemen"
           },
           "evacuation": {
-            "name": "Emergency Evacuation",
-            "description": "Helicopter evacuation available for serious medical emergencies"
+            "name": "Notfall-Evakuierung",
+            "description": "Hubschrauber-Evakuierung für schwerwiegende medizinische Notfälle verfügbar"
           }
         },
         "attractions": {
-          "title": "Nearby Attractions",
+          "title": "Nahegelegene Attraktionen",
           "gangapurna": {
-            "name": "Gangapurna Lake",
-            "description": "Short walk from the village. A peaceful spot for reflection"
+            "name": "Gangapurna See",
+            "description": "Kurzer Spaziergang vom Dorf. Ein friedlicher Ort zum Nachdenken"
           },
           "iceLake": {
-            "name": "Ice Lake (Kicho Tal)",
-            "description": "Day hike destination. High-altitude lake with stunning mountain views"
+            "name": "Eissee (Kicho Tal)",
+            "description": "Tageswanderziel. Hochgelegener See mit atemberaubenden Bergblicken"
           },
           "milarepa": {
-            "name": "Milarepa Cave",
-            "description": "Historic meditation cave. A place of quiet significance"
+            "name": "Milarepa Höhle",
+            "description": "Historische Meditationshöhle. Ein Ort von ruhiger Bedeutung"
           }
         },
         "connectivity": {
-          "title": "Connectivity",
+          "title": "Konnektivität",
           "internet": {
-            "name": "Internet Access",
-            "description": "Limited and intermittent. Best for essential communication only"
+            "name": "Internet-Zugang",
+            "description": "Begrenzt und unterbrochen. Am besten nur für wichtige Kommunikation"
           },
           "mobile": {
-            "name": "Mobile Network",
-            "description": "Spotty coverage. Some areas have better signal than others"
+            "name": "Mobilfunknetz",
+            "description": "Lückenhafte Abdeckung. Einige Bereiche haben besseres Signal als andere"
           },
           "power": {
-            "name": "Power Supply",
-            "description": "Electricity available but can be unreliable. Solar power recommended for devices"
+            "name": "Stromversorgung",
+            "description": "Strom verfügbar, kann aber unzuverlässig sein. Solarenergie für Geräte empfohlen"
           }
         },
         "accommodation": {
-          "title": "Accommodation & Services",
+          "title": "Unterkunft & Dienstleistungen",
           "lodges": {
-            "name": "Lodges & Guesthouses",
-            "description": "Simple, comfortable accommodations. Basic amenities available"
+            "name": "Lodges & Gästehäuser",
+            "description": "Einfache, komfortable Unterkünfte. Grundlegende Annehmlichkeiten verfügbar"
           },
           "dining": {
-            "name": "Dining",
-            "description": "Local teahouses serve traditional Nepali and Tibetan cuisine"
+            "name": "Verpflegung",
+            "description": "Lokale Teehäuser servieren traditionelle nepalesische und tibetische Küche"
           },
           "supplies": {
-            "name": "Supplies",
-            "description": "Basic supplies available. Limited selection. Plan accordingly"
+            "name": "Vorräte",
+            "description": "Grundlegende Vorräte verfügbar. Begrenzte Auswahl. Entsprechend planen"
           }
         }
       },
       "considerations": {
-        "title": "Important Considerations",
+        "title": "Wichtige Überlegungen",
         "altitude": {
-          "title": "Altitude",
-          "text": "Manang sits at approximately 3,540 meters (11,614 feet). This requires proper acclimatization. Some people adjust quickly. Others need more time. We ensure proper support and pacing. Your well-being matters more than any schedule."
+          "title": "Höhe",
+          "text": "Manang liegt auf etwa 3.540 Metern (11.614 Fuß). Dies erfordert ordnungsgemäße Akklimatisation. Einige Menschen passen sich schnell an. Andere brauchen mehr Zeit. Wir sorgen für ordnungsgemäße Unterstützung und Tempo. Ihr Wohlbefinden ist wichtiger als jeder Zeitplan."
         },
         "connectivity": {
-          "title": "Connectivity Limitations",
-          "text": "Internet access is limited. This is intentional. The quiet that makes deep work possible also means less connectivity. If your work requires constant online presence or real-time collaboration, this may not be the right fit."
+          "title": "Konnektivitätsbeschränkungen",
+          "text": "Der Internetzugang ist begrenzt. Das ist beabsichtigt. Die Stille, die tiefe Arbeit ermöglicht, bedeutet auch weniger Konnektivität. Wenn Ihre Arbeit ständige Online-Präsenz oder Echtzeit-Zusammenarbeit erfordert, ist dies möglicherweise nicht die richtige Wahl."
         },
         "notForEveryone": {
-          "title": "Not for Everyone",
-          "text": "This place is not for everyone. If you need urban comforts, reliable connectivity, or extensive infrastructure, look elsewhere. We're honest about limitations because we want you to choose what actually serves you."
+          "title": "Nicht für jeden",
+          "text": "Dieser Ort ist nicht für jeden. Wenn Sie städtischen Komfort, zuverlässige Konnektivität oder umfangreiche Infrastruktur benötigen, suchen Sie woanders. Wir sind ehrlich über Einschränkungen, weil wir möchten, dass Sie wählen, was Ihnen tatsächlich dient."
         }
       },
       "workCta": {
-        "title": "Work from the Himalayas",
-        "text": "Manang is suitable for work-focused stays. For people comfortable with simplicity and altitude. If you need quiet space to think, to write, to build, this place offers that."
+        "title": "Arbeiten aus dem Himalaya",
+        "text": "Manang ist für arbeitsorientierte Aufenthalte geeignet. Für Menschen, die mit Einfachheit und Höhe vertraut sind. Wenn Sie ruhigen Raum zum Nachdenken, Schreiben, Bauen brauchen, bietet dieser Ort das."
       }
     }
   }

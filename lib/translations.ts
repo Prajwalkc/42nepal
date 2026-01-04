@@ -51,6 +51,46 @@ export async function getServerTranslations() {
     return (key: string) => getNestedValue(subMessages, key);
   };
   
+  // Helper to get translated journey content by slug
+  const getJourneyTranslation = (slug: string) => {
+    const journeysMessages = messages.journeys;
+    if (!journeysMessages || typeof journeysMessages !== 'object') {
+      return null;
+    }
+    
+    // Map slug to translation key
+    const slugMap: Record<string, string> = {
+      'quiet-reset': 'quietReset',
+      'leadership-in-stillness': 'betweenDecisions',
+      'solo-reflection': 'soloReflection',
+      'shared-stillness': 'sharedStillness',
+      'team-realignment': 'collectiveAscent',
+    };
+    
+    const key = slugMap[slug];
+    if (!key) return null;
+    
+    const journeyMessages = (journeysMessages as any)[key];
+    if (!journeyMessages || typeof journeyMessages !== 'object') {
+      return null;
+    }
+    
+    return journeyMessages;
+  };
+  
+  // Helper to get journey detail translations (e.g., journeys.detail.enquire)
+  const journeyDetail = (key: string) => {
+    const journeysMessages = messages.journeys;
+    if (!journeysMessages || typeof journeysMessages !== 'object') {
+      return key;
+    }
+    const detailMessages = (journeysMessages as any).detail;
+    if (!detailMessages || typeof detailMessages !== 'object') {
+      return key;
+    }
+    return getNestedValue(detailMessages, key);
+  };
+  
   return {
     locale,
     messages,
@@ -61,6 +101,8 @@ export async function getServerTranslations() {
     journeys: t('journeys'),
     places,
     enquire: t('enquire'),
+    getJourneyTranslation,
+    journeyDetail,
   };
 }
 

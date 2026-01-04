@@ -176,6 +176,400 @@
     "cta": {
       "title": "Commencer une conversation",
       "subtitle": "Vous ne savez pas quel voyage convient? Nous vous aiderons à choisir."
+    },
+    "viewJourney": "Voir le voyage",
+    "quietReset": {
+      "title": "La Réinitialisation Silencieuse",
+      "subtitle": "Pour l'épuisement, ralentir, la réflexion",
+      "description": "Un voyage conçu pour vous aider à faire un pas en arrière, respirer et vous souvenir de ce qui compte. Pour ceux qui vivent l'épuisement, le stress constant ou le sentiment d'être toujours en retard.",
+      "forWho": [
+        "Ceux qui vivent l'épuisement ou le stress chronique",
+        "Les leaders qui ont besoin de ralentir et de se réinitialiser",
+        "Toute personne se sentant submergée par des demandes constantes"
+      ],
+      "dailyRhythm": {
+        "morning": "Promenade matinale au lever du soleil en silence. Petit déjeuner léger. Mouvement doux pour commencer la journée.",
+        "midday": "Randonnée à rythme lent avec des pauses fréquentes. Temps pour observer, réfléchir et simplement être.",
+        "evening": "Dîner calme. Invitations au journaling. Repos précoce pour la restauration."
+      },
+      "itinerary": {
+        "day1": {
+          "title": "Arrivée et installation",
+          "description": "Arrivée à Katmandou. Brève orientation. Temps pour se reposer et s'adapter."
+        },
+        "day2": {
+          "title": "Le voyage commence",
+          "description": "Voyage jusqu'au point de départ. Première promenade douce. Introduction au rythme du voyage."
+        },
+        "day3": {
+          "title": "Trouver votre rythme",
+          "description": "Commencez la randonnée à un rythme lent et conscient. Premier jour complet de réflexion et de calme."
+        },
+        "day4": {
+          "title": "Approfondir le calme",
+          "description": "Continuez à l'élévation. Plus de temps pour la contemplation silencieuse et le journaling."
+        },
+        "day5": {
+          "title": "Jour d'intégration",
+          "description": "Une journée de repos et de réflexion. Promenades douces optionnelles. Temps pour traiter les idées."
+        },
+        "day6": {
+          "title": "Voyage de retour",
+          "description": "Commencez la descente. Intégration des idées. Préparation à retourner avec clarté."
+        },
+        "day7": {
+          "title": "Départ",
+          "description": "Réflexion finale. Départ de Katmandou avec une perspective renouvelée."
+        }
+      },
+      "included": [
+        "Orientation et soutien pour l'hébergement",
+        "Guide local avec une connaissance approfondie des montagnes",
+        "Rythme lent conçu pour la réflexion",
+        "Invitations quotidiennes à la réflexion et espace pour le journaling",
+        "Mouvement conscient et périodes de repos",
+        "Espaces calmes pour la contemplation"
+      ],
+      "excluded": [
+        "Vols internationaux",
+        "Arrangements de visa",
+        "Assurance voyage personnelle",
+        "Garanties d'hébergement spécifiques"
+      ],
+      "practicalNotes": {
+        "seasons": "Meilleur au printemps (mars-mai) et en automne (septembre-novembre) pour un temps confortable et des vues claires.",
+        "altitude": "Élévation modérée (2 000-3 500 m). Adapté à la plupart des voyageurs avec une acclimatation appropriée.",
+        "connectivity": "Accès Internet limité. Conçu pour la déconnexion et la réflexion.",
+        "suitability": "Idéal pour ceux qui cherchent le repos et la restauration. Pas adapté si vous avez besoin d'une connectivité constante."
+      },
+      "whyThisJourneyExists": {
+        "title": "Pourquoi ce voyage existe",
+        "paragraph1": "L'épuisement n'est pas un échec personnel. C'est ce qui se passe quand le rythme de la vie dépasse votre capacité à vous restaurer. La Réinitialisation Silencieuse existe parce que nous croyons que la restauration n'est pas un luxe—c'est une nécessité. Et que la meilleure restauration se produit loin du bruit qui a créé l'épuisement en premier lieu.",
+        "paragraph2": "Dans l'Himalaya, le rythme est différent. Les montagnes ne se précipitent pas. Elles ne demandent pas. Elles existent simplement, et en leur présence, vous vous souvenez que vous pouvez exister aussi—sans la pression constante de faire plus, être plus, accomplir plus. Ce voyage concerne le souvenir de ce que c'est que de simplement être.",
+        "paragraph3": "La Réinitialisation Silencieuse ne consiste pas à vous réparer. Il s'agit de créer de l'espace. Espace pour respirer. Espace pour se reposer. Espace pour se souvenir de ce qui compte. Les montagnes fournissent le calme. Vous fournissez la permission de ralentir. Ensemble, ils créent les conditions pour une restauration authentique."
+      },
+      "whatChangesAfter": {
+        "title": "Ce qui change après",
+        "paragraph1": "Vous revenez avec un sens renouvelé de ce que le repos signifie réellement. Pas seulement le sommeil, mais le genre de restauration qui vient du calme, d'être présent sans agenda, de se souvenir que vous êtes plus que ce que vous produisez.",
+        "paragraph2": "La clarté que vous trouvez dans les montagnes reste avec vous. Les problèmes qui semblaient accablants avant votre départ existeront toujours, mais vous les verrez différemment. De l'élévation, vous gagnez la perspective. Du calme, vous gagnez la clarté. Du repos, vous gagnez la capacité de vous engager à nouveau dans la vie, mais différemment.",
+        "paragraph3": "Plus important encore, vous aurez créé une pierre de touche—un souvenir de ce que c'est que d'être vraiment reposé, vraiment présent, vraiment calme. Ce souvenir devient quelque chose auquel vous pouvez revenir quand la vie redevient bruyante. Un rappel que le repos n'est pas quelque chose que vous gagnez. C'est quelque chose que vous choisissez."
+      },
+      "aGentleFlow": {
+        "title": "Un Flux Doux",
+        "day1": {
+          "title": "Jour 1 : Arrivée et installation",
+          "description": "Arrivée à Katmandou. Brève orientation. Temps pour se reposer et s'adapter. Pas d'attentes. Pas d'agenda. Juste la permission de ralentir et de commencer à lâcher le rythme que vous avez maintenu."
+        },
+        "day2": {
+          "title": "Jour 2 : Commencer la réinitialisation",
+          "description": "Voyage jusqu'au point de départ. Première promenade douce. Introduction au rythme du voyage. Commencez à trouver votre propre rythme—lent, conscient, sans urgence. Les montagnes enseignent la patience. Vous apprenez à la recevoir."
+        },
+        "day3": {
+          "title": "Jour 3 : Approfondir le repos",
+          "description": "Journée complète de randonnée à rythme lent avec des pauses fréquentes. Temps pour observer, réfléchir et simplement être. Le premier jour complet de réflexion et de calme. Commencez à vous souvenir de ce que le repos ressent. Retournez avec le début de la clarté."
+        }
+      },
+      "importantToKnow": {
+        "title": "Important à savoir",
+        "paragraph1": "Ce voyage est conçu pour la restauration, pas pour l'accomplissement. Le rythme est lent. Les attentes sont minimales. L'objectif est le repos, pas atteindre un sommet. Si vous cherchez un défi ou un accomplissement physique, ce n'est peut-être pas le bon voyage pour vous.",
+        "paragraph2": "La connectivité est intentionnellement minimale. C'est par design. La restauration que vous recherchez nécessite une déconnexion du bruit qui a créé l'épuisement. Si vous avez besoin d'une communication constante ou d'un accès Internet régulier, considérez si ce voyage correspond à vos besoins.",
+        "paragraph3": "Le voyage nécessite un niveau de base de condition physique, mais l'accent est mis sur le mouvement doux et le repos, pas sur l'activité strenue. Les montagnes fournissent l'élévation. Vous fournissez la permission de bouger lentement, de faire des pauses souvent, et de vous reposer quand vous en avez besoin."
+      },
+      "startConversation": {
+        "title": "Commencer une conversation",
+        "subtitle": "Discutons de la façon dont La Réinitialisation Silencieuse peut servir votre besoin de restauration. Pas de pression, juste un dialogue réfléchi.",
+        "button": "Commencer une conversation"
+      }
+    },
+    "betweenDecisions": {
+      "title": "Entre les Décisions",
+      "subtitle": "Pour les fondateurs, dirigeants et cadres supérieurs",
+      "description": "Un voyage conçu pour les leaders qui se trouvent entre des choix. Éloignez-vous de l'urgence, du bruit et de la responsabilité constante pour retrouver la perspective. Cette expérience offre de l'espace — pas de coaching, pas de cadres — mais la clarté qui émerge lorsque les décisions ne sont plus précipitées.",
+      "forWho": [
+        "Fondateurs naviguant dans la croissance et les décisions complexes",
+        "Dirigeants de niveau C cherchant la clarté stratégique",
+        "Managers menant des équipes à travers le changement"
+      ],
+      "dailyRhythm": {
+        "morning": "Temps calme matinal pour la réflexion stratégique. Petit déjeuner léger. Fixation des intentions pour la journée.",
+        "midday": "Randonnée avec espace pour la réflexion. Pauses naturelles pour traiter les décisions et les priorités.",
+        "evening": "Dîner calme. Invitations à la réflexion sur le leadership. Repos pour la clarté mentale."
+      },
+      "itinerary": {
+        "day1": {
+          "title": "Arrivée et orientation",
+          "description": "Arrivée à Katmandou. Brève orientation. Temps pour se déconnecter et se préparer."
+        },
+        "day2": {
+          "title": "Le voyage commence",
+          "description": "Voyage jusqu'au point de départ. Premier jour d'élévation et de perspective."
+        },
+        "day3": {
+          "title": "Réflexion stratégique",
+          "description": "Journée complète à l'élévation. Temps pour une réflexion approfondie sur les défis du leadership."
+        },
+        "day4": {
+          "title": "Clarté et décisions",
+          "description": "Continuez l'ascension. La clarté naturelle émerge du calme et de l'élévation."
+        },
+        "day5": {
+          "title": "Jour d'intégration",
+          "description": "Journée de repos et de réflexion. Traitement des idées. Planification du retour."
+        },
+        "day6": {
+          "title": "Retour avec clarté",
+          "description": "Commencez la descente. Intégration de la nouvelle perspective. Préparation à diriger différemment."
+        },
+        "day7": {
+          "title": "Départ",
+          "description": "Réflexion finale. Départ avec un focus renouvelé et des priorités claires."
+        }
+      },
+      "included": [
+        "Orientation et soutien pour l'hébergement",
+        "Guide local avec compréhension des besoins de leadership",
+        "Rythme conçu pour la réflexion stratégique",
+        "Invitations à la réflexion axées sur le leadership",
+        "Espaces calmes pour la réflexion profonde",
+        "Temps loin des distractions numériques"
+      ],
+      "excluded": [
+        "Vols internationaux",
+        "Arrangements de visa",
+        "Assurance voyage personnelle",
+        "Garanties d'hébergement spécifiques"
+      ],
+      "practicalNotes": {
+        "seasons": "Meilleur au printemps et en automne pour des conditions météorologiques et de travail optimales.",
+        "altitude": "Élévation modérée (2 000-3 500 m). Adapté à la réflexion stratégique et à la réflexion.",
+        "connectivity": "Internet fiable disponible dans les emplacements de base. Connectivité limitée pendant les jours de randonnée.",
+        "suitability": "Idéal pour les fondateurs et les petites équipes cherchant la clarté. Aptitude au travail avec des espaces dédiés."
+      }
+    },
+    "soloReflection": {
+      "title": "Voyage de Réflexion en Solo",
+      "subtitle": "Pour les voyageurs solitaires cherchant du sens et de la réflexion",
+      "description": "Marchez à votre propre rythme. Réfléchissez en silence. Retournez avec clarté. Parfois, les idées les plus profondes viennent de marcher seul.",
+      "forWho": [
+        "Individus cherchant la clarté personnelle",
+        "Ceux qui traitent les transitions de vie",
+        "Toute personne ayant besoin d'espace pour une réflexion profonde"
+      ],
+      "dailyRhythm": {
+        "morning": "Réveil naturel. Petit déjeuner calme. Commencez à marcher quand vous êtes prêt, à votre propre rythme.",
+        "midday": "Marchez, faites une pause, réfléchissez. Pas d'horaire. Soyez simplement présent avec les montagnes et vous-même.",
+        "evening": "Dîner calme. Temps de réflexion personnelle. Reposez-vous quand vous en avez besoin."
+      },
+      "itinerary": {
+        "day1": {
+          "title": "Arrivée",
+          "description": "Arrivée à Katmandou. Brève orientation. Temps pour s'installer dans la solitude."
+        },
+        "day2": {
+          "title": "Début",
+          "description": "Voyage jusqu'au point de départ. Premier jour de marche solo et de réflexion."
+        },
+        "day3": {
+          "title": "Trouver votre rythme",
+          "description": "Journée complète de marche à votre propre rythme. Temps pour traiter et réfléchir."
+        },
+        "day4": {
+          "title": "Approfondir l'idée",
+          "description": "Continuez à l'élévation. Les idées émergent naturellement du calme."
+        },
+        "day5": {
+          "title": "Intégration",
+          "description": "Journée de repos ou de marche douce. Traitement de ce qui a émergé."
+        },
+        "day6": {
+          "title": "Voyage de retour",
+          "description": "Commencez la descente. Intégration des idées. Préparation à retourner avec clarté."
+        },
+        "day7": {
+          "title": "Départ",
+          "description": "Réflexion finale. Départ avec une nouvelle perspective et une idée."
+        }
+      },
+      "included": [
+        "Orientation et soutien pour l'hébergement",
+        "Guide local pour la sécurité (présence minimale)",
+        "Rythme flexible qui correspond à vos besoins",
+        "Invitations à la réflexion personnelle",
+        "Espaces calmes pour la solitude",
+        "Respect de votre besoin d'espace"
+      ],
+      "excluded": [
+        "Vols internationaux",
+        "Arrangements de visa",
+        "Assurance voyage personnelle",
+        "Garanties d'hébergement spécifiques"
+      ],
+      "practicalNotes": {
+        "seasons": "Meilleur au printemps et en automne. Hiver possible pour les voyageurs expérimentés cherchant la solitude.",
+        "altitude": "Élévation modérée à élevée (2 500-4 000 m). Nécessite une bonne condition physique.",
+        "connectivity": "Connectivité minimale. Conçu pour une déconnexion complète et la solitude.",
+        "suitability": "Parfait pour les voyageurs solitaires cherchant une réflexion profonde. Pas adapté si vous avez besoin d'une communication constante."
+      }
+    },
+    "sharedStillness": {
+      "title": "Calme Partagé",
+      "subtitle": "Pour les couples cherchant la présence et la reconnexion",
+      "description": "Un voyage conçu pour que les couples s'éloignent ensemble, se reconnectent et trouvent la présence l'un avec l'autre. Dans le calme des montagnes, créez de l'espace pour ce qui compte vraiment dans votre relation.",
+      "forWho": [
+        "Couples voulant se reconnecter et ralentir ensemble",
+        "Partenaires cherchant la présence et une connexion plus profonde",
+        "Ceux qui cherchent à créer un calme partagé et une clarté"
+      ],
+      "dailyRhythm": {
+        "morning": "Réveil ensemble. Petit déjeuner calme. Commencez à marcher côte à côte à un rythme naturel et doux.",
+        "midday": "Marche partagée avec des pauses naturelles. Temps pour être présent l'un avec l'autre et avec les montagnes.",
+        "evening": "Dîner calme ensemble. Temps de réflexion. Repos précoce pour la connexion et la restauration."
+      },
+      "itinerary": {
+        "day1": {
+          "title": "Arrivée et installation",
+          "description": "Arrivée à Katmandou. Brève orientation. Temps pour se reposer et s'installer ensemble."
+        },
+        "day2": {
+          "title": "Le voyage commence",
+          "description": "Voyage jusqu'au point de départ. Première promenade douce ensemble. Introduction au calme partagé."
+        },
+        "day3": {
+          "title": "Trouver la présence",
+          "description": "Journée complète de marche ensemble à un rythme conscient. Création d'espace pour la présence et la connexion."
+        },
+        "day4": {
+          "title": "Approfondir la connexion",
+          "description": "Continuez à l'élévation. Plus de temps pour la réflexion partagée et les moments calmes ensemble."
+        },
+        "day5": {
+          "title": "Jour d'intégration",
+          "description": "Journée de repos et de réflexion ensemble. Traitement des idées. Temps pour simplement être présent."
+        },
+        "day6": {
+          "title": "Voyage de retour",
+          "description": "Commencez la descente. Intégration des idées partagées. Préparation à retourner avec une connexion renouvelée."
+        },
+        "day7": {
+          "title": "Départ",
+          "description": "Réflexion finale ensemble. Départ avec présence et reconnexion."
+        }
+      },
+      "included": [
+        "Orientation et soutien pour l'hébergement",
+        "Guide local pour la sécurité et le soutien",
+        "Rythme doux conçu pour les couples",
+        "Invitations à la réflexion partagée",
+        "Espaces calmes pour la connexion",
+        "Respect de votre voyage partagé"
+      ],
+      "excluded": [
+        "Vols internationaux",
+        "Arrangements de visa",
+        "Assurance voyage personnelle",
+        "Garanties d'hébergement spécifiques"
+      ],
+      "practicalNotes": {
+        "seasons": "Meilleur au printemps et en automne. Hiver possible pour les couples cherchant une solitude calme.",
+        "altitude": "Élévation modérée (2 000-3 500 m). Rythme doux adapté aux couples.",
+        "connectivity": "Connectivité minimale. Conçu pour la présence et la déconnexion ensemble.",
+        "suitability": "Parfait pour les couples cherchant la reconnexion et la présence. Pas adapté si vous avez besoin d'une communication constante."
+      }
+    },
+    "collectiveAscent": {
+      "title": "Ascension Collective",
+      "subtitle": "Pour les petites équipes (4–12) et groupes de leadership",
+      "description": "L'élévation partagée crée une compréhension partagée. Ce voyage amène les équipes dans un environnement calme et neutre où l'alignement, la confiance et la perspective peuvent naturellement revenir. Conçu pour les équipes qui valorisent la profondeur plutôt que les activités et la clarté plutôt que la vitesse.",
+      "forWho": [
+        "Équipes naviguant dans les conflits ou les transitions",
+        "Groupes de leadership ayant besoin d'alignement",
+        "Petites équipes cherchant une confiance et une collaboration plus profondes"
+      ],
+      "dailyRhythm": {
+        "morning": "Petit déjeuner partagé. Brève fixation d'intentions. Commencez à marcher ensemble à un rythme naturel.",
+        "midday": "Randonnée avec des pauses naturelles. Espace pour les conversations et la réflexion partagée.",
+        "evening": "Dîner partagé. Temps de réflexion facilité. Construction de la confiance grâce à l'expérience partagée."
+      },
+      "itinerary": {
+        "day1": {
+          "title": "Arrivée et rassemblement",
+          "description": "Arrivée à Katmandou. Rassemblement de l'équipe. Brève orientation et fixation d'intentions."
+        },
+        "day2": {
+          "title": "Le voyage commence",
+          "description": "Voyage jusqu'au point de départ. Premier jour d'élévation partagée et de connexion."
+        },
+        "day3": {
+          "title": "Construire la confiance",
+          "description": "Journée complète de randonnée ensemble. Les dynamiques naturelles émergent. La confiance commence à se construire."
+        },
+        "day4": {
+          "title": "Approfondir l'alignement",
+          "description": "Continuez à l'élévation. Réflexion facilitée. Les conversations authentiques émergent."
+        },
+        "day5": {
+          "title": "Jour d'intégration",
+          "description": "Journée de repos et de réflexion. Traitement des idées. Planification du retour en équipe."
+        },
+        "day6": {
+          "title": "Retour ensemble",
+          "description": "Commencez la descente. Intégration des idées partagées. Préparation à travailler différemment ensemble."
+        },
+        "day7": {
+          "title": "Départ",
+          "description": "Réflexion finale en équipe. Départ avec une confiance renouvelée et un alignement."
+        }
+      },
+      "included": [
+        "Orientation et soutien pour l'hébergement",
+        "Guide local avec expérience d'équipe",
+        "Rythme conçu pour la connexion d'équipe",
+        "Sessions de réflexion facilitées",
+        "Espaces partagés pour des conversations authentiques",
+        "Soutien pour les dynamiques d'équipe"
+      ],
+      "excluded": [
+        "Vols internationaux",
+        "Arrangements de visa",
+        "Assurance voyage personnelle",
+        "Garanties d'hébergement spécifiques"
+      ],
+      "practicalNotes": {
+        "seasons": "Meilleur au printemps et en automne pour les voyages en groupe et des conditions optimales.",
+        "altitude": "Élévation modérée (2 000-3 500 m). Adapté à la plupart des membres de l'équipe avec un rythme approprié.",
+        "connectivity": "Internet fiable dans les emplacements de base. Limité pendant les jours de randonnée pour un temps d'équipe concentré.",
+        "suitability": "Idéal pour les petites équipes (4-12 personnes) cherchant l'alignement. Aptitude au travail avec des espaces partagés."
+      }
+    },
+    "detail": {
+      "enquire": "Demander",
+      "exploreOtherJourneys": "Explorer d'autres voyages",
+      "whoThisJourneyIsFor": "Pour qui est ce voyage",
+      "whatThisJourneyOffers": "Ce que ce voyage offre",
+      "paceAndRhythm": "Rythme et cadence",
+      "paceAndRhythmDesc": "Un rythme quotidien doux qui permet le travail, le repos et la réflexion. Pas d'horaires rigides. Structurez vos journées autour de ce que vous devez accomplir, avec des pauses naturelles intégrées.",
+      "workFriendliness": "Aptitude au travail",
+      "workFriendlinessDesc": "Ce voyage soutient le travail concentré. Connectivité fiable lorsque possible, espaces calmes pour réfléchir, et flexibilité pour structurer vos journées autour de vos besoins de travail.",
+      "reflectionAndRestFocus": "Focus sur la réflexion et le repos",
+      "reflectionAndRestFocusDesc": "Temps ample pour la réflexion, le journaling et le repos. Le rythme permet de traiter les idées et de revenir avec clarté.",
+      "supportAndGuidance": "Soutien et orientation",
+      "supportAndGuidanceDesc": "Le soutien local garantit que vous avez ce dont vous avez besoin. Orientation, pas gestion. Aide quand vous en avez besoin, espace quand vous n'en avez pas.",
+      "aGentleRhythm": "Un Rythme Doux",
+      "morning": "Matin",
+      "midday": "Midi",
+      "evening": "Soir",
+      "sampleItinerary": "Itinéraire Exemple",
+      "day": "Jour",
+      "practicalNotes": "Notes Pratiques",
+      "seasons": "Saisons",
+      "altitude": "Altitude",
+      "connectivityExpectations": "Attentes de connectivité",
+      "suitabilityNotes": "Notes d'adéquation",
+      "whatsIncluded": "Ce qui est inclus",
+      "notIncluded": "Non inclus",
+      "enquireAboutThisJourney": "Demander sur ce voyage",
+      "enquireAboutThisJourneyDesc": "Discutons de la façon dont ce voyage peut répondre à vos besoins. Pas de pression, juste un dialogue honnête.",
+      "beginConversation": "Commencer une conversation"
     }
   },
   "enquire": {
@@ -192,7 +586,9 @@
       "success": "Merci pour votre message. Nous avons reçu votre demande et répondrons avec réflexion bientôt.",
       "error": "Quelque chose s'est mal passé. Veuillez réessayer.",
       "responseTime": "Nous répondons généralement dans les 24 à 48 heures. Pas de pression.",
-      "reassurance": "Nous lisons chaque message attentivement. Il n'y a pas de réponse automatisée, pas de pression et pas d'attente—juste une réponse réfléchie."
+      "reassurance": "Nous lisons chaque message attentivement. Il n'y a pas de réponse automatisée, pas de pression et pas d'attente—juste une réponse réfléchie.",
+      "journeyInterest": "Je suis intéressé par {journey}.",
+      "workInterest": "Je suis intéressé par Travailler depuis l'Himalaya."
     }
   },
   "places": {

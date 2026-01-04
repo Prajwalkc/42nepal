@@ -86,235 +86,631 @@
     }
   },
   "workFromHimalayas": {
-    "title": "Work From the Himalayas",
-    "subtitle": "Focused work, without the noise",
+    "title": "在喜马拉雅工作",
+    "subtitle": "专注工作，远离喧嚣",
     "whatThisIs": {
-      "title": "What This Really Is",
-      "notCoworking": "This is not a coworking space.",
-      "notWorkshop": "This is not a productivity workshop.",
-      "notWorkcation": "This is not a workcation.",
-      "text1": "Work From the Himalayas is a space for people who want to work or create with clarity, in one of the quietest landscapes on earth.",
-      "text2": "The best work happens when you have space to think. When the environment supports focus rather than urgency. When stillness becomes a condition for clarity.",
-      "text3": "You work. The mountains provide the context. The quiet provides the space. Together, they create conditions where deep thinking becomes possible."
+      "title": "这究竟是什么",
+      "notCoworking": "这不是联合办公空间。",
+      "notWorkshop": "这不是生产力工作坊。",
+      "notWorkcation": "这不是工作假期。",
+      "text1": "在喜马拉雅工作是为那些希望在地球上最宁静的风景中清晰工作或创作的人们提供的空间。",
+      "text2": "最好的工作发生在你有思考空间的时候。当环境支持专注而非紧迫时。当宁静成为清晰的条件时。",
+      "text3": "你工作。群山提供背景。宁静提供空间。它们共同创造了深度思考成为可能的条件。"
     },
     "whoFor": {
-      "title": "Who This Is For",
+      "title": "适合谁",
       "founders": {
-        "title": "Founders and co-founders",
-        "text": "Builders who need quiet space to think, plan, and create without the constant noise of daily operations."
+        "title": "创始人和联合创始人",
+        "text": "需要安静空间来思考、规划和创造，远离日常运营的持续噪音的建造者。"
       },
       "teams": {
-        "title": "Small teams",
-        "text": "Teams seeking a calm environment to work together while experiencing the stillness of the mountains."
+        "title": "小团队",
+        "text": "寻求平静环境一起工作，同时体验群山宁静的团队。"
       },
       "creators": {
-        "title": "Writers, artists, researchers",
-        "text": "People whose work requires uninterrupted time and deep thinking. Writers finishing manuscripts. Musicians composing. Painters beginning series."
+        "title": "作家、艺术家、研究者",
+        "text": "工作需要不间断时间和深度思考的人。完成手稿的作家。作曲的音乐家。开始系列的画家。"
       }
     },
     "howWorkHappens": {
-      "title": "How Work Happens Here",
+      "title": "这里如何工作",
       "environments": {
-        "title": "Work-friendly environments",
-        "text": "We curate spaces that support focus. Quiet rooms, natural light, and environments designed for thinking. Location-dependent, but always intentional."
+        "title": "工作友好环境",
+        "text": "我们策划支持专注的空间。安静的房间、自然光和为思考而设计的环境。取决于位置，但总是有意的。"
       },
       "rhythm": {
-        "title": "Flexible daily rhythm",
-        "text": "No rigid schedules. No mandatory activities. Structure your days around your work and the natural rhythm that emerges in stillness."
+        "title": "灵活的日常节奏",
+        "text": "没有严格的日程。没有强制性活动。围绕你的工作和在宁静中出现的自然节奏来安排你的日子。"
       },
       "space": {
-        "title": "Space for focus, rest, and reflection",
-        "text": "Work deeply. Rest when needed. Take walks. Reflect. The environment supports all of it — because the best work happens when you're not exhausted."
+        "title": "专注、休息和反思的空间",
+        "text": "深度工作。需要时休息。散步。反思。环境支持这一切——因为最好的工作发生在你不疲惫的时候。"
       },
       "support": {
-        "title": "Support without intrusion",
-        "text": "Local support is available when you need it. Guidance, not management. Help, not oversight. You work. We ensure the environment supports that."
+        "title": "支持而不打扰",
+        "text": "当你需要时，当地支持可用。指导，而非管理。帮助，而非监督。你工作。我们确保环境支持这一点。"
       }
     },
     "differentWay": {
-      "title": "A Different Way of Working",
-      "text1": "Productivity is measured in clarity, not hours. When you have space to think and the environment supports focus, you accomplish more with less effort.",
-      "text2": "No constant notifications. No urgent interruptions. Just work when you need to work. Rest when you need to rest.",
-      "text3": "The mountains teach patience. The quiet teaches presence. You return not just with work done, but with clarity about what matters."
+      "title": "不同的工作方式",
+      "text1": "生产力以清晰度衡量，而非小时数。当你有思考空间且环境支持专注时，你以更少的努力完成更多。",
+      "text2": "没有持续的通知。没有紧急的打断。只需在需要工作时工作。在需要休息时休息。",
+      "text3": "群山教导耐心。宁静教导存在。你不仅带着完成的工作回来，还带着对重要事物的清晰认识。"
     },
     "practical": {
-      "title": "Practical Considerations",
+      "title": "实际考虑",
       "seasons": {
-        "title": "Seasons and timing",
-        "text": "Different seasons offer different experiences. We'll guide you on the best times for your stay, considering weather, connectivity, and the kind of stillness you're seeking."
+        "title": "季节和时机",
+        "text": "不同季节提供不同体验。我们会根据天气、连接性和你寻求的宁静类型，指导你最佳停留时间。"
       },
       "altitude": {
-        "title": "Altitude and suitability",
-        "text": "We work with locations that are safe and manageable. For higher elevation options, we ensure proper acclimatization and support. Your well-being is our priority."
+        "title": "海拔和适宜性",
+        "text": "我们与安全且可管理的地点合作。对于更高海拔的选择，我们确保适当的适应和支持。你的健康是我们的首要任务。"
       },
       "connectivity": {
-        "title": "Connectivity",
-        "text": "Some locations offer reliable internet. Others offer reliable quiet. We're transparent about what to expect, so you can choose based on your work requirements."
+        "title": "连接性",
+        "text": "一些地点提供可靠的互联网。其他地点提供可靠的宁静。我们对预期保持透明，因此你可以根据工作需求选择。"
       },
       "notForEveryone": {
-        "title": "Who this may not be ideal for",
-        "text": "If you need constant connectivity, prefer urban environments, or require extensive infrastructure, this may not be the right fit. We're honest about limitations because we want you to make the right choice."
+        "title": "可能不适合谁",
+        "text": "如果你需要持续连接、偏好城市环境或需要广泛的基础设施，这可能不是合适的选择。我们对限制保持诚实，因为我们希望你做出正确的选择。"
       }
     },
     "places": {
-      "title": "Places",
-      "subtitle": "Places chosen for stillness, light, and distance from urgency. Where work experiences unfold.",
-      "explorePlace": "Explore place",
+      "title": "地点",
+      "subtitle": "为宁静、光线和远离紧迫而选择的地点。工作体验展开的地方。",
+      "explorePlace": "探索地点",
       "manang": {
-        "name": "Manang",
-        "description": "High valleys where silence settles between peaks. A high-altitude Himalayan village defined by stillness and long pauses."
+        "name": "马南",
+        "description": "宁静在山峰之间沉淀的高山谷。一个由宁静和长暂停定义的高海拔喜马拉雅村庄。"
       }
     },
     "cta": {
-      "title": "Begin a Conversation",
-      "subtitle": "Share what you're working on and what you need. We'll suggest a calm fit that supports your work."
+      "title": "开始对话",
+      "subtitle": "分享你正在做什么以及你需要什么。我们会建议一个支持你工作的宁静选择。"
     }
   },
   "journeys": {
-    "title": "Journeys into Stillness",
-    "subtitle": "A small collection of curated experiences shaped by mountains, silence, and time.",
+    "title": "进入宁静的旅程",
+    "subtitle": "由群山、寂静和时间塑造的精选体验小集合。",
     "cta": {
-      "title": "Begin a Conversation",
-      "subtitle": "Not sure which journey fits? We'll help you choose."
+      "title": "开始对话",
+      "subtitle": "不确定哪个旅程适合？我们会帮你选择。"
+    },
+    "viewJourney": "查看旅程",
+    "quietReset": {
+      "title": "宁静重置",
+      "subtitle": "适用于倦怠、放慢节奏、反思",
+      "description": "一个旨在帮助你退后一步、呼吸并记住重要事物的旅程。适用于那些经历倦怠、持续压力或总是感觉落后的人。",
+      "forWho": [
+        "那些经历倦怠或慢性压力的人",
+        "需要放慢节奏并重置的领导者",
+        "任何感到被持续需求压垮的人"
+      ],
+      "dailyRhythm": {
+        "morning": "清晨在寂静中看日出散步。清淡早餐。轻柔运动开始新的一天。",
+        "midday": "慢节奏徒步，经常暂停。时间观察、反思和简单地存在。",
+        "evening": "安静的晚餐。写日记提示。早休息以恢复。"
+      },
+      "itinerary": {
+        "day1": {
+          "title": "抵达和安顿",
+          "description": "抵达加德满都。简要介绍。时间休息和调整。"
+        },
+        "day2": {
+          "title": "旅程开始",
+          "description": "前往起点。第一次轻柔步行。介绍旅程的节奏。"
+        },
+        "day3": {
+          "title": "找到你的节奏",
+          "description": "以缓慢、正念的节奏开始徒步。第一个完整的反思和宁静日。"
+        },
+        "day4": {
+          "title": "深化宁静",
+          "description": "继续在高海拔。更多时间用于安静沉思和写日记。"
+        },
+        "day5": {
+          "title": "整合日",
+          "description": "休息和反思的一天。可选轻柔步行。时间处理见解。"
+        },
+        "day6": {
+          "title": "返程",
+          "description": "开始下降。整合见解。准备带着清晰度返回。"
+        },
+        "day7": {
+          "title": "出发",
+          "description": "最终反思。从加德满都出发，带着更新的视角。"
+        }
+      },
+      "included": [
+        "住宿指导和支持",
+        "对山脉有深入了解的当地向导",
+        "为反思设计的慢节奏",
+        "每日反思提示和写日记空间",
+        "正念运动和休息时间",
+        "用于沉思的安静空间"
+      ],
+      "excluded": [
+        "国际航班",
+        "签证安排",
+        "个人旅行保险",
+        "具体住宿保证"
+      ],
+      "practicalNotes": {
+        "seasons": "春季（3-5月）和秋季（9-11月）最佳，天气舒适，视野清晰。",
+        "altitude": "中等海拔（2000-3500米）。适合大多数旅行者，需要适当适应。",
+        "connectivity": "互联网访问有限。为断开连接和反思而设计。",
+        "suitability": "适合寻求休息和恢复的人。如果你需要持续连接，则不适合。"
+      },
+      "whyThisJourneyExists": {
+        "title": "为什么这个旅程存在",
+        "paragraph1": "倦怠不是个人失败。这是当生活节奏超过你恢复能力时发生的事情。宁静重置存在是因为我们相信恢复不是奢侈品——它是必需品。最好的恢复发生在远离最初造成疲惫的噪音的地方。",
+        "paragraph2": "在喜马拉雅山，节奏是不同的。山不匆忙。它们不要求。它们只是存在，在它们的存在中，你记得你也可以存在——没有持续的压力去做更多、成为更多、成就更多。这个旅程是关于记住简单地存在是什么感觉。",
+        "paragraph3": "宁静重置不是要修复你。它是关于创造空间。呼吸的空间。休息的空间。记住重要事物的空间。山提供宁静。你提供放慢脚步的许可。它们一起为真正的恢复创造条件。"
+      },
+      "whatChangesAfter": {
+        "title": "之后会发生什么变化",
+        "paragraph1": "你带着对休息真正含义的更新感觉返回。不仅仅是睡眠，而是那种来自宁静、来自没有议程的存在、来自记住你不仅仅是你的产出的恢复。",
+        "paragraph2": "你在山中找到的清晰度会伴随你。在你离开之前感觉压倒性的问题仍然会存在，但你会以不同的方式看待它们。从高度，你获得视角。从宁静，你获得清晰度。从休息，你获得再次参与生活的能力，但方式不同。",
+        "paragraph3": "最重要的是，你将创造一个试金石——一个关于真正休息、真正存在、真正宁静是什么感觉的记忆。当生活再次变得嘈杂时，那个记忆成为你可以回归的东西。提醒你休息不是你赚来的。它是你选择的。"
+      },
+      "aGentleFlow": {
+        "title": "温和的流动",
+        "day1": {
+          "title": "第1天：抵达和安顿",
+          "description": "抵达加德满都。简要介绍。时间休息和调整。没有期望。没有议程。只是放慢脚步并开始放下你一直保持的节奏的许可。"
+        },
+        "day2": {
+          "title": "第2天：开始重置",
+          "description": "前往起点。第一次轻柔步行。介绍旅程的节奏。开始找到你自己的节奏——缓慢、正念、不匆忙。山教耐心。你学会接受它。"
+        },
+        "day3": {
+          "title": "第3天：深化休息",
+          "description": "完整一天的慢节奏徒步，经常暂停。时间观察、反思和简单地存在。第一个完整的反思和宁静日。开始记住休息的感觉。带着清晰度的开始返回。"
+        }
+      },
+      "importantToKnow": {
+        "title": "重要须知",
+        "paragraph1": "这个旅程是为恢复而设计的，而不是为了成就。节奏很慢。期望是最小的。目标是休息，而不是到达顶峰。如果你正在寻找挑战或身体成就，这可能不是适合你的旅程。",
+        "paragraph2": "连接性是有意最小化的。这是设计使然。你寻求的恢复需要与造成疲惫的噪音断开连接。如果你需要持续沟通或定期互联网访问，请考虑这个旅程是否符合你的需求。",
+        "paragraph3": "旅程需要基本的身体健康水平，但重点是轻柔的运动和休息，而不是剧烈的活动。山提供高度。你提供缓慢移动、经常暂停和需要时休息的许可。"
+      },
+      "startConversation": {
+        "title": "开始对话",
+        "subtitle": "让我们讨论宁静重置如何满足你的恢复需求。没有压力，只是深思熟虑的对话。",
+        "button": "开始对话"
+      }
+    },
+    "betweenDecisions": {
+      "title": "决策之间",
+      "subtitle": "适用于创始人、高管和高级领导者",
+      "description": "一个为站在选择之间的领导者设计的旅程。远离紧迫、噪音和持续的责任，重新获得视角。这种体验提供空间——不是指导，不是框架——而是当决策不再匆忙时出现的清晰度。",
+      "forWho": [
+        "在增长和复杂决策中导航的创始人",
+        "寻求战略清晰度的C级高管",
+        "带领团队度过变革的管理者"
+      ],
+      "dailyRhythm": {
+        "morning": "早期安静时间用于战略思考。清淡早餐。为一天设定意图。",
+        "midday": "有反思空间的徒步。自然暂停以处理决策和优先事项。",
+        "evening": "安静的晚餐。领导力反思提示。休息以获得心理清晰度。"
+      },
+      "itinerary": {
+        "day1": {
+          "title": "抵达和介绍",
+          "description": "抵达加德满都。简要介绍。时间断开连接和准备。"
+        },
+        "day2": {
+          "title": "旅程开始",
+          "description": "前往起点。第一天的高海拔和视角。"
+        },
+        "day3": {
+          "title": "战略反思",
+          "description": "在高海拔的完整一天。时间深入思考领导力挑战。"
+        },
+        "day4": {
+          "title": "清晰度和决策",
+          "description": "继续上升。自然的清晰度从宁静和高海拔中浮现。"
+        },
+        "day5": {
+          "title": "整合日",
+          "description": "休息和反思的一天。处理见解。规划返回。"
+        },
+        "day6": {
+          "title": "带着清晰度返回",
+          "description": "开始下降。整合新视角。准备以不同方式领导。"
+        },
+        "day7": {
+          "title": "出发",
+          "description": "最终反思。带着更新的焦点和明确的优先事项出发。"
+        }
+      },
+      "included": [
+        "住宿指导和支持",
+        "了解领导力需求的当地向导",
+        "为战略反思设计的节奏",
+        "以领导力为重点的反思提示",
+        "用于深度思考的安静空间",
+        "远离数字干扰的时间"
+      ],
+      "excluded": [
+        "国际航班",
+        "签证安排",
+        "个人旅行保险",
+        "具体住宿保证"
+      ],
+      "practicalNotes": {
+        "seasons": "春季和秋季最佳，天气和工作条件最优。",
+        "altitude": "中等海拔（2000-3500米）。适合战略思考和反思。",
+        "connectivity": "在基地位置有可靠的互联网。徒步日期间连接有限。",
+        "suitability": "适合寻求清晰度的创始人和小团队。工作友好，有专用空间。"
+      }
+    },
+    "soloReflection": {
+      "title": "独自反思之旅",
+      "subtitle": "适用于寻求意义和反思的独自旅行者",
+      "description": "以你自己的节奏行走。在寂静中反思。带着清晰度返回。有时最深刻的见解来自独自行走。",
+      "forWho": [
+        "寻求个人清晰度的个人",
+        "正在处理人生转变的人",
+        "任何需要深度反思空间的人"
+      ],
+      "dailyRhythm": {
+        "morning": "自然醒来。安静早餐。准备好时开始行走，以你自己的节奏。",
+        "midday": "行走、暂停、反思。没有时间表。简单地与山脉和你自己同在。",
+        "evening": "安静的晚餐。个人反思时间。需要时休息。"
+      },
+      "itinerary": {
+        "day1": {
+          "title": "抵达",
+          "description": "抵达加德满都。简要介绍。时间安顿到独处中。"
+        },
+        "day2": {
+          "title": "开始",
+          "description": "前往起点。第一天独自行走和反思。"
+        },
+        "day3": {
+          "title": "找到你的节奏",
+          "description": "以你自己的节奏完整一天的行走。时间处理和反思。"
+        },
+        "day4": {
+          "title": "深化洞察",
+          "description": "继续在高海拔。洞察从宁静中自然浮现。"
+        },
+        "day5": {
+          "title": "整合",
+          "description": "休息或轻柔行走的一天。处理已浮现的内容。"
+        },
+        "day6": {
+          "title": "返程",
+          "description": "开始下降。整合见解。准备带着清晰度返回。"
+        },
+        "day7": {
+          "title": "出发",
+          "description": "最终反思。带着新视角和洞察出发。"
+        }
+      },
+      "included": [
+        "住宿指导和支持",
+        "用于安全的当地向导（最少存在）",
+        "符合你需求的灵活节奏",
+        "个人反思提示",
+        "用于独处的安静空间",
+        "尊重你对空间的需求"
+      ],
+      "excluded": [
+        "国际航班",
+        "签证安排",
+        "个人旅行保险",
+        "具体住宿保证"
+      ],
+      "practicalNotes": {
+        "seasons": "春季和秋季最佳。冬季可能适合寻求独处的有经验的旅行者。",
+        "altitude": "中等到高海拔（2500-4000米）。需要良好的身体状况。",
+        "connectivity": "最少连接。为完全断开和独处而设计。",
+        "suitability": "适合寻求深度反思的独自旅行者。如果你需要持续沟通，则不适合。"
+      }
+    },
+    "sharedStillness": {
+      "title": "共享宁静",
+      "subtitle": "适用于寻求存在感和重新连接的伴侣",
+      "description": "一个为夫妇设计的旅程，一起离开，重新连接，并找到彼此的存在。在山的宁静中，为你们关系中真正重要的事情创造空间。",
+      "forWho": [
+        "想要一起重新连接和放慢的夫妇",
+        "寻求存在和更深连接的伴侣",
+        "那些希望创造共享宁静和清晰度的人"
+      ],
+      "dailyRhythm": {
+        "morning": "一起醒来。安静早餐。以自然、温和的节奏并排开始行走。",
+        "midday": "有自然暂停的共享行走。时间与彼此和山脉同在。",
+        "evening": "一起安静晚餐。反思时间。早休息以连接和恢复。"
+      },
+      "itinerary": {
+        "day1": {
+          "title": "抵达和安顿",
+          "description": "抵达加德满都。简要介绍。时间一起休息和安顿。"
+        },
+        "day2": {
+          "title": "旅程开始",
+          "description": "前往起点。第一次一起轻柔步行。介绍共享宁静。"
+        },
+        "day3": {
+          "title": "找到存在",
+          "description": "以正念节奏一起完整一天的行走。为存在和连接创造空间。"
+        },
+        "day4": {
+          "title": "深化连接",
+          "description": "继续在高海拔。更多时间用于共享反思和一起的安静时刻。"
+        },
+        "day5": {
+          "title": "整合日",
+          "description": "一起休息和反思的一天。处理见解。时间简单地存在。"
+        },
+        "day6": {
+          "title": "返程",
+          "description": "开始下降。整合共享见解。准备带着更新的连接返回。"
+        },
+        "day7": {
+          "title": "出发",
+          "description": "一起最终反思。带着存在和重新连接出发。"
+        }
+      },
+      "included": [
+        "住宿指导和支持",
+        "用于安全和支持的当地向导",
+        "为夫妇设计的温和节奏",
+        "共享反思提示",
+        "用于连接的安静空间",
+        "尊重你的共享旅程"
+      ],
+      "excluded": [
+        "国际航班",
+        "签证安排",
+        "个人旅行保险",
+        "具体住宿保证"
+      ],
+      "practicalNotes": {
+        "seasons": "春季和秋季最佳。冬季可能适合寻求安静独处的夫妇。",
+        "altitude": "中等海拔（2000-3500米）。适合夫妇的温和节奏。",
+        "connectivity": "最少连接。为一起的存在和断开而设计。",
+        "suitability": "适合寻求重新连接和存在的夫妇。如果你需要持续沟通，则不适合。"
+      }
+    },
+    "collectiveAscent": {
+      "title": "集体攀登",
+      "subtitle": "适用于小团队（4–12人）和领导团队",
+      "description": "共享海拔创造共享理解。这个旅程将团队带入一个安静、中立的环境，在这里对齐、信任和视角可以自然回归。为重视深度而非活动、清晰度而非速度的团队而设计。",
+      "forWho": [
+        "在冲突或转变中导航的团队",
+        "需要对齐的领导团队",
+        "寻求更深信任和协作的小团队"
+      ],
+      "dailyRhythm": {
+        "morning": "共享早餐。简要设定意图。以自然节奏一起开始行走。",
+        "midday": "有自然暂停的徒步。对话和共享反思的空间。",
+        "evening": "共享晚餐。促进反思时间。通过共享体验建立信任。"
+      },
+      "itinerary": {
+        "day1": {
+          "title": "抵达和集合",
+          "description": "抵达加德满都。团队集合。简要介绍和设定意图。"
+        },
+        "day2": {
+          "title": "旅程开始",
+          "description": "前往起点。第一天共享海拔和连接。"
+        },
+        "day3": {
+          "title": "建立信任",
+          "description": "一起完整一天的徒步。自然动态出现。信任开始建立。"
+        },
+        "day4": {
+          "title": "深化对齐",
+          "description": "继续在高海拔。促进反思。真实对话出现。"
+        },
+        "day5": {
+          "title": "整合日",
+          "description": "休息和反思的一天。处理见解。作为团队规划返回。"
+        },
+        "day6": {
+          "title": "一起返回",
+          "description": "开始下降。整合共享见解。准备以不同方式一起工作。"
+        },
+        "day7": {
+          "title": "出发",
+          "description": "作为团队的最终反思。带着更新的信任和对齐出发。"
+        }
+      },
+      "included": [
+        "住宿指导和支持",
+        "有团队经验的当地向导",
+        "为团队连接设计的节奏",
+        "促进反思会议",
+        "用于真实对话的共享空间",
+        "团队动态支持"
+      ],
+      "excluded": [
+        "国际航班",
+        "签证安排",
+        "个人旅行保险",
+        "具体住宿保证"
+      ],
+      "practicalNotes": {
+        "seasons": "春季和秋季最佳，适合团队旅行和最佳条件。",
+        "altitude": "中等海拔（2000-3500米）。适合大多数团队成员，节奏适当。",
+        "connectivity": "在基地位置有可靠的互联网。徒步日期间有限，用于专注的团队时间。",
+        "suitability": "适合寻求对齐的小团队（4-12人）。工作友好，有共享空间。"
+      }
+    },
+    "detail": {
+      "enquire": "询问",
+      "exploreOtherJourneys": "探索其他旅程",
+      "whoThisJourneyIsFor": "这个旅程适合谁",
+      "whatThisJourneyOffers": "这个旅程提供什么",
+      "paceAndRhythm": "节奏和节拍",
+      "paceAndRhythmDesc": "温和的日常节奏，允许工作、休息和反思。没有严格的日程。围绕你需要完成的事情来安排你的日子，并内置自然停顿。",
+      "workFriendliness": "工作友好性",
+      "workFriendlinessDesc": "这个旅程支持专注工作。在可能的情况下提供可靠的连接，用于思考的安静空间，以及围绕你的工作需求灵活安排你的日子。",
+      "reflectionAndRestFocus": "反思和休息重点",
+      "reflectionAndRestFocusDesc": "充足的时间用于反思、写日记和休息。节奏允许处理见解并带着清晰度返回。",
+      "supportAndGuidance": "支持和指导",
+      "supportAndGuidanceDesc": "当地支持确保你拥有所需的一切。指导，而非管理。需要时提供帮助，不需要时提供空间。",
+      "aGentleRhythm": "温和的节奏",
+      "morning": "早晨",
+      "midday": "中午",
+      "evening": "晚上",
+      "sampleItinerary": "示例行程",
+      "day": "第",
+      "practicalNotes": "实用说明",
+      "seasons": "季节",
+      "altitude": "海拔",
+      "connectivityExpectations": "连接性期望",
+      "suitabilityNotes": "适用性说明",
+      "whatsIncluded": "包含内容",
+      "notIncluded": "不包含",
+      "enquireAboutThisJourney": "询问这个旅程",
+      "enquireAboutThisJourneyDesc": "让我们讨论这个旅程如何满足你的需求。没有压力，只是诚实的对话。",
+      "beginConversation": "开始对话"
     }
   },
   "enquire": {
-    "title": "Start a conversation",
-    "subtitle": "Tell us what you're seeking. There's no commitment — just a thoughtful exchange.",
+    "title": "开始对话",
+    "subtitle": "告诉我们你在寻找什么。没有承诺——只是一个深思熟虑的交流。",
     "form": {
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "messageHint": "You can share as much or as little as you like — an idea, a question, or an intention.",
-      "submit": "Send enquiry",
-      "sending": "Sending...",
-      "sent": "Sent",
-      "success": "Thank you for your message. We've received your enquiry and will respond thoughtfully soon.",
-      "error": "Something went wrong. Please try again.",
-      "responseTime": "We usually reply within 24–48 hours. No pressure.",
-      "reassurance": "We read every message carefully. There's no automated reply, no pressure, and no expectation — just a thoughtful response."
+      "name": "姓名",
+      "email": "邮箱",
+      "message": "消息",
+      "messageHint": "你可以分享任意多少——一个想法、一个问题或一个意图。",
+      "submit": "发送询问",
+      "sending": "发送中...",
+      "sent": "已发送",
+      "success": "感谢您的消息。我们已经收到您的询问，并将很快做出深思熟虑的回复。",
+      "error": "出了点问题。请再试一次。",
+      "responseTime": "我们通常在24-48小时内回复。没有压力。",
+      "reassurance": "我们仔细阅读每一条消息。没有自动回复，没有压力，没有期望——只是一个深思熟虑的回复。",
+      "journeyInterest": "我对{journey}感兴趣。",
+      "workInterest": "我对从喜马拉雅山工作感兴趣。"
     }
   },
   "places": {
     "manang": {
-      "title": "Manang",
-      "description": "A high-altitude Himalayan village defined by silence and long pauses. The pace here is slow. The air is thin. The light is clear.",
+      "title": "马南",
+      "description": "一个由寂静和长暂停定义的高海拔喜马拉雅村庄。这里的节奏缓慢。空气稀薄。光线清晰。",
       "whyManang": {
-        "title": "Why Manang",
+        "title": "为什么选择马南",
         "stillness": {
-          "title": "Stillness",
-          "text": "Stillness here is not absence. It's presence. The kind of quiet that allows you to hear what you've been missing. Days move slowly. Evenings stretch. Time becomes spacious."
+          "title": "宁静",
+          "text": "这里的宁静不是缺席。它是存在。那种让你听到你一直缺失的东西的安静。日子慢慢移动。夜晚延伸。时间变得宽敞。"
         },
         "light": {
-          "title": "Light",
-          "text": "Light at altitude is different. Clearer. More direct. It illuminates not just the landscape but your thinking. The clarity you seek often comes with the clarity of light."
+          "title": "光线",
+          "text": "高海拔的光线不同。更清晰。更直接。它不仅照亮风景，还照亮你的思维。你寻求的清晰往往伴随着光线的清晰。"
         },
         "altitude": {
-          "title": "Altitude",
-          "text": "Altitude requires patience. Your body adjusts. Your mind adjusts. The process itself teaches something about slowing down, about respecting limits, about the value of gradual change."
+          "title": "海拔",
+          "text": "海拔需要耐心。你的身体适应。你的思维适应。这个过程本身教导了一些关于放慢速度、尊重限制、渐进变化价值的东西。"
         },
         "simplicity": {
-          "title": "Simplicity",
-          "text": "Simplicity is not deprivation. It's focus. Fewer distractions. Fewer choices. What remains is what matters. This simplicity supports the kind of thinking that gets lost in complexity."
+          "title": "简单",
+          "text": "简单不是剥夺。它是专注。更少的干扰。更少的选择。剩下的就是重要的。这种简单支持那种在复杂性中迷失的思维。"
         }
       },
       "supports": {
-        "title": "What this place supports",
+        "title": "这个地方支持什么",
         "deepWork": {
-          "title": "Deep work",
-          "text": "The quiet, the altitude, the simplicity—they create conditions where focus becomes natural. You work without the constant pull of distraction."
+          "title": "深度工作",
+          "text": "安静、海拔、简单——它们创造了专注变得自然的条件。你在没有持续干扰的情况下工作。"
         },
         "reflection": {
-          "title": "Reflection",
-          "text": "The long pauses between activities. The walks. The stillness. These moments allow you to process and understand."
+          "title": "反思",
+          "text": "活动之间的长暂停。散步。宁静。这些时刻让你处理和理解。"
         },
         "thinking": {
-          "title": "Long-form thinking",
-          "text": "The kind of sustained thought that requires time and space. Problems that felt intractable begin to resolve."
+          "title": "长形式思考",
+          "text": "那种需要时间和空间的持续思考。感觉棘手的问题开始解决。"
         }
       },
       "practical": {
-        "title": "Practical Information",
-        "subtitle": "Essential details about facilities, services, and what to expect",
+        "title": "实用信息",
+        "subtitle": "关于设施、服务和预期的基本细节",
         "medical": {
-          "title": "Medical Facilities",
+          "title": "医疗设施",
           "healthPost": {
-            "name": "Manang Health Post",
-            "description": "Basic medical services available in the village"
+            "name": "马南医疗站",
+            "description": "村庄提供基本医疗服务"
           },
           "altitude": {
-            "name": "Altitude Sickness Support",
-            "description": "Local guides trained in recognizing and managing altitude-related issues"
+            "name": "高原反应支持",
+            "description": "训练有素的当地向导，能够识别和管理与海拔相关的问题"
           },
           "evacuation": {
-            "name": "Emergency Evacuation",
-            "description": "Helicopter evacuation available for serious medical emergencies"
+            "name": "紧急疏散",
+            "description": "严重医疗紧急情况可提供直升机疏散"
           }
         },
         "attractions": {
-          "title": "Nearby Attractions",
+          "title": "附近景点",
           "gangapurna": {
-            "name": "Gangapurna Lake",
-            "description": "Short walk from the village. A peaceful spot for reflection"
+            "name": "甘加普尔纳湖",
+            "description": "距离村庄短途步行。一个宁静的反思地点"
           },
           "iceLake": {
-            "name": "Ice Lake (Kicho Tal)",
-            "description": "Day hike destination. High-altitude lake with stunning mountain views"
+            "name": "冰湖（Kicho Tal）",
+            "description": "一日徒步目的地。高海拔湖泊，拥有令人惊叹的山景"
           },
           "milarepa": {
-            "name": "Milarepa Cave",
-            "description": "Historic meditation cave. A place of quiet significance"
+            "name": "米拉日巴洞",
+            "description": "历史悠久的冥想洞穴。一个具有安静意义的地方"
           }
         },
         "connectivity": {
-          "title": "Connectivity",
+          "title": "连接性",
           "internet": {
-            "name": "Internet Access",
-            "description": "Limited and intermittent. Best for essential communication only"
+            "name": "互联网接入",
+            "description": "有限且间歇性。最好仅用于基本通信"
           },
           "mobile": {
-            "name": "Mobile Network",
-            "description": "Spotty coverage. Some areas have better signal than others"
+            "name": "移动网络",
+            "description": "覆盖不稳定。某些区域信号较好"
           },
           "power": {
-            "name": "Power Supply",
-            "description": "Electricity available but can be unreliable. Solar power recommended for devices"
+            "name": "电力供应",
+            "description": "有电力但可能不可靠。建议设备使用太阳能"
           }
         },
         "accommodation": {
-          "title": "Accommodation & Services",
+          "title": "住宿和服务",
           "lodges": {
-            "name": "Lodges & Guesthouses",
-            "description": "Simple, comfortable accommodations. Basic amenities available"
+            "name": "旅馆和招待所",
+            "description": "简单、舒适的住宿。提供基本设施"
           },
           "dining": {
-            "name": "Dining",
-            "description": "Local teahouses serve traditional Nepali and Tibetan cuisine"
+            "name": "餐饮",
+            "description": "当地茶馆提供传统尼泊尔和西藏美食"
           },
           "supplies": {
-            "name": "Supplies",
-            "description": "Basic supplies available. Limited selection. Plan accordingly"
+            "name": "用品",
+            "description": "有基本用品。选择有限。请相应规划"
           }
         }
       },
       "considerations": {
-        "title": "Important Considerations",
+        "title": "重要考虑",
         "altitude": {
-          "title": "Altitude",
-          "text": "Manang sits at approximately 3,540 meters (11,614 feet). This requires proper acclimatization. Some people adjust quickly. Others need more time. We ensure proper support and pacing. Your well-being matters more than any schedule."
+          "title": "海拔",
+          "text": "马南位于约3540米（11,614英尺）。这需要适当的适应。有些人适应很快。其他人需要更多时间。我们确保适当的支持和节奏。你的健康比任何日程都重要。"
         },
         "connectivity": {
-          "title": "Connectivity Limitations",
-          "text": "Internet access is limited. This is intentional. The quiet that makes deep work possible also means less connectivity. If your work requires constant online presence or real-time collaboration, this may not be the right fit."
+          "title": "连接性限制",
+          "text": "互联网接入有限。这是有意的。使深度工作成为可能的安静也意味着更少的连接性。如果你的工作需要持续的在线存在或实时协作，这可能不是合适的选择。"
         },
         "notForEveryone": {
-          "title": "Not for Everyone",
-          "text": "This place is not for everyone. If you need urban comforts, reliable connectivity, or extensive infrastructure, look elsewhere. We're honest about limitations because we want you to choose what actually serves you."
+          "title": "不适合所有人",
+          "text": "这个地方不适合所有人。如果你需要城市舒适、可靠的连接性或广泛的基础设施，请寻找其他地方。我们对限制保持诚实，因为我们希望你选择真正对你有用的东西。"
         }
       },
       "workCta": {
-        "title": "Work from the Himalayas",
-        "text": "Manang is suitable for work-focused stays. For people comfortable with simplicity and altitude. If you need quiet space to think, to write, to build, this place offers that."
+        "title": "在喜马拉雅工作",
+        "text": "马南适合以工作为重点的停留。适合对简单和海拔感到舒适的人。如果你需要安静的空间来思考、写作、建造，这个地方提供了这些。"
       }
     }
   }

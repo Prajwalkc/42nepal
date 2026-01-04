@@ -28,15 +28,15 @@ export default function EnquireForm() {
     if (journey) {
       setFormData((prev) => ({
         ...prev,
-        message: `I'm interested in ${journey.title}.`,
+        message: t('form.journeyInterest', { journey: journey.title }),
       }));
     } else if (interestParam === "work-from-the-himalayas") {
       setFormData((prev) => ({
         ...prev,
-        message: "I'm interested in Work From the Himalayas.",
+        message: t('form.workInterest'),
       }));
     }
-  }, [journey, interestParam]);
+  }, [journey, interestParam, t]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();

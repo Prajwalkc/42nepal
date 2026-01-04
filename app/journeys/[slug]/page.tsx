@@ -1,14 +1,19 @@
 import { notFound } from "next/navigation";
+import { unstable_noStore as noStore } from "next/cache";
 import { getJourneyBySlug, getAllJourneySlugs } from "../../../data/journeys";
 import Navigation from "../../components/Navigation";
 import MountainDivider from "../../components/MountainDivider";
 import Footer from "../../components/Footer";
 import Link from "next/link";
 import { Metadata } from "next";
+import { getServerTranslations } from "../../../lib/translations";
 
 type Props = {
   params: Promise<{ slug: string }>;
 };
+
+// Force dynamic rendering to ensure translations update when language changes
+export const dynamic = 'force-dynamic';
 
 export async function generateStaticParams() {
   const slugs = getAllJourneySlugs();
@@ -16,6 +21,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  noStore();
   const { slug } = await params;
   const journey = getJourneyBySlug(slug);
   
@@ -24,6 +30,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: "Journey Not Found | The Mountain Whisper",
     };
   }
+
+  const { common, getJourneyTranslation } = await getServerTranslations();
+  const translation = getJourneyTranslation(slug);
+  const title = translation.title || journey.title;
+  const subtitle = translation.subtitle || journey.subtitle;
 
   // Ensure description is 140-160 characters
   let description = journey.metaDescription;
@@ -35,38 +46,58 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: journey.metaTitle,
+    title: `${title} | ${common('siteName')}`,
     description: description,
     alternates: {
       canonical: `/journeys/${slug}`,
     },
     openGraph: {
-      title: journey.metaTitle,
+      title: `${title} | ${common('siteName')}`,
       description: description,
       images: [
         {
           url: `/images/journeys/${slug}.png`,
           width: 1200,
           height: 630,
-          alt: `${journey.title} - ${journey.subtitle} journey in the Himalayas`,
+          alt: `${title} - ${subtitle} journey in the Himalayas`,
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: journey.metaTitle,
+      title: `${title} | ${common('siteName')}`,
       description: description,
     },
   };
 }
 
 export default async function JourneyDetailPage({ params }: Props) {
+  noStore();
   const { slug } = await params;
   const journey = getJourneyBySlug(slug);
 
   if (!journey) {
     notFound();
   }
+
+  const { common, journeys: journeysT, getJourneyTranslation } = await getServerTranslations();
+  const translation = getJourneyTranslation(slug);
+  const title = translation?.title || journey.title;
+  const subtitle = translation?.subtitle || journey.subtitle;
+  const description = translation?.description || journey.description;
+  const forWho = translation?.forWho || journey.forWho;
+  const dailyRhythm = translation?.dailyRhythm || journey.dailyRhythm;
+  const included = translation?.included || journey.included;
+  const excluded = translation?.excluded || journey.excluded;
+  const practicalNotes = translation?.practicalNotes || journey.practicalNotes;
+  const detailT = journeysT('detail');
+  
+  // Get translated itinerary or use original
+  const getItineraryDay = (day: number) => {
+    if (!translation?.itinerary) return null;
+    const dayKey = `day${day}` as keyof typeof translation.itinerary;
+    return translation.itinerary[dayKey] || null;
+  };
 
   return (
     <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth">
@@ -80,13 +111,13 @@ export default async function JourneyDetailPage({ params }: Props) {
         }} />
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8">
           <h1 className="h1 mb-4">
-            {journey.title}
+            {title}
           </h1>
           <p className="text-2xl sm:text-3xl mb-6 text-[#3d5a7a] font-light">
-            {journey.subtitle}
+            {subtitle}
           </p>
           <p className="text-large max-w-2xl mx-auto leading-relaxed text-[#4a5560]">
-            {journey.description}
+            {description}
           </p>
           <div className="flex items-center justify-center gap-4 pt-4">
             <span className="text-small text-[#6b7786]">{journey.duration}</span>
@@ -98,13 +129,13 @@ export default async function JourneyDetailPage({ params }: Props) {
               href={`/enquire?journey=${journey.slug}`}
               className="px-12 py-5 rounded-lg bg-[#3d5a7a] text-white hover:bg-[#2d4a6a] transition-all duration-300 text-lg font-medium shadow-sm hover:shadow-md active:scale-[0.98]"
             >
-              Enquire
+              {detailT('enquire')}
             </Link>
             <Link
               href="/journeys"
               className="text-body text-[#3d5a7a] hover:opacity-70 transition-opacity"
             >
-              Explore other journeys
+              {detailT('exploreOtherJourneys')}
             </Link>
           </div>
         </div>
@@ -116,15 +147,12 @@ export default async function JourneyDetailPage({ params }: Props) {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
         <div className="max-w-3xl mx-auto space-y-12">
           <div className="text-center">
-            <h2 className="h2 mb-8">Who This Journey Is For</h2>
+            <h2 className="h2 mb-8">{detailT('whoThisJourneyIsFor')}</h2>
           </div>
           <div className="space-y-6">
-            {journey.suitableFor.map((item, index) => (
+            {forWho.map((item, index) => (
               <div key={index} className="space-y-3">
                 <h3 className="h4 text-[#3d5a7a]">{item}</h3>
-                <p className="text-body leading-relaxed">
-                  {journey.forWho[index] || journey.description}
-                </p>
               </div>
             ))}
           </div>
@@ -137,37 +165,33 @@ export default async function JourneyDetailPage({ params }: Props) {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white">
         <div className="max-w-3xl mx-auto space-y-12">
           <div className="text-center">
-            <h2 className="h2 mb-8">What This Journey Offers</h2>
+            <h2 className="h2 mb-8">{detailT('whatThisJourneyOffers')}</h2>
           </div>
           <div className="space-y-8">
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Pace and rhythm</h3>
+              <h3 className="h4 text-[#3d5a7a]">{detailT('paceAndRhythm')}</h3>
               <p className="text-body leading-relaxed">
-                A gentle daily rhythm that allows for work, rest, and reflection. No rigid schedules. 
-                Structure your days around what you need to accomplish, with natural pauses built in.
+                {detailT('paceAndRhythmDesc')}
               </p>
             </div>
             {journey.workFriendly && (
               <div className="space-y-4">
-                <h3 className="h4 text-[#3d5a7a]">Work-friendliness</h3>
+                <h3 className="h4 text-[#3d5a7a]">{detailT('workFriendliness')}</h3>
                 <p className="text-body leading-relaxed">
-                  This journey supports focused work. Reliable connectivity where possible, quiet spaces for thinking, 
-                  and flexibility to structure your days around your work needs.
+                  {detailT('workFriendlinessDesc')}
                 </p>
               </div>
             )}
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Reflection and rest focus</h3>
+              <h3 className="h4 text-[#3d5a7a]">{detailT('reflectionAndRestFocus')}</h3>
               <p className="text-body leading-relaxed">
-                Ample time for reflection, journaling, and rest. The pace allows for processing insights 
-                and returning with clarity.
+                {detailT('reflectionAndRestFocusDesc')}
               </p>
             </div>
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Support and guidance</h3>
+              <h3 className="h4 text-[#3d5a7a]">{detailT('supportAndGuidance')}</h3>
               <p className="text-body leading-relaxed">
-                Local support ensures you have what you need. Guidance, not management. Help when you need it, 
-                space when you don't.
+                {detailT('supportAndGuidanceDesc')}
               </p>
             </div>
           </div>
@@ -180,20 +204,20 @@ export default async function JourneyDetailPage({ params }: Props) {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
         <div className="max-w-3xl mx-auto space-y-16">
           <div className="text-center">
-            <h2 className="h2 mb-8">A Gentle Rhythm</h2>
+            <h2 className="h2 mb-8">{detailT('aGentleRhythm')}</h2>
           </div>
           <div className="space-y-12">
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Morning</h3>
-              <p className="text-body leading-relaxed">{journey.dailyRhythm.morning}</p>
+              <h3 className="h4 text-[#3d5a7a]">{detailT('morning')}</h3>
+              <p className="text-body leading-relaxed">{dailyRhythm.morning}</p>
             </div>
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Midday</h3>
-              <p className="text-body leading-relaxed">{journey.dailyRhythm.midday}</p>
+              <h3 className="h4 text-[#3d5a7a]">{detailT('midday')}</h3>
+              <p className="text-body leading-relaxed">{dailyRhythm.midday}</p>
             </div>
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Evening</h3>
-              <p className="text-body leading-relaxed">{journey.dailyRhythm.evening}</p>
+              <h3 className="h4 text-[#3d5a7a]">{detailT('evening')}</h3>
+              <p className="text-body leading-relaxed">{dailyRhythm.evening}</p>
             </div>
           </div>
         </div>
@@ -205,18 +229,21 @@ export default async function JourneyDetailPage({ params }: Props) {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white">
         <div className="max-w-3xl mx-auto space-y-16">
           <div className="text-center">
-            <h2 className="h2 mb-8">Sample Itinerary</h2>
+            <h2 className="h2 mb-8">{detailT('sampleItinerary')}</h2>
           </div>
           <div className="space-y-8">
-            {journey.itinerary.map((day) => (
-              <div key={day.day} className="space-y-3 pb-8 border-b border-[#e8e6e3] last:border-0">
-                <div className="flex items-baseline space-x-4">
-                  <span className="text-lg font-medium text-[#3d5a7a]">Day {day.day}</span>
-                  <h3 className="h4">{day.title}</h3>
+            {journey.itinerary.map((day) => {
+              const translatedDay = getItineraryDay(day.day);
+              return (
+                <div key={day.day} className="space-y-3 pb-8 border-b border-[#e8e6e3] last:border-0">
+                  <div className="flex items-baseline space-x-4">
+                    <span className="text-lg font-medium text-[#3d5a7a]">{detailT('day')} {day.day}</span>
+                    <h3 className="h4">{translatedDay?.title || day.title}</h3>
+                  </div>
+                  <p className="text-body text-[#4a5560]">{translatedDay?.description || day.description}</p>
                 </div>
-                <p className="text-body text-[#4a5560]">{day.description}</p>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -227,28 +254,28 @@ export default async function JourneyDetailPage({ params }: Props) {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
         <div className="max-w-3xl mx-auto space-y-12">
           <div className="text-center">
-            <h2 className="h2 mb-8">Practical Notes</h2>
+            <h2 className="h2 mb-8">{detailT('practicalNotes')}</h2>
           </div>
           
           <div className="space-y-8">
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Seasons</h3>
-              <p className="text-body">{journey.practicalNotes.seasons}</p>
+              <h3 className="h4 text-[#3d5a7a]">{detailT('seasons')}</h3>
+              <p className="text-body">{practicalNotes.seasons}</p>
             </div>
 
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Altitude</h3>
-              <p className="text-body">{journey.practicalNotes.altitude}</p>
+              <h3 className="h4 text-[#3d5a7a]">{detailT('altitude')}</h3>
+              <p className="text-body">{practicalNotes.altitude}</p>
             </div>
 
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Connectivity expectations</h3>
-              <p className="text-body">{journey.practicalNotes.connectivity}</p>
+              <h3 className="h4 text-[#3d5a7a]">{detailT('connectivityExpectations')}</h3>
+              <p className="text-body">{practicalNotes.connectivity}</p>
             </div>
 
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Suitability notes</h3>
-              <p className="text-body">{journey.practicalNotes.suitability}</p>
+              <h3 className="h4 text-[#3d5a7a]">{detailT('suitabilityNotes')}</h3>
+              <p className="text-body">{practicalNotes.suitability}</p>
             </div>
           </div>
         </div>
@@ -261,9 +288,9 @@ export default async function JourneyDetailPage({ params }: Props) {
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div className="space-y-8">
-              <h2 className="h2">What's Included</h2>
+              <h2 className="h2">{detailT('whatsIncluded')}</h2>
               <div className="space-y-4">
-                {journey.included.map((item, index) => (
+                {included.map((item, index) => (
                   <div key={index} className="flex items-start space-x-3">
                     <span className="text-[#3d5a7a] mt-1">✓</span>
                     <p className="text-body">{item}</p>
@@ -272,9 +299,9 @@ export default async function JourneyDetailPage({ params }: Props) {
               </div>
             </div>
             <div className="space-y-8">
-              <h2 className="h2">Not Included</h2>
+              <h2 className="h2">{detailT('notIncluded')}</h2>
               <div className="space-y-4">
-                {journey.excluded.map((item, index) => (
+                {excluded.map((item, index) => (
                   <div key={index} className="flex items-start space-x-3">
                     <span className="text-[#9ca5b3] mt-1">—</span>
                     <p className="text-body text-[#6b7786]">{item}</p>
@@ -292,17 +319,16 @@ export default async function JourneyDetailPage({ params }: Props) {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
         <div className="max-w-2xl mx-auto text-center space-y-12">
           <div>
-            <h2 className="h2 mb-8">Enquire About This Journey</h2>
+            <h2 className="h2 mb-8">{detailT('enquireAboutThisJourney')}</h2>
             <p className="text-large">
-              Let's discuss how this journey can serve your needs. 
-              No pressure, just honest dialogue.
+              {detailT('enquireAboutThisJourneyDesc')}
             </p>
           </div>
           <Link
             href={`/enquire?journey=${journey.slug}`}
             className="inline-block px-12 py-5 rounded-lg bg-[#3d5a7a] text-white hover:bg-[#2d4a6a] transition-all duration-300 text-lg font-medium shadow-sm hover:shadow-md active:scale-[0.98]"
           >
-            Begin a conversation
+            {detailT('beginConversation')}
           </Link>
         </div>
       </section>

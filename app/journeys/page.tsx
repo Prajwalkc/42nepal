@@ -45,7 +45,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function JourneysPage() {
   // Prevent caching to ensure translations update when language changes
   noStore();
-  const { common, journeys: journeysT } = await getServerTranslations();
+  const { common, journeys: journeysT, getJourneyTranslation } = await getServerTranslations();
   const journeys = getAllJourneys();
 
   return (
@@ -73,9 +73,18 @@ export default async function JourneysPage() {
         <div className="max-w-6xl mx-auto">
           {/* Journey Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            {journeys.map((journey) => (
-              <JourneyCard key={journey.slug} journey={journey} />
-            ))}
+            {journeys.map((journey) => {
+              const translation = getJourneyTranslation(journey.slug);
+              return (
+                <JourneyCard 
+                  key={journey.slug} 
+                  journey={journey}
+                  translatedTitle={translation.title || undefined}
+                  translatedSubtitle={translation.subtitle || undefined}
+                  viewJourneyText={journeysT('viewJourney')}
+                />
+              );
+            })}
           </div>
         </div>
       </section>
