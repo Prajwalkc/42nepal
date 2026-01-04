@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
+import { useTranslations } from "next-intl";
 import { journeys } from "../../data/journeys";
 
 type FormState = "idle" | "loading" | "success" | "error";
@@ -11,6 +12,7 @@ export default function EnquireForm() {
   const journeySlug = searchParams.get("journey");
   const interestParam = searchParams.get("interest");
   const journey = journeySlug ? journeys.find((j) => j.slug === journeySlug) : null;
+  const t = useTranslations('enquire');
 
   const [formData, setFormData] = useState({
     name: "",
@@ -59,7 +61,7 @@ export default function EnquireForm() {
       const data = await response.json();
 
       if (!response.ok || !data.ok) {
-        throw new Error(data.error || "Something went wrong. Please try again.");
+        throw new Error(data.error || t('form.error'));
       }
 
       setFormState("success");
@@ -73,7 +75,7 @@ export default function EnquireForm() {
     } catch (error) {
       setFormState("error");
       setErrorMessage(
-        error instanceof Error ? error.message : "Something went wrong. Please try again later."
+        error instanceof Error ? error.message : t('form.error')
       );
     }
   };
@@ -88,7 +90,7 @@ export default function EnquireForm() {
   return (
     <div className="max-w-2xl mx-auto space-y-8">
       <p className="text-small text-[#6b7683] font-light text-center">
-        We usually reply within 24–48 hours. No pressure.
+        {t('form.responseTime')}
       </p>
       <form onSubmit={handleSubmit} className="space-y-8 bg-white p-12 sm:p-16 border border-[#e8e6e3] rounded-2xl shadow-sm">
         {/* Honeypot field - hidden from users */}
@@ -106,7 +108,7 @@ export default function EnquireForm() {
         {/* Success message */}
         {formState === "success" && (
           <div className="p-4 rounded-xl bg-[#f0f9f4] border border-[#86efac] text-[#166534] text-body">
-            Thank you for your message. We've received your enquiry and will respond thoughtfully soon.
+            {t('form.success')}
           </div>
         )}
 
@@ -119,7 +121,7 @@ export default function EnquireForm() {
 
         <div className="space-y-3">
           <label htmlFor="name" className="block text-body text-[#4a5560] font-normal">
-            Name
+            {t('form.name')}
           </label>
           <input
             type="text"
@@ -136,7 +138,7 @@ export default function EnquireForm() {
 
         <div className="space-y-3">
           <label htmlFor="email" className="block text-body text-[#4a5560] font-normal">
-            Email
+            {t('form.email')}
           </label>
           <input
             type="email"
@@ -153,10 +155,10 @@ export default function EnquireForm() {
 
         <div className="space-y-3">
           <label htmlFor="message" className="block text-body text-[#4a5560] font-normal">
-            Message
+            {t('form.message')}
           </label>
           <p className="text-small text-[#6b7683] font-light -mt-1 mb-2">
-            You can share as much or as little as you like — an idea, a question, or an intention.
+            {t('form.messageHint')}
           </p>
           <textarea
             id="message"
@@ -177,7 +179,7 @@ export default function EnquireForm() {
             disabled={formState === "loading" || formState === "success"}
             className="w-full px-12 py-5 rounded-lg bg-[#3d5a7a] text-white hover:bg-[#2d4a6a] transition-all duration-300 text-lg font-medium shadow-sm hover:shadow-md active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            {formState === "loading" ? "Sending..." : formState === "success" ? "Sent" : "Send enquiry"}
+            {formState === "loading" ? t('form.sending') : formState === "success" ? t('form.sent') : t('form.submit')}
           </button>
         </div>
       </form>
@@ -185,8 +187,7 @@ export default function EnquireForm() {
       {/* Reassurance Section */}
       <div className="text-center pt-4">
         <p className="text-small text-[#6b7683] font-light leading-relaxed max-w-xl mx-auto">
-          We read every message carefully.<br />
-          There's no automated reply, no pressure, and no expectation — just a thoughtful response.
+          {t('form.reassurance')}
         </p>
       </div>
     </div>

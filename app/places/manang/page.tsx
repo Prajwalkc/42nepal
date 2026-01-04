@@ -4,33 +4,47 @@ import MistBackground from "../../components/MistBackground";
 import Footer from "../../components/Footer";
 import Link from "next/link";
 import { Metadata } from "next";
+import { unstable_noStore as noStore } from "next/cache";
+import { getServerTranslations } from "../../../lib/translations";
 
-export const metadata: Metadata = {
-  title: "Manang",
-  description: "A high-altitude Himalayan village defined by silence and long pauses. Where stillness, light, and simplicity create space for deep work and reflection.",
-  alternates: {
-    canonical: "/places/manang",
-  },
-  openGraph: {
-    title: "Manang | The Mountain Whisper",
-    description: "A high-altitude Himalayan village defined by silence and long pauses. Where stillness, light, and simplicity create space for deep work and reflection.",
-    images: [
-      {
-        url: "/journey.png",
-        width: 1200,
-        height: 630,
-        alt: "Manang - High-altitude Himalayan village for stillness and deep work",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Manang | The Mountain Whisper",
-    description: "A high-altitude Himalayan village defined by silence and long pauses. Where stillness, light, and simplicity create space for deep work and reflection.",
-  },
-};
+// Force dynamic rendering to ensure translations update when language changes
+export const dynamic = 'force-dynamic';
 
-export default function ManangPage() {
+export async function generateMetadata(): Promise<Metadata> {
+  const { common, places } = await getServerTranslations();
+  const manang = places('manang');
+  
+  return {
+    title: manang('title'),
+    description: manang('description'),
+    alternates: {
+      canonical: "/places/manang",
+    },
+    openGraph: {
+      title: `${manang('title')} | ${common('siteName')}`,
+      description: manang('description'),
+      images: [
+        {
+          url: "/journey.png",
+          width: 1200,
+          height: 630,
+          alt: "Manang - High-altitude Himalayan village for stillness and deep work",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${manang('title')} | ${common('siteName')}`,
+      description: manang('description'),
+    },
+  };
+}
+
+export default async function ManangPage() {
+  // Prevent caching to ensure translations update when language changes
+  noStore();
+  const { common, places, workFromHimalayas } = await getServerTranslations();
+  const manang = places('manang');
   return (
     <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth relative">
       <MistBackground opacity={0.10} animated={true} />
@@ -39,10 +53,9 @@ export default function ManangPage() {
       {/* Hero Section */}
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 pt-32 z-10">
         <div className="max-w-4xl mx-auto text-center space-y-6">
-          <h1 className="h1 mb-6">Manang</h1>
+          <h1 className="h1 mb-6">{manang('title')}</h1>
           <p className="text-large max-w-2xl mx-auto leading-relaxed text-[#4a5560]">
-            A high-altitude Himalayan village defined by silence and long pauses. 
-            The pace here is slow. The air is thin. The light is clear.
+            {manang('description')}
           </p>
         </div>
       </section>
@@ -53,35 +66,31 @@ export default function ManangPage() {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="text-center mb-16">
-            <h2 className="h2 mb-4">Why Manang</h2>
+            <h2 className="h2 mb-4">{manang('whyManang.title')}</h2>
           </div>
           <div className="space-y-8">
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Stillness</h3>
+              <h3 className="h4 text-[#3d5a7a]">{manang('whyManang.stillness.title')}</h3>
               <p className="text-body leading-relaxed text-[#4a5560]">
-                Stillness here is not absence. It's presence. The kind of quiet that allows you to hear what you've been missing. 
-                Days move slowly. Evenings stretch. Time becomes spacious.
+                {manang('whyManang.stillness.text')}
               </p>
             </div>
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Light</h3>
+              <h3 className="h4 text-[#3d5a7a]">{manang('whyManang.light.title')}</h3>
               <p className="text-body leading-relaxed text-[#4a5560]">
-                Light at altitude is different. Clearer. More direct. It illuminates not just the landscape but your thinking. 
-                The clarity you seek often comes with the clarity of light.
+                {manang('whyManang.light.text')}
               </p>
             </div>
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Altitude</h3>
+              <h3 className="h4 text-[#3d5a7a]">{manang('whyManang.altitude.title')}</h3>
               <p className="text-body leading-relaxed text-[#4a5560]">
-                Altitude requires patience. Your body adjusts. Your mind adjusts. The process itself teaches something about slowing down, 
-                about respecting limits, about the value of gradual change.
+                {manang('whyManang.altitude.text')}
               </p>
             </div>
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Simplicity</h3>
+              <h3 className="h4 text-[#3d5a7a]">{manang('whyManang.simplicity.title')}</h3>
               <p className="text-body leading-relaxed text-[#4a5560]">
-                Simplicity is not deprivation. It's focus. Fewer distractions. Fewer choices. What remains is what matters. 
-                This simplicity supports the kind of thinking that gets lost in complexity.
+                {manang('whyManang.simplicity.text')}
               </p>
             </div>
           </div>
@@ -94,28 +103,25 @@ export default function ManangPage() {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white z-10">
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="text-center mb-16">
-            <h2 className="h2 mb-4">What this place supports</h2>
+            <h2 className="h2 mb-4">{manang('supports.title')}</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Deep work</h3>
+              <h3 className="h4 text-[#3d5a7a]">{manang('supports.deepWork.title')}</h3>
               <p className="text-body text-[#4a5560]">
-                The quiet, the altitude, the simplicity—they create conditions where focus becomes natural. 
-                You work without the constant pull of distraction.
+                {manang('supports.deepWork.text')}
               </p>
             </div>
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Reflection</h3>
+              <h3 className="h4 text-[#3d5a7a]">{manang('supports.reflection.title')}</h3>
               <p className="text-body text-[#4a5560]">
-                The long pauses between activities. The walks. The stillness. 
-                These moments allow you to process and understand.
+                {manang('supports.reflection.text')}
               </p>
             </div>
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Long-form thinking</h3>
+              <h3 className="h4 text-[#3d5a7a]">{manang('supports.thinking.title')}</h3>
               <p className="text-body text-[#4a5560]">
-                The kind of sustained thought that requires time and space. 
-                Problems that felt intractable begin to resolve.
+                {manang('supports.thinking.text')}
               </p>
             </div>
           </div>
@@ -128,9 +134,9 @@ export default function ManangPage() {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
         <div className="max-w-5xl mx-auto space-y-16">
           <div className="text-center">
-            <h2 className="h2 mb-4">Practical Information</h2>
+            <h2 className="h2 mb-4">{manang('practical.title')}</h2>
             <p className="text-large text-[#4a5560] max-w-2xl mx-auto">
-              Essential details about facilities, services, and what to expect
+              {manang('practical.subtitle')}
             </p>
           </div>
 
@@ -141,20 +147,20 @@ export default function ManangPage() {
                 <div className="w-10 h-10 rounded-lg bg-[#f8f6f3] flex items-center justify-center">
                   <span className="text-xl">🏥</span>
                 </div>
-                <h3 className="h4 text-[#3d5a7a]">Medical Facilities</h3>
+                <h3 className="h4 text-[#3d5a7a]">{manang('practical.medical.title')}</h3>
               </div>
               <div className="space-y-3">
                 <div>
-                  <p className="text-body font-medium text-[#2d3a47] mb-1">Manang Health Post</p>
-                  <p className="text-small text-[#6b7786]">Basic medical services available in the village</p>
+                  <p className="text-body font-medium text-[#2d3a47] mb-1">{manang('practical.medical.healthPost.name')}</p>
+                  <p className="text-small text-[#6b7786]">{manang('practical.medical.healthPost.description')}</p>
                 </div>
                 <div>
-                  <p className="text-body font-medium text-[#2d3a47] mb-1">Altitude Sickness Support</p>
-                  <p className="text-small text-[#6b7786]">Local guides trained in recognizing and managing altitude-related issues</p>
+                  <p className="text-body font-medium text-[#2d3a47] mb-1">{manang('practical.medical.altitude.name')}</p>
+                  <p className="text-small text-[#6b7786]">{manang('practical.medical.altitude.description')}</p>
                 </div>
                 <div>
-                  <p className="text-body font-medium text-[#2d3a47] mb-1">Emergency Evacuation</p>
-                  <p className="text-small text-[#6b7786]">Helicopter evacuation available for serious medical emergencies</p>
+                  <p className="text-body font-medium text-[#2d3a47] mb-1">{manang('practical.medical.evacuation.name')}</p>
+                  <p className="text-small text-[#6b7786]">{manang('practical.medical.evacuation.description')}</p>
                 </div>
               </div>
             </div>
@@ -165,20 +171,20 @@ export default function ManangPage() {
                 <div className="w-10 h-10 rounded-lg bg-[#f8f6f3] flex items-center justify-center">
                   <span className="text-xl">🏔️</span>
                 </div>
-                <h3 className="h4 text-[#3d5a7a]">Nearby Attractions</h3>
+                <h3 className="h4 text-[#3d5a7a]">{manang('practical.attractions.title')}</h3>
               </div>
               <div className="space-y-3">
                 <div>
-                  <p className="text-body font-medium text-[#2d3a47] mb-1">Gangapurna Lake</p>
-                  <p className="text-small text-[#6b7786]">Short walk from the village. A peaceful spot for reflection</p>
+                  <p className="text-body font-medium text-[#2d3a47] mb-1">{manang('practical.attractions.gangapurna.name')}</p>
+                  <p className="text-small text-[#6b7786]">{manang('practical.attractions.gangapurna.description')}</p>
                 </div>
                 <div>
-                  <p className="text-body font-medium text-[#2d3a47] mb-1">Ice Lake (Kicho Tal)</p>
-                  <p className="text-small text-[#6b7786]">Day hike destination. High-altitude lake with stunning mountain views</p>
+                  <p className="text-body font-medium text-[#2d3a47] mb-1">{manang('practical.attractions.iceLake.name')}</p>
+                  <p className="text-small text-[#6b7786]">{manang('practical.attractions.iceLake.description')}</p>
                 </div>
                 <div>
-                  <p className="text-body font-medium text-[#2d3a47] mb-1">Milarepa Cave</p>
-                  <p className="text-small text-[#6b7786]">Historic meditation cave. A place of quiet significance</p>
+                  <p className="text-body font-medium text-[#2d3a47] mb-1">{manang('practical.attractions.milarepa.name')}</p>
+                  <p className="text-small text-[#6b7786]">{manang('practical.attractions.milarepa.description')}</p>
                 </div>
               </div>
             </div>
@@ -189,20 +195,20 @@ export default function ManangPage() {
                 <div className="w-10 h-10 rounded-lg bg-[#f8f6f3] flex items-center justify-center">
                   <span className="text-xl">📶</span>
                 </div>
-                <h3 className="h4 text-[#3d5a7a]">Connectivity</h3>
+                <h3 className="h4 text-[#3d5a7a]">{manang('practical.connectivity.title')}</h3>
               </div>
               <div className="space-y-3">
                 <div>
-                  <p className="text-body font-medium text-[#2d3a47] mb-1">Internet Access</p>
-                  <p className="text-small text-[#6b7786]">Limited and intermittent. Best for essential communication only</p>
+                  <p className="text-body font-medium text-[#2d3a47] mb-1">{manang('practical.connectivity.internet.name')}</p>
+                  <p className="text-small text-[#6b7786]">{manang('practical.connectivity.internet.description')}</p>
                 </div>
                 <div>
-                  <p className="text-body font-medium text-[#2d3a47] mb-1">Mobile Network</p>
-                  <p className="text-small text-[#6b7786]">Spotty coverage. Some areas have better signal than others</p>
+                  <p className="text-body font-medium text-[#2d3a47] mb-1">{manang('practical.connectivity.mobile.name')}</p>
+                  <p className="text-small text-[#6b7786]">{manang('practical.connectivity.mobile.description')}</p>
                 </div>
                 <div>
-                  <p className="text-body font-medium text-[#2d3a47] mb-1">Power Supply</p>
-                  <p className="text-small text-[#6b7786]">Electricity available but can be unreliable. Solar power recommended for devices</p>
+                  <p className="text-body font-medium text-[#2d3a47] mb-1">{manang('practical.connectivity.power.name')}</p>
+                  <p className="text-small text-[#6b7786]">{manang('practical.connectivity.power.description')}</p>
                 </div>
               </div>
             </div>
@@ -213,20 +219,20 @@ export default function ManangPage() {
                 <div className="w-10 h-10 rounded-lg bg-[#f8f6f3] flex items-center justify-center">
                   <span className="text-xl">🏠</span>
                 </div>
-                <h3 className="h4 text-[#3d5a7a]">Accommodation & Services</h3>
+                <h3 className="h4 text-[#3d5a7a]">{manang('practical.accommodation.title')}</h3>
               </div>
               <div className="space-y-3">
                 <div>
-                  <p className="text-body font-medium text-[#2d3a47] mb-1">Lodges & Guesthouses</p>
-                  <p className="text-small text-[#6b7786]">Simple, comfortable accommodations. Basic amenities available</p>
+                  <p className="text-body font-medium text-[#2d3a47] mb-1">{manang('practical.accommodation.lodges.name')}</p>
+                  <p className="text-small text-[#6b7786]">{manang('practical.accommodation.lodges.description')}</p>
                 </div>
                 <div>
-                  <p className="text-body font-medium text-[#2d3a47] mb-1">Dining</p>
-                  <p className="text-small text-[#6b7786]">Local teahouses serve traditional Nepali and Tibetan cuisine</p>
+                  <p className="text-body font-medium text-[#2d3a47] mb-1">{manang('practical.accommodation.dining.name')}</p>
+                  <p className="text-small text-[#6b7786]">{manang('practical.accommodation.dining.description')}</p>
                 </div>
                 <div>
-                  <p className="text-body font-medium text-[#2d3a47] mb-1">Supplies</p>
-                  <p className="text-small text-[#6b7786]">Basic supplies available. Limited selection. Plan accordingly</p>
+                  <p className="text-body font-medium text-[#2d3a47] mb-1">{manang('practical.accommodation.supplies.name')}</p>
+                  <p className="text-small text-[#6b7786]">{manang('practical.accommodation.supplies.description')}</p>
                 </div>
               </div>
             </div>
@@ -240,32 +246,28 @@ export default function ManangPage() {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white z-10">
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="text-center mb-16">
-            <h2 className="h2 mb-4">Important Considerations</h2>
+            <h2 className="h2 mb-4">{manang('considerations.title')}</h2>
           </div>
           
           <div className="space-y-8">
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Altitude</h3>
+              <h3 className="h4 text-[#3d5a7a]">{manang('considerations.altitude.title')}</h3>
               <p className="text-body leading-relaxed text-[#4a5560]">
-                Manang sits at approximately 3,540 meters (11,614 feet). This requires proper acclimatization. 
-                Some people adjust quickly. Others need more time. We ensure proper support and pacing. 
-                Your well-being matters more than any schedule.
+                {manang('considerations.altitude.text')}
               </p>
             </div>
             
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Connectivity Limitations</h3>
+              <h3 className="h4 text-[#3d5a7a]">{manang('considerations.connectivity.title')}</h3>
               <p className="text-body leading-relaxed text-[#4a5560]">
-                Internet access is limited. This is intentional. The quiet that makes deep work possible also means less connectivity. 
-                If your work requires constant online presence or real-time collaboration, this may not be the right fit.
+                {manang('considerations.connectivity.text')}
               </p>
             </div>
             
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Not for Everyone</h3>
+              <h3 className="h4 text-[#3d5a7a]">{manang('considerations.notForEveryone.title')}</h3>
               <p className="text-body leading-relaxed text-[#4a5560]">
-                This place is not for everyone. If you need urban comforts, reliable connectivity, or extensive infrastructure, 
-                look elsewhere. We're honest about limitations because we want you to choose what actually serves you.
+                {manang('considerations.notForEveryone.text')}
               </p>
             </div>
           </div>
@@ -278,17 +280,16 @@ export default function ManangPage() {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <div>
-            <h2 className="h2 mb-4">Work from the Himalayas</h2>
+            <h2 className="h2 mb-4">{manang('workCta.title')}</h2>
             <p className="text-large text-[#4a5560]">
-              Manang is suitable for work-focused stays. For people comfortable with simplicity and altitude. 
-              If you need quiet space to think, to write, to build, this place offers that.
+              {manang('workCta.text')}
             </p>
           </div>
           <Link
             href="/work-from-the-himalayas"
             className="inline-block px-12 py-5 rounded-lg bg-[#3d5a7a] text-white hover:bg-[#2d4a6a] transition-all duration-300 text-lg font-medium shadow-sm hover:shadow-md active:scale-[0.98]"
           >
-            Learn more about work from the Himalayas
+            {common('learnMore')}
           </Link>
         </div>
       </section>

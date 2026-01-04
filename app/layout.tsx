@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
+import { cookies } from 'next/headers';
+import { locales, defaultLocale, type Locale } from '../i18n';
 import "./globals.css";
 
 const inter = Inter({
@@ -48,41 +52,27 @@ export const metadata: Metadata = {
   manifest: '/manifest.webmanifest',
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
-  const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: "The Mountain Whisper",
-    url: "https://www.themountainwhisper.com",
-    description: "Curated Himalayan retreats for corporate teams and individuals. Step away from noise. Return with clarity, perspective, and renewed purpose.",
-  };
-
-  const websiteSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: "The Mountain Whisper",
-    url: "https://www.themountainwhisper.com",
-    description: "Curated Himalayan retreats for corporate teams and individuals. Step away from noise. Return with clarity, perspective, and renewed purpose.",
-  };
+}) {
+  // Read locale from cookie, fallback to default
+  const cookieStore = await cookies();
+  const localeCookie = cookieStore.get('NEXT_LOCALE')?.value;
+  const locale: Locale = (localeCookie && locales.includes(localeCookie as Locale)) 
+    ? (localeCookie as Locale) 
+    : defaultLocale;
+  
+  // Load messages for the detected locale
+  const messages = (await import(`../messages/${locale}.json`)).default;
 
   return (
-    <html lang="en">
-      <body
-        className={`${inter.variable} ${playfair.variable} antialiased`}
-      >
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-        />
-        {children}
+    <html lang={locale}>
+      <body className={`${inter.variable} ${playfair.variable} antialiased`}>
+        <NextIntlClientProvider messages={messages} locale={locale}>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

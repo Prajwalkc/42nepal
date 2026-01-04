@@ -3,12 +3,15 @@
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import Logo from "./Logo";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
+  const t = useTranslations('nav');
   const isHomePage = pathname === "/";
   const isJourneysListingPage = pathname === "/journeys";
   const isJourneyDetailPage = pathname?.startsWith("/journeys/") && pathname !== "/journeys";
@@ -25,10 +28,10 @@ export default function Navigation() {
   }, []);
 
   const navLinks = [
-    { href: "#philosophy", label: "Philosophy" },
-    { href: "/work-from-the-himalayas", label: "Work From the Himalayas" },
-    { href: "/journeys", label: "Journeys" },
-    { href: "/enquire", label: "Enquire" },
+    { href: "#philosophy", label: t("philosophy") },
+    { href: "/work-from-the-himalayas", label: t("workFromHimalayas") },
+    { href: "/journeys", label: t("journeys") },
+    { href: "/enquire", label: t("enquire") },
   ];
 
   const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
@@ -107,6 +110,7 @@ export default function Navigation() {
                 </Link>
               );
             })}
+            <LanguageSwitcher useWhiteText={shouldUseWhiteText && !scrolled} />
           </div>
 
           {/* Mobile Menu Button */}
@@ -170,6 +174,7 @@ export default function Navigation() {
                 </Link>
               );
             })}
+            <LanguageSwitcher useWhiteText={shouldUseWhiteText && !scrolled} />
           </div>
         )}
       </div>

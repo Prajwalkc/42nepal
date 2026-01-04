@@ -1,0 +1,322 @@
+{
+  "common": {
+    "siteName": "The Mountain Whisper",
+    "tagline": "寂静说话的地方。",
+    "explore": "探索",
+    "learnMore": "了解更多",
+    "beginConversation": "开始对话",
+    "enquire": "询问",
+    "viewAll": "查看全部",
+    "founder": "Prajwal",
+    "founderTitle": "创始人，The Mountain Whisper"
+  },
+  "nav": {
+    "philosophy": "哲学",
+    "workFromHimalayas": "从喜马拉雅工作",
+    "journeys": "旅程",
+    "enquire": "询问"
+  },
+  "home": {
+    "title": "喜马拉雅静修，寻求清晰与宁静",
+    "subtitle": "在喜马拉雅精心策划的体验——为清晰、休息和有意义的工作而设计。",
+    "intro": "The Mountain Whisper 在尼泊尔喜马拉雅的中心提供正念静修，在那里宁静成为老师，海拔带来清晰。在这里，在峰峦和山谷之间的安静空间中，您会找到一直在寻求的重置——不是逃避，而是回归。",
+    "philosophy": {
+      "title": "哲学",
+      "silence": {
+        "title": "寂静",
+        "text": "在喜马拉雅，寂静不是空的——它是满的。充满了清晰、视角和那种让您听到真正重要事物的宁静。远离现代生活的持续噪音，寂静成为老师。"
+      },
+      "elevation": {
+        "title": "海拔",
+        "text": "身体的海拔带来心理的海拔。当您上升时，日常的噪音逐渐消失。剩下的就是本质。您走得越高，看得越清楚——不仅是风景，还有您自己前进的道路。"
+      },
+      "clarity": {
+        "title": "超越常规的清晰",
+        "text": "我们的旅程旨在打破让您陷入困境的模式。通过在自然最强大的空间中度过有意识的时间，您会找到在日常常规中难以捉摸的清晰。带着改变您工作、领导和生活方式的观点返回。"
+      },
+      "intentional": {
+        "title": "有意识的生活",
+        "text": "The Mountain Whisper 是关于为反思、工作和休息创造空间。不是逃避，而是回归。不是退缩，而是清晰。"
+      }
+    },
+    "waysToExperience": {
+      "title": "体验方式",
+      "subtitle": "人们以不同的方式体验 The Mountain Whisper。每条路径都提供自己的节奏，自己的深度。",
+      "journeys": {
+        "title": "旅程",
+        "description": "精心策划的体验，为清晰、休息和有意义的工作而设计。不同的节奏，不同的持续时间，每个都有意图。"
+      },
+      "work": {
+        "title": "从喜马拉雅工作",
+        "description": "为创始人、远程团队和独立建设者提供的宁静静修。在山区进行深度工作和宁静。"
+      },
+      "soloOrShared": {
+        "title": "独自或共享",
+        "description": "无论您是独自一人还是与他人一起，体验都会适应。个人反思或共同提升——两条路径都通向清晰。"
+      },
+      "custom": {
+        "title": "定制旅程",
+        "description": "为那些寻求特定事物的人。我们设计满足您所在位置的体验，具有您需要的节奏和焦点。"
+      }
+    },
+    "whyHimalayas": {
+      "title": "为什么选择喜马拉雅",
+      "altitude": {
+        "title": "海拔",
+        "text": "身体的海拔创造心理的海拔。当您上升时，日常的噪音逐渐消失。剩下的就是本质。"
+      },
+      "stillness": {
+        "title": "宁静",
+        "text": "喜马拉雅提供越来越罕见的东西：真正的宁静。没有Wi-Fi区域。没有紧急通知。只有屹立千年的山脉，教导耐心。"
+      },
+      "perspective": {
+        "title": "视角",
+        "text": "从高处，您看得不同。在海平面感觉压倒性的问题缩小到适当的大小。似乎紧急的优先事项揭示了它们的真正重要性。"
+      }
+    },
+    "whyExists": {
+      "title": "为什么存在",
+      "text1": "我在快节奏的环境中工作了多年，一切都感觉紧急。截止日期堆积，需要快速做出决定，节奏从未放缓。",
+      "text2": "更接近自然的工作，特别是在喜马拉雅，改变了我对工作和生活的态度。山脉教会我，放慢速度不是做得更少——而是有意图地做重要的事情。",
+      "text3": "The Mountain Whisper 为那些深深关心自己的工作但希望有意图地工作的其他人而存在。"
+    },
+    "cta": {
+      "title": "开始对话",
+      "subtitle": "告诉我们您正在寻找什么——我们会深思熟虑地指导您。"
+    }
+  },
+  "workFromHimalayas": {
+    "title": "Work From the Himalayas",
+    "subtitle": "Focused work, without the noise",
+    "whatThisIs": {
+      "title": "What This Really Is",
+      "notCoworking": "This is not a coworking space.",
+      "notWorkshop": "This is not a productivity workshop.",
+      "notWorkcation": "This is not a workcation.",
+      "text1": "Work From the Himalayas is a space for people who want to work or create with clarity, in one of the quietest landscapes on earth.",
+      "text2": "The best work happens when you have space to think. When the environment supports focus rather than urgency. When stillness becomes a condition for clarity.",
+      "text3": "You work. The mountains provide the context. The quiet provides the space. Together, they create conditions where deep thinking becomes possible."
+    },
+    "whoFor": {
+      "title": "Who This Is For",
+      "founders": {
+        "title": "Founders and co-founders",
+        "text": "Builders who need quiet space to think, plan, and create without the constant noise of daily operations."
+      },
+      "teams": {
+        "title": "Small teams",
+        "text": "Teams seeking a calm environment to work together while experiencing the stillness of the mountains."
+      },
+      "creators": {
+        "title": "Writers, artists, researchers",
+        "text": "People whose work requires uninterrupted time and deep thinking. Writers finishing manuscripts. Musicians composing. Painters beginning series."
+      }
+    },
+    "howWorkHappens": {
+      "title": "How Work Happens Here",
+      "environments": {
+        "title": "Work-friendly environments",
+        "text": "We curate spaces that support focus. Quiet rooms, natural light, and environments designed for thinking. Location-dependent, but always intentional."
+      },
+      "rhythm": {
+        "title": "Flexible daily rhythm",
+        "text": "No rigid schedules. No mandatory activities. Structure your days around your work and the natural rhythm that emerges in stillness."
+      },
+      "space": {
+        "title": "Space for focus, rest, and reflection",
+        "text": "Work deeply. Rest when needed. Take walks. Reflect. The environment supports all of it — because the best work happens when you're not exhausted."
+      },
+      "support": {
+        "title": "Support without intrusion",
+        "text": "Local support is available when you need it. Guidance, not management. Help, not oversight. You work. We ensure the environment supports that."
+      }
+    },
+    "differentWay": {
+      "title": "A Different Way of Working",
+      "text1": "Productivity is measured in clarity, not hours. When you have space to think and the environment supports focus, you accomplish more with less effort.",
+      "text2": "No constant notifications. No urgent interruptions. Just work when you need to work. Rest when you need to rest.",
+      "text3": "The mountains teach patience. The quiet teaches presence. You return not just with work done, but with clarity about what matters."
+    },
+    "practical": {
+      "title": "Practical Considerations",
+      "seasons": {
+        "title": "Seasons and timing",
+        "text": "Different seasons offer different experiences. We'll guide you on the best times for your stay, considering weather, connectivity, and the kind of stillness you're seeking."
+      },
+      "altitude": {
+        "title": "Altitude and suitability",
+        "text": "We work with locations that are safe and manageable. For higher elevation options, we ensure proper acclimatization and support. Your well-being is our priority."
+      },
+      "connectivity": {
+        "title": "Connectivity",
+        "text": "Some locations offer reliable internet. Others offer reliable quiet. We're transparent about what to expect, so you can choose based on your work requirements."
+      },
+      "notForEveryone": {
+        "title": "Who this may not be ideal for",
+        "text": "If you need constant connectivity, prefer urban environments, or require extensive infrastructure, this may not be the right fit. We're honest about limitations because we want you to make the right choice."
+      }
+    },
+    "places": {
+      "title": "Places",
+      "subtitle": "Places chosen for stillness, light, and distance from urgency. Where work experiences unfold.",
+      "explorePlace": "Explore place",
+      "manang": {
+        "name": "Manang",
+        "description": "High valleys where silence settles between peaks. A high-altitude Himalayan village defined by stillness and long pauses."
+      }
+    },
+    "cta": {
+      "title": "Begin a Conversation",
+      "subtitle": "Share what you're working on and what you need. We'll suggest a calm fit that supports your work."
+    }
+  },
+  "journeys": {
+    "title": "Journeys into Stillness",
+    "subtitle": "A small collection of curated experiences shaped by mountains, silence, and time.",
+    "cta": {
+      "title": "Begin a Conversation",
+      "subtitle": "Not sure which journey fits? We'll help you choose."
+    }
+  },
+  "enquire": {
+    "title": "Start a conversation",
+    "subtitle": "Tell us what you're seeking. There's no commitment — just a thoughtful exchange.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "messageHint": "You can share as much or as little as you like — an idea, a question, or an intention.",
+      "submit": "Send enquiry",
+      "sending": "Sending...",
+      "sent": "Sent",
+      "success": "Thank you for your message. We've received your enquiry and will respond thoughtfully soon.",
+      "error": "Something went wrong. Please try again.",
+      "responseTime": "We usually reply within 24–48 hours. No pressure.",
+      "reassurance": "We read every message carefully. There's no automated reply, no pressure, and no expectation — just a thoughtful response."
+    }
+  },
+  "places": {
+    "manang": {
+      "title": "Manang",
+      "description": "A high-altitude Himalayan village defined by silence and long pauses. The pace here is slow. The air is thin. The light is clear.",
+      "whyManang": {
+        "title": "Why Manang",
+        "stillness": {
+          "title": "Stillness",
+          "text": "Stillness here is not absence. It's presence. The kind of quiet that allows you to hear what you've been missing. Days move slowly. Evenings stretch. Time becomes spacious."
+        },
+        "light": {
+          "title": "Light",
+          "text": "Light at altitude is different. Clearer. More direct. It illuminates not just the landscape but your thinking. The clarity you seek often comes with the clarity of light."
+        },
+        "altitude": {
+          "title": "Altitude",
+          "text": "Altitude requires patience. Your body adjusts. Your mind adjusts. The process itself teaches something about slowing down, about respecting limits, about the value of gradual change."
+        },
+        "simplicity": {
+          "title": "Simplicity",
+          "text": "Simplicity is not deprivation. It's focus. Fewer distractions. Fewer choices. What remains is what matters. This simplicity supports the kind of thinking that gets lost in complexity."
+        }
+      },
+      "supports": {
+        "title": "What this place supports",
+        "deepWork": {
+          "title": "Deep work",
+          "text": "The quiet, the altitude, the simplicity—they create conditions where focus becomes natural. You work without the constant pull of distraction."
+        },
+        "reflection": {
+          "title": "Reflection",
+          "text": "The long pauses between activities. The walks. The stillness. These moments allow you to process and understand."
+        },
+        "thinking": {
+          "title": "Long-form thinking",
+          "text": "The kind of sustained thought that requires time and space. Problems that felt intractable begin to resolve."
+        }
+      },
+      "practical": {
+        "title": "Practical Information",
+        "subtitle": "Essential details about facilities, services, and what to expect",
+        "medical": {
+          "title": "Medical Facilities",
+          "healthPost": {
+            "name": "Manang Health Post",
+            "description": "Basic medical services available in the village"
+          },
+          "altitude": {
+            "name": "Altitude Sickness Support",
+            "description": "Local guides trained in recognizing and managing altitude-related issues"
+          },
+          "evacuation": {
+            "name": "Emergency Evacuation",
+            "description": "Helicopter evacuation available for serious medical emergencies"
+          }
+        },
+        "attractions": {
+          "title": "Nearby Attractions",
+          "gangapurna": {
+            "name": "Gangapurna Lake",
+            "description": "Short walk from the village. A peaceful spot for reflection"
+          },
+          "iceLake": {
+            "name": "Ice Lake (Kicho Tal)",
+            "description": "Day hike destination. High-altitude lake with stunning mountain views"
+          },
+          "milarepa": {
+            "name": "Milarepa Cave",
+            "description": "Historic meditation cave. A place of quiet significance"
+          }
+        },
+        "connectivity": {
+          "title": "Connectivity",
+          "internet": {
+            "name": "Internet Access",
+            "description": "Limited and intermittent. Best for essential communication only"
+          },
+          "mobile": {
+            "name": "Mobile Network",
+            "description": "Spotty coverage. Some areas have better signal than others"
+          },
+          "power": {
+            "name": "Power Supply",
+            "description": "Electricity available but can be unreliable. Solar power recommended for devices"
+          }
+        },
+        "accommodation": {
+          "title": "Accommodation & Services",
+          "lodges": {
+            "name": "Lodges & Guesthouses",
+            "description": "Simple, comfortable accommodations. Basic amenities available"
+          },
+          "dining": {
+            "name": "Dining",
+            "description": "Local teahouses serve traditional Nepali and Tibetan cuisine"
+          },
+          "supplies": {
+            "name": "Supplies",
+            "description": "Basic supplies available. Limited selection. Plan accordingly"
+          }
+        }
+      },
+      "considerations": {
+        "title": "Important Considerations",
+        "altitude": {
+          "title": "Altitude",
+          "text": "Manang sits at approximately 3,540 meters (11,614 feet). This requires proper acclimatization. Some people adjust quickly. Others need more time. We ensure proper support and pacing. Your well-being matters more than any schedule."
+        },
+        "connectivity": {
+          "title": "Connectivity Limitations",
+          "text": "Internet access is limited. This is intentional. The quiet that makes deep work possible also means less connectivity. If your work requires constant online presence or real-time collaboration, this may not be the right fit."
+        },
+        "notForEveryone": {
+          "title": "Not for Everyone",
+          "text": "This place is not for everyone. If you need urban comforts, reliable connectivity, or extensive infrastructure, look elsewhere. We're honest about limitations because we want you to choose what actually serves you."
+        }
+      },
+      "workCta": {
+        "title": "Work from the Himalayas",
+        "text": "Manang is suitable for work-focused stays. For people comfortable with simplicity and altitude. If you need quiet space to think, to write, to build, this place offers that."
+      }
+    }
+  }
+}
+

@@ -6,34 +6,46 @@ import MistBackground from "../components/MistBackground";
 import Footer from "../components/Footer";
 import Link from "next/link";
 import { Metadata } from "next";
+import { unstable_noStore as noStore } from "next/cache";
 import { getAllJourneys } from "../../data/journeys";
+import { getServerTranslations } from "../../lib/translations";
 
-export const metadata: Metadata = {
-  title: "Journeys into Stillness",
-  description: "Thoughtfully curated Himalayan experiences designed for clarity, rest, and meaningful work. Different paces, different durations, each with intention.",
-  alternates: {
-    canonical: "/journeys",
-  },
-  openGraph: {
-    title: "Journeys into Stillness | The Mountain Whisper",
-    description: "Thoughtfully curated Himalayan experiences designed for clarity, rest, and meaningful work. Different paces, different durations, each with intention.",
-    images: [
-      {
-        url: "/journey.png",
-        width: 1200,
-        height: 630,
-        alt: "Himalayan mountain landscape for curated journey experiences",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Journeys into Stillness | The Mountain Whisper",
-    description: "Thoughtfully curated Himalayan experiences designed for clarity, rest, and meaningful work. Different paces, different durations, each with intention.",
-  },
-};
+// Force dynamic rendering to ensure translations update when language changes
+export const dynamic = 'force-dynamic';
 
-export default function JourneysPage() {
+export async function generateMetadata(): Promise<Metadata> {
+  const { common, journeys: journeysT } = await getServerTranslations();
+  
+  return {
+    title: journeysT('title'),
+    description: journeysT('subtitle'),
+    alternates: {
+      canonical: "/journeys",
+    },
+    openGraph: {
+      title: `${journeysT('title')} | ${common('siteName')}`,
+      description: journeysT('subtitle'),
+      images: [
+        {
+          url: "/journey.png",
+          width: 1200,
+          height: 630,
+          alt: "Himalayan mountain landscape for curated journey experiences",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${journeysT('title')} | ${common('siteName')}`,
+      description: journeysT('subtitle'),
+    },
+  };
+}
+
+export default async function JourneysPage() {
+  // Prevent caching to ensure translations update when language changes
+  noStore();
+  const { common, journeys: journeysT } = await getServerTranslations();
   const journeys = getAllJourneys();
 
   return (
@@ -46,10 +58,10 @@ export default function JourneysPage() {
         <JourneyHeroVideo />
         <div className="relative z-20 max-w-3xl mx-auto text-center space-y-6">
           <h1 className="h1 mb-4 text-white">
-            Journeys into Stillness
+            {journeysT('title')}
           </h1>
           <p className="text-xl sm:text-2xl text-white/95 font-light max-w-2xl mx-auto">
-            A small collection of curated experiences shaped by mountains, silence, and time.
+            {journeysT('subtitle')}
           </p>
         </div>
       </section>
@@ -74,16 +86,16 @@ export default function JourneysPage() {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white">
         <div className="max-w-2xl mx-auto text-center space-y-12">
           <div>
-            <h2 className="h2 mb-8">Begin a Conversation</h2>
+            <h2 className="h2 mb-8">{journeysT('cta.title')}</h2>
             <p className="text-large">
-              Not sure which journey fits? We'll help you choose.
+              {journeysT('cta.subtitle')}
             </p>
           </div>
           <Link
             href="/enquire?interest=journey"
             className="inline-block px-12 py-5 rounded-lg bg-[#3d5a7a] text-white hover:bg-[#2d4a6a] transition-all duration-300 text-lg font-medium shadow-sm hover:shadow-md active:scale-[0.98]"
           >
-            Begin a conversation
+            {common('beginConversation')}
           </Link>
         </div>
       </section>

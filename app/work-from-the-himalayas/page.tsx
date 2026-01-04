@@ -6,33 +6,47 @@ import Footer from "../components/Footer";
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
+import { unstable_noStore as noStore } from "next/cache";
+import { getServerTranslations } from "../../lib/translations";
 
-export const metadata: Metadata = {
-  title: "Work From the Himalayas",
-  description: "A calm space for individuals, artists, founders, and small teams. Deep work and stillness in the mountains without the noise. Focused productivity.",
-  alternates: {
-    canonical: "/work-from-the-himalayas",
-  },
-  openGraph: {
-    title: "Work From the Himalayas | The Mountain Whisper",
-    description: "A calm space for individuals, artists, founders, and small teams. Deep work and stillness in the mountains without the noise. Focused productivity.",
-    images: [
-      {
-        url: "/work.png",
-        width: 1200,
-        height: 630,
-        alt: "Himalayan mountain landscape for remote work and deep focus",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Work From the Himalayas | The Mountain Whisper",
-    description: "A calm space for individuals, artists, founders, and small teams. Deep work and stillness in the mountains without the noise. Focused productivity.",
-  },
-};
+// Force dynamic rendering to ensure translations update when language changes
+export const dynamic = 'force-dynamic';
 
-export default function WorkFromTheHimalayasPage() {
+export async function generateMetadata(): Promise<Metadata> {
+  // Prevent caching in metadata generation
+  noStore();
+  const { common, workFromHimalayas } = await getServerTranslations();
+  
+  return {
+    title: workFromHimalayas('title'),
+    description: workFromHimalayas('subtitle'),
+    alternates: {
+      canonical: "/work-from-the-himalayas",
+    },
+    openGraph: {
+      title: `${workFromHimalayas('title')} | ${common('siteName')}`,
+      description: workFromHimalayas('subtitle'),
+      images: [
+        {
+          url: "/work.png",
+          width: 1200,
+          height: 630,
+          alt: "Himalayan mountain landscape for remote work and deep focus",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${workFromHimalayas('title')} | ${common('siteName')}`,
+      description: workFromHimalayas('subtitle'),
+    },
+  };
+}
+
+export default async function WorkFromTheHimalayasPage() {
+  // Prevent caching to ensure translations update when language changes
+  noStore();
+  const { common, workFromHimalayas } = await getServerTranslations();
   return (
     <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth relative">
       <MistBackground opacity={0.10} animated={true} />
@@ -43,10 +57,10 @@ export default function WorkFromTheHimalayasPage() {
         <WorkHeroVideo />
         <div className="relative z-20 max-w-3xl mx-auto text-center space-y-6">
           <h1 className="h1 mb-4 text-white">
-            Work From the Himalayas
+            {workFromHimalayas('title')}
           </h1>
           <p className="text-xl sm:text-2xl text-white/95 font-light max-w-2xl mx-auto">
-            Focused work, without the noise
+            {workFromHimalayas('subtitle')}
           </p>
         </div>
       </section>
@@ -57,32 +71,32 @@ export default function WorkFromTheHimalayasPage() {
       <section className="relative pt-20 pb-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
         <div className="max-w-6xl mx-auto space-y-16">
           <div className="text-center">
-            <h2 className="h2 mb-12">What This Really Is</h2>
+            <h2 className="h2 mb-12">{workFromHimalayas('whatThisIs.title')}</h2>
           </div>
           
           <div className="max-w-3xl mx-auto">
             <div className="space-y-8">
               <div className="space-y-8">
                 <div className="space-y-2">
-                  <p className="text-large text-[#4a5560]">This is not a coworking space.</p>
+                  <p className="text-large text-[#4a5560]">{workFromHimalayas('whatThisIs.notCoworking')}</p>
                 </div>
                 <div className="space-y-2">
-                  <p className="text-large text-[#4a5560]">This is not a productivity workshop.</p>
+                  <p className="text-large text-[#4a5560]">{workFromHimalayas('whatThisIs.notWorkshop')}</p>
                 </div>
                 <div className="space-y-2">
-                  <p className="text-large text-[#4a5560]">This is not a workcation.</p>
+                  <p className="text-large text-[#4a5560]">{workFromHimalayas('whatThisIs.notWorkcation')}</p>
                 </div>
               </div>
 
               <div className="pt-4 space-y-6">
                 <p className="text-body leading-relaxed text-[#4a5560]">
-                  Work From the Himalayas is a space for people who want to work or create with clarity, in one of the quietest landscapes on earth.
+                  {workFromHimalayas('whatThisIs.text1')}
                 </p>
                 <p className="text-body leading-relaxed text-[#4a5560]">
-                  The best work happens when you have space to think. When the environment supports focus rather than urgency. When stillness becomes a condition for clarity.
+                  {workFromHimalayas('whatThisIs.text2')}
                 </p>
                 <p className="text-body leading-relaxed text-[#4a5560]">
-                  You work. The mountains provide the context. The quiet provides the space. Together, they create conditions where deep thinking becomes possible.
+                  {workFromHimalayas('whatThisIs.text3')}
                 </p>
               </div>
             </div>
@@ -96,28 +110,28 @@ export default function WorkFromTheHimalayasPage() {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="h2 mb-8">Who This Is For</h2>
+            <h2 className="h2 mb-8">{workFromHimalayas('whoFor.title')}</h2>
           </div>
           
           <div className="space-y-12">
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Founders and co-founders</h3>
+              <h3 className="h4 text-[#3d5a7a]">{workFromHimalayas('whoFor.founders.title')}</h3>
               <p className="text-body leading-relaxed text-[#4a5560] pl-8 border-l-2 border-[#e8e6e3]">
-                Builders who need quiet space to think, plan, and create without the constant noise of daily operations.
+                {workFromHimalayas('whoFor.founders.text')}
               </p>
             </div>
             
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Small teams</h3>
+              <h3 className="h4 text-[#3d5a7a]">{workFromHimalayas('whoFor.teams.title')}</h3>
               <p className="text-body leading-relaxed text-[#4a5560] pl-8 border-l-2 border-[#e8e6e3]">
-                Teams seeking a calm environment to work together while experiencing the stillness of the mountains.
+                {workFromHimalayas('whoFor.teams.text')}
               </p>
             </div>
             
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Writers, artists, researchers</h3>
+              <h3 className="h4 text-[#3d5a7a]">{workFromHimalayas('whoFor.creators.title')}</h3>
               <p className="text-body leading-relaxed text-[#4a5560] pl-8 border-l-2 border-[#e8e6e3]">
-                People whose work requires uninterrupted time and deep thinking. Writers finishing manuscripts. Musicians composing. Painters beginning series.
+                {workFromHimalayas('whoFor.creators.text')}
               </p>
             </div>
           </div>
@@ -130,35 +144,35 @@ export default function WorkFromTheHimalayasPage() {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
         <div className="max-w-5xl mx-auto space-y-16">
           <div className="text-center mb-20">
-            <h2 className="h2 mb-8">How Work Happens Here</h2>
+            <h2 className="h2 mb-8">{workFromHimalayas('howWorkHappens.title')}</h2>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Work-friendly environments</h3>
+              <h3 className="h4 text-[#3d5a7a]">{workFromHimalayas('howWorkHappens.environments.title')}</h3>
               <p className="text-body leading-relaxed text-[#4a5560]">
-                We curate spaces that support focus. Quiet rooms, natural light, and environments designed for thinking. Location-dependent, but always intentional.
+                {workFromHimalayas('howWorkHappens.environments.text')}
               </p>
             </div>
 
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Flexible daily rhythm</h3>
+              <h3 className="h4 text-[#3d5a7a]">{workFromHimalayas('howWorkHappens.rhythm.title')}</h3>
               <p className="text-body leading-relaxed text-[#4a5560]">
-                No rigid schedules. No mandatory activities. Structure your days around your work and the natural rhythm that emerges in stillness.
+                {workFromHimalayas('howWorkHappens.rhythm.text')}
               </p>
             </div>
 
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Space for focus, rest, and reflection</h3>
+              <h3 className="h4 text-[#3d5a7a]">{workFromHimalayas('howWorkHappens.space.title')}</h3>
               <p className="text-body leading-relaxed text-[#4a5560]">
-                Work deeply. Rest when needed. Take walks. Reflect. The environment supports all of it — because the best work happens when you're not exhausted.
+                {workFromHimalayas('howWorkHappens.space.text')}
               </p>
             </div>
 
             <div className="space-y-4 md:col-span-2">
-              <h3 className="h4 text-[#3d5a7a]">Support without intrusion</h3>
+              <h3 className="h4 text-[#3d5a7a]">{workFromHimalayas('howWorkHappens.support.title')}</h3>
               <p className="text-body leading-relaxed text-[#4a5560] max-w-2xl">
-                Local support is available when you need it. Guidance, not management. Help, not oversight. You work. We ensure the environment supports that.
+                {workFromHimalayas('howWorkHappens.support.text')}
               </p>
             </div>
           </div>
@@ -171,10 +185,9 @@ export default function WorkFromTheHimalayasPage() {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white">
         <div className="max-w-5xl mx-auto space-y-12">
           <div className="text-center mb-20">
-            <h2 className="h2 mb-4">Places</h2>
+            <h2 className="h2 mb-4">{workFromHimalayas('places.title')}</h2>
             <p className="text-large text-[#4a5560] max-w-2xl mx-auto">
-              Places chosen for stillness, light, and distance from urgency. 
-              Where work experiences unfold.
+              {workFromHimalayas('places.subtitle')}
             </p>
           </div>
           
@@ -189,16 +202,16 @@ export default function WorkFromTheHimalayasPage() {
                     <div className="flex items-start gap-4">
                       <div className="flex-1">
                         <h3 className="h3 text-[#3d5a7a] group-hover:text-[#2d4a6a] transition-colors duration-300 mb-2">
-                          Manang
+                          {workFromHimalayas('places.manang.name')}
                         </h3>
                         <p className="text-body text-[#4a5560] leading-relaxed">
-                          High valleys where silence settles between peaks. A high-altitude Himalayan village defined by stillness and long pauses.
+                          {workFromHimalayas('places.manang.description')}
                         </p>
                       </div>
                     </div>
                   </div>
                   <div className="flex items-center gap-2 text-[#3d5a7a] group-hover:text-[#2d4a6a] transition-colors duration-300 sm:ml-4">
-                    <span className="text-small font-medium">Explore place</span>
+                    <span className="text-small font-medium">{workFromHimalayas('places.explorePlace')}</span>
                     <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
                   </div>
                 </div>
@@ -214,20 +227,20 @@ export default function WorkFromTheHimalayasPage() {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white">
         <div className="max-w-4xl mx-auto space-y-16">
           <div className="text-center mb-20">
-            <h2 className="h2 mb-8">A Different Way of Working</h2>
+            <h2 className="h2 mb-8">{workFromHimalayas('differentWay.title')}</h2>
           </div>
           
           <div className="space-y-10">
             <p className="text-body leading-relaxed text-[#4a5560] text-lg">
-              Productivity is measured in clarity, not hours. When you have space to think and the environment supports focus, you accomplish more with less effort.
+              {workFromHimalayas('differentWay.text1')}
             </p>
 
             <p className="text-body leading-relaxed text-[#4a5560] text-lg">
-              No constant notifications. No urgent interruptions. Just work when you need to work. Rest when you need to rest.
+              {workFromHimalayas('differentWay.text2')}
             </p>
 
             <p className="text-body leading-relaxed text-[#4a5560] text-lg">
-              The mountains teach patience. The quiet teaches presence. You return not just with work done, but with clarity about what matters.
+              {workFromHimalayas('differentWay.text3')}
             </p>
           </div>
         </div>
@@ -239,35 +252,35 @@ export default function WorkFromTheHimalayasPage() {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white">
         <div className="max-w-3xl mx-auto space-y-12">
           <div className="text-center">
-            <h2 className="h2 mb-8">Practical Considerations</h2>
+            <h2 className="h2 mb-8">{workFromHimalayas('practical.title')}</h2>
           </div>
           
           <div className="space-y-8">
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Seasons and timing</h3>
+              <h3 className="h4 text-[#3d5a7a]">{workFromHimalayas('practical.seasons.title')}</h3>
               <p className="text-body">
-                Different seasons offer different experiences. We'll guide you on the best times for your stay, considering weather, connectivity, and the kind of stillness you're seeking.
+                {workFromHimalayas('practical.seasons.text')}
               </p>
             </div>
 
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Altitude and suitability</h3>
+              <h3 className="h4 text-[#3d5a7a]">{workFromHimalayas('practical.altitude.title')}</h3>
               <p className="text-body">
-                We work with locations that are safe and manageable. For higher elevation options, we ensure proper acclimatization and support. Your well-being is our priority.
+                {workFromHimalayas('practical.altitude.text')}
               </p>
             </div>
 
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Connectivity</h3>
+              <h3 className="h4 text-[#3d5a7a]">{workFromHimalayas('practical.connectivity.title')}</h3>
               <p className="text-body">
-                Some locations offer reliable internet. Others offer reliable quiet. We're transparent about what to expect, so you can choose based on your work requirements.
+                {workFromHimalayas('practical.connectivity.text')}
               </p>
             </div>
 
             <div className="space-y-4">
-              <h3 className="h4 text-[#3d5a7a]">Who this may not be ideal for</h3>
+              <h3 className="h4 text-[#3d5a7a]">{workFromHimalayas('practical.notForEveryone.title')}</h3>
               <p className="text-body">
-                If you need constant connectivity, prefer urban environments, or require extensive infrastructure, this may not be the right fit. We're honest about limitations because we want you to make the right choice.
+                {workFromHimalayas('practical.notForEveryone.text')}
               </p>
             </div>
           </div>
@@ -282,16 +295,16 @@ export default function WorkFromTheHimalayasPage() {
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
         <div className="max-w-2xl mx-auto text-center space-y-12">
           <div>
-            <h2 className="h2 mb-8">Begin a Conversation</h2>
+            <h2 className="h2 mb-8">{workFromHimalayas('cta.title')}</h2>
             <p className="text-large">
-              Share what you're working on and what you need. We'll suggest a calm fit that supports your work.
+              {workFromHimalayas('cta.subtitle')}
             </p>
           </div>
           <Link
             href="/enquire?interest=work-from-the-himalayas"
             className="inline-block px-12 py-5 rounded-lg bg-[#3d5a7a] text-white hover:bg-[#2d4a6a] transition-all duration-300 text-lg font-medium shadow-sm hover:shadow-md active:scale-[0.98]"
           >
-            Begin a conversation
+            {common('beginConversation')}
           </Link>
         </div>
       </section>

@@ -1,47 +1,57 @@
-import ScenicMountains from "./components/ScenicMountains";
 import MountainDivider from "./components/MountainDivider";
 import HeroVideo from "./components/HeroVideo";
-import HeroAnimations from "./components/HeroAnimations";
 import Navigation from "./components/Navigation";
 import MistBackground from "./components/MistBackground";
 import Footer from "./components/Footer";
-import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { unstable_noStore as noStore } from "next/cache";
+import { getServerTranslations } from "../lib/translations";
 
-export const metadata: Metadata = {
-  title: "Himalayan Retreats for Clarity and Stillness",
-  description: "Curated Himalayan retreats for corporate teams and individuals. Step away from noise. Return with clarity, perspective, and renewed purpose.",
-  alternates: {
-    canonical: "/",
-  },
-  openGraph: {
-    title: "Himalayan Retreats for Clarity and Stillness | The Mountain Whisper",
-    description: "Curated Himalayan retreats for corporate teams and individuals. Step away from noise. Return with clarity, perspective, and renewed purpose.",
-    images: [
-      {
-        url: "/journey.png",
-        width: 1200,
-        height: 630,
-        alt: "Himalayan mountain landscape - The Mountain Whisper retreats",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Himalayan Retreats for Clarity and Stillness | The Mountain Whisper",
-    description: "Curated Himalayan retreats for corporate teams and individuals. Step away from noise. Return with clarity, perspective, and renewed purpose.",
-  },
-};
+// Force dynamic rendering to ensure translations update when language changes
+export const dynamic = 'force-dynamic';
 
-export default function Home() {
+export async function generateMetadata(): Promise<Metadata> {
+  noStore();
+  const { common, home } = await getServerTranslations();
+  
+  return {
+    title: home('title'),
+    description: home('subtitle'),
+    alternates: {
+      canonical: "/",
+    },
+    openGraph: {
+      title: `${home('title')} | ${common('siteName')}`,
+      description: home('subtitle'),
+      images: [
+        {
+          url: "/journey.png",
+          width: 1200,
+          height: 630,
+          alt: "Himalayan mountain landscape - The Mountain Whisper retreats",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${home('title')} | ${common('siteName')}`,
+      description: home('subtitle'),
+    },
+  };
+}
+
+export default async function Home() {
+  // Prevent caching to ensure translations update when language changes
+  noStore();
+  const { common, home } = await getServerTranslations();
   return (
     <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth relative">
       <MistBackground opacity={0.10} animated={true} />
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center px-6 sm:px-12 lg:px-24 overflow-hidden z-10">
+      <section className="relative min-h-screen flex items-center justify-center px-6 sm:px-12 lg:px-24 overflow-hidden z-10 text-white">
         <HeroVideo />
         {/* <HeroAnimations /> */}
         
@@ -49,7 +59,7 @@ export default function Home() {
           <div className="space-y-8 md:space-y-10 animate-fade-in">
             {/* Main Title */}
             <h1 className="text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-medium leading-tight">
-    The Mountain Whisper
+    {common('siteName')}
   </h1>
 
             {/* Divider */}
@@ -66,7 +76,7 @@ export default function Home() {
                 letterSpacing: "0.02em",
     }}
   >
-    Where silence speaks.
+    {common('tagline')}
   </p>
           </div>
 
@@ -80,8 +90,7 @@ export default function Home() {
               fontFamily: "var(--font-inter)",
             }}
   >
-    Thoughtfully curated experiences in the Himalayas — designed for clarity,
-    rest, and meaningful work.
+    {home('subtitle')}
   </p>
 </div>
 
@@ -92,7 +101,7 @@ export default function Home() {
       <section className="relative py-20 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
         <div className="max-w-3xl mx-auto">
           <p className="text-body text-[#4a5560] leading-relaxed text-center">
-            The Mountain Whisper offers mindful retreats in the heart of Nepal's Himalayas, where stillness becomes a teacher and elevation brings clarity. Here, in the quiet spaces between peaks and valleys, you'll find the reset you've been seeking—not as escape, but as return. These carefully curated experiences invite you to step away from the noise of daily life and into the profound silence that the mountains have held for millennia. Whether you come seeking perspective, rest, or simply the space to remember what matters, the Himalayas offer something increasingly rare: genuine stillness, where clarity emerges naturally and purpose finds its voice again.
+            {home('intro')}
           </p>
         </div>
       </section>
@@ -102,46 +111,36 @@ export default function Home() {
         <div className="max-w-3xl mx-auto space-y-20">
           <div className="text-center">
             <h2 className="h2 mb-6">
-              Philosophy
+              {home('philosophy.title')}
             </h2>
           </div>
           
           <div className="space-y-16">
             <div className="space-y-6">
-              <h3 className="h4 text-[#3d5a7a]">Silence</h3>
+              <h3 className="h4 text-[#3d5a7a]">{home('philosophy.silence.title')}</h3>
               <p className="text-body leading-relaxed">
-                In the Himalayas, silence is not empty—it's full. Full of clarity, perspective, 
-                and the kind of stillness that allows you to hear what truly matters. Away from 
-                the constant noise of modern life, silence becomes a teacher.
+                {home('philosophy.silence.text')}
               </p>
             </div>
 
             <div className="space-y-6">
-              <h3 className="h4 text-[#3d5a7a]">Elevation</h3>
+              <h3 className="h4 text-[#3d5a7a]">{home('philosophy.elevation.title')}</h3>
               <p className="text-body leading-relaxed">
-                Physical elevation brings mental elevation. As you ascend, the noise of routine 
-                fades. What remains is essential. The higher you go, the clearer you see—not just 
-                the landscape, but your own path forward.
+                {home('philosophy.elevation.text')}
               </p>
             </div>
 
             <div className="space-y-6">
-              <h3 className="h4 text-[#3d5a7a]">Clarity Beyond Routine</h3>
+              <h3 className="h4 text-[#3d5a7a]">{home('philosophy.clarity.title')}</h3>
               <p className="text-body leading-relaxed">
-                Our journeys are designed to break the patterns that keep you stuck. Through 
-                intentional time in nature's most powerful spaces, you'll find the clarity that 
-                eludes you in daily routine. Return with perspective that transforms how you 
-                work, lead, and live.
+                {home('philosophy.clarity.text')}
               </p>
             </div>
 
             <div className="space-y-6">
-              <h3 className="h4 text-[#3d5a7a]">Intentional Living</h3>
+              <h3 className="h4 text-[#3d5a7a]">{home('philosophy.intentional.title')}</h3>
               <p className="text-body leading-relaxed">
-                The Mountain Whisper is about creating spaces for reflection, work, and rest. 
-                Not escape, but return. Not withdrawal, but clarity. We believe in the power 
-                of intentional time away—time that helps you return with renewed purpose and 
-                deeper understanding.
+                {home('philosophy.intentional.text')}
               </p>
             </div>
           </div>
@@ -155,11 +154,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-24">
             <h2 className="h2 mb-8">
-              Ways to Experience
+              {home('waysToExperience.title')}
             </h2>
             <p className="text-large max-w-2xl mx-auto">
-              People experience The Mountain Whisper in different ways. 
-              Each path offers its own rhythm, its own depth.
+              {home('waysToExperience.subtitle')}
             </p>
           </div>
           
@@ -171,16 +169,15 @@ export default function Home() {
             >
               <div className="space-y-6 flex-1">
                 <h3 className="h4 text-[#3d5a7a] group-hover:text-[#2d4a6a] transition-colors duration-300">
-                  Journeys
+                  {home('waysToExperience.journeys.title')}
                 </h3>
                 <p className="text-body group-hover:text-[#2d3a47] transition-colors duration-300 leading-relaxed">
-                  Thoughtfully curated experiences designed for clarity, rest, and meaningful work. 
-                  Different paces, different durations, each with intention.
+                  {home('waysToExperience.journeys.description')}
                 </p>
               </div>
               <div className="pt-6 mt-auto">
                 <span className="text-body text-[#3d5a7a] font-medium group-hover:text-[#2d4a6a] inline-flex items-center gap-2 transition-all duration-300">
-                  Explore
+                  {common('explore')}
                   <span className="transition-transform duration-300 group-hover:translate-x-2">→</span>
                 </span>
               </div>
@@ -193,16 +190,15 @@ export default function Home() {
             >
               <div className="space-y-6 flex-1">
                 <h3 className="h4 text-[#3d5a7a] group-hover:text-[#2d4a6a] transition-colors duration-300">
-                  Work From the Himalayas
+                  {home('waysToExperience.work.title')}
                 </h3>
                 <p className="text-body group-hover:text-[#2d3a47] transition-colors duration-300 leading-relaxed">
-                  A calm retreat for founders, remote teams, and independent builders. 
-                  Deep work and stillness in the mountains.
+                  {home('waysToExperience.work.description')}
                 </p>
               </div>
               <div className="pt-6 mt-auto">
                 <span className="text-body text-[#3d5a7a] font-medium group-hover:text-[#2d4a6a] inline-flex items-center gap-2 transition-all duration-300">
-                  Explore
+                  {common('explore')}
                   <span className="transition-transform duration-300 group-hover:translate-x-2">→</span>
                 </span>
               </div>
@@ -215,16 +211,15 @@ export default function Home() {
             >
               <div className="space-y-6 flex-1">
                 <h3 className="h4 text-[#3d5a7a] group-hover:text-[#2d4a6a] transition-colors duration-300">
-                  Solo or Shared
+                  {home('waysToExperience.soloOrShared.title')}
                 </h3>
                 <p className="text-body group-hover:text-[#2d3a47] transition-colors duration-300 leading-relaxed">
-                  Whether you come alone or with others, the experience adapts. 
-                  Personal reflection or shared elevation—both paths lead to clarity.
+                  {home('waysToExperience.soloOrShared.description')}
                 </p>
               </div>
               <div className="pt-6 mt-auto">
                 <span className="text-body text-[#3d5a7a] font-medium group-hover:text-[#2d4a6a] inline-flex items-center gap-2 transition-all duration-300">
-                  Explore
+                  {common('explore')}
                   <span className="transition-transform duration-300 group-hover:translate-x-2">→</span>
                 </span>
               </div>
@@ -237,16 +232,15 @@ export default function Home() {
             >
               <div className="space-y-6 flex-1">
                 <h3 className="h4 text-[#3d5a7a] group-hover:text-[#2d4a6a] transition-colors duration-300">
-                  Custom Journey
+                  {home('waysToExperience.custom.title')}
                 </h3>
                 <p className="text-body group-hover:text-[#2d3a47] transition-colors duration-300 leading-relaxed">
-                  For those seeking something specific. We design experiences that meet you 
-                  where you are, with the pace and focus you need.
+                  {home('waysToExperience.custom.description')}
                 </p>
               </div>
               <div className="pt-6 mt-auto">
                 <span className="text-body text-[#3d5a7a] font-medium group-hover:text-[#2d4a6a] inline-flex items-center gap-2 transition-all duration-300">
-                  Begin a conversation
+                  {common('beginConversation')}
                   <span className="transition-transform duration-300 group-hover:translate-x-2">→</span>
                 </span>
               </div>
@@ -262,35 +256,29 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-24">
             <h2 className="h2 mb-8">
-              Why the Himalayas
+              {home('whyHimalayas.title')}
             </h2>
           </div>
           
           <div className="space-y-20">
             <div className="space-y-6">
-              <h3 className="h4 text-[#3d5a7a]">Altitude</h3>
+              <h3 className="h4 text-[#3d5a7a]">{home('whyHimalayas.altitude.title')}</h3>
               <p className="text-body leading-relaxed">
-                Physical elevation creates mental elevation. As you ascend, the noise of routine 
-                fades. What remains is essential. The challenge of altitude mirrors the challenge 
-                of clarity—both require patience, presence, and the willingness to slow down.
+                {home('whyHimalayas.altitude.text')}
               </p>
             </div>
 
             <div className="space-y-6">
-              <h3 className="h4 text-[#3d5a7a]">Stillness</h3>
+              <h3 className="h4 text-[#3d5a7a]">{home('whyHimalayas.stillness.title')}</h3>
               <p className="text-body leading-relaxed">
-                The Himalayas offer something increasingly rare: genuine stillness. No Wi-Fi zones. 
-                No urgent notifications. Just mountains that have stood for millennia, teaching 
-                patience. In this stillness, clarity emerges naturally.
+                {home('whyHimalayas.stillness.text')}
               </p>
             </div>
 
             <div className="space-y-6">
-              <h3 className="h4 text-[#3d5a7a]">Perspective</h3>
+              <h3 className="h4 text-[#3d5a7a]">{home('whyHimalayas.perspective.title')}</h3>
               <p className="text-body leading-relaxed">
-                From elevation, you see differently. The problems that felt overwhelming at sea level 
-                shrink to their proper size. The priorities that seemed urgent reveal their true 
-                importance. You return with perspective that transforms how you work, lead, and live.
+                {home('whyHimalayas.perspective.text')}
               </p>
             </div>
           </div>
@@ -304,37 +292,27 @@ export default function Home() {
         <div className="max-w-2xl mx-auto space-y-12">
           <div className="text-center">
             <h2 className="h2 mb-8">
-              Why this exists
+              {home('whyExists.title')}
             </h2>
           </div>
           
           <div className="space-y-8 text-body leading-relaxed text-[#4a5560]">
             <p>
-              I've spent years working in fast-moving environments where everything feels urgent. 
-              Deadlines stack up, decisions need to be made quickly, and the pace never slows. 
-              Over time, I learned that clarity doesn't come from doing more — it comes from 
-              creating space. The kind of space that lets you see what actually matters.
+              {home('whyExists.text1')}
             </p>
             
             <p>
-              Working closer to nature, especially in the Himalayas, changed how I approach both 
-              work and life. The mountains taught me that slowing down isn't about doing less — 
-              it's about doing what matters with intention. The elevation, the silence, the 
-              perspective — these aren't luxuries. They're necessities for anyone who wants to 
-              work deeply and live fully.
+              {home('whyExists.text2')}
             </p>
             
             <p>
-              The Mountain Whisper exists for others who care deeply about their work but want 
-              to work with intention. For those who understand that the best thinking happens 
-              away from the noise. If that resonates with you, I hope we can create that space 
-              together.
+              {home('whyExists.text3')}
             </p>
           </div>
           
           <div className="pt-8 text-body text-[#6b7786]">
-            <p className="font-medium">Prajwal</p>
-            <p className="text-small">Founder, The Mountain Whisper</p>
+            <p className="font-medium">{common('founder')}</p>
+            <p className="text-small">{common('founderTitle')}</p>
           </div>
         </div>
       </section>
@@ -346,10 +324,10 @@ export default function Home() {
         <div className="max-w-2xl mx-auto text-center space-y-12">
           <div>
             <h2 className="h2 mb-8">
-              Begin a conversation
+              {home('cta.title')}
             </h2>
             <p className="text-large">
-              Tell us what you're seeking — we'll guide you thoughtfully.
+              {home('cta.subtitle')}
             </p>
           </div>
           
@@ -358,7 +336,7 @@ export default function Home() {
               href="/enquire"
               className="inline-block px-12 py-5 rounded-lg bg-[#3d5a7a] text-white hover:bg-[#2d4a6a] transition-all duration-300 text-lg font-medium shadow-sm hover:shadow-md active:scale-[0.98]"
             >
-              Begin a conversation
+              {common('beginConversation')}
             </Link>
           </div>
         </div>
