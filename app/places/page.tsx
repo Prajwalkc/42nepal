@@ -48,7 +48,7 @@ const journeyPlaces = [
 
 export default function PlacesPage() {
   return (
-    <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth relative">
+    <div className="min-h-screen bg-background text-[#2d3a47] scroll-smooth relative">
       <MistBackground opacity={0.10} animated={true} />
       <Navigation />
       
@@ -68,7 +68,7 @@ export default function PlacesPage() {
       <MountainDivider />
 
       {/* Places List */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background z-10">
         <div className="max-w-5xl mx-auto space-y-32">
           {/* Work Places Section */}
           {workPlaces.length > 0 && (
@@ -95,7 +95,7 @@ export default function PlacesPage() {
                     href={place.href}
                     className="group block"
                   >
-                    <div className="bg-white border border-[#e8e6e3] rounded-xl p-8 hover:border-[#9ca5b3] hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                    <div className="bg-white border border-[#e8e6e3] rounded-xl p-8 hover:border-[#9ca5b3] hover:shadow-md transition-all duration-300 hover:-translate-y-1">
                       <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-6">
                         <div className="space-y-4 flex-1">
                           <div className="flex items-start gap-4">
@@ -107,7 +107,7 @@ export default function PlacesPage() {
                                 {place.description}
                               </p>
                             </div>
-                            <span className="text-xs font-medium text-[#3d5a7a] bg-[#f8f6f3] px-3 py-1.5 rounded-full border border-[#e8e6e3] whitespace-nowrap flex-shrink-0">
+                            <span className="text-xs font-medium text-[#3d5a7a] bg-background px-3 py-1.5 rounded-full border border-[#e8e6e3] whitespace-nowrap flex-shrink-0">
                               Work
                             </span>
                           </div>
@@ -149,7 +149,7 @@ export default function PlacesPage() {
                     href={place.href}
                     className="group block"
                   >
-                    <div className="bg-white border border-[#e8e6e3] rounded-xl p-8 hover:border-[#9ca5b3] hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                    <div className="bg-white border border-[#e8e6e3] rounded-xl p-8 hover:border-[#9ca5b3] hover:shadow-md transition-all duration-300 hover:-translate-y-1">
                       <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-6">
                         <div className="space-y-4 flex-1">
                           <div className="flex items-start gap-4">
@@ -161,7 +161,7 @@ export default function PlacesPage() {
                                 {place.description}
                               </p>
                             </div>
-                            <span className="text-xs font-medium text-[#3d5a7a] bg-[#f8f6f3] px-3 py-1.5 rounded-full border border-[#e8e6e3] whitespace-nowrap flex-shrink-0">
+                            <span className="text-xs font-medium text-[#3d5a7a] bg-background px-3 py-1.5 rounded-full border border-[#e8e6e3] whitespace-nowrap flex-shrink-0">
                               Journey
                             </span>
                           </div>

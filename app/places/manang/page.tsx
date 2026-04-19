@@ -46,7 +46,7 @@ export default async function ManangPage() {
   const { common, places, workFromHimalayas } = await getServerTranslations();
   const manang = places('manang');
   return (
-    <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth relative">
+    <div className="min-h-screen bg-background text-[#2d3a47] scroll-smooth relative">
       <MistBackground opacity={0.10} animated={true} />
       <Navigation />
       
@@ -63,7 +63,7 @@ export default async function ManangPage() {
       <MountainDivider />
 
       {/* Why Manang Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background z-10">
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="text-center mb-16">
             <h2 className="h2 mb-4">{manang('whyManang.title')}</h2>
@@ -131,7 +131,7 @@ export default async function ManangPage() {
       <MountainDivider />
 
       {/* Practical Information Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background z-10">
         <div className="max-w-5xl mx-auto space-y-16">
           <div className="text-center">
             <h2 className="h2 mb-4">{manang('practical.title')}</h2>
@@ -144,7 +144,7 @@ export default async function ManangPage() {
             {/* Medical Facilities */}
             <div className="bg-white border border-[#e8e6e3] rounded-xl p-6 space-y-4">
               <div className="flex items-center gap-3 mb-2">
-                <div className="w-10 h-10 rounded-lg bg-[#f8f6f3] flex items-center justify-center">
+                <div className="w-10 h-10 rounded-lg bg-background flex items-center justify-center">
                   <span className="text-xl">🏥</span>
                 </div>
                 <h3 className="h4 text-[#3d5a7a]">{manang('practical.medical.title')}</h3>
@@ -168,7 +168,7 @@ export default async function ManangPage() {
             {/* Nearby Attractions */}
             <div className="bg-white border border-[#e8e6e3] rounded-xl p-6 space-y-4">
               <div className="flex items-center gap-3 mb-2">
-                <div className="w-10 h-10 rounded-lg bg-[#f8f6f3] flex items-center justify-center">
+                <div className="w-10 h-10 rounded-lg bg-background flex items-center justify-center">
                   <span className="text-xl">🏔️</span>
                 </div>
                 <h3 className="h4 text-[#3d5a7a]">{manang('practical.attractions.title')}</h3>
@@ -192,7 +192,7 @@ export default async function ManangPage() {
             {/* Connectivity */}
             <div className="bg-white border border-[#e8e6e3] rounded-xl p-6 space-y-4">
               <div className="flex items-center gap-3 mb-2">
-                <div className="w-10 h-10 rounded-lg bg-[#f8f6f3] flex items-center justify-center">
+                <div className="w-10 h-10 rounded-lg bg-background flex items-center justify-center">
                   <span className="text-xl">📶</span>
                 </div>
                 <h3 className="h4 text-[#3d5a7a]">{manang('practical.connectivity.title')}</h3>
@@ -216,7 +216,7 @@ export default async function ManangPage() {
             {/* Accommodation & Services */}
             <div className="bg-white border border-[#e8e6e3] rounded-xl p-6 space-y-4">
               <div className="flex items-center gap-3 mb-2">
-                <div className="w-10 h-10 rounded-lg bg-[#f8f6f3] flex items-center justify-center">
+                <div className="w-10 h-10 rounded-lg bg-background flex items-center justify-center">
                   <span className="text-xl">🏠</span>
                 </div>
                 <h3 className="h4 text-[#3d5a7a]">{manang('practical.accommodation.title')}</h3>
@@ -277,7 +277,7 @@ export default async function ManangPage() {
       <MountainDivider />
 
       {/* Work from the Himalayas CTA */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background z-10">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <div>
             <h2 className="h2 mb-4">{manang('workCta.title')}</h2>

@@ -51,7 +51,7 @@ export default function Navigation() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         (shouldUseWhiteText && scrolled) || shouldUseDarkText || isJourneyDetailPage
-          ? "bg-[#f8f6f3]/98 backdrop-blur-sm border-b border-[#e8e6e3]"
+          ? "bg-background/98 backdrop-blur-sm border-b border-[#e8e6e3]"
           : "bg-transparent"
       }`}
     >
@@ -90,7 +90,7 @@ export default function Navigation() {
                         handleSmoothScroll(e as any, link.href);
                       }
                     }}
-                    className={`text-sm font-medium transition-colors hover:opacity-70 ${
+                    className={`text-sm font-medium transition-colors hover:opacity-70 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#9ca5b3] focus-visible:ring-offset-2 focus-visible:ring-offset-transparent rounded-sm ${
                       shouldUseWhiteText && !scrolled ? "text-white/90" : "text-[#4a5560]"
                     }`}
                   >
@@ -102,7 +102,7 @@ export default function Navigation() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`text-sm font-medium transition-colors hover:opacity-70 ${
+                  className={`text-sm font-medium transition-colors hover:opacity-70 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#9ca5b3] focus-visible:ring-offset-2 focus-visible:ring-offset-transparent rounded-sm ${
                     shouldUseWhiteText && !scrolled ? "text-white/90" : "text-[#4a5560]"
                   }`}
                 >

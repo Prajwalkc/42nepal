@@ -39,7 +39,7 @@ const blogPosts = [
 
 export default function BlogPage() {
   return (
-    <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth">
+    <div className="min-h-screen bg-background text-[#2d3a47] scroll-smooth">
       <Navigation />
       
       {/* Hero Section */}
@@ -57,13 +57,13 @@ export default function BlogPage() {
       <MountainDivider />
 
       {/* Blog Posts List */}
-      <section className="relative pt-20 pb-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+      <section className="relative pt-20 pb-40 px-6 sm:px-12 lg:px-24 bg-background">
         <div className="max-w-3xl mx-auto space-y-8">
           {blogPosts.map((post) => (
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
-              className="group block bg-white border border-[#e8e6e3] hover:border-[#9ca5b3] rounded-xl p-8 transition-all duration-300 ease-out hover:shadow-lg"
+              className="group block bg-white border border-[#e8e6e3] hover:border-[#9ca5b3] rounded-xl p-8 transition-all duration-300 ease-out hover:shadow-md"
             >
               <div className="space-y-4">
                 <h2 className="h3 text-[#2d3a47] group-hover:text-[#3d5a7a] transition-colors duration-300">

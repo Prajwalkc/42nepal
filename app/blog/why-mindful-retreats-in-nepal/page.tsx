@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 
 export default function WhyMindfulRetreatsInNepalPage() {
   return (
-    <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth">
+    <div className="min-h-screen bg-background text-[#2d3a47] scroll-smooth">
       <Navigation />
       
       {/* Hero Section */}
@@ -49,7 +49,7 @@ export default function WhyMindfulRetreatsInNepalPage() {
       <MountainDivider />
 
       {/* Introduction */}
-      <section className="relative py-20 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+      <section className="relative py-20 px-6 sm:px-12 lg:px-24 bg-background">
         <div className="max-w-3xl mx-auto space-y-8">
           <p className="text-body leading-relaxed text-[#4a5560]">
             Modern life moves at a pace that rarely allows for genuine rest. We're connected, informed, and productive—but also exhausted, distracted, and increasingly disconnected from what actually matters. The constant stream of notifications, deadlines, and decisions creates a kind of noise that makes it difficult to hear your own thoughts, let alone find clarity about what you want your life to be about.
@@ -89,7 +89,7 @@ export default function WhyMindfulRetreatsInNepalPage() {
       <MountainDivider />
 
       {/* Role of Himalayas */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background">
         <div className="max-w-3xl mx-auto space-y-12">
           <div className="text-center">
             <h2 className="h2 mb-8">The Role of the Himalayas in Silence and Clarity</h2>
@@ -149,7 +149,7 @@ export default function WhyMindfulRetreatsInNepalPage() {
       <MountainDivider />
 
       {/* Who Benefits */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background">
         <div className="max-w-3xl mx-auto space-y-12">
           <div className="text-center">
             <h2 className="h2 mb-8">Who Benefits Most from Mindful Retreats</h2>
@@ -216,7 +216,7 @@ export default function WhyMindfulRetreatsInNepalPage() {
       <MountainDivider />
 
       {/* Closing Reflection */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background">
         <div className="max-w-3xl mx-auto space-y-12">
           <div className="text-center">
             <h2 className="h2 mb-8">A Closing Reflection</h2>

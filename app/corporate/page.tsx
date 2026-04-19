@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 
 export default function CorporatePage() {
   return (
-    <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth">
+    <div className="min-h-screen bg-background text-[#2d3a47] scroll-smooth">
       <Navigation />
       
       {/* Hero */}
@@ -51,7 +51,7 @@ export default function CorporatePage() {
       <MountainDivider />
 
       {/* Why Silence and Altitude Help Leadership */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background">
         <div className="max-w-3xl mx-auto space-y-16">
           <div className="text-center">
             <h2 className="h2 mb-8">
@@ -123,7 +123,7 @@ export default function CorporatePage() {
       <MountainDivider />
 
       {/* What Makes These Different */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background">
         <div className="max-w-3xl mx-auto space-y-16">
           <div className="text-center">
             <h2 className="h2 mb-8">
@@ -188,7 +188,7 @@ export default function CorporatePage() {
       </section>
 
       {/* Footer */}
-      <footer className="relative border-t border-[#e8e6e3] bg-[#f8f6f3]">
+      <footer className="relative border-t border-[#e8e6e3] bg-background">
         <div className="relative h-32 overflow-hidden text-[#9ca5b3] opacity-15">
           <ScenicMountains />
         </div>

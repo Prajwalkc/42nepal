@@ -46,7 +46,7 @@ export default async function Home() {
   noStore();
   const { common, home } = await getServerTranslations();
   return (
-    <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth relative">
+    <div className="min-h-screen bg-background text-[#2d3a47] scroll-smooth relative">
       <MistBackground opacity={0.10} animated={true} />
       <Navigation />
       
@@ -70,35 +70,22 @@ export default async function Home() {
   </div>
 
             {/* Tagline */}
-  <p
-              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light text-white/95 leading-relaxed"
-    style={{
-                letterSpacing: "0.02em",
-    }}
-  >
-    {common('tagline')}
-  </p>
+            <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light text-white/95 leading-relaxed tracking-wide">
+              {common('tagline')}
+            </p>
           </div>
 
           {/* Subtitle - separated with more space */}
-  <p
-            className="text-lg sm:text-xl md:text-2xl font-light text-white/90 max-w-3xl mx-auto mt-12 md:mt-16 leading-relaxed px-4"
-            style={{
-              letterSpacing: "0.01em",
-              color: "white",
-              fontWeight: "400",  
-              fontFamily: "var(--font-inter)",
-            }}
-  >
-    {home('subtitle')}
-  </p>
+          <p className="text-lg sm:text-xl md:text-2xl font-normal text-white max-w-3xl mx-auto mt-12 md:mt-16 leading-relaxed px-4 tracking-wide font-sans">
+            {home('subtitle')}
+          </p>
 </div>
 
 
       </section>
 
       {/* Introduction Paragraph */}
-      <section className="relative py-20 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
+      <section className="relative py-20 px-6 sm:px-12 lg:px-24 bg-background z-10">
         <div className="max-w-3xl mx-auto">
           <p className="text-body text-[#4a5560] leading-relaxed text-center">
             {home('intro')}
@@ -107,7 +94,7 @@ export default async function Home() {
       </section>
 
       {/* Philosophy Section */}
-      <section id="philosophy" className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] scroll-mt-20 z-10">
+      <section id="philosophy" className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background scroll-mt-20 z-10">
         <div className="max-w-3xl mx-auto space-y-20">
           <div className="text-center">
             <h2 className="h2 mb-6">
@@ -165,7 +152,7 @@ export default async function Home() {
             {/* Journeys */}
             <Link
               href="/journeys"
-              className="group bg-[#f8f6f3] border border-[#e8e6e3] hover:border-[#9ca5b3] rounded-xl p-8 transition-all duration-300 ease-out flex flex-col hover:shadow-xl hover:-translate-y-2 shadow-sm"
+              className="group bg-background border border-[#e8e6e3] hover:border-[#9ca5b3] rounded-xl p-8 transition-all duration-300 ease-out flex flex-col hover:shadow-md hover:-translate-y-1 shadow-sm"
             >
               <div className="space-y-6 flex-1">
                 <h3 className="h4 text-[#3d5a7a] group-hover:text-[#2d4a6a] transition-colors duration-300">
@@ -186,7 +173,7 @@ export default async function Home() {
             {/* Work From the Himalayas */}
             <Link
               href="/work-from-the-himalayas"
-              className="group bg-[#f8f6f3] border border-[#e8e6e3] hover:border-[#9ca5b3] rounded-xl p-8 transition-all duration-300 ease-out flex flex-col hover:shadow-xl hover:-translate-y-2 shadow-sm"
+              className="group bg-background border border-[#e8e6e3] hover:border-[#9ca5b3] rounded-xl p-8 transition-all duration-300 ease-out flex flex-col hover:shadow-md hover:-translate-y-1 shadow-sm"
             >
               <div className="space-y-6 flex-1">
                 <h3 className="h4 text-[#3d5a7a] group-hover:text-[#2d4a6a] transition-colors duration-300">
@@ -207,7 +194,7 @@ export default async function Home() {
             {/* Solo or Shared */}
             <Link
               href="/journeys"
-              className="group bg-[#f8f6f3] border border-[#e8e6e3] hover:border-[#9ca5b3] rounded-xl p-8 transition-all duration-300 ease-out flex flex-col hover:shadow-xl hover:-translate-y-2 shadow-sm"
+              className="group bg-background border border-[#e8e6e3] hover:border-[#9ca5b3] rounded-xl p-8 transition-all duration-300 ease-out flex flex-col hover:shadow-md hover:-translate-y-1 shadow-sm"
             >
               <div className="space-y-6 flex-1">
                 <h3 className="h4 text-[#3d5a7a] group-hover:text-[#2d4a6a] transition-colors duration-300">
@@ -228,7 +215,7 @@ export default async function Home() {
             {/* Custom Journey */}
             <Link
               href="/enquire"
-              className="group bg-[#f8f6f3] border border-[#e8e6e3] hover:border-[#9ca5b3] rounded-xl p-8 transition-all duration-300 ease-out flex flex-col hover:shadow-xl hover:-translate-y-2 shadow-sm"
+              className="group bg-background border border-[#e8e6e3] hover:border-[#9ca5b3] rounded-xl p-8 transition-all duration-300 ease-out flex flex-col hover:shadow-md hover:-translate-y-1 shadow-sm"
             >
               <div className="space-y-6 flex-1">
                 <h3 className="h4 text-[#3d5a7a] group-hover:text-[#2d4a6a] transition-colors duration-300">
@@ -288,7 +275,7 @@ export default async function Home() {
       <MountainDivider />
 
       {/* Founder Message Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background z-10">
         <div className="max-w-2xl mx-auto space-y-12">
           <div className="text-center">
             <h2 className="h2 mb-8">

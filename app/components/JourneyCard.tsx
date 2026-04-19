@@ -29,7 +29,7 @@ export default function JourneyCard({
   return (
     <Link 
       href={`/journeys/${journey.slug}`} 
-      className={`group bg-white border border-[#e8e6e3] hover:border-[#9ca5b3] rounded-xl overflow-hidden transition-all duration-300 shadow-sm hover:shadow-xl hover:-translate-y-2 flex flex-col ${className}`}
+      className={`group bg-white border border-[#e8e6e3] hover:border-[#9ca5b3] rounded-xl overflow-hidden transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1 flex flex-col ${className}`}
     >
       <div className="relative h-28 md:h-40 overflow-hidden">
         <Image
@@ -39,7 +39,7 @@ export default function JourneyCard({
           className="object-cover"
           quality={90}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-white/20 to-transparent" />
+        <div className="absolute inset-0 bg-[#2d3a47]/10" />
       </div>
       <div className="p-6 md:p-8 space-y-4 flex-1 flex flex-col">
         <div className="space-y-2 flex-1">

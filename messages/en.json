@@ -18,8 +18,8 @@
   },
   "home": {
     "title": "Himalayan Retreats for Clarity and Stillness",
-    "subtitle": "Thoughtfully curated experiences in the Himalayas — designed for clarity, rest, and meaningful work.",
-    "intro": "The Mountain Whisper offers mindful retreats in the heart of Nepal's Himalayas, where stillness becomes a teacher and elevation brings clarity. Here, in the quiet spaces between peaks and valleys, you'll find the reset you've been seeking—not as escape, but as return. These carefully curated experiences invite you to step away from the noise of daily life and into the profound silence that the mountains have held for millennia. Whether you come seeking perspective, rest, or simply the space to remember what matters, the Himalayas offer something increasingly rare: genuine stillness, where clarity emerges naturally and purpose finds its voice again.",
+    "subtitle": "Quiet retreats in the Himalayas — shaped for clarity, rest, and meaningful work.",
+    "intro": "The Mountain Whisper offers mindful retreats in the heart of Nepal's Himalayas, where stillness becomes a teacher and elevation brings clarity. Here, in the quiet spaces between peaks and valleys, you'll find the reset you've been seeking—not as escape, but as return. Each journey is shaped to invite you away from the noise of daily life and into the profound silence that the mountains have held for millennia. Whether you come seeking perspective, rest, or simply the space to remember what matters, the Himalayas offer something increasingly rare: genuine stillness, where clarity emerges naturally and purpose finds its voice again.",
     "philosophy": {
       "title": "Philosophy",
       "silence": {
@@ -36,7 +36,7 @@
       },
       "intentional": {
         "title": "Intentional Living",
-        "text": "The Mountain Whisper is about creating spaces for reflection, work, and rest. Not escape, but return. Not withdrawal, but clarity. We believe in the power of intentional time away—time that helps you return with renewed purpose and deeper understanding."
+        "text": "The Mountain Whisper is about creating spaces for reflection, work, and rest. Not escape, but return. Not withdrawal, but clarity. Intentional time away—time that helps you return with renewed purpose and deeper understanding."
       }
     },
     "waysToExperience": {
@@ -44,7 +44,7 @@
       "subtitle": "People experience The Mountain Whisper in different ways. Each path offers its own rhythm, its own depth.",
       "journeys": {
         "title": "Journeys",
-        "description": "Thoughtfully curated experiences designed for clarity, rest, and meaningful work. Different paces, different durations, each with intention."
+        "description": "Quiet journeys shaped for clarity, rest, and meaningful work. Different paces, different durations, each with intention."
       },
       "work": {
         "title": "Work From the Himalayas",
@@ -172,7 +172,7 @@
   },
   "journeys": {
     "title": "Journeys into Stillness",
-    "subtitle": "A small collection of curated experiences shaped by mountains, silence, and time.",
+    "subtitle": "A small collection of journeys shaped by mountains, silence, and time.",
     "cta": {
       "title": "Begin a Conversation",
       "subtitle": "Not sure which journey fits? We'll help you choose."
@@ -244,7 +244,7 @@
       },
       "whyThisJourneyExists": {
         "title": "Why This Journey Exists",
-        "paragraph1": "Burnout isn't a personal failing. It's what happens when the pace of life exceeds your capacity to restore. The Quiet Reset exists because we believe that restoration isn't a luxury—it's a necessity. And that the best restoration happens away from the noise that created the exhaustion in the first place.",
+        "paragraph1": "Burnout isn't a personal failing. It's what happens when the pace of life exceeds your capacity to restore. The Quiet Reset exists because restoration isn't a luxury—it's a necessity. And the best restoration happens away from the noise that created the exhaustion in the first place.",
         "paragraph2": "In the Himalayas, the pace is different. The mountains don't rush. They don't demand. They simply exist, and in their presence, you remember that you can exist too—without the constant pressure to do more, be more, achieve more. This journey is about remembering what it feels like to simply be.",
         "paragraph3": "The Quiet Reset isn't about fixing you. It's about creating space. Space to breathe. Space to rest. Space to remember what matters. The mountains provide the stillness. You provide the permission to slow down. Together, they create the conditions for genuine restoration."
       },
@@ -347,7 +347,7 @@
       },
       "whyThisJourneyExists": {
         "title": "Why This Journey Exists",
-        "paragraph1": "The best leadership decisions don't come from urgency. They come from clarity. Leadership in Stillness exists because we believe that the most effective leaders are those who can step away from the noise, gain perspective, and make decisions from a place of calm confidence rather than reactive urgency.",
+        "paragraph1": "The best leadership decisions don't come from urgency. They come from clarity. Leadership in Stillness exists for leaders who can step away from the noise, gain perspective, and make decisions from a place of calm confidence rather than reactive urgency.",
         "paragraph2": "In the Himalayas, perspective takes on a different quality. From elevation, you see differently. The problems that felt overwhelming at sea level become clearer from above. The decisions that seemed urgent become less pressing. The stillness allows for the kind of thinking that good leadership requires.",
         "paragraph3": "This journey isn't about learning new frameworks or strategies. It's about creating space. Space to think clearly. Space to see the bigger picture. Space to make decisions from a place of clarity rather than reaction. The mountains provide the elevation. You provide the willingness to step away. Together, they create the conditions for genuine perspective."
       },
@@ -450,7 +450,7 @@
       },
       "whyThisJourneyExists": {
         "title": "Why This Journey Exists",
-        "paragraph1": "Some questions can only be answered alone. Some insights only emerge in solitude. The Solo Reflection Journey exists because we believe that there is profound value in walking alone, in thinking deeply without the presence of others, in having the space to process what needs processing without external input.",
+        "paragraph1": "Some questions can only be answered alone. Some insights only emerge in solitude. The Solo Reflection Journey exists for those who find profound value in walking alone, in thinking deeply without the presence of others, in having the space to process what needs processing without external input.",
         "paragraph2": "In the Himalayas, solitude takes on a different quality. It's not loneliness—it's presence with yourself. The mountains don't demand conversation. They simply exist, and in their presence, you can exist fully with yourself. This journey is about creating the conditions for that kind of presence.",
         "paragraph3": "The Solo Reflection Journey isn't about isolation. It's about intentional solitude. About choosing to walk alone not because you have to, but because you recognize that some paths are meant to be walked alone. The mountains provide the space. You provide the willingness to be present with yourself. Together, they create the conditions for genuine insight."
       },
@@ -553,7 +553,7 @@
       },
       "whyThisJourneyExists": {
         "title": "Why This Journey Exists",
-        "paragraph1": "Relationships need space. Not distance, but presence. Shared Stillness exists because we believe that the best connections happen when couples can step away together, create space for what matters, and remember what brought them together in the first place.",
+        "paragraph1": "Relationships need space. Not distance, but presence. Shared Stillness exists because the best connections happen when couples can step away together, create space for what matters, and remember what brought them together in the first place.",
         "paragraph2": "In the Himalayas, presence takes on a different quality. The mountains don't demand conversation. They simply exist, and in their presence, you can exist fully with each other. This journey is about creating the conditions for that kind of presence—together.",
         "paragraph3": "Shared Stillness isn't about fixing your relationship. It's about creating space. Space to be present with each other. Space to remember what matters. Space to reconnect without the noise of daily life. The mountains provide the stillness. You provide the willingness to be present together. Together, they create the conditions for genuine connection."
       },
@@ -656,7 +656,7 @@
       },
       "whyThisJourneyExists": {
         "title": "Why This Journey Exists",
-        "paragraph1": "Teams need space. Not distance, but perspective. Collective Ascent exists because we believe that the best team alignment happens when teams can step away together, create space for authentic conversations, and remember what brought them together in the first place.",
+        "paragraph1": "Teams need space. Not distance, but perspective. Collective Ascent exists because the best team alignment happens when teams can step away together, create space for authentic conversations, and remember what brought them together in the first place.",
         "paragraph2": "In the Himalayas, perspective takes on a different quality. From elevation, teams see differently. The conflicts that felt overwhelming at sea level become clearer from above. The dynamics that seemed stuck become more fluid. The stillness allows for the kind of conversations that good teams require.",
         "paragraph3": "Collective Ascent isn't about team building activities. It's about creating space. Space for authentic conversations. Space to see the bigger picture together. Space to align from a place of clarity rather than urgency. The mountains provide the elevation. You provide the willingness to step away together. Together, they create the conditions for genuine alignment."
       },

@@ -48,7 +48,7 @@ export default async function WorkFromTheHimalayasPage() {
   noStore();
   const { common, workFromHimalayas } = await getServerTranslations();
   return (
-    <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth relative">
+    <div className="min-h-screen bg-background text-[#2d3a47] scroll-smooth relative">
       <MistBackground opacity={0.10} animated={true} />
       <Navigation />
       
@@ -68,7 +68,7 @@ export default async function WorkFromTheHimalayasPage() {
       <MountainDivider />
 
       {/* What This Really Is Section */}
-      <section className="relative pt-20 pb-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
+      <section className="relative pt-20 pb-40 px-6 sm:px-12 lg:px-24 bg-background z-10">
         <div className="max-w-6xl mx-auto space-y-16">
           <div className="text-center">
             <h2 className="h2 mb-12">{workFromHimalayas('whatThisIs.title')}</h2>
@@ -107,7 +107,7 @@ export default async function WorkFromTheHimalayasPage() {
       <MountainDivider />
 
       {/* Who This Is For Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background z-10">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-20">
             <h2 className="h2 mb-8">{workFromHimalayas('whoFor.title')}</h2>
@@ -141,7 +141,7 @@ export default async function WorkFromTheHimalayasPage() {
       <MountainDivider />
 
       {/* How Work Happens Here Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background">
         <div className="max-w-5xl mx-auto space-y-16">
           <div className="text-center mb-20">
             <h2 className="h2 mb-8">{workFromHimalayas('howWorkHappens.title')}</h2>
@@ -196,7 +196,7 @@ export default async function WorkFromTheHimalayasPage() {
               href="/places/manang"
               className="group block"
             >
-              <div className="bg-[#f8f6f3] border border-[#e8e6e3] rounded-xl p-8 hover:border-[#9ca5b3] hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+              <div className="bg-background border border-[#e8e6e3] rounded-xl p-8 hover:border-[#9ca5b3] hover:shadow-md transition-all duration-300 hover:-translate-y-1">
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-6">
                   <div className="space-y-4 flex-1">
                     <div className="flex items-start gap-4">
@@ -292,7 +292,7 @@ export default async function WorkFromTheHimalayasPage() {
       <MountainDivider />
 
       {/* Enquiry CTA Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background">
         <div className="max-w-2xl mx-auto text-center space-y-12">
           <div>
             <h2 className="h2 mb-8">{workFromHimalayas('cta.title')}</h2>

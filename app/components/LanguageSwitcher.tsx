@@ -58,8 +58,8 @@ export default function LanguageSwitcher({ useWhiteText = false }: LanguageSwitc
   const iconColor = useWhiteText ? 'text-white/70' : 'text-[#6b7786]';
   const dropdownBgColor = useWhiteText ? 'bg-black/60 backdrop-blur-md border-white/20' : 'bg-white border-[#e8e6e3]';
   const dropdownTextColor = useWhiteText ? 'text-white/90' : 'text-[#4a5560]';
-  const hoverBgColor = useWhiteText ? 'hover:bg-white/10' : 'hover:bg-[#f8f6f3]';
-  const activeBgColor = useWhiteText ? 'bg-white/15' : 'bg-[#f8f6f3]';
+  const hoverBgColor = useWhiteText ? 'hover:bg-white/10' : 'hover:bg-background';
+  const activeBgColor = useWhiteText ? 'bg-white/15' : 'bg-background';
 
   return (
     <div className="relative inline-block" ref={dropdownRef}>
@@ -81,7 +81,7 @@ export default function LanguageSwitcher({ useWhiteText = false }: LanguageSwitc
       </button>
 
       {isOpen && (
-        <div className={`absolute right-0 mt-2 min-w-[90px] ${dropdownBgColor} border rounded-lg shadow-xl z-50 overflow-hidden`}>
+        <div className={`absolute right-0 mt-2 min-w-[90px] ${dropdownBgColor} border rounded-lg shadow-md z-50 overflow-hidden`}>
           <div className="py-1">
             {locales.map((loc) => (
               <button

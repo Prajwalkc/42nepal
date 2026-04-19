@@ -99,20 +99,16 @@ export default async function JourneyDetailPage({ params }: Props) {
   };
 
   return (
-    <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth">
+    <div className="min-h-screen bg-background text-[#2d3a47] scroll-smooth">
       <Navigation />
       
       {/* Hero Section */}
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white pt-32 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#f8f6f3] via-[#f8f6f3] to-white opacity-50" />
-        <div className="absolute inset-0" style={{
-          backgroundImage: `radial-gradient(circle at 50% 0%, rgba(61, 90, 122, 0.03) 0%, transparent 50%)`
-        }} />
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8">
           <h1 className="h1 mb-4">
             {title}
           </h1>
-          <p className="text-2xl sm:text-3xl mb-6 text-[#3d5a7a] font-light">
+          <p className="text-2xl sm:text-3xl mb-6 text-[#3d5a7a] font-normal">
             {subtitle}
           </p>
           <p className="text-large max-w-2xl mx-auto leading-relaxed text-[#4a5560]">
@@ -143,7 +139,7 @@ export default async function JourneyDetailPage({ params }: Props) {
       <MountainDivider />
 
       {/* Who This Journey Is For Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background">
         <div className="max-w-3xl mx-auto space-y-12">
           <div className="text-center">
             <h2 className="h2 mb-8">{journeyDetail('whoThisJourneyIsFor')}</h2>
@@ -200,7 +196,7 @@ export default async function JourneyDetailPage({ params }: Props) {
       <MountainDivider />
 
       {/* A Gentle Rhythm Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background">
         <div className="max-w-3xl mx-auto space-y-16">
           <div className="text-center">
             <h2 className="h2 mb-8">{journeyDetail('aGentleRhythm')}</h2>
@@ -250,7 +246,7 @@ export default async function JourneyDetailPage({ params }: Props) {
       <MountainDivider />
 
       {/* Practical Notes Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background">
         <div className="max-w-3xl mx-auto space-y-12">
           <div className="text-center">
             <h2 className="h2 mb-8">{journeyDetail('practicalNotes')}</h2>
@@ -315,7 +311,7 @@ export default async function JourneyDetailPage({ params }: Props) {
       <MountainDivider />
 
       {/* Enquiry CTA Section */}
-      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+      <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-background">
         <div className="max-w-2xl mx-auto text-center space-y-12">
           <div>
             <h2 className="h2 mb-8">{journeyDetail('enquireAboutThisJourney')}</h2>

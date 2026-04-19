@@ -5,7 +5,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-[#f8f6f3] overflow-hidden">
+    <footer className="relative bg-background overflow-hidden">
       {/* Subtle mountain silhouette background */}
       <div className="absolute inset-0 bottom-0 pointer-events-none">
         <div className="absolute bottom-0 left-0 right-0 h-32 md:h-40 text-[#2d3a47] opacity-[0.05]">

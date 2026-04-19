@@ -49,7 +49,7 @@ export default async function JourneysPage() {
   const journeys = getAllJourneys();
 
   return (
-    <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth relative">
+    <div className="min-h-screen bg-background text-[#2d3a47] scroll-smooth relative">
       <MistBackground opacity={0.10} animated={true} />
       <Navigation />
       
@@ -69,7 +69,7 @@ export default async function JourneysPage() {
       <MountainDivider />
 
       {/* Featured Journeys Grid */}
-      <section className="relative pt-20 pb-40 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3] z-10">
+      <section className="relative pt-20 pb-40 px-6 sm:px-12 lg:px-24 bg-background z-10">
         <div className="max-w-6xl mx-auto">
           {/* Journey Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">

@@ -5,7 +5,7 @@ import ScenicMountains from "../../components/ScenicMountains";
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth">
+    <div className="min-h-screen bg-background text-[#2d3a47] scroll-smooth">
       <Navigation />
       
       <section className="relative py-40 px-6 sm:px-12 lg:px-24 bg-white pt-32">
@@ -26,7 +26,7 @@ export default function NotFound() {
 
       <MountainDivider />
 
-      <footer className="relative border-t border-[#e8e6e3] bg-[#f8f6f3]">
+      <footer className="relative border-t border-[#e8e6e3] bg-background">
         <div className="relative h-32 overflow-hidden text-[#9ca5b3] opacity-15">
           <ScenicMountains />
         </div>

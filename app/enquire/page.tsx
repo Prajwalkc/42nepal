@@ -12,7 +12,7 @@ import EnquireHero from "./EnquireHero";
 // This page is a Client Component, so metadata is handled in layout or parent
 export default function EnquirePage() {
   return (
-    <div className="min-h-screen bg-[#f8f6f3] text-[#2d3a47] scroll-smooth relative">
+    <div className="min-h-screen bg-background text-[#2d3a47] scroll-smooth relative">
       <MistBackground opacity={0.01} animated={false} />
       <Navigation />
       
@@ -31,10 +31,10 @@ export default function EnquirePage() {
       </section>
 
       {/* Enquiry Form */}
-      <section className="relative py-20 px-6 sm:px-12 lg:px-24 bg-[#f8f6f3]">
+      <section className="relative py-20 px-6 sm:px-12 lg:px-24 bg-background">
         <Suspense fallback={
           <div className="max-w-2xl mx-auto">
-            <div className="bg-white p-12 border border-[#e8e6e3] rounded-2xl">
+            <div className="bg-white p-12 border border-[#e8e6e3] rounded-xl">
               <p className="text-body text-center">Loading...</p>
             </div>
           </div>

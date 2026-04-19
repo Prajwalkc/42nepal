@@ -92,7 +92,7 @@ export default function EnquireForm() {
       <p className="text-small text-[#6b7683] font-light text-center">
         {t('form.responseTime')}
       </p>
-      <form onSubmit={handleSubmit} className="space-y-8 bg-white p-12 sm:p-16 border border-[#e8e6e3] rounded-2xl shadow-sm">
+      <form onSubmit={handleSubmit} className="space-y-8 bg-white p-12 sm:p-16 border border-[#e8e6e3] rounded-xl shadow-sm">
         {/* Honeypot field - hidden from users */}
         <input
           type="text"
@@ -131,7 +131,7 @@ export default function EnquireForm() {
             onChange={handleChange}
             required
             disabled={formState === "loading"}
-            className="w-full px-6 py-4 rounded-xl border border-[#e8e6e3] bg-[#f8f6f3] focus:border-[#9ca5b3] focus:outline-none focus:ring-2 focus:ring-[#9ca5b3] focus:ring-opacity-20 focus:shadow-sm text-body transition-all duration-200 hover:border-[#d1d5db] disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full px-6 py-4 rounded-xl border border-[#e8e6e3] bg-background focus:border-[#9ca5b3] focus:outline-none focus:ring-2 focus:ring-[#9ca5b3] focus:ring-opacity-20 focus:shadow-sm text-body transition-all duration-200 hover:border-[#d1d5db] disabled:opacity-50 disabled:cursor-not-allowed"
             placeholder=""
           />
         </div>
@@ -148,7 +148,7 @@ export default function EnquireForm() {
             onChange={handleChange}
             required
             disabled={formState === "loading"}
-            className="w-full px-6 py-4 rounded-xl border border-[#e8e6e3] bg-[#f8f6f3] focus:border-[#9ca5b3] focus:outline-none focus:ring-2 focus:ring-[#9ca5b3] focus:ring-opacity-20 focus:shadow-sm text-body transition-all duration-200 hover:border-[#d1d5db] disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full px-6 py-4 rounded-xl border border-[#e8e6e3] bg-background focus:border-[#9ca5b3] focus:outline-none focus:ring-2 focus:ring-[#9ca5b3] focus:ring-opacity-20 focus:shadow-sm text-body transition-all duration-200 hover:border-[#d1d5db] disabled:opacity-50 disabled:cursor-not-allowed"
             placeholder=""
           />
         </div>
@@ -168,7 +168,7 @@ export default function EnquireForm() {
             rows={8}
             required
             disabled={formState === "loading"}
-            className="w-full px-6 py-4 rounded-xl border border-[#e8e6e3] bg-[#f8f6f3] focus:border-[#9ca5b3] focus:outline-none focus:ring-2 focus:ring-[#9ca5b3] focus:ring-opacity-20 focus:shadow-sm text-body resize-none transition-all duration-200 hover:border-[#d1d5db] disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full px-6 py-4 rounded-xl border border-[#e8e6e3] bg-background focus:border-[#9ca5b3] focus:outline-none focus:ring-2 focus:ring-[#9ca5b3] focus:ring-opacity-20 focus:shadow-sm text-body resize-none transition-all duration-200 hover:border-[#d1d5db] disabled:opacity-50 disabled:cursor-not-allowed"
             placeholder=""
           />
         </div>
@@ -177,7 +177,7 @@ export default function EnquireForm() {
           <button
             type="submit"
             disabled={formState === "loading" || formState === "success"}
-            className="w-full px-12 py-5 rounded-lg bg-[#3d5a7a] text-white hover:bg-[#2d4a6a] transition-all duration-300 text-lg font-medium shadow-sm hover:shadow-md active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full px-12 py-5 rounded-lg bg-[#3d5a7a] text-white hover:bg-[#2d4a6a] transition-all duration-300 text-lg font-medium shadow-sm hover:shadow-md active:scale-[0.98] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#9ca5b3] focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {formState === "loading" ? t('form.sending') : formState === "success" ? t('form.sent') : t('form.submit')}
           </button>
