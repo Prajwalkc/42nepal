@@ -17,6 +17,15 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/corporate",
+        destination: "/teams",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default withNextIntl(nextConfig);

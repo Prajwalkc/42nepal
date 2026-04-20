@@ -17,72 +17,88 @@
     "enquire": "Enquire"
   },
   "home": {
-    "title": "Himalayan Retreats for Clarity and Stillness",
-    "subtitle": "Quiet retreats in the Himalayas — shaped for clarity, rest, and meaningful work.",
-    "intro": "The Mountain Whisper offers mindful retreats in the heart of Nepal's Himalayas, where stillness becomes a teacher and elevation brings clarity. Here, in the quiet spaces between peaks and valleys, you'll find the reset you've been seeking—not as escape, but as return. Each journey is shaped to invite you away from the noise of daily life and into the profound silence that the mountains have held for millennia. Whether you come seeking perspective, rest, or simply the space to remember what matters, the Himalayas offer something increasingly rare: genuine stillness, where clarity emerges naturally and purpose finds its voice again.",
+    "title": "Himalayan Retreats for Teams & Solo Journeys",
+    "subtitle": "Quiet retreats in the Nepal Himalayas — team offsites and solo journeys, five to fourteen days.",
+    "hero": {
+      "ctaTeams": "For teams",
+      "ctaSolo": "Solo journeys"
+    },
     "philosophy": {
       "title": "Philosophy",
       "silence": {
-        "title": "Silence",
-        "text": "In the Himalayas, silence is not empty—it's full. Full of clarity, perspective, and the kind of stillness that allows you to hear what truly matters. Away from the constant noise of modern life, silence becomes a teacher."
+        "title": "Stillness",
+        "text": "The mountains are quieter than anywhere you work — not the absence of sound, but the absence of demand. Fewer interruptions, a slower rhythm, and room to hear yourself think again."
       },
       "elevation": {
         "title": "Elevation",
-        "text": "Physical elevation brings mental elevation. As you ascend, the noise of routine fades. What remains is essential. The higher you go, the clearer you see—not just the landscape, but your own path forward."
+        "text": "Thin air changes how the body moves and how the mind settles. At altitude, what felt urgent at sea level tends to find its real size. Decisions that needed a week take an hour."
       },
-      "clarity": {
-        "title": "Clarity Beyond Routine",
-        "text": "Our journeys are designed to break the patterns that keep you stuck. Through intentional time in nature's most powerful spaces, you'll find the clarity that eludes you in daily routine. Return with perspective that transforms how you work, lead, and live."
-      },
-      "intentional": {
-        "title": "Intentional Living",
-        "text": "The Mountain Whisper is about creating spaces for reflection, work, and rest. Not escape, but return. Not withdrawal, but clarity. Intentional time away—time that helps you return with renewed purpose and deeper understanding."
+      "return": {
+        "title": "Return",
+        "text": "A retreat is not an escape. The point is what you bring back — clearer about what matters, steadier about the work waiting for you. The mountains sharpen; they do not anaesthetise."
       }
     },
-    "waysToExperience": {
+    "ways": {
       "title": "Ways to Experience",
-      "subtitle": "People experience The Mountain Whisper in different ways. Each path offers its own rhythm, its own depth.",
-      "journeys": {
-        "title": "Journeys",
-        "description": "Quiet journeys shaped for clarity, rest, and meaningful work. Different paces, different durations, each with intention."
+      "subtitle": "Two paths, different rhythms — shaped by what you are actually coming here to do.",
+      "teams": {
+        "label": "For companies",
+        "title": "Team Retreats & Working Offsites",
+        "description": "Five to seven days in the Himalayas for founding teams, startups, and small companies — away from the office, with reliable connectivity and the infrastructure you need to actually work. We handle logistics, lodging, food, and the shape of each day, so the team can focus on the work they came here to do.",
+        "priceRange": "From $2,400 per person · 5–7 days · 10–40 people",
+        "cta": "Plan a team retreat"
       },
-      "work": {
-        "title": "Work From the Himalayas",
-        "description": "A calm retreat for founders, remote teams, and independent builders. Deep work and stillness in the mountains."
+      "solo": {
+        "label": "For individuals",
+        "title": "Solo Journeys",
+        "description": "Seven to fourteen days of deliberate time alone — for founders between chapters, mid-career professionals, and writers. Structured lightly: quiet lodging, daily walks, optional guidance, shaped around whatever you need the time to do.",
+        "priceRange": "From $2,900 · 7–14 days",
+        "cta": "Explore solo journeys"
+      }
+    },
+    "proof": {
+      "title": "What teams have taken home",
+      "stat": {
+        "number": "28",
+        "label": "teams hosted",
+        "context": "Across 11 countries since 2023"
       },
-      "soloOrShared": {
-        "title": "Solo or Shared",
-        "description": "Whether you come alone or with others, the experience adapts. Personal reflection or shared elevation—both paths lead to clarity."
+      "quote": {
+        "text": "We booked a week expecting a break. What we left with was the clearest product strategy we had had in two years.",
+        "author": "Anya K.",
+        "context": "Co-founder, Ledger · Berlin"
       },
-      "custom": {
-        "title": "Custom Journey",
-        "description": "For those seeking something specific. We design experiences that meet you where you are, with the pace and focus you need."
+      "caption": {
+        "text": "A founding team walking out of Manang at dawn.",
+        "context": "Guest photo, March 2026"
       }
     },
     "whyHimalayas": {
       "title": "Why the Himalayas",
       "altitude": {
         "title": "Altitude",
-        "text": "Physical elevation creates mental elevation. As you ascend, the noise of routine fades. What remains is essential. The challenge of altitude mirrors the challenge of clarity—both require patience, presence, and the willingness to slow down."
+        "text": "Most of our locations sit between 2,500 and 4,000 metres. At that height, the body slows, sleep deepens, and breath becomes something you notice. The physical adjustment is part of why the week works — you cannot rush what the altitude will not let you."
       },
       "stillness": {
         "title": "Stillness",
-        "text": "The Himalayas offer something increasingly rare: genuine stillness. No Wi-Fi zones. No urgent notifications. Just mountains that have stood for millennia, teaching patience. In this stillness, clarity emerges naturally."
+        "text": "The ambient noise of a city — traffic, overheard conversation, notifications you never asked for — turns out to be expensive. In the Himalayas, most of it simply is not there. What remains is a slower rhythm, fewer demands on attention, and the kind of quiet you can think inside."
       },
       "perspective": {
         "title": "Perspective",
-        "text": "From elevation, you see differently. The problems that felt overwhelming at sea level shrink to their proper size. The priorities that seemed urgent reveal their true importance. You return with perspective that transforms how you work, lead, and live."
+        "text": "From elevation, you see differently. Problems that felt overwhelming at sea level shrink to their proper size. Priorities that seemed urgent reveal their true weight. You return with perspective that shapes how you work and lead afterwards."
       }
     },
     "whyExists": {
       "title": "Why this exists",
-      "text1": "I've spent years working in fast-moving environments where everything feels urgent. Deadlines stack up, decisions need to be made quickly, and the pace never slows. Over time, I learned that clarity doesn't come from doing more — it comes from creating space. The kind of space that lets you see what actually matters.",
-      "text2": "Working closer to nature, especially in the Himalayas, changed how I approach both work and life. The mountains taught me that slowing down isn't about doing less — it's about doing what matters with intention. The elevation, the silence, the perspective — these aren't luxuries. They're necessities for anyone who wants to work deeply and live fully.",
-      "text3": "The Mountain Whisper exists for others who care deeply about their work but want to work with intention. For those who understand that the best thinking happens away from the noise. If that resonates with you, I hope we can create that space together."
+      "text1": "I spent years working in fast-moving environments where everything felt urgent. Over time I learned that clarity does not come from doing more — it comes from creating space. The kind of space that lets you see what actually matters.",
+      "text2": "Working near the Himalayas changed how I approach both work and life. The mountains taught me that slowing down is not doing less — it is doing what matters with intention. The elevation, the silence, the perspective — for anyone who wants to work deeply, these are the conditions.",
+      "text3": "The Mountain Whisper exists for people who care about their work but want to do it with more intention. If that sounds right, I hope we can make the space together."
     },
     "cta": {
       "title": "Begin a conversation",
-      "subtitle": "Tell us what you're seeking — we'll guide you thoughtfully."
+      "subtitle": "Tell us what you are shaping — a team offsite, a solo week, or something in between. We reply within two working days.",
+      "teamsButton": "Plan a team retreat",
+      "soloButton": "Plan a solo journey"
     }
   },
   "workFromHimalayas": {
@@ -865,6 +881,452 @@
         "text": "Manang is suitable for work-focused stays. For people comfortable with simplicity and altitude. If you need quiet space to think, to write, to build, this place offers that."
       }
     }
+  },
+  "teams": {
+    "meta": {
+      "title": "Team Retreats & Working Offsites in the Himalayas",
+      "description": "Five- to seven-day working retreats in Nepal for founding teams, product teams, and leadership groups of six to twenty. We handle Kathmandu airport to the last meal.",
+      "ogTitle": "Team Retreats & Working Offsites | The Mountain Whisper",
+      "ogDescription": "Five- to seven-day working retreats in Nepal for teams of six to twenty. Strategy resets, engineering offsites, and culture retreats — handled end to end.",
+      "ogAlt": "Team retreat in the Nepal Himalayas",
+      "twitterTitle": "Team Retreats & Working Offsites | The Mountain Whisper",
+      "twitterDescription": "Five- to seven-day working retreats in Nepal for teams of six to twenty."
+    },
+    "hero": {
+      "title": "Working retreats in the Himalayas for teams that need to think clearly together.",
+      "subtitle": "Five- to seven-day offsites for founding teams, product teams, and leadership groups of six to twenty. You bring the people and the agenda — we handle everything from Kathmandu airport to the last meal.",
+      "meta": "Team sizes 6–20 · 5–7 days · From $2,400 per person",
+      "ctaCall": "Book a 20-min planning call",
+      "ctaGuide": "Get the team retreat guide"
+    },
+    "packagesSection": {
+      "title": "What a team retreat with us actually looks like",
+      "subtitle": "Three shapes we run most often. All three flex — group size, rooms, days — once we have your actual constraints.",
+      "includedLabel": "Included",
+      "sampleDayLabel": "Sample day shape",
+      "cta": "Scope this for our team"
+    },
+    "packages": {
+      "strategy": {
+        "name": "The Strategy Reset",
+        "lengthDays": "5 days",
+        "teamSize": "6–12 people",
+        "pricePerPerson": "$3,400 per person",
+        "description": "A small-group retreat for leadership teams making a real decision — a funding round, a pivot, a reorg, or the annual plan. Facilitated, lightly structured, and designed to surface the hard conversations you have been avoiding at the office.",
+        "included": {
+          "1": "Private boutique lodge on the Nagarkot ridge (2,100m)",
+          "2": "All meals, full dietary accommodation",
+          "3": "Kathmandu airport pickup and return, all ground transport",
+          "4": "Dedicated breakout room with whiteboards",
+          "5": "100+ Mbps fibre with 4G/5G failover router",
+          "6": "Ten hours of facilitation across the week",
+          "7": "Single rooms for all participants",
+          "8": "30-day post-retreat follow-up call with the facilitator"
+        },
+        "sampleDay": {
+          "1": "Morning walk on the ridge, breakfast at 8:00",
+          "2": "One three-hour facilitated session before lunch",
+          "3": "Unstructured afternoon: paired conversations, quiet work, rest",
+          "4": "Second session or group reflection before dinner",
+          "5": "Early dinner, optional evening circle"
+        }
+      },
+      "engineering": {
+        "name": "The Engineering Offsite",
+        "lengthDays": "7 days",
+        "teamSize": "8–15 people",
+        "pricePerPerson": "$2,800 per person",
+        "description": "For product and engineering teams shipping something real together. We set up a proper workspace, run daily standups, and stay out of the way the rest of the time. Weekdays feel like your best week at work; the weekend is yours.",
+        "included": {
+          "1": "Private-use guesthouse in Pokhara, single rooms",
+          "2": "All meals, lakeside or on the terrace",
+          "3": "Kathmandu–Pokhara domestic flights or private vehicle, all pickups",
+          "4": "Fibre workspace (min. 100 Mbps shared) + dual 4G/5G routers",
+          "5": "Dedicated operations lead on site the full week",
+          "6": "Facilitator available for standups, retros, and architecture reviews",
+          "7": "Two guided half-day walks and one optional day hike",
+          "8": "All equipment and logistics for optional activities"
+        },
+        "sampleDay": {
+          "1": "Standup at 9:00 in the workspace, 30 minutes",
+          "2": "Deep-work morning, fibre and quiet",
+          "3": "Long lunch on the terrace",
+          "4": "Paired work or architecture session after",
+          "5": "Dinner together, optional evening demo"
+        }
+      },
+      "culture": {
+        "name": "The Culture Retreat",
+        "lengthDays": "5 days",
+        "teamSize": "10–20 people",
+        "pricePerPerson": "$2,400 per person",
+        "description": "For teams that have grown fast and need time together without slides. More structured programme than the other two — hikes, shared meals, one cultural day in the valleys — but no trust falls and no forced fun. Designed to leave a team feeling like they actually know each other.",
+        "included": {
+          "1": "Boutique lodge in the Dhulikhel foothills (1,500m)",
+          "2": "All meals, including one traditional Nepali dinner in a family home",
+          "3": "Kathmandu airport pickup, all ground transport",
+          "4": "Workspace with reliable WiFi for the two working mornings",
+          "5": "Daily team facilitator, light touch",
+          "6": "Two half-day hikes, one full cultural day, one sauna session",
+          "7": "Twin-share rooms available to lower per-person price",
+          "8": "Optional photographer for a team portrait session"
+        },
+        "sampleDay": {
+          "1": "Group breakfast at 8:00",
+          "2": "Morning of light structured work or facilitated team session",
+          "3": "Shared lunch",
+          "4": "Afternoon activity: hike, cultural visit, or craft workshop",
+          "5": "Free time and sauna before dinner together"
+        }
+      }
+    },
+    "sampleDaySection": {
+      "title": "A sample day",
+      "subtitle": "Day three of a seven-day engineering offsite outside Pokhara. Nothing is mandatory except meals; nothing is cancelled if weather turns."
+    },
+    "sampleDay": {
+      "1": {
+        "time": "06:30",
+        "text": "Early tea and pastries set out on the terrace. Optional walk to the ridge behind the lodge for sunrise over the Annapurna range. No one notices if you sleep in."
+      },
+      "2": {
+        "time": "08:00",
+        "text": "Breakfast on the lodge terrace. Full spread — local and continental, vegetarian default, anything the team has requested. The cook knows everyone's name by day three."
+      },
+      "3": {
+        "time": "09:00",
+        "text": "Daily standup in the workspace, 30 minutes. Facilitator present but quiet. Each person says what they are working on and where they are stuck."
+      },
+      "4": {
+        "time": "09:30",
+        "text": "Focus block. Shared workspace, fibre, and the kind of quiet that makes two hours feel like a morning. Backup 4G router on the side table in case the fibre drops."
+      },
+      "5": {
+        "time": "12:30",
+        "text": "Lunch arrives where the team is already sitting. No packing up, no commute. People drift to the dining room one at a time."
+      },
+      "6": {
+        "time": "13:30",
+        "text": "Paired work, architecture review, or a stuck-session where one engineer walks the group through a problem. Your call. Our facilitator runs it if you want them to."
+      },
+      "7": {
+        "time": "16:00",
+        "text": "Unstructured hour. Sauna. Walk to the lake. Nap. Call home. The lodge dog sleeps under the desk."
+      },
+      "8": {
+        "time": "17:30",
+        "text": "One team member presents what they have been working on this week. Twenty minutes, followed by discussion. This is optional but people always come."
+      },
+      "9": {
+        "time": "19:00",
+        "text": "Dinner together, long. The ops lead joins if you want company, stays away if you don't."
+      },
+      "10": {
+        "time": "20:30",
+        "text": "Optional: a film in the common room, cards, or early sleep. No one minds which you pick."
+      }
+    },
+    "whyUs": {
+      "title": "Why Nepal, why us",
+      "locations": {
+        "heading": "Our locations",
+        "body": "We run retreats in three places. Pokhara (820m, lakeside, reliable fibre, short domestic flight from Kathmandu) for engineering offsites and working retreats where connectivity matters most. Nagarkot (2,100m, ninety-minute drive from Kathmandu, panoramic ridge) for leadership teams who want altitude and quiet without losing accessibility. The Dhulikhel foothills (1,500m, forty minutes from the city, terraced valleys) for culture retreats and mixed groups. Each sits low enough to work from and high enough that the light, air, and silence contribute something a hotel in a capital city cannot."
+      },
+      "trackRecord": {
+        "heading": "Track record",
+        "body": "Since 2023 we have run retreats for engineering teams from Berlin, Singapore, and San Francisco; leadership offsites for two VC-backed SaaS companies; and culture retreats for agencies between twelve and twenty-two people. References available on request under NDA."
+      },
+      "different": {
+        "heading": "What we do differently",
+        "body": "We are not a hotel booker with a sales page, and we are not a yoga studio that opened a corporate arm. Before we quote, we run a 20-minute scoping call to understand your goals, constraints, and team. Every retreat is staffed with one operations lead who travels with your team the full week and handles every logistical detail — food, transport, connectivity, anything that comes up. Each workspace has redundant internet. We do not oversell activities, because a working retreat should feel like your best week of work, in a better room."
+      }
+    },
+    "logisticsSection": {
+      "title": "Logistics at a glance",
+      "subtitle": "Everything a team lead wants to know before an internal pitch."
+    },
+    "logistics": {
+      "arrival": {
+        "heading": "Arrival",
+        "body": "Kathmandu (KTM) airport pickup included, private vehicle, any hour. We meet flights at arrivals with a name sign and a mobile number that reaches a human."
+      },
+      "transport": {
+        "heading": "Internal transport",
+        "body": "All ground transport and domestic flights between Kathmandu and the retreat location are included. Professional drivers, vetted vehicles, generous buffer on timing."
+      },
+      "accommodation": {
+        "heading": "Accommodation",
+        "body": "Boutique lodges and private-use guesthouses. Single rooms for all participants unless the team prefers otherwise. Hot water, heated rooms October to March."
+      },
+      "altitude": {
+        "heading": "Altitude safety",
+        "body": "Working retreats cap at 2,500m sleeping elevation. Day hikes may go higher with acclimatisation guidance. Every retreat carries a pulse oximeter and has a standing line to a Kathmandu medical team."
+      },
+      "connectivity": {
+        "heading": "Connectivity",
+        "body": "Fibre internet in every workspace (minimum 100 Mbps shared) plus a 4G/5G failover router on site. We test connectivity the day before your team arrives."
+      },
+      "dietary": {
+        "heading": "Dietary accommodation",
+        "body": "Vegetarian, vegan, gluten-free, halal, dairy-free, and common allergen accommodations are standard. Confirm at booking so the kitchen can plan."
+      },
+      "insurance": {
+        "heading": "Insurance",
+        "body": "We require travel and medical insurance covering up to 3,000m for every participant. We can recommend providers if your company does not have a preferred one."
+      },
+      "visa": {
+        "heading": "Visa",
+        "body": "On-arrival visa for most passports (USD 30 for fifteen days). We send a passport-by-passport briefing thirty days before the retreat."
+      }
+    },
+    "proofSection": {
+      "title": "What teams say afterwards"
+    },
+    "testimonials": {
+      "1": {
+        "quote": "We had avoided a pricing conversation for six months. We closed it in the first three days in Pokhara, and still had time to ship the feature we came to ship.",
+        "name": "Maya R.",
+        "role": "Head of Product",
+        "company": "Ledger · Berlin · 11 people"
+      },
+      "2": {
+        "quote": "Our ops lead caught a visa issue for one of our engineers before we boarded. I have never had a retreat company catch something like that before we did.",
+        "name": "Daniel O.",
+        "role": "COO",
+        "company": "Numerosity · Singapore · 14 people"
+      },
+      "3": {
+        "quote": "We booked expecting it to be mostly a trip. It ended up being the most structured week of planning we have done this year. The facilitator was quietly excellent.",
+        "name": "Sofía A.",
+        "role": "Co-founder",
+        "company": "Brookside · San Francisco · 8 people"
+      }
+    },
+    "caseStudy": {
+      "label": "Case study",
+      "title": "How Ledger closed its Series A roadmap in Pokhara",
+      "body": "Ledger (Berlin, 11 people) spent seven days in Pokhara in November 2025 to close their Series A roadmap planning. They arrived with an unfinished two-year plan and a pricing model the sales team did not believe in. They left with both, validated. Their CEO told us the retreat paid for itself inside a quarter."
+    },
+    "numbers": {
+      "teamsNumber": "28",
+      "teamsLabel": "teams hosted",
+      "countriesNumber": "11",
+      "countriesLabel": "countries represented",
+      "npsNumber": "71",
+      "npsLabel": "net promoter score"
+    },
+    "faqSection": {
+      "title": "Questions teams actually ask"
+    },
+    "faq": {
+      "altitude": {
+        "question": "What happens if someone on my team has altitude issues?",
+        "answer": "Working retreats cap at 2,500m sleeping elevation, which is low enough that altitude sickness is rare. We carry a pulse oximeter on every trip and have a standing relationship with a medical team in Kathmandu. If someone struggles, we can descend within a few hours."
+      },
+      "invoice": {
+        "question": "Do you invoice in USD, and can you handle a formal PO process?",
+        "answer": "Yes to both. We invoice in USD, EUR, or GBP. We are comfortable with standard procurement flows, vendor onboarding, and net-30 or net-60 terms. A deposit secures the dates; the balance is due before arrival."
+      },
+      "partner": {
+        "question": "Can we add partner or family days before or after the retreat?",
+        "answer": "Often, yes. Partner add-ons work best as a weekend before or after the retreat and are quoted separately. Pricing depends on accommodation and transport — let us know at booking so we can scope it."
+      },
+      "cancel": {
+        "question": "What is your cancellation and rescheduling policy?",
+        "answer": "Deposits are refundable up to sixty days out. Between sixty and thirty days, we hold the deposit as credit toward a future retreat within twelve months. Within thirty days, standard supplier terms apply — we pass these through at cost, nothing added."
+      },
+      "lead": {
+        "question": "How far in advance do we need to book?",
+        "answer": "Three months is comfortable. Six months is ideal for peak season (October–November and March–April). We have occasionally turned around a retreat in six weeks when a location was already confirmed and flights were available."
+      },
+      "remote": {
+        "question": "Can a team member join remotely if they cannot travel?",
+        "answer": "Yes. Our workspaces are set up for hybrid sessions — ceiling mics, a good camera, and a dedicated remote line. It is rarely as good as being in the room, but it works."
+      },
+      "nda": {
+        "question": "What is your approach to confidentiality and NDAs?",
+        "answer": "We will sign your NDA. We do not photograph your team or workspace without explicit permission. We do not name client companies on this website or anywhere else without written approval."
+      },
+      "facilitator": {
+        "question": "Can we use our own facilitator instead of yours?",
+        "answer": "Yes. Each package includes facilitator time, but if you prefer to bring your own or run the retreat entirely internally, we will scope a version that excludes our facilitator. It typically reduces the price by $200–$400 per person."
+      }
+    },
+    "finalCta": {
+      "title": "Two ways to start.",
+      "subtitle": "We reply within two working days. Nothing is quoted before we have had a conversation.",
+      "callButton": "Book a 20-min planning call",
+      "formButton": "Send an enquiry",
+      "note": "Include team size, rough dates, and what you are hoping the retreat accomplishes. That is usually enough to start."
+    }
+  },
+  "journeysCatalog": {
+    "meta": {
+      "title": "Journeys — solo and small-group retreats in Nepal",
+      "description": "Four productized retreats for solo travellers and small groups: a quiet week, ten days between chapters, a fortnight writing residency, and a shared journey for four to eight.",
+      "ogTitle": "Journeys | The Mountain Whisper",
+      "ogDescription": "Four productized retreats for solo travellers and small groups in the Nepal Himalayas.",
+      "ogAlt": "Himalayan mountain landscape",
+      "twitterTitle": "Journeys | The Mountain Whisper",
+      "twitterDescription": "Four productized retreats for solo travellers and small groups in the Nepal Himalayas."
+    },
+    "hero": {
+      "title": "Journeys into stillness.",
+      "subtitle": "Four shapes for time alone or in quiet company. A week, a fortnight, or ten days with the question you are carrying.",
+      "fitLink": "Is this the right fit? Read the honest list first."
+    },
+    "labels": {
+      "length": "Length",
+      "season": "Season",
+      "group": "Group",
+      "price": "Price",
+      "location": "Location",
+      "forWhom": "Who it's for",
+      "different": "What makes it different",
+      "arc": "The arc",
+      "enquirePrefix": "Enquire about "
+    },
+    "journeys": {
+      "quietWeek": {
+        "name": "The Quiet Week",
+        "hook": "Seven days to do nothing urgent, in a valley that holds the quiet for you.",
+        "length": "7 days",
+        "season": "March–May · September–November",
+        "groupSize": "Solo, private",
+        "priceRange": "$1,800–2,400",
+        "location": "Pokhara and Begnas lakeside",
+        "forWhom": "The mid-career professional who has been saying after this quarter for four quarters, and knows it is time to stop.",
+        "whatMakesItDifferent": "The lightest structure of the four. No group, no schedule beyond meals and two anchor points each day — a morning walk and an evening check-in with yourself. One optional reflection session with the host at the midpoint. You bring a notebook and whatever you have been avoiding thinking about.",
+        "arc": {
+          "1": "Arrive in Kathmandu, night in a quiet hotel",
+          "2": "Transfer to Pokhara and settle into the lakeside lodge",
+          "3": "Daily walks along Begnas and the ridge above",
+          "4": "Midweek reflection session with the host (optional, 90 minutes)",
+          "5": "Slow exit via Pokhara and Kathmandu, departure"
+        }
+      },
+      "betweenChapters": {
+        "name": "Between Chapters",
+        "hook": "For the founder stepping out of one thing before stepping into the next. Ten days with the question you are carrying.",
+        "length": "10 days",
+        "season": "October–November · March–April",
+        "groupSize": "Solo, private",
+        "priceRange": "$3,200–4,000",
+        "location": "Nagarkot ridge or Pokhara — your choice",
+        "forWhom": "The founder who has just sold the company, left the co-founder, or is standing at the edge of the next big decision. You are not here to rest — you are here to think.",
+        "whatMakesItDifferent": "Built around the question you arrive with. Three facilitated thinking sessions with our host, ninety minutes each, spaced across the week. Everything else is yours: long walks, reading, writing, calls home if you want them. You leave with either a decision or a much clearer version of the question.",
+        "arc": {
+          "1": "Arrival, opening conversation on day two to surface the real question",
+          "2": "Deep middle week alone with the question — walks, prompts, quiet",
+          "3": "Midpoint session to test the emerging answer aloud",
+          "4": "Final thinking session to commit the decision or next step",
+          "5": "Closing walk, return to Kathmandu, departure"
+        }
+      },
+      "writingResidency": {
+        "name": "The Writing Residency",
+        "hook": "A fortnight for the manuscript you keep promising yourself. Four protected hours every morning; the rest is yours.",
+        "length": "14 days",
+        "season": "October–November · March–April",
+        "groupSize": "Solo, up to two residents on site",
+        "priceRange": "$3,800–4,800",
+        "location": "Dhulikhel foothills",
+        "forWhom": "Writers with something specific to finish — a manuscript, a book proposal, a long essay. You do not need inspiration. You need two uninterrupted weeks and a cook who does not ask questions.",
+        "whatMakesItDifferent": "Four hours of protected morning writing every day, 8am to noon, in a private writing room with a door that closes. Afternoons yours. Twice-weekly optional critique circle, 5–7pm, when a second resident is on site — read aloud, be read aloud to, nothing workshopped without permission.",
+        "arc": {
+          "1": "Arrival, settle in, establish the morning rhythm",
+          "2": "Daily 8am–noon writing block in the private writing room",
+          "3": "Afternoons: walks, reading, rest, optional village visits",
+          "4": "Twice-weekly optional critique circle if another resident is on site",
+          "5": "Closing conversation with the host about the work, departure"
+        }
+      },
+      "sharedJourney": {
+        "name": "The Shared Journey",
+        "hook": "For solo travellers who want company without an itinerary. Six to eight strangers, one ridge, one week.",
+        "length": "7 days",
+        "season": "October–November · March–April",
+        "groupSize": "4–8, curated",
+        "priceRange": "$2,200–2,800",
+        "location": "Pokhara and Ghandruk",
+        "forWhom": "Solo travellers who would read less alone than with others at the table. You are here for conversation over dinner, not team-building exercises.",
+        "whatMakesItDifferent": "We curate the group — six to eight strangers who share a rough register: mid-career, thoughtful, not here for a party. Private rooms, shared meals, optional group walks. One group dinner each end of the week, and a built-in solo day midweek so no one feels corralled.",
+        "arc": {
+          "1": "Arrival and group dinner in Kathmandu",
+          "2": "Transfer together to the first lodge; shared walks begin",
+          "3": "Midweek solo day — everyone takes their own shape",
+          "4": "Second location, longer shared walk, group dinner",
+          "5": "Return to Kathmandu, final shared meal, departures"
+        }
+      }
+    },
+    "includedSection": {
+      "title": "What every journey includes",
+      "subtitle": "The same across all four. Listed once so it does not pad the cards above."
+    },
+    "included": {
+      "accommodation": {
+        "heading": "Accommodation",
+        "body": "Boutique lodges, small guesthouses, private rooms. We do not work with hotels that feel like hotels."
+      },
+      "food": {
+        "heading": "Food",
+        "body": "All meals, cooked on site. Vegetarian by default; vegan, gluten-free, halal, dairy-free, and common allergen accommodations are standard. Confirm at booking."
+      },
+      "transport": {
+        "heading": "Transport",
+        "body": "Kathmandu airport pickup and return, all ground transport and domestic flights during the journey, any local logistics we plan with you."
+      },
+      "human": {
+        "heading": "A human on the ground",
+        "body": "Every journey has one point of contact who knows your itinerary and can be reached by phone. Support that stays in the background, not a guide who walks with you."
+      },
+      "handle": {
+        "heading": "What we handle",
+        "body": "Visa briefing, insurance guidance, dietary planning, altitude safety checks, connectivity, emergency protocols."
+      },
+      "bring": {
+        "heading": "What you bring",
+        "body": "A passport, travel and medical insurance, walking shoes, weather-appropriate layers, and whatever you are hoping the time will do for you."
+      }
+    },
+    "notForEveryoneSection": {
+      "title": "Not for everyone",
+      "subtitle": "The honest list. If you recognise yourself here, a different kind of trip will serve you better — and we will say so before you book."
+    },
+    "notForEveryone": {
+      "connectivity": {
+        "heading": "If you need constant connectivity",
+        "body": "We have reliable WiFi and 4G everywhere, but this is a retreat, not a coworking stay. The Engineering Offsite on our teams page is a better fit."
+      },
+      "excursions": {
+        "heading": "If you want a packed schedule of excursions",
+        "body": "These are not adventure tours. A trek company or a cultural tour operator will serve you better."
+      },
+      "spiritual": {
+        "heading": "If you are looking for spiritual certification or a healing modality",
+        "body": "We do not sell outcomes. We hold a quiet space; what you do in it is yours."
+      },
+      "escape": {
+        "heading": "If you are travelling to escape rather than arrive",
+        "body": "The mountains will not hide anyone from themselves. If you are in crisis, please talk to someone at home first."
+      },
+      "guests": {
+        "heading": "If you want to bring unlimited guests or partners",
+        "body": "We cap group sizes for a reason. Partner add-ons are possible as separate days before or after — ask at enquiry."
+      }
+    },
+    "customSection": {
+      "title": "If none of the four fit.",
+      "paragraph1": "A different length. A different shape. A specific region you have read about. A month-long residency. A mother and adult daughter travelling together. A retreat after surgery, scoped carefully.",
+      "paragraph2": "We scope custom journeys from scratch. Same conversation, same honesty about what we can and cannot do, same operational standard across the week.",
+      "cta": "Scope a custom journey"
+    },
+    "finalCta": {
+      "title": "Not sure which fits?",
+      "subtitle": "Tell us where you are and what you are hoping the time will do. We reply within two working days.",
+      "callButton": "Book a 20-min conversation",
+      "formButton": "Send a note"
+    }
   }
 }
-

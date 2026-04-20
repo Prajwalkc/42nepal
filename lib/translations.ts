@@ -99,6 +99,8 @@ export async function getServerTranslations() {
     home: t('home'),
     workFromHimalayas: t('workFromHimalayas'),
     journeys: t('journeys'),
+    teams: t('teams'),
+    journeysCatalog: t('journeysCatalog'),
     places,
     enquire: t('enquire'),
     getJourneyTranslation,
